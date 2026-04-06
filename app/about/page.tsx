@@ -84,7 +84,7 @@ export default function AboutPage() {
                 Contact & Engagement
               </p>
               <Link
-                href="mailto:info@tossonanalytics.com"
+                href="mailto:temitope.soneye@tossonllc.com"
                 className="inline-flex w-full items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-opacity hover:opacity-90"
                 style={{ background: "var(--brand-accent)", color: "var(--bg-main)" }}
               >

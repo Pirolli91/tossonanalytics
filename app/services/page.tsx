@@ -160,7 +160,7 @@ export default function ServicesPage() {
           </p>
           <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
             <Link
-              href="mailto:info@tossonanalytics.com"
+              href="mailto:temitope.soneye@tossonllc.com"
               className="inline-flex items-center gap-2 rounded-xl px-6 py-3 text-sm font-semibold transition-opacity hover:opacity-90"
               style={{ background: "var(--brand-accent)", color: "var(--bg-main)" }}
             >
