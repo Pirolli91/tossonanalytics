@@ -1,6 +1,8 @@
 name: Nightly PFAS Data Update & Deploy
 
 on:
+  push:
+    branches: [master]
   schedule:
     # 02:00 EST = 07:00 UTC
     - cron: "0 7 * * *"
