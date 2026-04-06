@@ -127,6 +127,79 @@ function isoDate(pubDate) {
   } catch { return new Date().toISOString().split("T")[0]; }
 }
 
+// ── Knowledge report parser (nc-pfas-scout output) ───────────────────────────
+const KNOWLEDGE_FILE = join(
+  process.env.HOME || "/root",
+  "knowledge", "nc-pfas-report.md"
+);
+
+/**
+ * Parse articles from the nc-pfas-scout markdown report.
+ * Handles two formats:
+ *   • Title — Source\n  📎 URL\n  ↳ Snippet
+ *   • Title\n  📎 URL\n  ↳ Snippet
+ */
+function parseKnowledgeReport(text) {
+  const articles = [];
+  // Match bullet blocks: • title [— source] \n  📎 url \n  ↳ snippet
+  const re = /•\s+(.+?)(?:\s+[—–-]\s+([^\n]+?))?\s*\n\s+📎\s+(https?:\/\/\S+)\s*\n\s+↳\s+([^\n]+)/g;
+  let m;
+  while ((m = re.exec(text)) !== null) {
+    const title   = m[1].trim().replace(/\*\*/g, "");
+    const source  = (m[2] ?? "").trim() || inferSource(m[3].trim());
+    const url     = m[3].trim();
+    const snippet = m[4].trim();
+    articles.push({ title, source, url, snippet, date: new Date().toISOString().split("T")[0] });
+  }
+  return articles;
+}
+
+function inferSource(url) {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "").split(".")[0];
+  } catch { return "Report"; }
+}
+
+/**
+ * Return knowledge articles relevant to a given county.
+ * An article matches if the county name appears in its title or snippet,
+ * OR if it references a place known to be in that county.
+ */
+const COUNTY_ALIASES = {
+  "New Hanover": ["wilmington", "new hanover"],
+  "Cumberland":  ["fayetteville", "cumberland", "fayetteville works"],
+  "Bladen":      ["bladen", "elizabethtown"],
+  "Robeson":     ["robeson", "lumberton"],
+  "Sampson":     ["sampson", "clinton"],
+  "Hoke":        ["hoke", "raeford"],
+  "Harnett":     ["harnett", "lillington"],
+  "Chatham":     ["chatham", "pittsboro"],
+  "Brunswick":   ["brunswick", "bolivia"],
+  "Pender":      ["pender", "burgaw"],
+  "Duplin":      ["duplin", "kenansville"],
+};
+
+function knowledgeArticlesForCounty(county, articles) {
+  const aliases = COUNTY_ALIASES[county] ?? [county.toLowerCase()];
+  return articles.filter(a => {
+    const hay = (a.title + " " + a.snippet).toLowerCase();
+    return aliases.some(alias => hay.includes(alias));
+  });
+}
+
+function loadKnowledgeArticles() {
+  try {
+    if (!existsSync(KNOWLEDGE_FILE)) return [];
+    const text = readFileSync(KNOWLEDGE_FILE, "utf-8");
+    const articles = parseKnowledgeReport(text);
+    if (articles.length) console.log(`  📋 Knowledge report: ${articles.length} curated articles loaded`);
+    return articles;
+  } catch (e) {
+    console.warn("  ⚠ Could not read knowledge report:", e.message);
+    return [];
+  }
+}
+
 // ── Google News RSS ────────────────────────────────────────────────────────────
 async function fetchGoogleNews(query, retries = 2) {
   const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en-US&gl=US&ceid=US:en`;
@@ -146,16 +219,26 @@ async function fetchGoogleNews(query, retries = 2) {
   return [];
 }
 
-async function fetchCountyNews(county) {
+async function fetchCountyNews(county, knowledgeArticles = []) {
+  const seen = new Set();
+  const results = [];
+
+  // 1. Seed with curated knowledge articles first (highest quality)
+  const curated = knowledgeArticlesForCounty(county, knowledgeArticles);
+  for (const a of curated) {
+    if (seen.has(a.url)) continue;
+    seen.add(a.url);
+    results.push(a);
+  }
+
+  // 2. Fill remaining slots from Google News RSS
   const queries = [
     `PFAS "${county} County" "North Carolina"`,
     `"water contamination" OR "drinking water" OR "water quality" "${county} County" NC`,
     `"${county} County" "North Carolina" contamination OR "water treatment" OR "DEQ" OR "EPA"`,
   ];
-  const seen = new Set();
-  const results = [];
   for (let i = 0; i < queries.length; i++) {
-    if (results.length >= 5) break;
+    if (results.length >= 6) break;
     const items = await fetchGoogleNews(queries[i]);
     for (const item of items) {
       if (seen.has(item.url)) continue;
@@ -166,7 +249,8 @@ async function fetchCountyNews(county) {
     }
     if (i < queries.length - 1) await sleep(700);
   }
-  return results.slice(0, 5);
+
+  return results.slice(0, 6);
 }
 
 // ── llama-server lifecycle ─────────────────────────────────────────────────────
@@ -292,15 +376,27 @@ async function main() {
 
   mkdirSync(join(ROOT, "public", "data"), { recursive: true });
   const existing = loadExisting();
+  const knowledgeArticles = loadKnowledgeArticles();
 
   const targets = onlyCounty
     ? NC_COUNTIES.filter(c => c.county.toLowerCase() === onlyCounty.toLowerCase())
     : NC_COUNTIES;
 
+  // Counties that have new knowledge articles need a refresh even if recently updated
+  const countiesWithNewKnowledge = new Set(
+    knowledgeArticles.flatMap(a =>
+      NC_COUNTIES
+        .filter(({ county }) => knowledgeArticlesForCounty(county, [a]).length > 0)
+        .map(({ county }) => county)
+    )
+  );
+
   // Determine which counties actually need processing
   const toProcess = force
     ? targets
-    : targets.filter(c => isStale(existing.counties[c.county]));
+    : targets.filter(c =>
+        isStale(existing.counties[c.county]) || countiesWithNewKnowledge.has(c.county)
+      );
 
   const staleCount = toProcess.length;
   const freshCount = targets.length - staleCount;
@@ -327,7 +423,7 @@ async function main() {
       process.stdout.write(`  [${String(i + 1).padStart(3)}/${staleCount}] ${county.padEnd(16)} `);
 
       // Scrape news
-      const articles = await fetchCountyNews(county);
+      const articles = await fetchCountyNews(county, knowledgeArticles);
       process.stdout.write(`${articles.length} article${articles.length !== 1 ? "s" : ""}`);
 
       // AI analysis
