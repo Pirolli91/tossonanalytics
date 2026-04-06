@@ -295,13 +295,24 @@ function stopServer() {
   if (serverProc) { serverProc.kill("SIGTERM"); serverProc = null; }
 }
 
-// ── Gemma 4 via HTTP ───────────────────────────────────────────────────────────
-async function generateAnalysis(county, articles) {
-  const articleList = articles
-    .map((a, i) => `${i + 1}. "${a.title}" (${a.source}, ${a.date})\n   ${a.snippet}`)
-    .join("\n\n");
+// ── AI provider cascade ────────────────────────────────────────────────────────
+// Priority: 1. Gemma 4 (local llama-server)  2. Blockrun local  3. OpenRouter
+const BLOCKRUN_URL  = "http://127.0.0.1:8402/v1";
+const BLOCKRUN_KEY  = process.env.BLOCKRUN_API_KEY || "x402-proxy-handles-auth";
+const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY || "";
 
-  const messages = [
+// Models to try on OpenRouter when local is unavailable
+const OPENROUTER_MODELS = [
+  "qwen/qwen3-30b-a3b:free",
+  "qwen/qwen-2.5-72b-instruct:free",
+  "google/gemma-3-12b-it:free",
+];
+
+function buildPrompt(county, articles) {
+  const articleList = articles
+    .map((a, i) => `${i + 1}. "${a.title}" (${a.source}, ${a.date})\n   ${a.snippet || a.title}`)
+    .join("\n\n");
+  return [
     {
       role: "user",
       content:
@@ -315,37 +326,65 @@ async function generateAnalysis(county, articles) {
         `Write ONLY the 2-3 sentence paragraph. Nothing else.`,
     },
   ];
+}
 
-  try {
-    const res = await fetch(`${SRV_URL}/v1/chat/completions`, {
-      method:  "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        messages,
-        max_tokens:      280,
-        temperature:     0.65,
-        top_p:           0.9,
-        repeat_penalty:  1.1,
-      }),
-      signal: AbortSignal.timeout(240_000),
-    });
+function trimToSentence(text) {
+  const last = Math.max(text.lastIndexOf("."), text.lastIndexOf("!"), text.lastIndexOf("?"));
+  return last > 60 ? text.slice(0, last + 1).trim() : text.trim();
+}
 
-    if (!res.ok) {
-      console.warn(`    ⚠ Server HTTP ${res.status} for ${county}`);
-      return "";
+async function callChatAPI({ url, apiKey, model, messages, timeoutMs = 240_000 }) {
+  const headers = { "Content-Type": "application/json" };
+  if (apiKey) headers["Authorization"] = `Bearer ${apiKey}`;
+  const body = { messages, max_tokens: 280, temperature: 0.65, top_p: 0.9 };
+  if (model) body.model = model;
+  const res = await fetch(`${url}/chat/completions`, {
+    method: "POST",
+    headers,
+    body: JSON.stringify(body),
+    signal: AbortSignal.timeout(timeoutMs),
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const data = await res.json();
+  return data.choices?.[0]?.message?.content?.trim() ?? "";
+}
+
+async function generateAnalysis(county, articles) {
+  const messages = buildPrompt(county, articles);
+
+  // 1. Try local Gemma 4 via llama-server
+  if (serverProc) {
+    try {
+      const text = await callChatAPI({ url: SRV_URL, messages });
+      if (text) return trimToSentence(text);
+    } catch (err) {
+      console.warn(`    ⚠ Gemma local error for ${county}: ${err.message.slice(0, 60)}`);
     }
-
-    const data = await res.json();
-    let text = data.choices?.[0]?.message?.content?.trim() ?? "";
-
-    // Cut at last complete sentence
-    const last = Math.max(text.lastIndexOf("."), text.lastIndexOf("!"), text.lastIndexOf("?"));
-    if (last > 60) text = text.slice(0, last + 1);
-    return text.trim();
-  } catch (err) {
-    console.warn(`    ⚠ Gemma HTTP error for ${county}: ${err.message.slice(0, 80)}`);
-    return "";
   }
+
+  // 2. Try blockrun local API
+  try {
+    const text = await callChatAPI({
+      url: BLOCKRUN_URL, apiKey: BLOCKRUN_KEY,
+      model: "premium", messages, timeoutMs: 60_000,
+    });
+    if (text) { process.stdout.write(" [blockrun]"); return trimToSentence(text); }
+  } catch { /* fall through */ }
+
+  // 3. Try OpenRouter with Qwen / Gemma free models
+  if (OPENROUTER_KEY) {
+    for (const model of OPENROUTER_MODELS) {
+      try {
+        const text = await callChatAPI({
+          url: "https://openrouter.ai/api/v1", apiKey: OPENROUTER_KEY,
+          model, messages, timeoutMs: 45_000,
+        });
+        if (text) { process.stdout.write(` [${model.split("/")[1]}]`); return trimToSentence(text); }
+      } catch { /* try next */ }
+    }
+  }
+
+  return "";
 }
 
 // ── Persistence helpers ────────────────────────────────────────────────────────
@@ -366,11 +405,15 @@ function isStale(entry) {
 async function main() {
   const args        = process.argv.slice(2);
   const onlyCounty  = args.find(a => a.startsWith("--county="))?.split("=")[1];
-  const noAI        = args.includes("--no-ai") || !existsSync(LLAMA_SRV) || !existsSync(MODEL_PATH);
+  const hasLocalGemma   = existsSync(LLAMA_SRV) && existsSync(MODEL_PATH);
+  const hasBlockrun     = await fetch(`${BLOCKRUN_URL}/models`, { signal: AbortSignal.timeout(2000) }).then(r => r.ok).catch(() => false);
+  const hasOpenRouter   = !!OPENROUTER_KEY;
+  const noAI            = args.includes("--no-ai") || (!hasLocalGemma && !hasBlockrun && !hasOpenRouter);
   const force       = args.includes("--force");
 
   console.log("🗺  Tosson Analytics — County News Pipeline");
-  console.log(`   AI analysis : ${noAI ? "disabled (--no-ai or model not found)" : "Gemma 4 via llama-server"}`);
+  const aiProvider = noAI ? "disabled" : hasLocalGemma ? "Gemma 4 (local)" : hasBlockrun ? "Blockrun (local)" : "OpenRouter (Qwen/Gemma free)";
+  console.log(`   AI analysis : ${aiProvider}`);
   if (onlyCounty) console.log(`   County      : ${onlyCounty}`);
   console.log();
 
@@ -407,11 +450,11 @@ async function main() {
     return;
   }
 
-  // Start Gemma server once if AI is enabled
+  // Start local Gemma server if available
   let serverReady = false;
-  if (!noAI) {
+  if (!noAI && hasLocalGemma) {
     serverReady = await startServer();
-    if (!serverReady) console.warn("  ⚠ Continuing without AI analysis\n");
+    if (!serverReady) console.warn("  ⚠ llama-server failed — will fall back to blockrun/OpenRouter\n");
   }
 
   let processed = 0;
@@ -426,10 +469,10 @@ async function main() {
       const articles = await fetchCountyNews(county, knowledgeArticles);
       process.stdout.write(`${articles.length} article${articles.length !== 1 ? "s" : ""}`);
 
-      // AI analysis
+      // AI analysis (tries Gemma → blockrun → OpenRouter)
       let analysis = "";
-      if (serverReady && articles.length > 0) {
-        process.stdout.write(" → Gemma…");
+      if (!noAI && articles.length > 0) {
+        process.stdout.write(" → AI…");
         analysis = await generateAnalysis(county, articles);
         process.stdout.write(analysis ? " ✓" : " (empty)");
       }

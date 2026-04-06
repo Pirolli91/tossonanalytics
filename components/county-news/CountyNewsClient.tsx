@@ -79,13 +79,6 @@ function ArticleCard({ article, index }: { article: Article; index: number }) {
         {article.title}
       </h3>
 
-      {/* Snippet */}
-      {article.snippet && (
-        <p className="text-xs text-white/50 font-[var(--font-source-sans)] leading-relaxed mb-3">
-          {article.snippet.length > 220 ? article.snippet.slice(0, 220) + "…" : article.snippet}
-        </p>
-      )}
-
       {/* CTA link */}
       <p className="text-xs text-white/45 font-[var(--font-source-sans)]">
         Additional information can be found{" "}

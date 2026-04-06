@@ -41,7 +41,8 @@ export function FilterBar({
   onCompound, onThreshold, onLayer,
 }: FilterBarProps) {
   return (
-    <div className="flex flex-wrap items-center gap-3 border-b border-white/10 bg-[var(--bg-main)]/95 px-5 py-2.5 backdrop-blur-md">
+    <div className="overflow-x-auto border-b border-white/10 bg-[var(--bg-main)]/95 backdrop-blur-md">
+    <div className="flex items-center gap-3 px-3 py-2 sm:px-5 sm:py-2.5 min-w-max">
       <div className="flex items-center gap-1.5 text-xs text-white/40">
         <Filter className="h-3 w-3" />
         <span className="font-semibold uppercase tracking-wider">Filter</span>
@@ -82,7 +83,7 @@ export function FilterBar({
       </div>
 
       {/* Layer toggle */}
-      <div className="ml-auto flex items-center gap-1.5">
+      <div className="ml-6 flex items-center gap-1.5 sm:ml-auto">
         <Layers className="h-3 w-3 text-white/40" />
         <span className="text-[11px] text-white/40">Layer</span>
         {LAYERS.map(l => (
@@ -100,6 +101,7 @@ export function FilterBar({
           </button>
         ))}
       </div>
+    </div>
     </div>
   );
 }
