@@ -1,0 +1,48 @@
+name: Nightly PFAS Data Update & Deploy
+
+on:
+  schedule:
+    # 02:00 EST = 07:00 UTC
+    - cron: "0 7 * * *"
+  workflow_dispatch: # allow manual trigger from GitHub UI
+
+jobs:
+  fetch-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch latest PFAS data
+        run: node scripts/fetch-pfas-data.js
+        env:
+          NODE_OPTIONS: "--experimental-vm-modules"
+
+      - name: Build static site
+        run: npm run build
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy out --project-name=tossonanalytics --commit-dirty=true
+
+      - name: Commit updated data file
+        run: |
+          git config user.name  "Tosson Data Bot"
+          git config user.email "bot@tossonanalytics.com"
+          git add public/data/pfas-nc-data.json
+          git diff --staged --quiet || git commit -m "chore: nightly PFAS data update $(date -u +%Y-%m-%d)"
+          git push
