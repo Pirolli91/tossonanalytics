@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
+import { Navbar } from "@/components/Navbar";
 import {
   GraduationCap,
   FlaskConical,
@@ -8,7 +9,6 @@ import {
   FileText,
   ArrowRight,
   ExternalLink,
-  Droplets,
 } from "lucide-react";
 
 const PUBLICATIONS = [
@@ -51,22 +51,7 @@ const NAICS = [
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-[var(--bg-main)] text-white">
-      {/* Nav */}
-      <nav className="sticky top-0 z-50 border-b border-white/10 bg-[var(--bg-main)]/80 backdrop-blur-md">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <Link href="/" className="flex items-center gap-2">
-            <Droplets className="h-6 w-6" style={{ color: "var(--brand-accent)" }} />
-            <span className="text-lg font-bold tracking-tight">
-              Tosson<span style={{ color: "var(--brand-accent)" }}>Analytics</span>
-            </span>
-          </Link>
-          <div className="hidden items-center gap-6 text-sm font-medium text-white/70 sm:flex">
-            <Link href="/dashboard" className="hover:text-white transition-colors">Dashboard</Link>
-            <Link href="/about" className="text-white">About</Link>
-            <Link href="/insights" className="hover:text-white transition-colors">Insights</Link>
-          </div>
-        </div>
-      </nav>
+      <Navbar active="about" />
 
       <div className="mx-auto max-w-7xl px-6 py-12">
 

@@ -2,7 +2,8 @@ import { readdirSync, readFileSync } from "fs";
 import { join } from "path";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
-import { BookOpen, ArrowRight, Droplets } from "lucide-react";
+import { Navbar } from "@/components/Navbar";
+import { BookOpen, ArrowRight } from "lucide-react";
 
 interface PostMeta {
   slug: string;
@@ -73,21 +74,7 @@ export default function InsightsPage() {
 
   return (
     <main className="min-h-screen bg-[var(--bg-main)] text-white">
-      <nav className="sticky top-0 z-50 border-b border-white/10 bg-[var(--bg-main)]/80 backdrop-blur-md">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <Link href="/" className="flex items-center gap-2">
-            <Droplets className="h-6 w-6" style={{ color: "var(--brand-accent)" }} />
-            <span className="text-lg font-bold tracking-tight">
-              Tosson<span style={{ color: "var(--brand-accent)" }}>Analytics</span>
-            </span>
-          </Link>
-          <div className="hidden items-center gap-6 text-sm font-medium text-white/70 sm:flex">
-            <Link href="/dashboard" className="hover:text-white transition-colors">Dashboard</Link>
-            <Link href="/about" className="hover:text-white transition-colors">About</Link>
-            <Link href="/insights" className="text-white">Insights</Link>
-          </div>
-        </div>
-      </nav>
+      <Navbar active="insights" />
 
       <div className="mx-auto max-w-4xl px-6 py-12">
         <div className="mb-10 flex items-center gap-3">

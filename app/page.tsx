@@ -1,6 +1,9 @@
 import Link from "next/link";
+import { readdirSync, readFileSync } from "fs";
+import { join } from "path";
 import { Badge } from "@/components/ui/badge";
 import { StatsCounter } from "@/components/home/StatsCounter";
+import { Navbar } from "@/components/Navbar";
 import {
   FlaskConical,
   MapPin,
@@ -11,6 +14,36 @@ import {
   Building2,
   Droplets,
 } from "lucide-react";
+
+function getLatestInsights(limit = 3) {
+  const dir = join(process.cwd(), "content", "insights");
+  try {
+    const files = readdirSync(dir).filter((f) => f.endsWith(".mdx"));
+    return files
+      .map((file) => {
+        const slug = file.replace(/\.mdx$/, "");
+        const source = readFileSync(join(dir, file), "utf-8");
+        const match = source.match(/^---\n([\s\S]*?)\n---/);
+        const meta: Record<string, string> = {};
+        if (match) {
+          for (const line of match[1].split("\n")) {
+            const colon = line.indexOf(":");
+            if (colon === -1) continue;
+            meta[line.slice(0, colon).trim()] = line.slice(colon + 1).trim().replace(/^"|"$/g, "");
+          }
+        }
+        const iso = meta.date ?? slug.match(/\d{4}-\d{2}-\d{2}/)?.[0] ?? "";
+        const displayDate = iso
+          ? new Date(iso + "T12:00:00Z").toLocaleDateString("en-US", { month: "short", year: "numeric" })
+          : "";
+        return { slug, title: meta.title ?? slug, date: iso, displayDate };
+      })
+      .sort((a, b) => b.date.localeCompare(a.date))
+      .slice(0, limit);
+  } catch {
+    return [];
+  }
+}
 
 // ─── Service cards data ────────────────────────────────────────────────────────
 const SERVICES = [
@@ -60,43 +93,11 @@ const ALERT = {
 };
 
 export default function Home() {
+  const latestInsights = getLatestInsights(3);
+
   return (
     <main className="min-h-screen bg-[var(--bg-main)] text-white">
-      {/* ── Nav ── */}
-      <nav className="sticky top-0 z-50 border-b border-white/10 bg-[var(--bg-main)]/80 backdrop-blur-md">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <Link href="/" className="flex items-center gap-2">
-            <Droplets
-              className="h-6 w-6"
-              style={{ color: "var(--brand-accent)" }}
-            />
-            <span className="text-lg font-bold tracking-tight">
-              Tosson<span style={{ color: "var(--brand-accent)" }}>Analytics</span>
-            </span>
-          </Link>
-          <div className="hidden items-center gap-6 text-sm font-medium text-white/70 sm:flex">
-            <Link href="/dashboard" className="hover:text-white transition-colors">
-              Dashboard
-            </Link>
-            <Link href="/about" className="hover:text-white transition-colors">
-              About
-            </Link>
-            <Link href="/insights" className="hover:text-white transition-colors">
-              Insights
-            </Link>
-            <Link
-              href="/about#contracting"
-              className="rounded-lg px-4 py-2 text-sm font-semibold transition-colors"
-              style={{
-                background: "var(--brand-accent)",
-                color: "var(--bg-main)",
-              }}
-            >
-              Work With Us
-            </Link>
-          </div>
-        </div>
-      </nav>
+      <Navbar />
 
       {/* ── Regulatory alert strip ── */}
       <div
@@ -301,34 +302,20 @@ export default function Home() {
             />
             <h2 className="text-base font-bold">Latest Insights</h2>
             <div className="mt-4 space-y-4">
-              {[
-                {
-                  date: "Mar 2026",
-                  title: "NC EMC Initiates Hearings on PFOA, PFOS & GenX Rules",
-                  href: "/insights/nc-emc-hearings-march-2026",
-                },
-                {
-                  date: "Mar 2026",
-                  title: "Cape Fear TFA Levels Reach 2,000 ppt Near Chemours",
-                  href: "/insights",
-                },
-                {
-                  date: "Feb 2026",
-                  title: "NC HB 881: PFAS Free NC Act — What It Means",
-                  href: "/insights",
-                },
-              ].map((post) => (
+              {latestInsights.length > 0 ? latestInsights.map((post) => (
                 <Link
-                  key={post.title}
-                  href={post.href}
+                  key={post.slug}
+                  href={`/insights/${post.slug}`}
                   className="block group"
                 >
-                  <span className="text-[10px] text-white/40">{post.date}</span>
+                  <span className="text-[10px] text-white/40">{post.displayDate}</span>
                   <p className="mt-0.5 text-sm font-medium text-white/80 group-hover:text-white transition-colors leading-snug">
                     {post.title}
                   </p>
                 </Link>
-              ))}
+              )) : (
+                <p className="text-xs text-white/30">No insights yet.</p>
+              )}
             </div>
             <Link
               href="/insights"

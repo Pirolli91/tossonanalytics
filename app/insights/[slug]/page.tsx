@@ -3,7 +3,8 @@ import Link from "next/link";
 import { readdirSync } from "fs";
 import { join } from "path";
 import { Badge } from "@/components/ui/badge";
-import { ArrowLeft, Droplets, Calendar, User } from "lucide-react";
+import { Navbar } from "@/components/Navbar";
+import { ArrowLeft, Calendar, User } from "lucide-react";
 
 // Auto-discover all MDX slugs from content/insights/ at build time
 export function generateStaticParams() {
@@ -50,16 +51,7 @@ export default async function InsightPost({
 
   return (
     <main className="min-h-screen bg-[var(--bg-main)] text-white">
-      <nav className="sticky top-0 z-50 border-b border-white/10 bg-[var(--bg-main)]/80 backdrop-blur-md">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <Link href="/" className="flex items-center gap-2">
-            <Droplets className="h-6 w-6" style={{ color: "var(--brand-accent)" }} />
-            <span className="text-lg font-bold tracking-tight">
-              Tosson<span style={{ color: "var(--brand-accent)" }}>Analytics</span>
-            </span>
-          </Link>
-        </div>
-      </nav>
+      <Navbar active="insights" />
 
       <article className="mx-auto max-w-3xl px-6 py-12">
         <Link
