@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Droplets, Menu, X } from "lucide-react";
 
 interface NavbarProps {
-  active?: "dashboard" | "about" | "insights" | "services";
+  active?: "dashboard" | "about" | "insights" | "services" | "news";
 }
 
 export function Navbar({ active }: NavbarProps) {
@@ -13,9 +13,10 @@ export function Navbar({ active }: NavbarProps) {
 
   const links = [
     { href: "/dashboard", label: "Dashboard", key: "dashboard" },
-    { href: "/about",     label: "About",     key: "about"     },
+    { href: "/news",      label: "County News", key: "news"    },
     { href: "/insights",  label: "Insights",  key: "insights"  },
     { href: "/services",  label: "Services",  key: "services"  },
+    { href: "/about",     label: "About",     key: "about"     },
   ];
 
   return (

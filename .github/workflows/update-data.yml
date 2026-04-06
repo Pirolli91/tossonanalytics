@@ -11,7 +11,7 @@ on:
 jobs:
   fetch-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     permissions:
       contents: write
 
@@ -35,6 +35,10 @@ jobs:
         env:
           NODE_OPTIONS: "--experimental-vm-modules"
 
+      - name: Fetch county news (no-AI mode — Gemma runs locally)
+        run: node scripts/fetch-county-news.js --no-ai
+        continue-on-error: true   # don't block deploy if news sources are unavailable
+
       - name: Build static site
         run: npm run build
 
@@ -42,7 +46,6 @@ jobs:
         run: npm install -g wrangler@3
 
       - name: Publish to Cloudflare Pages
-        # Strip any trailing whitespace/newlines from secrets (common copy-paste artifact)
         env:
           RAW_CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           RAW_CF_ACCOUNT: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
@@ -54,10 +57,10 @@ jobs:
             --branch=master \
             --commit-dirty=true
 
-      - name: Commit updated data file
+      - name: Commit updated data files
         run: |
           git config user.name  "Tosson Data Bot"
           git config user.email "bot@tossonanalytics.com"
-          git add public/data/pfas-nc-data.json
-          git diff --staged --quiet || git commit -m "chore: nightly PFAS data update $(date -u +%Y-%m-%d)"
+          git add public/data/pfas-nc-data.json public/data/county-news.json
+          git diff --staged --quiet || git commit -m "chore: nightly data update $(date -u +%Y-%m-%d)"
           git push
