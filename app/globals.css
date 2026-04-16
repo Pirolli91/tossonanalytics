@@ -156,3 +156,73 @@
     @apply font-sans;
   }
 }
+
+/* ── Regulatory Digest prose styles ── */
+.regulatory-digest {
+  color: rgba(255, 255, 255, 0.82);
+  line-height: 1.75;
+  font-size: 0.9375rem;
+}
+
+.regulatory-digest p {
+  margin-bottom: 1rem;
+}
+
+.regulatory-digest h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #ffffff;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(0, 212, 170, 0.25);
+}
+
+.regulatory-digest ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.regulatory-digest li {
+  padding: 0.875rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  background: rgba(255, 255, 255, 0.03);
+  font-size: 0.875rem;
+  line-height: 1.65;
+}
+
+.regulatory-digest li strong {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.regulatory-digest li em {
+  color: rgba(0, 212, 170, 0.75);
+  font-style: italic;
+}
+
+.regulatory-digest a {
+  color: var(--brand-accent);
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 212, 170, 0.35);
+  text-underline-offset: 2px;
+  transition: text-decoration-color 0.15s;
+}
+
+.regulatory-digest a:hover {
+  text-decoration-color: var(--brand-accent);
+}
+
+.regulatory-digest pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  padding: 1rem;
+  background: rgba(255,255,255,0.04);
+  border-radius: 0.5rem;
+  font-size: 0.8125rem;
+}

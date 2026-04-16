@@ -5,18 +5,19 @@ import { useState } from "react";
 import { Droplets, Menu, X } from "lucide-react";
 
 interface NavbarProps {
-  active?: "dashboard" | "about" | "insights" | "services" | "news";
+  active?: "dashboard" | "about" | "insights" | "services" | "news" | "regulatory-watch";
 }
 
 export function Navbar({ active }: NavbarProps) {
   const [open, setOpen] = useState(false);
 
   const links = [
-    { href: "/dashboard", label: "Dashboard", key: "dashboard" },
-    { href: "/news",      label: "County News", key: "news"    },
-    { href: "/insights",  label: "Insights",  key: "insights"  },
-    { href: "/services",  label: "Services",  key: "services"  },
-    { href: "/about",     label: "About",     key: "about"     },
+    { href: "/dashboard",        label: "Dashboard",     key: "dashboard"        },
+    { href: "/news",             label: "County News",   key: "news"             },
+    { href: "/regulatory-watch", label: "Reg Watch",     key: "regulatory-watch" },
+    { href: "/insights",         label: "Insights",      key: "insights"         },
+    { href: "/services",         label: "Services",      key: "services"         },
+    { href: "/about",            label: "About",         key: "about"            },
   ];
 
   return (
