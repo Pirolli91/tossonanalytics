@@ -14,6 +14,9 @@
  * attempt to write to the local JSON file if the KV binding is absent.
  */
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+type KVNamespace = any;
+
 interface Env {
   SUBSCRIBERS_KV?: KVNamespace;
 }

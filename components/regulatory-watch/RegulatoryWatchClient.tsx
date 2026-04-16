@@ -66,7 +66,7 @@ export function RegulatoryWatchClient({ digestHtml, digestTitle }: Props) {
             public comment windows, rulemaking, enforcement actions, and energy filings.
           </p>
           <a
-            href="https://tossonenvironmental.substack.com"
+            href="https://temitopesoneye.substack.com"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-8 inline-flex items-center gap-2 rounded-lg px-6 py-3 text-sm font-semibold transition-opacity hover:opacity-90"
@@ -179,7 +179,7 @@ export function RegulatoryWatchClient({ digestHtml, digestTitle }: Props) {
                 developments delivered to your inbox every Monday.
               </p>
               <a
-                href="https://tossonenvironmental.substack.com"
+                href="https://temitopesoneye.substack.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-[var(--brand-accent)]/40 px-4 py-2.5 text-sm font-semibold text-[var(--brand-accent)] transition-colors hover:bg-[var(--brand-accent)]/10"
