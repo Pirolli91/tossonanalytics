@@ -1,10 +1,10 @@
 {
-  "generated": "2026-04-19T08:10:29.157Z",
+  "generated": "2026-04-20T09:12:00.053Z",
   "counties": {
     "Alamance": {
       "county": "Alamance",
       "fips": "37001",
-      "lastUpdated": "2026-04-19T08:05:41.175Z",
+      "lastUpdated": "2026-04-20T09:07:21.072Z",
       "analysis": "",
       "articles": [
         {
@@ -60,7 +60,7 @@
     "Alexander": {
       "county": "Alexander",
       "fips": "37003",
-      "lastUpdated": "2026-04-19T08:05:44.406Z",
+      "lastUpdated": "2026-04-20T09:07:24.229Z",
       "analysis": "",
       "articles": [
         {
@@ -92,7 +92,7 @@
     "Alleghany": {
       "county": "Alleghany",
       "fips": "37005",
-      "lastUpdated": "2026-04-19T08:05:47.621Z",
+      "lastUpdated": "2026-04-20T09:07:27.423Z",
       "analysis": "",
       "articles": [
         {
@@ -124,7 +124,7 @@
     "Anson": {
       "county": "Anson",
       "fips": "37007",
-      "lastUpdated": "2026-04-19T08:05:50.931Z",
+      "lastUpdated": "2026-04-20T09:07:30.544Z",
       "analysis": "",
       "articles": [
         {
@@ -156,7 +156,7 @@
     "Ashe": {
       "county": "Ashe",
       "fips": "37009",
-      "lastUpdated": "2026-04-19T08:05:54.124Z",
+      "lastUpdated": "2026-04-20T09:07:33.628Z",
       "analysis": "",
       "articles": [
         {
@@ -172,7 +172,7 @@
     "Avery": {
       "county": "Avery",
       "fips": "37011",
-      "lastUpdated": "2026-04-19T08:05:57.375Z",
+      "lastUpdated": "2026-04-20T09:07:36.751Z",
       "analysis": "",
       "articles": [
         {
@@ -192,12 +192,12 @@
           "date": "2026-02-19"
         },
         {
-          "title": "Bimbo Bakeries in Gastonia listed as EPA All Energy Star manufacturing plant - WCNC",
-          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPZVJtVl9TWnl5OTN2NEJYTUVlLUxDRVZySVJBR3J5UWo1Nkw0S1ZKbm1IYUxGcEtVd2JqajVacmw4aFJqYmJ2eE9abFVMWWJrZXUwbFpTVk1sQjBNNmNfdWNXSUplam1lbFNBZ2hhVVVqQ2lSc09lSGtYMG51LXIwYTYxZHBnODV5bFJvR3FnZEJFZ216Y2ZtbTZXMVh0eGxtbGVHMTBncGk2WnIzc3owbDY1Y1k2RTlZaGlyMGZjd2tpa0hxSFZLaFF1WVZqaG1UTFRvMEFRM21yOXdRdjY0NFoxTnh1V1FUTGo3N1FzYmVDSlY5NGZyWmY2UnZaU282ekRGS2lvY0xXVGNKOHY0?oc=5",
-          "pubDate": "Wed, 01 Mar 2023 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMijwJBVV95cUxPZVJtVl9TWnl5OTN2NEJYTUVlLUxDRVZySVJBR3J5UWo1Nkw0S1ZKbm1IYUxGcEtVd2JqajVacmw4aFJqYmJ2eE9abFVMWWJrZXUwbFpTVk1sQjBNNmNfdWNXSUplam1lbFNBZ2hhVVVqQ2lSc09lSGtYMG51LXIwYTYxZHBnODV5bFJvR3FnZEJFZ216Y2ZtbTZXMVh0eGxtbGVHMTBncGk",
-          "source": "WCNC",
-          "date": "2023-03-01"
+          "title": "A county by county look at Helene’s devastation in Western NC. The latest updates. - News &amp; Observer",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVXJZaGU1QnNwZWZJdEQ3ZmhRd0hSVkZaTHVabUhpcDRiREF3eUFEcWR5RTNrT0RXdGQtU1hLb0ZKTURrWTdSSDlUYXBUTy1MbEJoZmprTEdNNC1KOG9ncVhZMlM4S1NIM2hUamRIWEtiQ1Fac1gyZUljZEFReExvVklB0gGCAUFVX3lxTE4xSlRGLTU1VWVvOHlrZ09EbUVrNjFZVTYycGZ6WEZQUDlMOE82dDZ6cHk0SmQxR3cxYzI2aGlSQm1wenRCRFNIbHZ3WllMb1RuUk04OEFacy1yTXhMMzRQQXlHNWtsVWxoNzJPeGJVN1FvMWsxOVVDdHhTVm1GQno5NUE?oc=5",
+          "pubDate": "Mon, 30 Sep 2024 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxOVXJZaGU1QnNwZWZJdEQ3ZmhRd0hSVkZaTHVabUhpcDRiREF3eUFEcWR5RTNrT0RXdGQtU1hLb0ZKTURrWTdSSDlUYXBUTy1MbEJoZmprTEdNNC1KOG9ncVhZMlM4S1NIM2hUamRIWEtiQ1Fac1gyZUljZEFReExvVklB0gGCAUFVX3lxTE4xSlRGLTU1VWVvOHlrZ09EbUVrNjFZVTYycGZ",
+          "source": "News &amp; Observer",
+          "date": "2024-09-30"
         },
         {
           "title": "EPA may ease regulation of chemical plastic recycling, and environmentalists worry - The Avery Journal-Times",
@@ -206,13 +206,21 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxPM0NIcUZWdHpuWmYyaVZKOUxJeUVFcDMxOV9vVHFLRHpzVzdfX3pCX2ppQnJqTEtPY0lVaGNUM2RMVlk3dmFwdDFJVDZzdlZiWkg1VWJ5U09jcXh6SzhzMGJfSGJRcy1NZVhPbzhTX1RjUzZLX05fazdNVjhpRWpYcWN3SEIydzFYTXEzRkx4aFN6eDlOWGh1LUh2YzJrRkoxdE5TNnp3aWV",
           "source": "The Avery Journal-Times",
           "date": "2026-04-15"
+        },
+        {
+          "title": "Bimbo Bakeries in Gastonia listed as EPA All Energy Star manufacturing plant - WCNC",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPZVJtVl9TWnl5OTN2NEJYTUVlLUxDRVZySVJBR3J5UWo1Nkw0S1ZKbm1IYUxGcEtVd2JqajVacmw4aFJqYmJ2eE9abFVMWWJrZXUwbFpTVk1sQjBNNmNfdWNXSUplam1lbFNBZ2hhVVVqQ2lSc09lSGtYMG51LXIwYTYxZHBnODV5bFJvR3FnZEJFZ216Y2ZtbTZXMVh0eGxtbGVHMTBncGk2WnIzc3owbDY1Y1k2RTlZaGlyMGZjd2tpa0hxSFZLaFF1WVZqaG1UTFRvMEFRM21yOXdRdjY0NFoxTnh1V1FUTGo3N1FzYmVDSlY5NGZyWmY2UnZaU282ekRGS2lvY0xXVGNKOHY0?oc=5",
+          "pubDate": "Wed, 01 Mar 2023 08:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMijwJBVV95cUxPZVJtVl9TWnl5OTN2NEJYTUVlLUxDRVZySVJBR3J5UWo1Nkw0S1ZKbm1IYUxGcEtVd2JqajVacmw4aFJqYmJ2eE9abFVMWWJrZXUwbFpTVk1sQjBNNmNfdWNXSUplam1lbFNBZ2hhVVVqQ2lSc09lSGtYMG51LXIwYTYxZHBnODV5bFJvR3FnZEJFZ216Y2ZtbTZXMVh0eGxtbGVHMTBncGk",
+          "source": "WCNC",
+          "date": "2023-03-01"
         }
       ]
     },
     "Beaufort": {
       "county": "Beaufort",
       "fips": "37013",
-      "lastUpdated": "2026-04-19T08:06:00.361Z",
+      "lastUpdated": "2026-04-20T09:07:39.601Z",
       "analysis": "",
       "articles": [
         {
@@ -248,27 +256,27 @@
           "date": "2026-03-27"
         },
         {
-          "title": "Flooding of Blounts Creek with mine wastewater before NC Supreme Court - Southern Environmental Law Center",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTF9PYzFnYlBTa1ZuVDI5Z0NfNHhFQ0JDMzdENlZLWkI4VGFVQ1ZEVzUxY0hHTTdpVmFmamRaRTl3M3c4U0lSbVROSXdmSnMyQV8wTEZGd19CcHlpWVo3STM5YjJZNmo5TGxSV1oxcGFvWklTMkRtMm9NQmtIeFB4OTdseHVmOGFkZWVCQS1OSi16RlM3MVFFQS1XbXRndlh4aDM4QVNVTndVTVV4enFnTFE5XzJDQQ?oc=5",
-          "pubDate": "Thu, 02 Jul 2020 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOTF9PYzFnYlBTa1ZuVDI5Z0NfNHhFQ0JDMzdENlZLWkI4VGFVQ1ZEVzUxY0hHTTdpVmFmamRaRTl3M3c4U0lSbVROSXdmSnMyQV8wTEZGd19CcHlpWVo3STM5YjJZNmo5TGxSV1oxcGFvWklTMkRtMm9NQmtIeFB4OTdseHVmOGFkZWVCQS1OSi16RlM3MVFFQS1XbXRndlh4aDM4QVNVTnd",
-          "source": "Southern Environmental Law Center",
-          "date": "2020-07-02"
-        },
-        {
           "title": "Water quality testing shows high levels of bacteria at Beaufort Co. swimming site - WNCT",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcDFpQjdKbV9CblZHQWQzU08yRkhmOXV6eF9RbXFYWlJZN1MyeEJsWlpIdXFmQ3lHTkk3eWtYLTdSR0daTVBmNlNpYkNKeVpxNXdkTHhmemlWakFvZW9SZWgxcEVUaUV1ekZOVHdJUGdzcVplc2wxQ0h2cUJDbG13NzlSY0tWRUs0T2JTTmZockRvYVp0YnBPb1pNaF9OVmVXclgxS3JuSjVZX3dObTJPZGNNWdIBuAFBVV95cUxOVEp3WG9SRi1STldxVC1felZMNTR0czJCb1hWc2UzWG9wa192bERWbVM2T1B6MC1BalR5SGd2aElQeVVaQ3pzWXdUaS03NUlZaTRRV0U5OWdPUUx5NG14MHBwZFlyVDNLb2V1eUZxU25wTHRNd2wtSW9xaHZBVms2bzR2Sm81RnZsY183Q0NLNW9hZTQyTVFGd1NkZ29jNllnd2lWRnZVY0Y0Y091NXIxUE9pV1NqTXJP?oc=5",
           "pubDate": "Wed, 12 Jun 2019 07:00:00 GMT",
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNcDFpQjdKbV9CblZHQWQzU08yRkhmOXV6eF9RbXFYWlJZN1MyeEJsWlpIdXFmQ3lHTkk3eWtYLTdSR0daTVBmNlNpYkNKeVpxNXdkTHhmemlWakFvZW9SZWgxcEVUaUV1ekZOVHdJUGdzcVplc2wxQ0h2cUJDbG13NzlSY0tWRUs0T2JTTmZockRvYVp0YnBPb1pNaF9OVmVXclgxS3JuSjV",
           "source": "WNCT",
           "date": "2019-06-12"
+        },
+        {
+          "title": "Flooded NC city assures residents its drinking water is still safe - News &amp; Observer",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVEx3M0R4YlNMekRRa3VlRzk1OVhpWTMxZEJYTnRTMmI1RktHRi1idHpVY3kxb1pvS2lnMDI1bmE1NFNVM0xMYi1FNi15R3Q3bzd1SkJENXhfc1lyMlZkLXdla1hRbWlzbjBEZ1J0UzZodDMwVlFoOTNfMHVqeTFVMnlR0gGCAUFVX3lxTE1aUkFMSmtDQ0ZnVzVTSmVTWUtscEx3SmJkRTVqZmd6N3JzS2V0Y2VaVFVQbFBLenlNZ2ZQb19aUzNaNEFXRDJXU0RfV2c1Q1QtSUNQSkhJQzFEVWhIdF9VVGF0YW5IZ1ktZnE1UllHTnN3MERodFg1UmJ1czB5U2hTREE?oc=5",
+          "pubDate": "Fri, 14 Sep 2018 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxOVEx3M0R4YlNMekRRa3VlRzk1OVhpWTMxZEJYTnRTMmI1RktHRi1idHpVY3kxb1pvS2lnMDI1bmE1NFNVM0xMYi1FNi15R3Q3bzd1SkJENXhfc1lyMlZkLXdla1hRbWlzbjBEZ1J0UzZodDMwVlFoOTNfMHVqeTFVMnlR0gGCAUFVX3lxTE1aUkFMSmtDQ0ZnVzVTSmVTWUtscEx3SmJkRTV",
+          "source": "News &amp; Observer",
+          "date": "2018-09-14"
         }
       ]
     },
     "Bertie": {
       "county": "Bertie",
       "fips": "37015",
-      "lastUpdated": "2026-04-19T08:06:03.622Z",
+      "lastUpdated": "2026-04-20T09:07:42.687Z",
       "analysis": "",
       "articles": [
         {
@@ -308,7 +316,7 @@
     "Bladen": {
       "county": "Bladen",
       "fips": "37017",
-      "lastUpdated": "2026-04-19T08:06:05.638Z",
+      "lastUpdated": "2026-04-20T09:07:44.673Z",
       "analysis": "",
       "articles": [
         {
@@ -336,6 +344,14 @@
           "date": "2025-11-06"
         },
         {
+          "title": "PFAS barrier wall now operational - Carolina Journal",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBZWkFOYUliQmYzTHN5TVBueTNVNmFQZERqUGVEOU9ISm1xVUEyb085cG85X1ZxbzAxZHdhM3RMeThtTWRoWEtzR01pbTQ5dGFsTVBhc0NhNWlwOFkwOGNKdWUxQ1BTem53Q3pRWmJQN3NWVVdk?oc=5",
+          "pubDate": "Mon, 03 Jul 2023 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFBZWkFOYUliQmYzTHN5TVBueTNVNmFQZERqUGVEOU9ISm1xVUEyb085cG85X1ZxbzAxZHdhM3RMeThtTWRoWEtzR01pbTQ5dGFsTVBhc0NhNWlwOFkwOGNKdWUxQ1BTem53Q3pRWmJQN3NWVVdk?oc=5\" target=\"_blank\"&gt;PFAS barrier wall now operational&lt;/a&gt;&a",
+          "source": "Carolina Journal",
+          "date": "2023-07-03"
+        },
+        {
           "title": "Chemours expansion plans infuriate environmentalists - North Carolina Health News",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM1JDbHJrTm95TU81NVZEdnJNSG1yMGtzZmRxcXI0UTNhVGdoOG93TW9jb2ZsNWNGMDEtTXNINnZ2bThhSk1pZDBuMEZwRHdYc1czREFROWNBRDExR2t4ZkgtOWVBelBGZWtuZVVCU0drV1ZuaGt0OENPN0tfNGRULTF6UDAtNVZXVjhlWndoWmdYZW84RlN1ZmxoQ0dVVnYtd1pUWkc4NA?oc=5",
           "pubDate": "Fri, 09 Sep 2022 07:00:00 GMT",
@@ -350,21 +366,13 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxObWxyYmJZSnlYb2hzLU5TLTV4aUZGcXgzYVlxMlFSSjBadDhtb1Q3RWxqLWVGRVlPZERqd0piUUpXVWg3YTJWc3JZNk5mejVyeFkxOVYtVDgtR3Nla2VkOWFRTmhPUlM0WVVSN1dXSF9PQW9OY1pUU1RscVFYV21nODNsNzVkM3hYaHEyS28wRGtOaWJLRHZFVkxIRzRVWkwxOE5j?oc=5\" ",
           "source": "NC Newsline",
           "date": "2023-12-06"
-        },
-        {
-          "title": "PFAS barrier wall now operational - Carolina Journal",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBZWkFOYUliQmYzTHN5TVBueTNVNmFQZERqUGVEOU9ISm1xVUEyb085cG85X1ZxbzAxZHdhM3RMeThtTWRoWEtzR01pbTQ5dGFsTVBhc0NhNWlwOFkwOGNKdWUxQ1BTem53Q3pRWmJQN3NWVVdk?oc=5",
-          "pubDate": "Mon, 03 Jul 2023 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFBZWkFOYUliQmYzTHN5TVBueTNVNmFQZERqUGVEOU9ISm1xVUEyb085cG85X1ZxbzAxZHdhM3RMeThtTWRoWEtzR01pbTQ5dGFsTVBhc0NhNWlwOFkwOGNKdWUxQ1BTem53Q3pRWmJQN3NWVVdk?oc=5\" target=\"_blank\"&gt;PFAS barrier wall now operational&lt;/a&gt;&a",
-          "source": "Carolina Journal",
-          "date": "2023-07-03"
         }
       ]
     },
     "Brunswick": {
       "county": "Brunswick",
       "fips": "37019",
-      "lastUpdated": "2026-04-19T08:06:07.723Z",
+      "lastUpdated": "2026-04-20T09:07:46.697Z",
       "analysis": "",
       "articles": [
         {
@@ -392,11 +400,11 @@
           "date": "2025-10-26"
         },
         {
-          "title": "Brunswick County almost finished installing PFAS water treatment system - WUNC",
+          "title": "Brunswick County almost finished installing PFAS water treatment system - WUNC News",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZHhtVnQzc3BDdkJINnN5TUpOMzFSZGdqYlVQMm5qLUxiV0FONjdLWVp4QnplX0xOSkJ2R1Z6WkppSzlFdmxDZjE0LXdOYk9tWWlfc3VBSFJjbkxScklESURNQnRmek85bUdzcDhTUmxzd2JWQnhHd3ZZSzQ1OWxpSk9ULVg1MEpPT3pIVmNHUTJrbkZYSzV0Y1Rlbk85QQ?oc=5",
           "pubDate": "Thu, 27 Feb 2025 08:00:00 GMT",
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQZHhtVnQzc3BDdkJINnN5TUpOMzFSZGdqYlVQMm5qLUxiV0FONjdLWVp4QnplX0xOSkJ2R1Z6WkppSzlFdmxDZjE0LXdOYk9tWWlfc3VBSFJjbkxScklESURNQnRmek85bUdzcDhTUmxzd2JWQnhHd3ZZSzQ1OWxpSk9ULVg1MEpPT3pIVmNHUTJrbkZYSzV0Y1Rlbk85QQ?oc=5\" target",
-          "source": "WUNC",
+          "source": "WUNC News",
           "date": "2025-02-27"
         },
         {
@@ -420,17 +428,9 @@
     "Buncombe": {
       "county": "Buncombe",
       "fips": "37021",
-      "lastUpdated": "2026-04-19T08:06:09.811Z",
+      "lastUpdated": "2026-04-20T09:07:48.690Z",
       "analysis": "",
       "articles": [
-        {
-          "title": "‘Toxic Soup’: PFAS and other contaminants surged in French Broad River after Helene, study finds - Blue Ridge Public Radio",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOM3d6eVJZWGx4STE0Qm9PR0RGaEdUR3M5dW0tZklFMlMtemRRNDBMTVNlMm1KWHlzQWE4WHE0UDlrS3F6TXhJNlo3ZFdMeS0zb3ppM1BqWW5YQzJDc3NuRkRDTG9QNjFyZHBvY0xqWWVyRUNFSFFndzVZRzB6RzZSYWdIaG1EM2thX2FBMjNUTzlRMHJlaWFGTHNXMGpLQ2J5TS1VSzdkME15SU5aWWp1ajR0czRzbzV2aUEwbTlySnF6MFJzREdjTHhCSnUxY3lRak5zRHQxZG5EbzQ?oc=5",
-          "pubDate": "Mon, 24 Nov 2025 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxOM3d6eVJZWGx4STE0Qm9PR0RGaEdUR3M5dW0tZklFMlMtemRRNDBMTVNlMm1KWHlzQWE4WHE0UDlrS3F6TXhJNlo3ZFdMeS0zb3ppM1BqWW5YQzJDc3NuRkRDTG9QNjFyZHBvY0xqWWVyRUNFSFFndzVZRzB6RzZSYWdIaG1EM2thX2FBMjNUTzlRMHJlaWFGTHNXMGpLQ2J5TS1VSzdkME1",
-          "source": "Blue Ridge Public Radio",
-          "date": "2025-11-24"
-        },
         {
           "title": "PFAS in Asheville, NC water? One NC site has highest 'forever chemical' levels in US - The Asheville Citizen Times",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMi1qd1FBS2VacVpaWm9hZldaUy0xeFl3OVFqeWNQeG03NnlidjNRZEtYVTBPRVVVU2JjVUF3OXNoM2IxWTZacWE4LWxCQ0dPeGxBN0pBZVdLSTI0SWFtYXpTcFBybE94TkxOVWJIUDhNZUlPN2pENmFCamRtUG9iNnY2QjBpeXJJR0dtMU9LUjEwYkZ2OF91YmdaVVBLNWlvWW1iMnc2a3I1RWRXTVJDX3YwWGdaNENON1pGZ3ZrVXAzLUpYVHpGbXBPYUNKdw?oc=5",
@@ -440,12 +440,28 @@
           "date": "2025-08-15"
         },
         {
-          "title": "A Short-Lived Win in a Never-Ending Fight Over Forever Chemicals - Inside Climate News",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOWx1NUtkd0tyZjZ2czdkektLVmxxQ25vNlhpbl9GQlVLNDREcTFRQ19pTWlaRDBqaUczaExMWnZoOF9XZ3lBNEV0RVFJNXFiTmZObzRMWFl0aWluS0hCWVFka1BBaVdNUjFURkl1SGtwd05IeWszYXo2eno5Q0RRdVlUWThMMk91d2JCMThZUS1KYWlUOFNNcE1FOFZBM3Fudk9XNUpwYlI?oc=5",
-          "pubDate": "Sun, 12 Oct 2025 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOWx1NUtkd0tyZjZ2czdkektLVmxxQ25vNlhpbl9GQlVLNDREcTFRQ19pTWlaRDBqaUczaExMWnZoOF9XZ3lBNEV0RVFJNXFiTmZObzRMWFl0aWluS0hCWVFka1BBaVdNUjFURkl1SGtwd05IeWszYXo2eno5Q0RRdVlUWThMMk91d2JCMThZUS1KYWlUOFNNcE1FOFZBM3Fudk9XNUpwYlI",
-          "source": "Inside Climate News",
-          "date": "2025-10-12"
+          "title": "‘Toxic Soup’: PFAS and other contaminants surged in French Broad River after Helene, study finds - Blue Ridge Public Radio",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOM3d6eVJZWGx4STE0Qm9PR0RGaEdUR3M5dW0tZklFMlMtemRRNDBMTVNlMm1KWHlzQWE4WHE0UDlrS3F6TXhJNlo3ZFdMeS0zb3ppM1BqWW5YQzJDc3NuRkRDTG9QNjFyZHBvY0xqWWVyRUNFSFFndzVZRzB6RzZSYWdIaG1EM2thX2FBMjNUTzlRMHJlaWFGTHNXMGpLQ2J5TS1VSzdkME15SU5aWWp1ajR0czRzbzV2aUEwbTlySnF6MFJzREdjTHhCSnUxY3lRak5zRHQxZG5EbzQ?oc=5",
+          "pubDate": "Mon, 24 Nov 2025 08:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxOM3d6eVJZWGx4STE0Qm9PR0RGaEdUR3M5dW0tZklFMlMtemRRNDBMTVNlMm1KWHlzQWE4WHE0UDlrS3F6TXhJNlo3ZFdMeS0zb3ppM1BqWW5YQzJDc3NuRkRDTG9QNjFyZHBvY0xqWWVyRUNFSFFndzVZRzB6RzZSYWdIaG1EM2thX2FBMjNUTzlRMHJlaWFGTHNXMGpLQ2J5TS1VSzdkME1",
+          "source": "Blue Ridge Public Radio",
+          "date": "2025-11-24"
+        },
+        {
+          "title": "First public hearing on PFAS wastewater rules set for Asheville - 828 News Now",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbFRPZ2xabTdpVHcyX0Z6RWRPbWZMOGlWeTM5NzFFWFpfc2JaT2NFc3VTR1F6dldob2k0NVlrYm9QaEJ3MjhUdHB3TEhnZ2M5MElrSk50bHJIOEl4alRVQUZ2SU9JQlNMSUx5Tnl2QWs2VHdYcFVwZ3pMWTFsMm5kRndxamp0YVBMUU9CalpQSW5nRnQydHYtdC0ySkNBSzdR?oc=5",
+          "pubDate": "Wed, 11 Mar 2026 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPbFRPZ2xabTdpVHcyX0Z6RWRPbWZMOGlWeTM5NzFFWFpfc2JaT2NFc3VTR1F6dldob2k0NVlrYm9QaEJ3MjhUdHB3TEhnZ2M5MElrSk50bHJIOEl4alRVQUZ2SU9JQlNMSUx5Tnl2QWs2VHdYcFVwZ3pMWTFsMm5kRndxamp0YVBMUU9CalpQSW5nRnQydHYtdC0ySkNBSzdR?oc=5\" targ",
+          "source": "828 News Now",
+          "date": "2026-03-11"
+        },
+        {
+          "title": "A short-lived win in a never-ending fight over forever chemicals - North Carolina Health News",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQY3hSNnRlbmVEWkRBcW1feUdLVGQ1OHFnX1VCQ29WWUgwVzBjZkl3UTlvSlIyNU9Bak1DaUQ0b1QzdVJvRUZnbGNNZFdiMjExbWZzenV2WUJ3SFhES24xcDQzaEI0ckRoNTFMT01UMnFtY1ZoYWdSanZ3XzdpSkp6MEpEODFhRTM5U2ZuWGdkSFJxVG50MnQ5TjVPcXR1MTl1eTdTZmpvcGdHd3dTLW1wOFFGaVZuZ00?oc=5",
+          "pubDate": "Sun, 26 Oct 2025 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQY3hSNnRlbmVEWkRBcW1feUdLVGQ1OHFnX1VCQ29WWUgwVzBjZkl3UTlvSlIyNU9Bak1DaUQ0b1QzdVJvRUZnbGNNZFdiMjExbWZzenV2WUJ3SFhES24xcDQzaEI0ckRoNTFMT01UMnFtY1ZoYWdSanZ3XzdpSkp6MEpEODFhRTM5U2ZuWGdkSFJxVG50MnQ5TjVPcXR1MTl1eTdTZmpvcGd",
+          "source": "North Carolina Health News",
+          "date": "2025-10-26"
         },
         {
           "title": "PFAS – forever chemicals linked to serious health issues – found above safe levels at 5 Buncombe, Henderson mobile home parks - Asheville Watchdog",
@@ -462,30 +478,22 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQUW5Cb1BfZTkxUVJIMFpCYjlTNzhZeVJuZ2dOVUpWYWp5YVJHOEZDQ3NRR1c4V2hhNVRKd2g2UnN4T1RMR3NxUEozY19ZTUxGSVA2UVVqNmZyRWRVU2JFeVNFeUNoM1NPd3pKREdrR2ZRenRJRTZpWTM4Zl96ajREamJxQ1dpSjZLZWxLOWtqVXpFMi1IcW1WalFGbkhYMTJNSFNiNjhMWmV",
           "source": "NC Newsline",
           "date": "2023-06-25"
-        },
-        {
-          "title": "First public hearing on PFAS wastewater rules set for Asheville - 828 News Now",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbFRPZ2xabTdpVHcyX0Z6RWRPbWZMOGlWeTM5NzFFWFpfc2JaT2NFc3VTR1F6dldob2k0NVlrYm9QaEJ3MjhUdHB3TEhnZ2M5MElrSk50bHJIOEl4alRVQUZ2SU9JQlNMSUx5Tnl2QWs2VHdYcFVwZ3pMWTFsMm5kRndxamp0YVBMUU9CalpQSW5nRnQydHYtdC0ySkNBSzdR?oc=5",
-          "pubDate": "Wed, 11 Mar 2026 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPbFRPZ2xabTdpVHcyX0Z6RWRPbWZMOGlWeTM5NzFFWFpfc2JaT2NFc3VTR1F6dldob2k0NVlrYm9QaEJ3MjhUdHB3TEhnZ2M5MElrSk50bHJIOEl4alRVQUZ2SU9JQlNMSUx5Tnl2QWs2VHdYcFVwZ3pMWTFsMm5kRndxamp0YVBMUU9CalpQSW5nRnQydHYtdC0ySkNBSzdR?oc=5\" targ",
-          "source": "828 News Now",
-          "date": "2026-03-11"
         }
       ]
     },
     "Burke": {
       "county": "Burke",
       "fips": "37023",
-      "lastUpdated": "2026-04-19T08:06:12.748Z",
+      "lastUpdated": "2026-04-20T09:07:51.600Z",
       "analysis": "",
       "articles": [
         {
-          "title": "Morganton resident produces PBS FRONTLINE episode that airs tonight - thepaper.media",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRTB6Ty0zcG1IYTJ2R19JeEl6cHFPNEs1MWNnVVk3OVpJYi1ab2UxUTUxVnJkWnVYN2lzRWdCU2IxNjlSdUVPRTVXd3N5YWRVTDNTYzhJS0gzdlFCRllvRkthU1FWVHJ0U0V1bzh2SHpiV0hXZmxBN2JVYzdRc2xNR0JpTmZVS1Uta3dRelRESkQ0VHhVQW1UbDhadXRRdHhRb0VvNE5fZFpZdWtfdkYxeDdnQ2dHQzM1TFhncTNpY20wM09feUZzVFZ2TldvQ0RkM1cxWS1DenV6bk1pNmZxODhFUQ?oc=5",
-          "pubDate": "Tue, 03 Feb 2026 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRTB6Ty0zcG1IYTJ2R19JeEl6cHFPNEs1MWNnVVk3OVpJYi1ab2UxUTUxVnJkWnVYN2lzRWdCU2IxNjlSdUVPRTVXd3N5YWRVTDNTYzhJS0gzdlFCRllvRkthU1FWVHJ0U0V1bzh2SHpiV0hXZmxBN2JVYzdRc2xNR0JpTmZVS1Uta3dRelRESkQ0VHhVQW1UbDhadXRRdHhRb0VvNE5fZFp",
+          "title": "New battery storage near Lake James: Balancing energy needs and environmental caution - thepaper.media",
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOUWhPVHFBX3lva2taNGxnLWhvYlpTcWtTenZaOEpjR3g5YW9oT0ZGNXdOaTkwV1BtT3RsZ25sejZDOWNUdm9Ubm1Zd0xLQ3M3S0QwWWMtc1JkM2NybUM4NmtXbkhUc2xpLVJUSDE1YnlQRWpUa1JTb3FxaDZTaExtbll6RFJDUk0zRHhPM1dBVFlrTTdQa0xPNjFibWR0MzFtVmxPcmhGVlJQclo1S1pmbEMxMl9SQzBPNjVRek5RQ2RrOTNXU2l6aTh2b3JCRVo5Nzh4WFdMTFJ3TC02WjJZRk1WdHBvdExrMzRVUkxTd3RQVFdjQ0Z2cTUxblRXRlFONVl4ZTdnYXc1aUE?oc=5",
+          "pubDate": "Sat, 26 Jul 2025 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiiwJBVV95cUxOUWhPVHFBX3lva2taNGxnLWhvYlpTcWtTenZaOEpjR3g5YW9oT0ZGNXdOaTkwV1BtT3RsZ25sejZDOWNUdm9Ubm1Zd0xLQ3M3S0QwWWMtc1JkM2NybUM4NmtXbkhUc2xpLVJUSDE1YnlQRWpUa1JTb3FxaDZTaExtbll6RFJDUk0zRHhPM1dBVFlrTTdQa0xPNjFibWR0MzFtVmxPcmhGVlJ",
           "source": "thepaper.media",
-          "date": "2026-02-03"
+          "date": "2025-07-26"
         },
         {
           "title": "EPA knew fracking fluid can degrade into toxic PFAS, approved it anyway - NC Newsline",
@@ -496,14 +504,6 @@
           "date": "2021-07-12"
         },
         {
-          "title": "New battery storage near Lake James: Balancing energy needs and environmental caution - thepaper.media",
-          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOUWhPVHFBX3lva2taNGxnLWhvYlpTcWtTenZaOEpjR3g5YW9oT0ZGNXdOaTkwV1BtT3RsZ25sejZDOWNUdm9Ubm1Zd0xLQ3M3S0QwWWMtc1JkM2NybUM4NmtXbkhUc2xpLVJUSDE1YnlQRWpUa1JTb3FxaDZTaExtbll6RFJDUk0zRHhPM1dBVFlrTTdQa0xPNjFibWR0MzFtVmxPcmhGVlJQclo1S1pmbEMxMl9SQzBPNjVRek5RQ2RrOTNXU2l6aTh2b3JCRVo5Nzh4WFdMTFJ3TC02WjJZRk1WdHBvdExrMzRVUkxTd3RQVFdjQ0Z2cTUxblRXRlFONVl4ZTdnYXc1aUE?oc=5",
-          "pubDate": "Sat, 26 Jul 2025 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiiwJBVV95cUxOUWhPVHFBX3lva2taNGxnLWhvYlpTcWtTenZaOEpjR3g5YW9oT0ZGNXdOaTkwV1BtT3RsZ25sejZDOWNUdm9Ubm1Zd0xLQ3M3S0QwWWMtc1JkM2NybUM4NmtXbkhUc2xpLVJUSDE1YnlQRWpUa1JTb3FxaDZTaExtbll6RFJDUk0zRHhPM1dBVFlrTTdQa0xPNjFibWR0MzFtVmxPcmhGVlJ",
-          "source": "thepaper.media",
-          "date": "2025-07-26"
-        },
-        {
           "title": "Your discarded carpet is poisoning the Earth with PFAS - NC Newsline",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTjB2dm5Mak9aRFJKSHA3MHBudkRYUU1ENVFRMTRSY0hlaEZjdU5RVVk2ZjlQczZ0SFdmaUpoWWZ3aFVOOGFGTWFfV01PVFl5R3FVQVdNOGp2YlV2ZVBFRmtLX1ZjZ1paZkYteWswNDhTQW9TRXN5d0NVTmNibmw4dE9oWDlWa01QN3RtODdQdXVkNUk?oc=5",
           "pubDate": "Thu, 16 Apr 2020 07:00:00 GMT",
@@ -512,11 +512,11 @@
           "date": "2020-04-16"
         },
         {
-          "title": "Annual Water Quality Reports - Burke County Government",
+          "title": "Annual Water Quality Reports - Burke County, NC",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WaFZXaVFLbDJCY08wMEw1ZTI2YXlPNVpUaGxyUUVPeFFoMDlDWVVhWUxZcy1IckFVNXdkdF9pNVVEQ2lla1lCaFhZQVZoSVpPQ3VqLUVfblhSeEd3TlNvc1AzSXhRZw?oc=5",
           "pubDate": "Fri, 04 Jun 2021 20:07:47 GMT",
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WaFZXaVFLbDJCY08wMEw1ZTI2YXlPNVpUaGxyUUVPeFFoMDlDWVVhWUxZcy1IckFVNXdkdF9pNVVEQ2lla1lCaFhZQVZoSVpPQ3VqLUVfblhSeEd3TlNvc1AzSXhRZw?oc=5\" target=\"_blank\"&gt;Annual Water Quality Reports&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;f",
-          "source": "Burke County Government",
+          "source": "Burke County, NC",
           "date": "2021-06-04"
         },
         {
@@ -526,13 +526,21 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxNTVQ3d0NaOGdqTVh3Z1RxWmVncDczQ1NIeFpuT0dJVWJSVVprUzlrbklXWnUzZWJ4RW4zM283NVFydklxR2lMajFnU0daTldubGZRSlM0MWN3S200aW9GV1AzUWR3RmZFYmVCSFhLSmhyRjF2OE92UlNRdG8tZDF5UUFuMC00S2Zwd2JES0xKQl9JQUVtb25Ib2lNY0ZDZWh2SXRyZE9xMlN",
           "source": "thepaper.media",
           "date": "2025-05-31"
+        },
+        {
+          "title": "Residents fear treatment plant polluted pristine NC river. Regulators don’t agree. - Charlotte Observer",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qX2VQa1pGLU41SXUxWmxwaWowbGRDZkFyZ0xkNm5RLUdJU05xM3pqTDNnSHV6ZEx0ZGQxVE11MUdFc2hWNUtnUUMzVlcyR3pxRGhYeVJwaVlDYVVjRi1pTk5UdjdTbjVhdzlOQmFIVGs2SHFv0gF0QVVfeXFMT19kRVB4cG5VQ0RGMFo1VjRKelNxeFA2Q2xfVXBUTEd6NVFGa2doU3VxdnpwSHFCVHVnSlZ6V1dGRk9qTXltU0J4SnNzSFFaSUdRTDZRcC11ZzhGY09VMTkzSU80QVMtakwySUNtRzRQWVVsNFQ?oc=5",
+          "pubDate": "Fri, 23 Oct 2020 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE5qX2VQa1pGLU41SXUxWmxwaWowbGRDZkFyZ0xkNm5RLUdJU05xM3pqTDNnSHV6ZEx0ZGQxVE11MUdFc2hWNUtnUUMzVlcyR3pxRGhYeVJwaVlDYVVjRi1pTk5UdjdTbjVhdzlOQmFIVGs2SHFv0gF0QVVfeXFMT19kRVB4cG5VQ0RGMFo1VjRKelNxeFA2Q2xfVXBUTEd6NVFGa2doU3Vxdnp",
+          "source": "Charlotte Observer",
+          "date": "2020-10-23"
         }
       ]
     },
     "Cabarrus": {
       "county": "Cabarrus",
       "fips": "37025",
-      "lastUpdated": "2026-04-19T08:06:16.042Z",
+      "lastUpdated": "2026-04-20T09:07:54.719Z",
       "analysis": "",
       "articles": [
         {
@@ -588,7 +596,7 @@
     "Caldwell": {
       "county": "Caldwell",
       "fips": "37027",
-      "lastUpdated": "2026-04-19T08:06:19.240Z",
+      "lastUpdated": "2026-04-20T09:07:57.800Z",
       "analysis": "",
       "articles": [
         {
@@ -612,7 +620,7 @@
     "Camden": {
       "county": "Camden",
       "fips": "37029",
-      "lastUpdated": "2026-04-19T08:06:22.842Z",
+      "lastUpdated": "2026-04-20T09:08:00.915Z",
       "analysis": "",
       "articles": [
         {
@@ -644,7 +652,7 @@
     "Carteret": {
       "county": "Carteret",
       "fips": "37031",
-      "lastUpdated": "2026-04-19T08:06:25.885Z",
+      "lastUpdated": "2026-04-20T09:08:03.903Z",
       "analysis": "",
       "articles": [
         {
@@ -654,14 +662,6 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUXFEZkZTVlVjMFVySTJBazYwVkJ5V2ZnSDVTUWswUUtCMXhQdllUc2NndUlqS3BCRm1IRTNkR1BpRHZyZERNNEpaM2VYOU03aFBzNTRUN3Q5SkxoMmRwaW9wR3BlR1BjdFVsZUxScnFRS1MzaHUyODNGUGVDN01MRlNmb29pWXhz?oc=5\" target=\"_blank\"&gt;Guest commentary:",
           "source": "Coastal Review",
           "date": "2025-11-14"
-        },
-        {
-          "title": "Court dismisses case challenging PFAS health advisory - Coastal Review",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNU0ZsYzN2UFhBX202ZmhqWUl1Ql93bHBCU1c5bWtsVlBpVkxFMUNIbHdxVnRxbmNuU040YTMwSkIwOTlKaTlUaHduRDBMR2dxVkljQzJpS29WYktJR0x1c0ZPTWgzTFpUYTJtdjAwaGdhTTNuVWR3eFRFZnFYSVZBR1VQR1EtTmNvSzBUNEYyTWhTZVU?oc=5",
-          "pubDate": "Thu, 25 Jul 2024 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNU0ZsYzN2UFhBX202ZmhqWUl1Ql93bHBCU1c5bWtsVlBpVkxFMUNIbHdxVnRxbmNuU040YTMwSkIwOTlKaTlUaHduRDBMR2dxVkljQzJpS29WYktJR0x1c0ZPTWgzTFpUYTJtdjAwaGdhTTNuVWR3eFRFZnFYSVZBR1VQR1EtTmNvSzBUNEYyTWhTZVU?oc=5\" target=\"_blank\"&gt;Co",
-          "source": "Coastal Review",
-          "date": "2024-07-25"
         },
         {
           "title": "State Seeks Input on Chemours’ Next Steps - Coastal Review",
@@ -680,29 +680,45 @@
           "date": "2019-03-21"
         },
         {
-          "title": "Eastern Carolina customers air water quality complaints as Carolina Water seeks rate hike - WCTI",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTTdBUnRYUlhRR3gtVXdUNlNRMF9URTB1MUdQNEhIS3l2VGozbm9HV0l2V1loRkVfb0pXN1ZWZGY5MWl2Z1Z0ZlBrV3ZRTEpYM0tDaTJHTkQtLXhHUUx6dFNpZE1RNDM4X2c5ZkM1ZjJoZ3RXQXR2RkZOa20tYlJXUTM2MDdnTFN0NWs5ei11QWN2cXZjVGg5emNnaTVUODRrMEJZSUNmX0pEbmNQMzZNcU9rSE9vLXpBeFM4?oc=5",
-          "pubDate": "Wed, 18 Feb 2026 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTTdBUnRYUlhRR3gtVXdUNlNRMF9URTB1MUdQNEhIS3l2VGozbm9HV0l2V1loRkVfb0pXN1ZWZGY5MWl2Z1Z0ZlBrV3ZRTEpYM0tDaTJHTkQtLXhHUUx6dFNpZE1RNDM4X2c5ZkM1ZjJoZ3RXQXR2RkZOa20tYlJXUTM2MDdnTFN0NWs5ei11QWN2cXZjVGg5emNnaTVUODRrMEJZSUNmX0p",
-          "source": "WCTI",
-          "date": "2026-02-18"
-        },
-        {
           "title": "Heavier rainfall from hurricanes is causing water quality concerns at the coast - Spectrum News",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNS1A5QmVuUmpmTXFJZDNNbGVvc2lWY2NydUR0S0U4WHZlejRXX05SZ2VRVWMzTUxBRFJESDFPUXc3cGtLNllISkNUQ2MtQmFUVjVkUXJ2QVFlb0RVVnhaVThCN3hJQkVyc2k3dGdvZ01SNzR6MWVienNsX01hTGE3bnRBV2w3OHRNWjdtM2lBdkhfN1U4Tk9IODZFeFhYUGVOU0xObjAxaTJLQnYzMU94N2YzR3JfbEQ0bzVrREMyeVRhLUJrZHBtUDVLSUtLUlpBTkE?oc=5",
           "pubDate": "Wed, 04 Jun 2025 07:00:00 GMT",
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxNS1A5QmVuUmpmTXFJZDNNbGVvc2lWY2NydUR0S0U4WHZlejRXX05SZ2VRVWMzTUxBRFJESDFPUXc3cGtLNllISkNUQ2MtQmFUVjVkUXJ2QVFlb0RVVnhaVThCN3hJQkVyc2k3dGdvZ01SNzR6MWVienNsX01hTGE3bnRBV2w3OHRNWjdtM2lBdkhfN1U4Tk9IODZFeFhYUGVOU0xObjAxaTJ",
           "source": "Spectrum News",
           "date": "2025-06-04"
+        },
+        {
+          "title": "EPA grossly underestimated \"safe\" levels of fluorinated compounds in drinking water - NC Newsline",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN3NRc2N0UnNITGRPOEhaM2RaeFhuaHdNNGVGYk9wV2FHbmdwdTRuWWtnYm9oUTFkZGcyWndJaXlmclNJelN5WVl6RU5uQ0I3NUNZbmN1aTNjQ29US0ltOHZoeTFLWTYxTDByX0lyZFRIaFZLNmF3OWVtTVY5cFBYNzdfU1pvenJlSUplQWlIQzlteV9nVV82ZmcxQWNZcTBoaUN1YUNrV1pYNEpqcEtCU0ZB?oc=5",
+          "pubDate": "Mon, 25 Jun 2018 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQN3NRc2N0UnNITGRPOEhaM2RaeFhuaHdNNGVGYk9wV2FHbmdwdTRuWWtnYm9oUTFkZGcyWndJaXlmclNJelN5WVl6RU5uQ0I3NUNZbmN1aTNjQ29US0ltOHZoeTFLWTYxTDByX0lyZFRIaFZLNmF3OWVtTVY5cFBYNzdfU1pvenJlSUplQWlIQzlteV9nVV82ZmcxQWNZcTBoaUN1YUNrV1p",
+          "source": "NC Newsline",
+          "date": "2018-06-25"
+        },
+        {
+          "title": "New partnership aims to restore water quality, vegetation - Coastal Review",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2ejBJR3JTcjRGV1QwSjRaekZHZkhDYTVKM2t2cVA5bkhwS0ZTZEhDRjk5VVQ3Rzh0VGtqWmhITXdvLUl1QkxpS3JJZUw1VkJaNVE?oc=5",
+          "pubDate": "Mon, 31 Oct 2022 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2ejBJR3JTcjRGV1QwSjRaekZHZkhDYTVKM2t2cVA5bkhwS0ZTZEhDRjk5VVQ3Rzh0VGtqWmhITXdvLUl1QkxpS3JJZUw1VkJaNVE?oc=5\" target=\"_blank\"&gt;New partnership aims to restore water quality, vegetation&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt",
+          "source": "Coastal Review",
+          "date": "2022-10-31"
         }
       ]
     },
     "Caswell": {
       "county": "Caswell",
       "fips": "37033",
-      "lastUpdated": "2026-04-19T08:06:29.103Z",
+      "lastUpdated": "2026-04-20T09:08:06.981Z",
       "analysis": "",
       "articles": [
+        {
+          "title": "NC regulators to hold public hearings on Enbridge’s water quality permit for T-15 Pipeline - Appalachian Voices",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNNGRHMkxCOW1RdjRTUmRGRG15RHhXVGlVUDVqa0gwSVFqd2FpMUZlc2c0d2NLMWtHbmF5QTZqR3hxSThBc19RcURWbmZ3eDE5dVVJc3lCMURvZU8xM19tVmQ2ME55bGJtNDkxQlAzeGszMk1jQUQ2X3hBczVRZmFtWng5S3FmY0ZyUDhRXzNoS0lOeDFhZ2ZRODREWFNCWE05WjM5Q3RESnY2cGh3NGtQRUpJM1FabThuMjJvcTR6Y2lDZXZydVUtNnhNdThULTlMamJQb0ZpWjF2OFdYT2JiN2xrMzdqWFVVRDJXWjRyYTBEaU5rTHdQRTB6enlPNjNoM3c?oc=5",
+          "pubDate": "Thu, 05 Jun 2025 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxNNGRHMkxCOW1RdjRTUmRGRG15RHhXVGlVUDVqa0gwSVFqd2FpMUZlc2c0d2NLMWtHbmF5QTZqR3hxSThBc19RcURWbmZ3eDE5dVVJc3lCMURvZU8xM19tVmQ2ME55bGJtNDkxQlAzeGszMk1jQUQ2X3hBczVRZmFtWng5S3FmY0ZyUDhRXzNoS0lOeDFhZ2ZRODREWFNCWE05WjM5Q3RESnY",
+          "source": "Appalachian Voices",
+          "date": "2025-06-05"
+        },
         {
           "title": "Commission’s vote puts NC on path to legal showdown with EPA - News &amp; Observer",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8wOUU0NTRicXR6RnA1eUkzQnFFc0RIbDY5T1J5NHFNWGV0ZEpOR0FxYkFrbTVEeTY2aG4xZDdpd2NEclJsTjVsV1RRbU5WTVhoZkE0VktjQm1TN1YyREFQa3hRYkdKUkE0NDFfUThhT0LSAXBBVV95cUxNV244QnR1T0lQWmhIQkoxOXlpY3c3ZkUyQkFZSkxoaUxUakIxQ0twZ0t4MldyanY0bzQ5aDlpNmZQZUlDajNtU05kaDM4QWJpSVJjNGlNcnByT3hDWVBjODk2UW1pQTRLdTZtdjFGM1lq?oc=5",
@@ -716,7 +732,7 @@
     "Catawba": {
       "county": "Catawba",
       "fips": "37035",
-      "lastUpdated": "2026-04-19T08:06:32.139Z",
+      "lastUpdated": "2026-04-20T09:08:09.893Z",
       "analysis": "",
       "articles": [
         {
@@ -729,9 +745,9 @@
         },
         {
           "title": "Environmental advocates criticize state-proposed PFAS rules at Asheville public hearing - WLOS",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOSnFXdlNqcWQ3Tjg3UFRLaExLVlJiSUlaR2RNc095UkNMN2p4Wi1sT1p0YXd0N2I4cHoyMWJLaXV2WDF3UjdPTkpaRHpBRTdLUFJYVEhwc0xLWHNzMTJXcGp6bXVrbWhKb1d0MWFQSEs5MHlEZU9SNzVoSEJhR09fV2ZuYzdudURSLU84VGtRRDlPek41c0sxb0NEZ3hBRW9hbUdNWlhaN2RtdTY2ZEJxaXRBdUw2a3NTbzROdHcxU0plVXFfa05LU0RvSnFBY0dWVW1YNG1ZODNPZU9fdUo2ZUZBalU0Nm83VC1qMlc3bldDMDBZc3pj?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbjk4LWZoemFEREZfLUg4aHo2dmd0TjJ4MlZaVEMtdDdCbnZKeERSbkNhRU1CckZ0SEc1M2luUFhhVk5DZnpVSUxYRm9zY1A0Q0N0M21jSWJWd3hGaUpWUTlOM0trS25adWJJdWxGcjhwV1M5VmpoTHhYT05NQ3Rvd2hCWkZLOWZjUHprNmYwa2FjQ0NnSWRMUWV0ejg5NzMyclM2TTU4a25ycVdyNTZNWDR5Nm9hajlnbWpwVjFqSXVMVEdrWUMxZW1TU3U5YzUyM0RUZE5ZeDNJOXFXaGNKMl9FMngxQW41UzFoSHR0Yw?oc=5",
           "pubDate": "Wed, 08 Apr 2026 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi9wFBVV95cUxOSnFXdlNqcWQ3Tjg3UFRLaExLVlJiSUlaR2RNc095UkNMN2p4Wi1sT1p0YXd0N2I4cHoyMWJLaXV2WDF3UjdPTkpaRHpBRTdLUFJYVEhwc0xLWHNzMTJXcGp6bXVrbWhKb1d0MWFQSEs5MHlEZU9SNzVoSEJhR09fV2ZuYzdudURSLU84VGtRRDlPek41c0sxb0NEZ3hBRW9hbUdNWlhaN2R",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbjk4LWZoemFEREZfLUg4aHo2dmd0TjJ4MlZaVEMtdDdCbnZKeERSbkNhRU1CckZ0SEc1M2luUFhhVk5DZnpVSUxYRm9zY1A0Q0N0M21jSWJWd3hGaUpWUTlOM0trS25adWJJdWxGcjhwV1M5VmpoTHhYT05NQ3Rvd2hCWkZLOWZjUHprNmYwa2FjQ0NnSWRMUWV0ejg5NzMyclM2TTU4a25",
           "source": "WLOS",
           "date": "2026-04-08"
         },
@@ -760,21 +776,29 @@
           "date": "2025-02-05"
         },
         {
-          "title": "Catawba Riverkeeper Foundation urges caution in certain water after 350k gallon wastewater spill - WBTV",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONTgtdTRFdmF6bTU4SDFnQkliTmJSOUpwb3g2ZGpWNUM1ZEZNaU5WcW51c1lqRXZMTEhyUEZ3YnVFMHo0QWFZVjBnaWpvOTM2R0NtbGd4c0JMejl4ZUIzOXNOaDdDNFhnR3hIS3BxQmNJclpZQmw1cnZSaGRBRzQ0bnE1OGlmQUpwNDJSeWxvWkpReDdzTWFUeG44NF9YSjRhNi1leTlqMVVxemhXVkR3Y25QbG81cWpObVJYdndoMVZsa2hf0gHYAUFVX3lxTE95TURMZzFqcDFhNE1UelFnVTJDWXBjSkh0VWF2eEtFekhEY0dYY1pfZ29aOUdseHdEU0hUd09TRXlHRTBZVE5PRkhFOVZHdm5UYkZpYVFuM1JrUk9qZEtfRlRjLWU0Z01YaVBlblVqWG5reXRRTzIxbGNZYWhWd1IxbWhYaF9ZZjdVdEc0MzJIbkY4Ullpbmhjd0tQMC1MeHNYSTdORTQtWDhVQWhHNkwxVmZkczJ3YUwyRUFzTEh3UGdmZU92MXliM1hVOU9HRGZfVGVucDNxSg?oc=5",
-          "pubDate": "Fri, 04 Jul 2025 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxONTgtdTRFdmF6bTU4SDFnQkliTmJSOUpwb3g2ZGpWNUM1ZEZNaU5WcW51c1lqRXZMTEhyUEZ3YnVFMHo0QWFZVjBnaWpvOTM2R0NtbGd4c0JMejl4ZUIzOXNOaDdDNFhnR3hIS3BxQmNJclpZQmw1cnZSaGRBRzQ0bnE1OGlmQUpwNDJSeWxvWkpReDdzTWFUeG44NF9YSjRhNi1leTlqMVV",
-          "source": "WBTV",
-          "date": "2025-07-04"
+          "title": "High levels of arsenic found in family's drinking water - Spectrum News",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUVdLYjhuZU40S19aWlVHdDJSazRiQ2NvZGNEWWdCaS1fSDVQdlpfR2NEQmFOQkFiN09kWWpIazg5cklPdm1XT0pydUpjcTA3Nm12ajNuRnYtNGE3Y1gzaVlhd0lzQkZISk9HaEs0MnlQNnAwOWhkSTR2MG1fYkZnakhuUl9CNklGci1QRERPYUVWV2ZUTzNzNzQwOWRmVWdTOWVzRDRST045Q1RwdzI2c3pjSTFndG9tazFQTnJMYXBBeTBfX2c5aVR2TXdTSEE3cDZXVENDRTNnWnppWnc?oc=5",
+          "pubDate": "Thu, 22 Sep 2022 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUVdLYjhuZU40S19aWlVHdDJSazRiQ2NvZGNEWWdCaS1fSDVQdlpfR2NEQmFOQkFiN09kWWpIazg5cklPdm1XT0pydUpjcTA3Nm12ajNuRnYtNGE3Y1gzaVlhd0lzQkZISk9HaEs0MnlQNnAwOWhkSTR2MG1fYkZnakhuUl9CNklGci1QRERPYUVWV2ZUTzNzNzQwOWRmVWdTOWVzRDRST04",
+          "source": "Spectrum News",
+          "date": "2022-09-22"
         }
       ]
     },
     "Chatham": {
       "county": "Chatham",
       "fips": "37037",
-      "lastUpdated": "2026-04-19T08:06:34.095Z",
+      "lastUpdated": "2026-04-20T09:08:11.842Z",
       "analysis": "",
       "articles": [
+        {
+          "title": "N.C. lawmakers advance bill targeting man­u­fac­turers for PFAS con­t­a­m­i­nation in drinking water - Spectrum News",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMXZjOTdlMFRCQ25JU3RWS0JlY0oxNDhPdXFaZEJxS3JYMmhXbGZYbzZzLXBiLXdHdTI0YURsSm5KY2s4MkFvM0NvNXUybDU2WlRwRmwxVjViTHFUZkN5TTRXRk5UcTZoajhDclZ5Uk53Njd1U1pCRGhaMTBUbnlLd0dPemZMYllEbG9Tbk42Q0kydjVSMUFj?oc=5",
+          "pubDate": "Wed, 25 Jun 2025 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPMXZjOTdlMFRCQ25JU3RWS0JlY0oxNDhPdXFaZEJxS3JYMmhXbGZYbzZzLXBiLXdHdTI0YURsSm5KY2s4MkFvM0NvNXUybDU2WlRwRmwxVjViTHFUZkN5TTRXRk5UcTZoajhDclZ5Uk53Njd1U1pCRGhaMTBUbnlLd0dPemZMYllEbG9Tbk42Q0kydjVSMUFj?oc=5\" target=\"_blank\"&",
+          "source": "Spectrum News",
+          "date": "2025-06-25"
+        },
         {
           "title": "“Hold My Beer:” Study links forever chemicals to NC beer - WECT",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNXzZnYmlBdldZUVRDSWZpYlpZb2xGVWE2M2tZVFlvMlVFOFBQNnUyTGFyMURhWnl3RU1CYXZXSXZQeVpEbmtkdkVoV2plczBPQUZ3RFZJekhpcFBQWERLcmxMVFRjTzEwNjV6X2hxZGVBR1JkYW9fbUdabGxPSUItdHJieC1ianRqUHg40gGfAUFVX3lxTE91dGRYaWZWRHNaMHJWRW9UQUFIX0ZvYU5FQzNvMC1zaWQybEgxQWF3R2R4RExid3pSV2ltWGlMY1JWbTlZWWt3Rm16SzNfRG03aXJFTnhxQ1VsR1lhNjJWZEFHU3ZXa3JnRmRIeUloWG02cXdjLXNJN0FuWXd0TnEzQkRCMXNrajgtdm1HdnNEbG9jbVFzUDFBQ1NZVUo0OA?oc=5",
@@ -808,14 +832,6 @@
           "date": "2024-02-16"
         },
         {
-          "title": "N.C. lawmakers advance bill targeting man­u­fac­turers for PFAS con­t­a­m­i­nation in drinking water - Spectrum News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMXZjOTdlMFRCQ25JU3RWS0JlY0oxNDhPdXFaZEJxS3JYMmhXbGZYbzZzLXBiLXdHdTI0YURsSm5KY2s4MkFvM0NvNXUybDU2WlRwRmwxVjViTHFUZkN5TTRXRk5UcTZoajhDclZ5Uk53Njd1U1pCRGhaMTBUbnlLd0dPemZMYllEbG9Tbk42Q0kydjVSMUFj?oc=5",
-          "pubDate": "Wed, 25 Jun 2025 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPMXZjOTdlMFRCQ25JU3RWS0JlY0oxNDhPdXFaZEJxS3JYMmhXbGZYbzZzLXBiLXdHdTI0YURsSm5KY2s4MkFvM0NvNXUybDU2WlRwRmwxVjViTHFUZkN5TTRXRk5UcTZoajhDclZ5Uk53Njd1U1pCRGhaMTBUbnlLd0dPemZMYllEbG9Tbk42Q0kydjVSMUFj?oc=5\" target=\"_blank\"&",
-          "source": "Spectrum News",
-          "date": "2025-06-25"
-        },
-        {
           "title": "Local Governments, Water Agencies React to New Federal PFAS Regulations - Chapelboro.com",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLUZqbGVsaUJia3BZblN6MXBNRGJIZ25sSG1lRE83cnlYakF6WkV0Y0N6V1Jlc2V2TGxKNUcwcWlUZHRFdnBwaEZLaHg4bWZTRHRhUDBPRWE0MExGZ2lLYkR2Z2wwOU0wLTEtaHRHaFZIeVFDMXlMUUY3SXhRMUc4V3lyRXZzS3RBVzFhaXpVRFdCZXdvRkVRX0ZpOGFiYk9BX1pPa3FRb1E?oc=5",
           "pubDate": "Wed, 10 Apr 2024 07:00:00 GMT",
@@ -828,7 +844,7 @@
     "Cherokee": {
       "county": "Cherokee",
       "fips": "37039",
-      "lastUpdated": "2026-04-19T08:06:37.369Z",
+      "lastUpdated": "2026-04-20T09:08:14.993Z",
       "analysis": "",
       "articles": [
         {
@@ -854,13 +870,21 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ2NfeUo4NXBMLWgyb1daMnBZakUtSmhLM0ZqVjVOR0NZU3MxdmplN0xDalo3ZVB2azNxWm9VaDRtVEl6MDgwM0luZkFJdm5saEF5SFpiT0tnS1Y4SnhlUkYxMXRSUTFPUFVxaWs4S3MyUjdOcEVxRmV2WGpyWExBcWg5TUphTFM2TGU4RzVnSllVeFlDamg3NXFGSmhic3h1?oc=5\" targ",
           "source": "Department of Justice (.gov)",
           "date": "2012-09-20"
+        },
+        {
+          "title": "MCGOUN: Water quality for 147-mile Hiwassee River unspoiled - The Asheville Citizen Times",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1VzSzlqbmRLc2VzNHd0RXNfcmlaclBSWnJkcDRSX3VDRWQ1QktLRXFhY1h2V0NiQkFYSk9HaFEybTJ2MlAyZTZnelNybkZNc1lsenkwcTEtdldPOFU5WnJLa19GemtiVlBydDdZWmJzNDdjVGx2OVpPaTY5MXJ6ejR1NUtnMEtvM0E5N2VlUU5GSWVsSm1ZU2R6TVVKcUFWcTZqUElCdERRWFpiSjBXS1ktTlhEeURNS0xwS1FR?oc=5",
+          "pubDate": "Sun, 27 Jun 2021 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1VzSzlqbmRLc2VzNHd0RXNfcmlaclBSWnJkcDRSX3VDRWQ1QktLRXFhY1h2V0NiQkFYSk9HaFEybTJ2MlAyZTZnelNybkZNc1lsenkwcTEtdldPOFU5WnJLa19GemtiVlBydDdZWmJzNDdjVGx2OVpPaTY5MXJ6ejR1NUtnMEtvM0E5N2VlUU5GSWVsSm1ZU2R6TVVKcUFWcTZqUElCdER",
+          "source": "The Asheville Citizen Times",
+          "date": "2021-06-27"
         }
       ]
     },
     "Chowan": {
       "county": "Chowan",
       "fips": "37041",
-      "lastUpdated": "2026-04-19T08:06:40.658Z",
+      "lastUpdated": "2026-04-20T09:08:18.108Z",
       "analysis": "",
       "articles": [
         {
@@ -876,9 +900,17 @@
     "Clay": {
       "county": "Clay",
       "fips": "37043",
-      "lastUpdated": "2026-04-19T08:06:43.902Z",
+      "lastUpdated": "2026-04-20T09:08:21.269Z",
       "analysis": "",
       "articles": [
+        {
+          "title": "Attorneys: Presence of 'forever chemicals' in North Georgia water 'alarming' - FOX 5 Atlanta",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcDk3VURrSUtkckFGVGlLdWRsY2FZSmk5U09RY3lJTlB3Mm5KVDlCcHlUbVFaRnllTVdrVDgyZkkzcloyTDhOUkJCV3FJUmQ5NGtVaWVFQTBkQWpTTEtRTlgwVk5fbV9uNy0zczhpa1hmdm4tUnB3cTBMSG9IeWJTbFBrN2RnRVRaX1c3NDFRM2VIbjhMeHZ1enVFTjV5WGJsanfSAacBQVVfeXFMT2JoRzVTSng3bTdzTWZjby13WmdDeHNVUHM4WXZpNS1XdVk0T2hSMXRLb2RVNXlDbzdwbGZNY1RpVC0wc3NNbEFxNVNBT3Q0WjlFNHFlWTZGS3FnVTR5QjQyYnZ0Rk14RmYyT1ZNTXQza0NweGtGRll2WlJwbzM4ZDBDV3ByME1IVVlsdFROblNZaEpjN3BmT05seHNaWVdPM3poZHM2Sms?oc=5",
+          "pubDate": "Wed, 11 Jun 2025 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPcDk3VURrSUtkckFGVGlLdWRsY2FZSmk5U09RY3lJTlB3Mm5KVDlCcHlUbVFaRnllTVdrVDgyZkkzcloyTDhOUkJCV3FJUmQ5NGtVaWVFQTBkQWpTTEtRTlgwVk5fbV9uNy0zczhpa1hmdm4tUnB3cTBMSG9IeWJTbFBrN2RnRVRaX1c3NDFRM2VIbjhMeHZ1enVFTjV5WGJsanfSAacBQVV",
+          "source": "FOX 5 Atlanta",
+          "date": "2025-06-11"
+        },
         {
           "title": "New land added to Nantahala National Forest for water quality, hiking trails - The Asheville Citizen Times",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNX2JoZ2tMUVNSVm9fNlZWMThIS0ZqeWhOZXhxcDdveEpkQ2s5VExId1BteXI1YVRWZWpxbGs1SENWZHVFQ2pIMmQxZ1B6dmV4eUV4ODV2a0h3bGt0TURmakRVQW4ydXNvX3NtTlNyeE4tYzJaXzZabHBNQVlBcHpyYjFoU0FIRTdEdEJEY0xxaWxLMjlnd3F3SHNIY0pwNnptdE93dGNCakZOaTZGN3gxdmhMSnpWa0xBdjlMdUlaMmo2WWVZNUdETFJlMk5aMW5QYUhJ?oc=5",
@@ -916,7 +948,7 @@
     "Cleveland": {
       "county": "Cleveland",
       "fips": "37045",
-      "lastUpdated": "2026-04-19T08:06:46.906Z",
+      "lastUpdated": "2026-04-20T09:08:24.380Z",
       "analysis": "",
       "articles": [
         {
@@ -934,14 +966,6 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQTU9iSXZDRVpvOFY1bV96cW5JbFhrc2tXMm1UZEFOdVVMNFRfNlBYcWZJTUlJb1drOWhibTZnTHlMY0VzdVd1eERBYklLbFpGY3M2azQ4ZG8ycFBpOHBjM1BBREU3b0hDa2pBX0JaSWFFNnlvNWZFU0U1NjRkZjBLVUJtaHQ0TmpPQUViNUthMnQ?oc=5\" target=\"_blank\"&gt;PFAS-c",
           "source": "NC Newsline",
           "date": "2021-10-18"
-        },
-        {
-          "title": "Thousands of Chickens Killed in Farm Fire - One Green Planet",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSmppR3U3WDNkQzhnUzZQU01jRzFXR1BaTDUyQmt0U0t3UDg1ZDdyMGNqQTJybTQ2UTdEQ3FmRFZYYklERndhUDFLMV92QUMyNVpBSURlNjlFRHJMQlFhYU5ITWZfejgxdEktVGRHZFRGTHdITFc2M2IzR3ZMRURfX0xmNnBGUWFYdTVxMHVodDFxTE5f?oc=5",
-          "pubDate": "Mon, 27 Sep 2021 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPSmppR3U3WDNkQzhnUzZQU01jRzFXR1BaTDUyQmt0U0t3UDg1ZDdyMGNqQTJybTQ2UTdEQ3FmRFZYYklERndhUDFLMV92QUMyNVpBSURlNjlFRHJMQlFhYU5ITWZfejgxdEktVGRHZFRGTHdITFc2M2IzR3ZMRURfX0xmNnBGUWFYdTVxMHVodDFxTE5f?oc=5\" target=\"_blank\"&gt;T",
-          "source": "One Green Planet",
-          "date": "2021-09-27"
         },
         {
           "title": "PFAS-contaminated foam found in Falls Lake, Neuse River - NC Newsline",
@@ -966,13 +990,21 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wVEliYklwa0NPMzNzb2x4ODhSb1h6LUw3UzVoX1VDRk15VXVrMm96YTRZNi1RZTZGZk9jSnd0cUFfSFRtRmxlS2xORW1fZkl2S1Z6YWV5XzRzTGpaNjF4WXBuRQ?oc=5\" target=\"_blank\"&gt;Monday numbers: A closer look at 1,4-Dioxane levels in the Cape Fea",
           "source": "NC Newsline",
           "date": "2019-08-05"
+        },
+        {
+          "title": "EPA proposes ban on 'extremely toxic' TCE, found at dry cleaning sites, other areas throughout NC - NC Newsline",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTlpDajNEMjI4S0dsOVpIdEI5VzFYRDhBUERySjgtdEJjenlPR2w5bHFSUkdpZzYtamROcEJicUFfQ1RndUtxRWwxXzVzS05GVUE4a3JES1dNZ1g2UGxEYU9WSk9iamhRVEpUajlqU09Ic1lHSTh1YlJiM084NjIzYURYQi1lSGtfd2JBc2Zqa2VyRFF0V2dMZFZtNklPbVBSMXg4bEFxTEg5N1hJbjl5bHBmWVJSN1NFSDJmVGdUYXV4UQ?oc=5",
+          "pubDate": "Tue, 24 Oct 2023 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTlpDajNEMjI4S0dsOVpIdEI5VzFYRDhBUERySjgtdEJjenlPR2w5bHFSUkdpZzYtamROcEJicUFfQ1RndUtxRWwxXzVzS05GVUE4a3JES1dNZ1g2UGxEYU9WSk9iamhRVEpUajlqU09Ic1lHSTh1YlJiM084NjIzYURYQi1lSGtfd2JBc2Zqa2VyRFF0V2dMZFZtNklPbVBSMXg4bEFxTEg",
+          "source": "NC Newsline",
+          "date": "2023-10-24"
         }
       ]
     },
     "Columbus": {
       "county": "Columbus",
       "fips": "37047",
-      "lastUpdated": "2026-04-19T08:06:48.863Z",
+      "lastUpdated": "2026-04-20T09:08:26.310Z",
       "analysis": "",
       "articles": [
         {
@@ -1028,7 +1060,7 @@
     "Craven": {
       "county": "Craven",
       "fips": "37049",
-      "lastUpdated": "2026-04-19T08:06:52.130Z",
+      "lastUpdated": "2026-04-20T09:08:29.430Z",
       "analysis": "",
       "articles": [
         {
@@ -1084,7 +1116,7 @@
     "Cumberland": {
       "county": "Cumberland",
       "fips": "37051",
-      "lastUpdated": "2026-04-19T08:06:54.166Z",
+      "lastUpdated": "2026-04-20T09:08:31.419Z",
       "analysis": "",
       "articles": [
         {
@@ -1120,27 +1152,27 @@
           "date": "2022-03-19"
         },
         {
-          "title": "PFAS Exposure | Safe drinking water system in the works for Gray's Creek community in Cumberland County - ABC11 Raleigh-Durham",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbnpTdmp4ckhYNmhnQ1R0cVlmWEtVX2tOM0NSTHJiYjVpQzh4WGlYQnlzMy1zT3BaNk1QYldpTlRJN2RkQVBJQVdpbHRZMlNqLVAwR0JnZ3NxbzZSWjAwRUZNX01PTE02TGxnOXRHT3B3V2tPQUFiOHlUVkFLcEpSN3VRNHVlWGE0MWRfcS15dnZvdHF0bmhfX3FPNHVXUUFrZzVjUjZKQWFWYWxRcFV5QlFNamc5aWNNaWg40gHAAUFVX3lxTE9EUjg3OXFoWEwtcm8yQW4tdXFkQ0tOZGlFWVFfb0FWUDJ0Q3NOX3VYNC1NUXVnYjZyaXlybVE5S3JnVlk3em1abS03TnRDNXZocjdrY2hERDBXRlE5SjA2U2E4cGthZTEtRldQMnVYZExoU2lQcmNJTm9sSDRaS3hoQUowbGVwMjNsTld0WG5pTHl5N0RYejRFUktzTTYzeWFnX0FuNVFwSFhRR2lkeHhaY0FFMlE2YmhLOFBXNzNnZA?oc=5",
-          "pubDate": "Mon, 17 Mar 2025 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbnpTdmp4ckhYNmhnQ1R0cVlmWEtVX2tOM0NSTHJiYjVpQzh4WGlYQnlzMy1zT3BaNk1QYldpTlRJN2RkQVBJQVdpbHRZMlNqLVAwR0JnZ3NxbzZSWjAwRUZNX01PTE02TGxnOXRHT3B3V2tPQUFiOHlUVkFLcEpSN3VRNHVlWGE0MWRfcS15dnZvdHF0bmhfX3FPNHVXUUFrZzVjUjZKQWF",
-          "source": "ABC11 Raleigh-Durham",
-          "date": "2025-03-17"
-        },
-        {
           "title": "Aging infrastructure, PFAS contamination drive $265 million in NC water projects - WRAL",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNDh2WFd1SmZHd1FTX1E2dF9ycVVMUlprTVZLSWFEUU1rV01VY3BLdjdsWW9ETl9uX2VwLS1kTFlva1RxN3dlSGNPczNrUHlMaTVLemdWSmFLM1djUVNGNVJKTWFVNEY4UU5uN2NaNXZMNUJhR2lXc05CU25ucjllbUNtYmFPdk1LZE52QXNLNWNfejNoNGF6SHJWRXgyNnJU?oc=5",
           "pubDate": "Mon, 24 Feb 2025 08:00:00 GMT",
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQNDh2WFd1SmZHd1FTX1E2dF9ycVVMUlprTVZLSWFEUU1rV01VY3BLdjdsWW9ETl9uX2VwLS1kTFlva1RxN3dlSGNPczNrUHlMaTVLemdWSmFLM1djUVNGNVJKTWFVNEY4UU5uN2NaNXZMNUJhR2lXc05CU25ucjllbUNtYmFPdk1LZE52QXNLNWNfejNoNGF6SHJWRXgyNnJU?oc=5\" targ",
           "source": "WRAL",
           "date": "2025-02-24"
+        },
+        {
+          "title": "PFAS Exposure | Safe drinking water system in the works for Gray's Creek community in Cumberland County - ABC11 Raleigh-Durham",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbnpTdmp4ckhYNmhnQ1R0cVlmWEtVX2tOM0NSTHJiYjVpQzh4WGlYQnlzMy1zT3BaNk1QYldpTlRJN2RkQVBJQVdpbHRZMlNqLVAwR0JnZ3NxbzZSWjAwRUZNX01PTE02TGxnOXRHT3B3V2tPQUFiOHlUVkFLcEpSN3VRNHVlWGE0MWRfcS15dnZvdHF0bmhfX3FPNHVXUUFrZzVjUjZKQWFWYWxRcFV5QlFNamc5aWNNaWg40gHAAUFVX3lxTE9EUjg3OXFoWEwtcm8yQW4tdXFkQ0tOZGlFWVFfb0FWUDJ0Q3NOX3VYNC1NUXVnYjZyaXlybVE5S3JnVlk3em1abS03TnRDNXZocjdrY2hERDBXRlE5SjA2U2E4cGthZTEtRldQMnVYZExoU2lQcmNJTm9sSDRaS3hoQUowbGVwMjNsTld0WG5pTHl5N0RYejRFUktzTTYzeWFnX0FuNVFwSFhRR2lkeHhaY0FFMlE2YmhLOFBXNzNnZA?oc=5",
+          "pubDate": "Mon, 17 Mar 2025 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbnpTdmp4ckhYNmhnQ1R0cVlmWEtVX2tOM0NSTHJiYjVpQzh4WGlYQnlzMy1zT3BaNk1QYldpTlRJN2RkQVBJQVdpbHRZMlNqLVAwR0JnZ3NxbzZSWjAwRUZNX01PTE02TGxnOXRHT3B3V2tPQUFiOHlUVkFLcEpSN3VRNHVlWGE0MWRfcS15dnZvdHF0bmhfX3FPNHVXUUFrZzVjUjZKQWF",
+          "source": "ABC11 Raleigh-Durham",
+          "date": "2025-03-17"
         }
       ]
     },
     "Currituck": {
       "county": "Currituck",
       "fips": "37053",
-      "lastUpdated": "2026-04-19T08:06:57.421Z",
+      "lastUpdated": "2026-04-20T09:08:34.555Z",
       "analysis": "",
       "articles": [
         {
@@ -1164,7 +1196,7 @@
     "Dare": {
       "county": "Dare",
       "fips": "37055",
-      "lastUpdated": "2026-04-19T08:07:00.740Z",
+      "lastUpdated": "2026-04-20T09:08:37.738Z",
       "analysis": "",
       "articles": [
         {
@@ -1192,14 +1224,6 @@
           "date": "2025-03-10"
         },
         {
-          "title": "State issues water quality advisory for soundside Dare - Coastal Review",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN0JscklqcmpBZlFXWEpoY1N1S2FpWnZFbl9LaENnTm95TktRN2ktaWRwR2NkVzltcjNvd3o5T19RYUJiUzJOOV9ZM0w4dVBtbmYtZHkzbFVicTNnenl6cWRxSUNKTWdGTmp3Und2cjJFa1V6bVJ5Tm5MT1gtUlJpTlp4SHk0S0gtWjY3c0tXa0JrZFE?oc=5",
-          "pubDate": "Wed, 03 May 2023 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQN0JscklqcmpBZlFXWEpoY1N1S2FpWnZFbl9LaENnTm95TktRN2ktaWRwR2NkVzltcjNvd3o5T19RYUJiUzJOOV9ZM0w4dVBtbmYtZHkzbFVicTNnenl6cWRxSUNKTWdGTmp3Und2cjJFa1V6bVJ5Tm5MT1gtUlJpTlp4SHk0S0gtWjY3c0tXa0JrZFE?oc=5\" target=\"_blank\"&gt;St",
-          "source": "Coastal Review",
-          "date": "2023-05-03"
-        },
-        {
           "title": "North Carolina DEQ Division of Coastal Management issues approvals for Buxton beach nourishment, groin repair - The Coastland Times",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSmplaW1uOXNtRTJWeU9NOHdfQkR5QmlSWUwwTHlXMGVIV0tENjh4SW9HalJqdVNLb2hzdmV6dWF1LW84SGFUR01DVEdKeTRlUXRtMFJicy1Sekh6a3FSM2VfZXMxc2Joelh4dUhKTGhxRzB3SWtMTkpxOHNEdFhSRFpkT3U3eUE0bmlEdy1haDNSZGxQM0tCTGtPLUpXbFV4ZTc2cmFVVnAtWXhMRmlidllZM2haelhxS3VlcU9hQk1OcVhEYjF0UGtmQUhkcHZ5NjFqekFaZXhIVXNVTTlVYVBHclJKTVgtTVJkNQ?oc=5",
           "pubDate": "Mon, 16 Feb 2026 08:00:00 GMT",
@@ -1214,31 +1238,23 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE93OXM5M3ZJX1BkWDlJcVRPT1V1VWpIbmRzakdmR1Y1c1dIbENYWEh4WVNFSXdVTGNGaDAwNHRKME15V2NCZVJWc2ttMmloUTFWeThnUk9WT2M3YWFVcy1nX1duQlZfU00?oc=5\" target=\"_blank\"&gt;Petroleum Remediation Efforts Finally Underway at Buxton Forme",
           "source": "Dare County (.gov)",
           "date": "2024-09-16"
+        },
+        {
+          "title": "North Carolina DEQ awards $10.5M in coastal storm damage grants - Dredging Today",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPLXJwVGROR1h3dk5ldHU4OGdOM2x0TjIwU3lDMXF3N1dlbmg1cUZ0VlZvTjBHSFo4X2szcmRjaERJWnFEOGxuTDBzTjl5VFZaNzhxVFo5MndHNW5tQ1ljM1duSWI0WDcxQXlwWUZCeE5GSkdQVU15WGsxX2w4eUYxTVRMcWJtWkMtMVEwakJ6c3Q3enJsa0FEdzNKVkFpZEFKQ0hES0t1aw?oc=5",
+          "pubDate": "Thu, 20 Jun 2024 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPLXJwVGROR1h3dk5ldHU4OGdOM2x0TjIwU3lDMXF3N1dlbmg1cUZ0VlZvTjBHSFo4X2szcmRjaERJWnFEOGxuTDBzTjl5VFZaNzhxVFo5MndHNW5tQ1ljM1duSWI0WDcxQXlwWUZCeE5GSkdQVU15WGsxX2w4eUYxTVRMcWJtWkMtMVEwakJ6c3Q3enJsa0FEdzNKVkFpZEFKQ0hES0t1aw?",
+          "source": "Dredging Today",
+          "date": "2024-06-20"
         }
       ]
     },
     "Davidson": {
       "county": "Davidson",
       "fips": "37057",
-      "lastUpdated": "2026-04-19T08:07:04.026Z",
+      "lastUpdated": "2026-04-20T09:08:40.873Z",
       "analysis": "",
       "articles": [
-        {
-          "title": "NCDEQ approves water, air permits for SSEP - Appalachian Voices",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UanctU3hteEVETi1PYk1RV0NSSENkLTdwTG5BZ1dlcVlzN2U5cmxNa3c1UVF1UF9ORlZhamFWNjc2OGxkYWV1NWVvZUhON2NNWG5nWmhLTjRqWVM3bHRSYlF3?oc=5",
-          "pubDate": "Fri, 19 Dec 2025 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UanctU3hteEVETi1PYk1RV0NSSENkLTdwTG5BZ1dlcVlzN2U5cmxNa3c1UVF1UF9ORlZhamFWNjc2OGxkYWV1NWVvZUhON2NNWG5nWmhLTjRqWVM3bHRSYlF3?oc=5\" target=\"_blank\"&gt;NCDEQ approves water, air permits for SSEP&lt;/a&gt;&amp;nbsp;&amp;nb",
-          "source": "Appalachian Voices",
-          "date": "2025-12-19"
-        },
-        {
-          "title": "Forever chemicals remain a concern for Triad cities - wfmynews2.com",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQLXZ0LTUxRlhFWVNWQm4wOWFGRlRqdU1kdFg0b1ZnOHYxMUJfVTBQaXVJa0RvMHprdGVJSW8tU1l4NEFRZHc1NjdfaFBueWhsaTBxOEpWdThrcnFyX05lYkVkN2FFSXpDN3A0MHJ4VWNWQ1pNaFNBOU52WkZETXBwOEREd2xPaUNSNEpVVkROQks1bm8xTDZ2N0k2VzlVbVMycldFRnhqeU80RkJO?oc=5",
-          "pubDate": "Tue, 20 May 2025 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxQLXZ0LTUxRlhFWVNWQm4wOWFGRlRqdU1kdFg0b1ZnOHYxMUJfVTBQaXVJa0RvMHprdGVJSW8tU1l4NEFRZHc1NjdfaFBueWhsaTBxOEpWdThrcnFyX05lYkVkN2FFSXpDN3A0MHJ4VWNWQ1pNaFNBOU52WkZETXBwOEREd2xPaUNSNEpVVkROQks1bm8xTDZ2N0k2VzlVbVMycldFRnhqeU8",
-          "source": "wfmynews2.com",
-          "date": "2025-05-20"
-        },
         {
           "title": "Trump EPA ends regulation of greenhouse gases connected to climate change - News &amp; Observer",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZlZ3bGNYR3ljNEFSZWY1NU9ubXRyRVE5Zld6QkJwZGRLQWtwTnl4WXdPRmRua1B5Sk1FSmhtZFRzc2pIMGpoa2tfbEhjQUdBazA5NERHOE1faElTUXNlcmh0VWRjeWpoTXVPUFlSSmxqNkoyRDdGV1NRal9sYy1PMdIBgAFBVV95cUxPYnNtZ1NGRmNGTWc4NXpnVTFoakNiMDBHY1Fhel96bmM5bHU3cXZUMGRac3RCVXF6MHh6TmFCUWRtTS1aaWVNcjFoOFNLYlZBWnZvc3pnYXhVM3NJUGcyLVU4YVJCYWhkOENRSGZ4Q0FFdFN3c1d3RWVXVDF5cHJMcA?oc=5",
@@ -1246,14 +1262,6 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQZlZ3bGNYR3ljNEFSZWY1NU9ubXRyRVE5Zld6QkJwZGRLQWtwTnl4WXdPRmRua1B5Sk1FSmhtZFRzc2pIMGpoa2tfbEhjQUdBazA5NERHOE1faElTUXNlcmh0VWRjeWpoTXVPUFlSSmxqNkoyRDdGV1NRal9sYy1PMdIBgAFBVV95cUxPYnNtZ1NGRmNGTWc4NXpnVTFoakNiMDBHY1Fhel9",
           "source": "News &amp; Observer",
           "date": "2026-02-12"
-        },
-        {
-          "title": "Biden administration announces initiative to improve wastewater sanitation in North Carolina - FOX8 WGHP",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOM1BtbUVxcFVYaGtMU3BUZElzOHNWSkJyZS1sQlBSR0tJMWhCTHBwTDNZTjBtX19rTXMwQV9RUHg2bFY0LXFTZFpfeU8xemhzQlpfMEtPRVlOcmhLZE1FUkdrb05hOW1DRWJrTkpDOTJDOFY2eGZDb3YzMnZRWnNHMmZXZkJ0VkkxVzAzeXhicWNwTWNjS2wxZTBQY1FWVDRSeGFYNFJVME12Q19BNGVFMmpmemVRZ1ZYSDI1RkpLNUFJNURvVkFFQk5IYW84YzlOT25KRkYwVjfSAd4BQVVfeXFMTTQ0MG11WVhJRDZ0UGtPbkd2OER0eU0yTWV5VXFOWC00NndpcktLaElSZE1yNS1UZnEwNGdGSXBTYWdaTGpwZWJCYk5NZ3BQSjVzanBlVUJMcUhJTzd3MUxfbVhqZkJCTkhDMUJvZm56bUd5WXNrYks1OUxONXdKbE1VbnZCcXFXLVFDVDhPdTdJN01jNzFqVlVUZXRuLTVocTF3bVNRN0RzVnQyTW9JbFp4ZmZCSmNZbVliaUVHV2E1cWp1aUdJbnEyZ2ZzazVPTkNGUUYzOFBWeE5vUlpR?oc=5",
-          "pubDate": "Wed, 03 Aug 2022 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxOM1BtbUVxcFVYaGtMU3BUZElzOHNWSkJyZS1sQlBSR0tJMWhCTHBwTDNZTjBtX19rTXMwQV9RUHg2bFY0LXFTZFpfeU8xemhzQlpfMEtPRVlOcmhLZE1FUkdrb05hOW1DRWJrTkpDOTJDOFY2eGZDb3YzMnZRWnNHMmZXZkJ0VkkxVzAzeXhicWNwTWNjS2wxZTBQY1FWVDRSeGFYNFJVME1",
-          "source": "FOX8 WGHP",
-          "date": "2022-08-03"
         },
         {
           "title": "Ronda Fire Department: Multiple agencies respond to apartment fire in Elkin - WXII",
@@ -1268,7 +1276,7 @@
     "Davie": {
       "county": "Davie",
       "fips": "37059",
-      "lastUpdated": "2026-04-19T08:07:07.230Z",
+      "lastUpdated": "2026-04-20T09:08:43.988Z",
       "analysis": "",
       "articles": [
         {
@@ -1292,7 +1300,7 @@
     "Duplin": {
       "county": "Duplin",
       "fips": "37061",
-      "lastUpdated": "2026-04-19T08:07:09.183Z",
+      "lastUpdated": "2026-04-20T09:08:45.920Z",
       "analysis": "",
       "articles": [
         {
@@ -1328,11 +1336,11 @@
           "date": "2023-01-25"
         },
         {
-          "title": "Trump withdraws proposed 'forever chemicals' discharge limits from consideration - WUNC",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNam9HdTdRZW5pRWRydzlSQW5WXzBBWXpPQkdWVTNfWEU3ODByY0FaTmtrTG02VlRiS2xPanRfczIwamlsTVVIVk52LUJmSDJFU3F6bEIzM1pnaXBKSy1QVFRZMWRIQTBYTW8yVDF1eFpNZ3drUC14ZXk4NGJSUGVMLUJWNUloakpRdmFKWW9IUXVKbUQwZTV2TjNWcGZxdjhPeVplUV9RQ0c4dFZ5Uk5r?oc=5",
+          "title": "Trump withdraws proposed 'forever chemicals' discharge limits from consideration - WFAE",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObHFMX3BjTGdTbmVEdm9oRWVGREp2alFkVlRndXJZck01SEdPUmhzbzAwLXQ4WWNlenI0SDJZUkIxN19BNzIwTm9pWExqUkQyWkZxLV9POW5yUzFGeUdhNE13VEtQR0Fmdk9nQ3AxS0Q1Z3YtbjhFLXd2d0o5Z3pEaHIzczE3VDNvV1JlcnZDWHRpUXZqQTFFT0FodEJSN29sT0xUa2FoWTN3eGNDSEpEa1lHNmRod0NIcVdRcjBHdzNEVmtfYUVJNA?oc=5",
           "pubDate": "Wed, 05 Feb 2025 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNam9HdTdRZW5pRWRydzlSQW5WXzBBWXpPQkdWVTNfWEU3ODByY0FaTmtrTG02VlRiS2xPanRfczIwamlsTVVIVk52LUJmSDJFU3F6bEIzM1pnaXBKSy1QVFRZMWRIQTBYTW8yVDF1eFpNZ3drUC14ZXk4NGJSUGVMLUJWNUloakpRdmFKWW9IUXVKbUQwZTV2TjNWcGZxdjhPeVplUV9RQ0c",
-          "source": "WUNC",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxObHFMX3BjTGdTbmVEdm9oRWVGREp2alFkVlRndXJZck01SEdPUmhzbzAwLXQ4WWNlenI0SDJZUkIxN19BNzIwTm9pWExqUkQyWkZxLV9POW5yUzFGeUdhNE13VEtQR0Fmdk9nQ3AxS0Q1Z3YtbjhFLXd2d0o5Z3pEaHIzczE3VDNvV1JlcnZDWHRpUXZqQTFFT0FodEJSN29sT0xUa2FoWTN",
+          "source": "WFAE",
           "date": "2025-02-05"
         },
         {
@@ -1348,7 +1356,7 @@
     "Durham": {
       "county": "Durham",
       "fips": "37063",
-      "lastUpdated": "2026-04-19T08:07:11.166Z",
+      "lastUpdated": "2026-04-20T09:08:47.879Z",
       "analysis": "",
       "articles": [
         {
@@ -1404,15 +1412,15 @@
     "Edgecombe": {
       "county": "Edgecombe",
       "fips": "37065",
-      "lastUpdated": "2026-04-19T08:07:14.463Z",
+      "lastUpdated": "2026-04-20T09:08:51.022Z",
       "analysis": "",
       "articles": [
         {
-          "title": "Data centers use a lot of water. What does that mean for NC water quality and availability? - WUNC",
+          "title": "Data centers use a lot of water. What does that mean for NC water quality and availability? - WUNC News",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb0FoNzdKaERrQ1ZoR3lzMmxCREZrcWlzbTVGY3lQNFh1aXgyV0lJTXZhOVh5RzF0NHYzYmtRcjBSS28yRzVVVWc2VTg0LXdtdzE5SXBkS0U3eXBTZzFQb1Z2a2tiREVtd2RvRU1xaTdxT0FPTzVmTHRDaFROVUM2OHlGY25lNWVZTzBuS2J3Nm05SmY2TUxhMXRRMjJ0T2c?oc=5",
           "pubDate": "Fri, 10 Apr 2026 07:00:00 GMT",
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOb0FoNzdKaERrQ1ZoR3lzMmxCREZrcWlzbTVGY3lQNFh1aXgyV0lJTXZhOVh5RzF0NHYzYmtRcjBSS28yRzVVVWc2VTg0LXdtdzE5SXBkS0U3eXBTZzFQb1Z2a2tiREVtd2RvRU1xaTdxT0FPTzVmTHRDaFROVUM2OHlGY25lNWVZTzBuS2J3Nm05SmY2TUxhMXRRMjJ0T2c?oc=5\" targe",
-          "source": "WUNC",
+          "source": "WUNC News",
           "date": "2026-04-10"
         }
       ]
@@ -1420,7 +1428,7 @@
     "Forsyth": {
       "county": "Forsyth",
       "fips": "37067",
-      "lastUpdated": "2026-04-19T08:07:17.764Z",
+      "lastUpdated": "2026-04-20T09:08:54.215Z",
       "analysis": "",
       "articles": [
         {
@@ -1440,11 +1448,11 @@
           "date": "2024-03-21"
         },
         {
-          "title": "Brunswick County almost finished installing PFAS water treatment system - WUNC",
+          "title": "Brunswick County almost finished installing PFAS water treatment system - WUNC News",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZHhtVnQzc3BDdkJINnN5TUpOMzFSZGdqYlVQMm5qLUxiV0FONjdLWVp4QnplX0xOSkJ2R1Z6WkppSzlFdmxDZjE0LXdOYk9tWWlfc3VBSFJjbkxScklESURNQnRmek85bUdzcDhTUmxzd2JWQnhHd3ZZSzQ1OWxpSk9ULVg1MEpPT3pIVmNHUTJrbkZYSzV0Y1Rlbk85QQ?oc=5",
           "pubDate": "Thu, 27 Feb 2025 08:00:00 GMT",
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQZHhtVnQzc3BDdkJINnN5TUpOMzFSZGdqYlVQMm5qLUxiV0FONjdLWVp4QnplX0xOSkJ2R1Z6WkppSzlFdmxDZjE0LXdOYk9tWWlfc3VBSFJjbkxScklESURNQnRmek85bUdzcDhTUmxzd2JWQnhHd3ZZSzQ1OWxpSk9ULVg1MEpPT3pIVmNHUTJrbkZYSzV0Y1Rlbk85QQ?oc=5\" target",
-          "source": "WUNC",
+          "source": "WUNC News",
           "date": "2025-02-27"
         },
         {
@@ -1456,29 +1464,37 @@
           "date": "2021-04-26"
         },
         {
+          "title": "Discharge from Belews Creek power plant affects water quality - FOX8 WGHP",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVDdIMFhZWVRPbmhMZE1BOEhoN0N3Q1gyMWtJeFY2Tkdna1NSNDItdHdtWkZYdk1zRmx2dVQzWWFucUVtTEpZcG9IZXplUWhhZnNtcDYxa3hpTTg3bzBQbzBmWnIxemZTdGIxU1M0d09ZMWNRMmRCWm80MmlHWlkwRmZ4ZWk0aGJIRDk3RXJ5WdIBlAFBVV95cUxPY0E4ZVBMYWdyVEt2cUZ0RElNQ09VdzY2QWxhRFMyV3YyUWNDeG5ab2tiNkRaSV9kdFpVemM5MU5SZ2hMUmZPUTcyRnFqRzlaVlpCaDVlNDdtN0YyeFJkbm9WSW5BQjVvRldLQlZTSmVtWDdPU2ZYcWg4UHp0M2NFR3MyMXlycm9nV2ktMGZUVUw0N29k?oc=5",
+          "pubDate": "Sun, 13 Apr 2014 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQVDdIMFhZWVRPbmhMZE1BOEhoN0N3Q1gyMWtJeFY2Tkdna1NSNDItdHdtWkZYdk1zRmx2dVQzWWFucUVtTEpZcG9IZXplUWhhZnNtcDYxa3hpTTg3bzBQbzBmWnIxemZTdGIxU1M0d09ZMWNRMmRCWm80MmlHWlkwRmZ4ZWk0aGJIRDk3RXJ5WdIBlAFBVV95cUxPY0E4ZVBMYWdyVEt2cUZ",
+          "source": "FOX8 WGHP",
+          "date": "2014-04-13"
+        },
+        {
           "title": "North Carolina Utility Uses ArcGIS to Make Drinking Water Safer | Summer 2025 | ArcNews - Esri",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPS2RMRmpld0NPS1ZoeHdVTEkwRjRIOVkwMTM2VVdLU1c2NlVKSGJwcVZwZHhzUDVPXzlPTmoyV0N4WUM5ZkZONVRGNm52TDlpd3dTSDdjbHhHNW45SGU2d3lXczM1d09maHFFOWlPTW03ZXlTZEJpWmZwengxVVNXcVB0WVBYeXVCNmlES094cHNLbFQ1V2NjNklKODlCWUU2Y0hXZzZTVnBVdWs?oc=5",
           "pubDate": "Thu, 26 Jun 2025 08:44:29 GMT",
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxPS2RMRmpld0NPS1ZoeHdVTEkwRjRIOVkwMTM2VVdLU1c2NlVKSGJwcVZwZHhzUDVPXzlPTmoyV0N4WUM5ZkZONVRGNm52TDlpd3dTSDdjbHhHNW45SGU2d3lXczM1d09maHFFOWlPTW03ZXlTZEJpWmZwengxVVNXcVB0WVBYeXVCNmlES094cHNLbFQ1V2NjNklKODlCWUU2Y0hXZzZTVnB",
           "source": "Esri",
           "date": "2025-06-26"
-        },
-        {
-          "title": "Bridging gaps: HBCUs, EPA collaborate on environmental justice research - North Carolina Health News",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbkxKQ1dkdEI0Y1NCS19naHlCX0RWN21KTk1UZUs4SGhNSFZ3VGpNekJXYldFVVlrUEFubGowaU8zeU1DeUtjT21nSmtIR0dWUWdPc1JqLUxnVkQ0SlhXTkJIS1cxdEhwUmlNOU0xMzFzYUwtRTVOcU9lSWl1SzlrWDRydkFndXdBYTdCd3EtR2VkcVpsb1gxdHlNTl9mTDNNeUV5NUYwVXNZSzAtYVA4WEx2MVFrZm1lVWVTRThR?oc=5",
-          "pubDate": "Wed, 20 Nov 2024 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPbkxKQ1dkdEI0Y1NCS19naHlCX0RWN21KTk1UZUs4SGhNSFZ3VGpNekJXYldFVVlrUEFubGowaU8zeU1DeUtjT21nSmtIR0dWUWdPc1JqLUxnVkQ0SlhXTkJIS1cxdEhwUmlNOU0xMzFzYUwtRTVOcU9lSWl1SzlrWDRydkFndXdBYTdCd3EtR2VkcVpsb1gxdHlNTl9mTDNNeUV5NUYwVXN",
-          "source": "North Carolina Health News",
-          "date": "2024-11-20"
         }
       ]
     },
     "Franklin": {
       "county": "Franklin",
       "fips": "37069",
-      "lastUpdated": "2026-04-19T08:07:21.136Z",
+      "lastUpdated": "2026-04-20T09:08:57.462Z",
       "analysis": "",
       "articles": [
+        {
+          "title": "Attorneys: Presence of 'forever chemicals' in North Georgia water 'alarming' - FOX 5 Atlanta",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcDk3VURrSUtkckFGVGlLdWRsY2FZSmk5U09RY3lJTlB3Mm5KVDlCcHlUbVFaRnllTVdrVDgyZkkzcloyTDhOUkJCV3FJUmQ5NGtVaWVFQTBkQWpTTEtRTlgwVk5fbV9uNy0zczhpa1hmdm4tUnB3cTBMSG9IeWJTbFBrN2RnRVRaX1c3NDFRM2VIbjhMeHZ1enVFTjV5WGJsanfSAacBQVVfeXFMT2JoRzVTSng3bTdzTWZjby13WmdDeHNVUHM4WXZpNS1XdVk0T2hSMXRLb2RVNXlDbzdwbGZNY1RpVC0wc3NNbEFxNVNBT3Q0WjlFNHFlWTZGS3FnVTR5QjQyYnZ0Rk14RmYyT1ZNTXQza0NweGtGRll2WlJwbzM4ZDBDV3ByME1IVVlsdFROblNZaEpjN3BmT05seHNaWVdPM3poZHM2Sms?oc=5",
+          "pubDate": "Wed, 11 Jun 2025 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPcDk3VURrSUtkckFGVGlLdWRsY2FZSmk5U09RY3lJTlB3Mm5KVDlCcHlUbVFaRnllTVdrVDgyZkkzcloyTDhOUkJCV3FJUmQ5NGtVaWVFQTBkQWpTTEtRTlgwVk5fbV9uNy0zczhpa1hmdm4tUnB3cTBMSG9IeWJTbFBrN2RnRVRaX1c3NDFRM2VIbjhMeHZ1enVFTjV5WGJsanfSAacBQVV",
+          "source": "FOX 5 Atlanta",
+          "date": "2025-06-11"
+        },
         {
           "title": "Contaminated drinking water may stretch beyond eastern Wake County private wells - News &amp; Observer",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBaWEhkNXJqbjJDdkNnZmttWFY3VHdxMHlPRWVKdV9jYkcybU1SRE5SdWYyU3piVUxpWUdIbXBsNVhZS3AyOEFsZXZhX2NUWXdzV0x4LXJRQVZuQ0haYmI0MGxCVkZVdVlxajJ6R1h30gFuQVVfeXFMTld0RG93MEVLcXlDbjVwR05CeVNUZUNrVDE5b3BwRjF5SmktZUdaNWxsMFpUVTlWZmQ3VXhTSHVBSkQyeHgzSlVtWFhja1lVUm5paUVoQzRGWGw3ZHdMLVpzREdONkNVWW9xdUxKb3c?oc=5",
@@ -1518,21 +1534,13 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMkNONGFFLTNxUzNUMnJBeTBjMXFBMGJMWjBQMjZtZ2YzbkJPVEZFaXExMUtSUVptT25wWkZFb3ItTEZCbXNhcFY0U0dEQlFkZDhRaDVtWW02dlltY2hkdjM3MVpGUnVKMXphV0FSS0swb3ctN1pMSGl1cG11MHgyY3FDVzRLd25iZHc0?oc=5\" target=\"_blank\"&gt;Citizens grou",
           "source": "The Warren Record",
           "date": "2026-04-15"
-        },
-        {
-          "title": "Two dozen states, 10 cities sue EPA over repeal of 'endangerment' finding central to climate fight - WSLS",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNDJQZV9IMk8zT0JBamhuamlnVjRONmFZajAtMWJESmlyMXFldFV3TXAyMGZOcWVrS25WaXFQUUd2dDFCb0JDRzZ0blF6YVdYZTZ6UF9NN191RUpzaUluZ0JhNkdobUpiWDZpdE85ZGZKejFFYktOVWxMbFFfTG5mTDlEQzEzcElIUm4xOG9SQy0wVlNVTWtPVmg0VHRaM2drblZaQ1RvTi0tdVA4bWlSNG1EME05Z0VYYlJmcWhadnc3N1gxTlZ5TnNSM0tGNEVMX1VmWGxRblZSQQ?oc=5",
-          "pubDate": "Thu, 19 Mar 2026 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNDJQZV9IMk8zT0JBamhuamlnVjRONmFZajAtMWJESmlyMXFldFV3TXAyMGZOcWVrS25WaXFQUUd2dDFCb0JDRzZ0blF6YVdYZTZ6UF9NN191RUpzaUluZ0JhNkdobUpiWDZpdE85ZGZKejFFYktOVWxMbFFfTG5mTDlEQzEzcElIUm4xOG9SQy0wVlNVTWtPVmg0VHRaM2drblZaQ1RvTi0",
-          "source": "WSLS",
-          "date": "2026-03-19"
         }
       ]
     },
     "Gaston": {
       "county": "Gaston",
       "fips": "37071",
-      "lastUpdated": "2026-04-19T08:07:23.122Z",
+      "lastUpdated": "2026-04-20T09:09:00.326Z",
       "analysis": "",
       "articles": [
         {
@@ -1544,28 +1552,12 @@
           "date": "2025-02-21"
         },
         {
-          "title": "NC sues 14 manufacturers of firefighting foam, alleging PFAS contaminates groundwater - News &amp; Observer",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxON3pyU05ZYkN3SjNUMUQ4UU9WTWgxOUU4SURaVmFWWF9hemsyb2VnSlFMeFphQWRTQmFHZWU0ekY5R2pFOEkwTDdMd3VuVnVjZVp3Y1hDU2U3OE9JRlJ5NHZLXzlLYk9ucEhCZ2dMNVVyU2pKNHN0ZmMyekNNTHVpNNIBgAFBVV95cUxQLVNGcUI5OXhVZkRxbUxLTWtQWXItblZVYmhRU3pFaWtYZWZIWENPMVpVYVJnWV9VaTJ6UTllWF9uS0g0dlJaOW1RZXJRbHRBYjRvNnltQm10MWVaQ2d6Q1hOWk5aalBoOW1oa3NyTld0MUpTZHY2aWl3SjdUOHM5Zw?oc=5",
-          "pubDate": "Thu, 04 Nov 2021 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxON3pyU05ZYkN3SjNUMUQ4UU9WTWgxOUU4SURaVmFWWF9hemsyb2VnSlFMeFphQWRTQmFHZWU0ekY5R2pFOEkwTDdMd3VuVnVjZVp3Y1hDU2U3OE9JRlJ5NHZLXzlLYk9ucEhCZ2dMNVVyU2pKNHN0ZmMyekNNTHVpNNIBgAFBVV95cUxQLVNGcUI5OXhVZkRxbUxLTWtQWXItblZVYmhRU3p",
-          "source": "News &amp; Observer",
-          "date": "2021-11-04"
-        },
-        {
           "title": "NC lawmakers, firefighters calling for fire departments to stop using toxic firefighting foam - WCNC",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSndFWlB2bEZHV2ZxUk5DZFBnMzllLUtCZ3lYZDdsZDlQS2lSSFNwT1NOU19zVVlDUHZWcElLem1RM2xob1c3ZlNZNDAxRXBkRnBIeFNoV282OHVYMFllYUlNQzZMOEpoSDF1d2hlUmRPNi03OHJ1Qk15M2xTNDRUZVNacEhsWHE1R2hCYjJobW1mSjU3OUNoNXRKOFNWNGVjNDVfazhoSUY2cTUxeW10eWlGYUxyR0pBUjFHblV0Q2ZUbFdKaUs5bjYtc0xRYmRaWWl3MjdR?oc=5",
           "pubDate": "Fri, 05 Jan 2024 08:00:00 GMT",
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSndFWlB2bEZHV2ZxUk5DZFBnMzllLUtCZ3lYZDdsZDlQS2lSSFNwT1NOU19zVVlDUHZWcElLem1RM2xob1c3ZlNZNDAxRXBkRnBIeFNoV282OHVYMFllYUlNQzZMOEpoSDF1d2hlUmRPNi03OHJ1Qk15M2xTNDRUZVNacEhsWHE1R2hCYjJobW1mSjU3OUNoNXRKOFNWNGVjNDVfazhoSUY",
           "source": "WCNC",
           "date": "2024-01-05"
-        },
-        {
-          "title": "NC fire departments stuck with 120,000 gallons of toxic foam; legislation has funds to buy it back - NC Newsline",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVXpKX0puODQxU1g1S0syUDYwem5qb01tdlh4UXdDN0ZjQnFmSS1obmZxUnRUSTcwR3FucXMzaXVaS3NBSDd3b05pMTlnZE9EXzdpWkdTX2p3ZThYVThSN05DRUFHUDRaazRMU0lMUUZHVTB5bVczMlp4engxQlFKSVRMNWlIRVFGN25DR1VfeDY2Mm15YkRoVmtsQVktTFNuenNaWVRKNXgyMHJlUGUzc2VHanJ6VElZRjBTbUhZMWdmdmc1X2tnaWlHUQ?oc=5",
-          "pubDate": "Fri, 21 Apr 2023 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxQVXpKX0puODQxU1g1S0syUDYwem5qb01tdlh4UXdDN0ZjQnFmSS1obmZxUnRUSTcwR3FucXMzaXVaS3NBSDd3b05pMTlnZE9EXzdpWkdTX2p3ZThYVThSN05DRUFHUDRaazRMU0lMUUZHVTB5bVczMlp4engxQlFKSVRMNWlIRVFGN25DR1VfeDY2Mm15YkRoVmtsQVktTFNuenNaWVRKNXg",
-          "source": "NC Newsline",
-          "date": "2023-04-21"
         },
         {
           "title": "EPA proposes ban on 'extremely toxic' TCE, found at dry cleaning sites, other areas throughout NC - NC Newsline",
@@ -1576,33 +1568,58 @@
           "date": "2023-10-24"
         },
         {
+          "title": "NC fire departments stuck with 120,000 gallons of toxic foam; legislation has funds to buy it back - NC Newsline",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVXpKX0puODQxU1g1S0syUDYwem5qb01tdlh4UXdDN0ZjQnFmSS1obmZxUnRUSTcwR3FucXMzaXVaS3NBSDd3b05pMTlnZE9EXzdpWkdTX2p3ZThYVThSN05DRUFHUDRaazRMU0lMUUZHVTB5bVczMlp4engxQlFKSVRMNWlIRVFGN25DR1VfeDY2Mm15YkRoVmtsQVktTFNuenNaWVRKNXgyMHJlUGUzc2VHanJ6VElZRjBTbUhZMWdmdmc1X2tnaWlHUQ?oc=5",
+          "pubDate": "Fri, 21 Apr 2023 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxQVXpKX0puODQxU1g1S0syUDYwem5qb01tdlh4UXdDN0ZjQnFmSS1obmZxUnRUSTcwR3FucXMzaXVaS3NBSDd3b05pMTlnZE9EXzdpWkdTX2p3ZThYVThSN05DRUFHUDRaazRMU0lMUUZHVTB5bVczMlp4engxQlFKSVRMNWlIRVFGN25DR1VfeDY2Mm15YkRoVmtsQVktTFNuenNaWVRKNXg",
+          "source": "NC Newsline",
+          "date": "2023-04-21"
+        },
+        {
           "title": "Your discarded carpet is poisoning the Earth with PFAS - NC Newsline",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTjB2dm5Mak9aRFJKSHA3MHBudkRYUU1ENVFRMTRSY0hlaEZjdU5RVVk2ZjlQczZ0SFdmaUpoWWZ3aFVOOGFGTWFfV01PVFl5R3FVQVdNOGp2YlV2ZVBFRmtLX1ZjZ1paZkYteWswNDhTQW9TRXN5d0NVTmNibmw4dE9oWDlWa01QN3RtODdQdXVkNUk?oc=5",
           "pubDate": "Thu, 16 Apr 2020 07:00:00 GMT",
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPTjB2dm5Mak9aRFJKSHA3MHBudkRYUU1ENVFRMTRSY0hlaEZjdU5RVVk2ZjlQczZ0SFdmaUpoWWZ3aFVOOGFGTWFfV01PVFl5R3FVQVdNOGp2YlV2ZVBFRmtLX1ZjZ1paZkYteWswNDhTQW9TRXN5d0NVTmNibmw4dE9oWDlWa01QN3RtODdQdXVkNUk?oc=5\" target=\"_blank\"&gt;Yo",
           "source": "NC Newsline",
           "date": "2020-04-16"
+        },
+        {
+          "title": "Duke researchers investigating water quality in 3 counties where lithium mining could happen again - WCNC",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONzlpZnp4SFlHcHkybVo5VnNneXBBY2lGVlFycFJWcHdUVnpzRktnYjRJMmNZSzNTcmlqc2VFQ3VmOHlDOXM2VHlvRlBrSlFqOHJKWnB0c3FzRDlXY2Q4Qk5BcGhqUUQ2VzRtTG45QmlsN01QeDhoaEUtR1V3c2doZ2xHZXpTVWxsNDFRU2RFR2x0NnFmdTJwNFk5TXI2SVlGUXg3NVFQdVZyVm01dEE0b01sQVRBa2NHajZxX2c4LUE3dWtkcHRkMHB4bko?oc=5",
+          "pubDate": "Thu, 04 Apr 2024 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxONzlpZnp4SFlHcHkybVo5VnNneXBBY2lGVlFycFJWcHdUVnpzRktnYjRJMmNZSzNTcmlqc2VFQ3VmOHlDOXM2VHlvRlBrSlFqOHJKWnB0c3FzRDlXY2Q4Qk5BcGhqUUQ2VzRtTG45QmlsN01QeDhoaEUtR1V3c2doZ2xHZXpTVWxsNDFRU2RFR2x0NnFmdTJwNFk5TXI2SVlGUXg3NVFQdVZ",
+          "source": "WCNC",
+          "date": "2024-04-04"
         }
       ]
     },
     "Gates": {
       "county": "Gates",
       "fips": "37073",
-      "lastUpdated": "2026-04-19T08:07:26.415Z",
+      "lastUpdated": "2026-04-20T09:09:03.445Z",
       "analysis": "",
-      "articles": []
+      "articles": [
+        {
+          "title": "Dental deserts: Lack of adequate oral health care across North Carolina - North Carolina Health News",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMUp2YWNDVWVqWkxPT3RZTkY3WUJpX0VreFZCSEY0MEg4VE0yaEZ4VGxaTmhobnVKYndaV1BZN0tGZngxTVRxVEN6ZjNud3JTTFdDWGszaExLbXptQzBBRlFvOF9aODlSNVR3TTMtckJkVGhSbXBYdEFzeExEUXM5M1VTQnRJa1VSVDJNcW0xclJRREh1UVhFNmNWYWQ?oc=5",
+          "pubDate": "Sat, 24 Oct 2020 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQMUp2YWNDVWVqWkxPT3RZTkY3WUJpX0VreFZCSEY0MEg4VE0yaEZ4VGxaTmhobnVKYndaV1BZN0tGZngxTVRxVEN6ZjNud3JTTFdDWGszaExLbXptQzBBRlFvOF9aODlSNVR3TTMtckJkVGhSbXBYdEFzeExEUXM5M1VTQnRJa1VSVDJNcW0xclJRREh1UVhFNmNWYWQ?oc=5\" target=\"_",
+          "source": "North Carolina Health News",
+          "date": "2020-10-24"
+        }
+      ]
     },
     "Graham": {
       "county": "Graham",
       "fips": "37075",
-      "lastUpdated": "2026-04-19T08:07:29.723Z",
+      "lastUpdated": "2026-04-20T09:09:06.539Z",
       "analysis": "",
       "articles": []
     },
     "Granville": {
       "county": "Granville",
       "fips": "37077",
-      "lastUpdated": "2026-04-19T08:07:33.016Z",
+      "lastUpdated": "2026-04-20T09:09:09.617Z",
       "analysis": "",
       "articles": [
         {
@@ -1642,9 +1659,17 @@
     "Greene": {
       "county": "Greene",
       "fips": "37079",
-      "lastUpdated": "2026-04-19T08:07:36.232Z",
+      "lastUpdated": "2026-04-20T09:09:12.532Z",
       "analysis": "",
       "articles": [
+        {
+          "title": "Samples show PFAs levels up in Greenville, utilities leaders say water is still safe to dr - WCTI",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOHg0UHpOZ1RobWdHOTctZDl1MWQtODVxZzNWMkRJWnVqRDU1WEM5SnJGZTJVblRJRUpVUklyZHIzRVp0U0hNNjdndkhlWllZV1p4R0lFR0hsX1JXOEV3YUtlb2RibGtnYnNFaUNyWmpzNlo0S3ZMTzkzYTdMVUlBUmFhRnNXdHY3elZlQ1lKTGRJcFh1MFVCVVVORXpwQjUxc3AtQ0JZSVdlTFA0dHdEVnBfMlVVVTVmdWNhdk5NYw?oc=5",
+          "pubDate": "Wed, 23 Aug 2023 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxOOHg0UHpOZ1RobWdHOTctZDl1MWQtODVxZzNWMkRJWnVqRDU1WEM5SnJGZTJVblRJRUpVUklyZHIzRVp0U0hNNjdndkhlWllZV1p4R0lFR0hsX1JXOEV3YUtlb2RibGtnYnNFaUNyWmpzNlo0S3ZMTzkzYTdMVUlBUmFhRnNXdHY3elZlQ1lKTGRJcFh1MFVCVVVORXpwQjUxc3AtQ0JZSVd",
+          "source": "WCTI",
+          "date": "2023-08-23"
+        },
         {
           "title": "Attorneys: Presence of 'forever chemicals' in North Georgia water 'alarming' - FOX 5 Atlanta",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcDk3VURrSUtkckFGVGlLdWRsY2FZSmk5U09RY3lJTlB3Mm5KVDlCcHlUbVFaRnllTVdrVDgyZkkzcloyTDhOUkJCV3FJUmQ5NGtVaWVFQTBkQWpTTEtRTlgwVk5fbV9uNy0zczhpa1hmdm4tUnB3cTBMSG9IeWJTbFBrN2RnRVRaX1c3NDFRM2VIbjhMeHZ1enVFTjV5WGJsanfSAacBQVVfeXFMT2JoRzVTSng3bTdzTWZjby13WmdDeHNVUHM4WXZpNS1XdVk0T2hSMXRLb2RVNXlDbzdwbGZNY1RpVC0wc3NNbEFxNVNBT3Q0WjlFNHFlWTZGS3FnVTR5QjQyYnZ0Rk14RmYyT1ZNTXQza0NweGtGRll2WlJwbzM4ZDBDV3ByME1IVVlsdFROblNZaEpjN3BmT05seHNaWVdPM3poZHM2Sms?oc=5",
@@ -1684,21 +1709,13 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQS3pUQ1BzTUFtS1FOM0VXRFhMbjhvbVlLYTdwazVmS0xWREYtRHpoeUs1bng2MlpWemN2cU5aVG1pT3BqVWE2UVJlNmR0TTU2akZaSXJBTkhXQlRXLXY5ZFVrTkM5MldhMkx2Y0p3SVg1Z0g1Um81VnpzSEpacUtKbFNPWVRQWGt4VnhnRlo2RVdmOTVQU01aMnVwSXkwRmhFTGswMFdjR2d",
           "source": "WCTI",
           "date": "2024-12-23"
-        },
-        {
-          "title": "Biden administration pledges support for Lowndes County wastewater solutions amid sewage crisis - Montgomery Advertiser",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQbXkyS0NqSW90MHh6T25aVUFmQmx5dHZOZ2hXdWZmaWY4NllZYjU1ZHY0YXBBcWRDaGJxRDJpbk9YQ05Kb2Q5dHFsODRrRkZFN0pOdDlSdUNUcXZKTmV6TWx4LUwwbDlHTnllQ0JWbHZHdHl4OXlQVzRkSXpyUGNnbkdTTkFBcHdiOUhfc05xLWhETnVKTWhSdWpUYmFURVBGc1FmeUtLV3dld0k4b2N1WE9TVkl6YTBjdHd4YUFaamE1MDVIdjVYQi1fVjZCTnNZUXVmVGd2NkNIWGtDeXRZ?oc=5",
-          "pubDate": "Tue, 02 Aug 2022 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxQbXkyS0NqSW90MHh6T25aVUFmQmx5dHZOZ2hXdWZmaWY4NllZYjU1ZHY0YXBBcWRDaGJxRDJpbk9YQ05Kb2Q5dHFsODRrRkZFN0pOdDlSdUNUcXZKTmV6TWx4LUwwbDlHTnllQ0JWbHZHdHl4OXlQVzRkSXpyUGNnbkdTTkFBcHdiOUhfc05xLWhETnVKTWhSdWpUYmFURVBGc1FmeUtLV3d",
-          "source": "Montgomery Advertiser",
-          "date": "2022-08-02"
         }
       ]
     },
     "Guilford": {
       "county": "Guilford",
       "fips": "37081",
-      "lastUpdated": "2026-04-19T08:07:39.258Z",
+      "lastUpdated": "2026-04-20T09:09:15.433Z",
       "analysis": "",
       "articles": [
         {
@@ -1726,6 +1743,14 @@
           "date": "2023-07-21"
         },
         {
+          "title": "Monday numbers: A closer look at the problem of contaminated drinking water wells in NC - NC Newsline",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNRkZFOFZtLTA4aW5PdExqQ1hkYjBQMk9nQklmVzh1UVZodkhvaTdUTFpxaTBaNXVIRm9rMldNOU1kYmlhY3RYUVdJOUdjZlhVX1BrUnM2RFIxdmZvd0xsOGtIMDlDSlpRZ2l0aDkxNVYyay13Zjg2TFQxb0F2ekZfSm4zN2RoV1diaTVyZjZDNTkwdWFDaFI2QVpPbjdsa3BSRXN3endTTl9SRWlwV29wSjQwTXFKazU1TjVUQXZvdVR1UXRCbHJfN25zTHR6eWJDNDV0aGdGWV9xWm9MVWZVSA?oc=5",
+          "pubDate": "Mon, 14 Nov 2022 08:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxNRkZFOFZtLTA4aW5PdExqQ1hkYjBQMk9nQklmVzh1UVZodkhvaTdUTFpxaTBaNXVIRm9rMldNOU1kYmlhY3RYUVdJOUdjZlhVX1BrUnM2RFIxdmZvd0xsOGtIMDlDSlpRZ2l0aDkxNVYyay13Zjg2TFQxb0F2ekZfSm4zN2RoV1diaTVyZjZDNTkwdWFDaFI2QVpPbjdsa3BSRXN3endTTl9",
+          "source": "NC Newsline",
+          "date": "2022-11-14"
+        },
+        {
           "title": "'Where would they get water?': Pipeline brings up water quality and explosion risk concerns - WXII",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOHlvcExVRVlNSHBuS3FTNk15UzJVVmhmUVUtMmNCU2dBV1pLZzBOd1NxMkNSeU1YUzN6cXFYUlZCVUNCc0xWczhvMEludW9ndHVwSHNidGdfa3RfQURFRUlRZVpodE1nWmZSUVE5Zm1WNTEtb1VCb3hpUDl4T0lGckZGTFFESUF4Qk5ONEk3QWV0djFaSmNGcWMzbVlQUldHLU5jdFotS2VnMHU1U0pCaDVVeTB3dmpzbGpQSzJQcUJWbHRHVEpWZkZZQllBZw?oc=5",
           "pubDate": "Thu, 17 Apr 2025 07:00:00 GMT",
@@ -1734,27 +1759,19 @@
           "date": "2025-04-17"
         },
         {
-          "title": "North Carolina among 4 states with worst drinking water violations - FOX8 WGHP",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTk9PcVR3WUdGT1FiRTJNTGVKMmRKSm1GOF9vMnQzRXBGcUo3QW1CdjQydUNLSk8xZ2ZjY2lWcXNLRzkyQk5VTkFsMmhhck5hWXZUaVZ6WklWUmNabzVmUXhkeE44Ty0tMEtoN0xSYU1GWERBUkpJSTk3dlk1Qy1OWHBjNUZ6aVRHVEh3cWZyRUxCUHRLcEHSAZsBQVVfeXFMT3JMbkRKYVlhNk03Z1lrVEpnQmZCWWpIUFBsb01JenBKQTRrV2NwMzBad19ydm41VC1FWENyX1R6UWFTai02RFAwTjk1UklZWXRvYTV1M2JJR0tiUHRpaG95N29pZ051TV8wbmpkd080TXJtZjluUjZFZGVVc1ZZeDJfUTBVbi1VaUdnM3hFd2NIbjg3cjlMN1J6ek0?oc=5",
-          "pubDate": "Tue, 15 Apr 2025 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPTk9PcVR3WUdGT1FiRTJNTGVKMmRKSm1GOF9vMnQzRXBGcUo3QW1CdjQydUNLSk8xZ2ZjY2lWcXNLRzkyQk5VTkFsMmhhck5hWXZUaVZ6WklWUmNabzVmUXhkeE44Ty0tMEtoN0xSYU1GWERBUkpJSTk3dlk1Qy1OWHBjNUZ6aVRHVEh3cWZyRUxCUHRLcEHSAZsBQVVfeXFMT3JMbkRKYVl",
-          "source": "FOX8 WGHP",
-          "date": "2025-04-15"
-        },
-        {
-          "title": "Greensboro Water Quality Report Now Available - The Rhino Times of Greensboro -",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVnZqaU1GLWZINEhuV0haNjJaVFFiV3NGZHUwV2staFJ1VXZXdzdYWXBHQWJlMFA5ZUJGWlBvcmNxOHloSUEyLTRENzZuWlNXRnY5MVFDekMwUG9TS1BZdGZCZmJNa2ZqY3h5WlRPemlDR3FGdS1jNmRlVHdycUJ6OVBaU1k?oc=5",
-          "pubDate": "Thu, 06 Jul 2023 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPVnZqaU1GLWZINEhuV0haNjJaVFFiV3NGZHUwV2staFJ1VXZXdzdYWXBHQWJlMFA5ZUJGWlBvcmNxOHloSUEyLTRENzZuWlNXRnY5MVFDekMwUG9TS1BZdGZCZmJNa2ZqY3h5WlRPemlDR3FGdS1jNmRlVHdycUJ6OVBaU1k?oc=5\" target=\"_blank\"&gt;Greensboro Water Quali",
-          "source": "The Rhino Times of Greensboro -",
-          "date": "2023-07-06"
+          "title": "North Carolinians tell NCDEQ to deny water permit for SSEP - Appalachian Voices",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfbUl3eE4wcFAwWjVrR3hMbkpkYmhzYmczcHJ1dXBlb2FLM3pUSVBKR194amF2MS02OFBVX0R0YWNjYlhuRXBjUEZlNnFqZVRBLUNGQThVVElhSGwxLTc5UnlpNzByOWhsZXVnVQ?oc=5",
+          "pubDate": "Tue, 07 Oct 2025 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTFBfbUl3eE4wcFAwWjVrR3hMbkpkYmhzYmczcHJ1dXBlb2FLM3pUSVBKR194amF2MS02OFBVX0R0YWNjYlhuRXBjUEZlNnFqZVRBLUNGQThVVElhSGwxLTc5UnlpNzByOWhsZXVnVQ?oc=5\" target=\"_blank\"&gt;North Carolinians tell NCDEQ to deny water permit for S",
+          "source": "Appalachian Voices",
+          "date": "2025-10-07"
         }
       ]
     },
     "Halifax": {
       "county": "Halifax",
       "fips": "37083",
-      "lastUpdated": "2026-04-19T08:07:42.537Z",
+      "lastUpdated": "2026-04-20T09:09:18.588Z",
       "analysis": "",
       "articles": [
         {
@@ -1810,7 +1827,7 @@
     "Harnett": {
       "county": "Harnett",
       "fips": "37085",
-      "lastUpdated": "2026-04-19T08:07:44.490Z",
+      "lastUpdated": "2026-04-20T09:09:20.530Z",
       "analysis": "",
       "articles": [
         {
@@ -1866,7 +1883,7 @@
     "Haywood": {
       "county": "Haywood",
       "fips": "37087",
-      "lastUpdated": "2026-04-19T08:07:47.505Z",
+      "lastUpdated": "2026-04-20T09:09:23.429Z",
       "analysis": "",
       "articles": [
         {
@@ -1886,20 +1903,20 @@
           "date": "2023-04-12"
         },
         {
-          "title": "$270M headed to WNC for water, sewer, septic repairs after Helene - 828 News Now",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNGVTQXpuMUNJZnVYc3JMczh2WDBkWXVrUTJuREkzeVpiZlFEd212ZnlOOVV1TjlETkExYWRvY0VZel9fMUVGWTJfdXVZSzV0ZURwV3pybWNxXzkxRjVVUGRVeXQ0dUxNSXo1MUdicC1WYmF5anlNNU1GUHYybjVsNGdxZzFsRktkbGgxN0VvNkI4aUlablZuNENsQVR2NG8?oc=5",
-          "pubDate": "Fri, 12 Dec 2025 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQNGVTQXpuMUNJZnVYc3JMczh2WDBkWXVrUTJuREkzeVpiZlFEd212ZnlOOVV1TjlETkExYWRvY0VZel9fMUVGWTJfdXVZSzV0ZURwV3pybWNxXzkxRjVVUGRVeXQ0dUxNSXo1MUdicC1WYmF5anlNNU1GUHYybjVsNGdxZzFsRktkbGgxN0VvNkI4aUlablZuNENsQVR2NG8?oc=5\" targe",
-          "source": "828 News Now",
-          "date": "2025-12-12"
-        },
-        {
           "title": "Bridging drinking water sources in Haywood - The Mountaineer",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeUhBRVR4Q3VNQnRra1BHVkFaV2ZmTEtnenVxUVFwZEpBVlpOSnRHV1ZYeEMwTlphWEROYzFBZmc5ZEliOE5JQ25aV0RveDZieXRsd1FDc2xkZGZnd242VEhnNk4zbkpkUTlGT0paVlQ3R0NQckdPbmc5OXhmNVJKV3RhQTEwdFVxWEtfV0lRS0dOcGt0Y0N0MGtrdWpOMGZKMFVRdWIxRVRlRmtoVTUtQVpscjJoWkxRUkNFWkhwRnJZODdjb3hB?oc=5",
           "pubDate": "Sat, 02 Aug 2025 07:00:00 GMT",
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxNeUhBRVR4Q3VNQnRra1BHVkFaV2ZmTEtnenVxUVFwZEpBVlpOSnRHV1ZYeEMwTlphWEROYzFBZmc5ZEliOE5JQ25aV0RveDZieXRsd1FDc2xkZGZnd242VEhnNk4zbkpkUTlGT0paVlQ3R0NQckdPbmc5OXhmNVJKV3RhQTEwdFVxWEtfV0lRS0dOcGt0Y0N0MGtrdWpOMGZKMFVRdWIxRVR",
           "source": "The Mountaineer",
           "date": "2025-08-02"
+        },
+        {
+          "title": "$270M headed to WNC for water, sewer, septic repairs after Helene - 828 News Now",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNGVTQXpuMUNJZnVYc3JMczh2WDBkWXVrUTJuREkzeVpiZlFEd212ZnlOOVV1TjlETkExYWRvY0VZel9fMUVGWTJfdXVZSzV0ZURwV3pybWNxXzkxRjVVUGRVeXQ0dUxNSXo1MUdicC1WYmF5anlNNU1GUHYybjVsNGdxZzFsRktkbGgxN0VvNkI4aUlablZuNENsQVR2NG8?oc=5",
+          "pubDate": "Fri, 12 Dec 2025 08:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQNGVTQXpuMUNJZnVYc3JMczh2WDBkWXVrUTJuREkzeVpiZlFEd212ZnlOOVV1TjlETkExYWRvY0VZel9fMUVGWTJfdXVZSzV0ZURwV3pybWNxXzkxRjVVUGRVeXQ0dUxNSXo1MUdicC1WYmF5anlNNU1GUHYybjVsNGdxZzFsRktkbGgxN0VvNkI4aUlablZuNENsQVR2NG8?oc=5\" targe",
+          "source": "828 News Now",
+          "date": "2025-12-12"
         },
         {
           "title": "DWR’s Asheville Regional Offices launches water quality monitoring after Hurricane Helene - NC Dept. of Environmental Quality (.gov)",
@@ -1910,29 +1927,21 @@
           "date": "2025-02-27"
         },
         {
-          "title": "Kids in the Creek program teaches Haywood students importance of water quality - WLOS",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNODhXQzNfTzVkajNSNExvc3pvdmpndGpZS0V3REVuZXZwVFVIX3hhUVk0RHg4eUJTZUx1UXJ0clM4dmpOZ3FuOWN2YUd2VlZ6V1hXMlo0MVUzdjlKVmpNbUtHMU13S3dHZHhBYklLano4MmdEdmZtR0hTQjBiN2NxaHZGWFdZVGZqU1hfMk1yTU5KX2N0dDZiUXBzeV9tb0R0c0RXVDc3RlNpQQ?oc=5",
-          "pubDate": "Wed, 21 Sep 2022 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNODhXQzNfTzVkajNSNExvc3pvdmpndGpZS0V3REVuZXZwVFVIX3hhUVk0RHg4eUJTZUx1UXJ0clM4dmpOZ3FuOWN2YUd2VlZ6V1hXMlo0MVUzdjlKVmpNbUtHMU13S3dHZHhBYklLano4MmdEdmZtR0hTQjBiN2NxaHZGWFdZVGZqU1hfMk1yTU5KX2N0dDZiUXBzeV9tb0R0c0RXVDc3RlN",
-          "source": "WLOS",
-          "date": "2022-09-21"
+          "title": "Haywood septic repair project earns award - Smoky Mountain News",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMmVoOTdDLW9mRHF3VUJuN3JnWnpxdjcxWl9wNXcwWFpfZ0E3R29wVWRqaFFZMVlMYnBTMlF0azc0cVZMX2lYUFM2Zjg4TGdpeER4RHpUZm9xeU1KYUxqNlpPZG5XTTlCVnh2TUJOaVJnNkF2bUpqQnBRdWhScHZtYm80OC1WeEJJZWxEZ1hPU2xaNVAyNWc?oc=5",
+          "pubDate": "Wed, 18 May 2022 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNMmVoOTdDLW9mRHF3VUJuN3JnWnpxdjcxWl9wNXcwWFpfZ0E3R29wVWRqaFFZMVlMYnBTMlF0azc0cVZMX2lYUFM2Zjg4TGdpeER4RHpUZm9xeU1KYUxqNlpPZG5XTTlCVnh2TUJOaVJnNkF2bUpqQnBRdWhScHZtYm80OC1WeEJJZWxEZ1hPU2xaNVAyNWc?oc=5\" target=\"_blank\"&g",
+          "source": "Smoky Mountain News",
+          "date": "2022-05-18"
         }
       ]
     },
     "Henderson": {
       "county": "Henderson",
       "fips": "37089",
-      "lastUpdated": "2026-04-19T08:07:50.569Z",
+      "lastUpdated": "2026-04-20T09:09:26.363Z",
       "analysis": "",
       "articles": [
-        {
-          "title": "Environmental advocates criticize state-proposed PFAS rules at Asheville public hearing - WLOS",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbjk4LWZoemFEREZfLUg4aHo2dmd0TjJ4MlZaVEMtdDdCbnZKeERSbkNhRU1CckZ0SEc1M2luUFhhVk5DZnpVSUxYRm9zY1A0Q0N0M21jSWJWd3hGaUpWUTlOM0trS25adWJJdWxGcjhwV1M5VmpoTHhYT05NQ3Rvd2hCWkZLOWZjUHprNmYwa2FjQ0NnSWRMUWV0ejg5NzMyclM2TTU4a25ycVdyNTZNWDR5Nm9hajlnbWpwVjFqSXVMVEdrWUMxZW1TU3U5YzUyM0RUZE5ZeDNJOXFXaGNKMl9FMngxQW41UzFoSHR0Yw?oc=5",
-          "pubDate": "Wed, 08 Apr 2026 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbjk4LWZoemFEREZfLUg4aHo2dmd0TjJ4MlZaVEMtdDdCbnZKeERSbkNhRU1CckZ0SEc1M2luUFhhVk5DZnpVSUxYRm9zY1A0Q0N0M21jSWJWd3hGaUpWUTlOM0trS25adWJJdWxGcjhwV1M5VmpoTHhYT05NQ3Rvd2hCWkZLOWZjUHprNmYwa2FjQ0NnSWRMUWV0ejg5NzMyclM2TTU4a25",
-          "source": "WLOS",
-          "date": "2026-04-08"
-        },
         {
           "title": "PFAS – forever chemicals linked to serious health issues – found above safe levels at 5 Buncombe, Henderson mobile home parks - Asheville Watchdog",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNU1RKZVlybUNDMUVXZDcxYmdxdXhVSllrQWt4c1ExTVhSVEVvVGVBcHJfaGNpU0hCWldQRk9fUDI0NUtKQ0xRQzhqUm4xU1VNNVVvNlkyWHhscWVqXzhfYW1EZmExRmQ2aWUyTHVlOFZ3clh3dkhPWF9FbEFCZ25fNDZSQjJuUUhZTkNwUWRsdHJvQ0luX3dhNjVwY0MycUlLS2gzdmpuM0xiUVVPcWJMd2xNT2xIajVqN2pvU3I4ZmVIQTNYWjNoX2VvOTVzcWxxMHhvRHpBVEhSeVE?oc=5",
@@ -1958,6 +1967,14 @@
           "date": "2026-02-20"
         },
         {
+          "title": "Environmental advocates criticize state-proposed PFAS rules at Asheville public hearing - WLOS",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbjk4LWZoemFEREZfLUg4aHo2dmd0TjJ4MlZaVEMtdDdCbnZKeERSbkNhRU1CckZ0SEc1M2luUFhhVk5DZnpVSUxYRm9zY1A0Q0N0M21jSWJWd3hGaUpWUTlOM0trS25adWJJdWxGcjhwV1M5VmpoTHhYT05NQ3Rvd2hCWkZLOWZjUHprNmYwa2FjQ0NnSWRMUWV0ejg5NzMyclM2TTU4a25ycVdyNTZNWDR5Nm9hajlnbWpwVjFqSXVMVEdrWUMxZW1TU3U5YzUyM0RUZE5ZeDNJOXFXaGNKMl9FMngxQW41UzFoSHR0Yw?oc=5",
+          "pubDate": "Wed, 08 Apr 2026 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbjk4LWZoemFEREZfLUg4aHo2dmd0TjJ4MlZaVEMtdDdCbnZKeERSbkNhRU1CckZ0SEc1M2luUFhhVk5DZnpVSUxYRm9zY1A0Q0N0M21jSWJWd3hGaUpWUTlOM0trS25adWJJdWxGcjhwV1M5VmpoTHhYT05NQ3Rvd2hCWkZLOWZjUHprNmYwa2FjQ0NnSWRMUWV0ejg5NzMyclM2TTU4a25",
+          "source": "WLOS",
+          "date": "2026-04-08"
+        },
+        {
           "title": "Answer Man: What level of ‘forever chemicals’ is in Asheville’s water? - Asheville Watchdog",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNLWZ0dy13Y09sYTd3LUdRN21MdnlSRkJhZjZ0RHVUSi12N1V4ejBtbklFZjNmUzNLMGF4S0t2LXBISkd1YjZFeHRibml0bmdjQmZaMUZrOTItWFNORkE1dmczakJleW1EVEs3a2pjS0RhdW5TWFRIYnpvMmMweFFrRV9fTFFkRFpjTEM5VWFBd3JLQUtn?oc=5",
           "pubDate": "Fri, 11 Aug 2023 07:00:00 GMT",
@@ -1978,7 +1995,7 @@
     "Hertford": {
       "county": "Hertford",
       "fips": "37091",
-      "lastUpdated": "2026-04-19T08:07:53.798Z",
+      "lastUpdated": "2026-04-20T09:09:29.454Z",
       "analysis": "",
       "articles": [
         {
@@ -2002,7 +2019,7 @@
     "Hoke": {
       "county": "Hoke",
       "fips": "37093",
-      "lastUpdated": "2026-04-19T08:07:56.742Z",
+      "lastUpdated": "2026-04-20T09:09:32.291Z",
       "analysis": "",
       "articles": [
         {
@@ -2058,7 +2075,7 @@
     "Hyde": {
       "county": "Hyde",
       "fips": "37095",
-      "lastUpdated": "2026-04-19T08:08:00.032Z",
+      "lastUpdated": "2026-04-20T09:09:35.479Z",
       "analysis": "",
       "articles": [
         {
@@ -2078,6 +2095,14 @@
           "date": "2024-02-01"
         },
         {
+          "title": "Ocean water quality off Ocracoke Island safe for swimming - Ocracoke Observer",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNFhsXzhTS3gtV3d3Q1U1dGtaR0Njek1YWTN3dHVvNDVYUWNhX2RTMUpPcUF6MGZGalJLRkY2XzlTX0RsRkNkOGhHSG8yX3N3dGNHbmJUZ2xvcTVpcHpXMTJhUXUzWlBXX2UtXzloOFdLU05qNlU1dVg2TnBhdDN2S2dSM2VEU1Nnc2ZV0gGQAUFVX3lxTE0zaUZxZlZmUnAzS0Q2UTZ6WllMel9GMnhuTlJCOEs4ZmJzYWllaTRPWUM3djVVb2QtRVJYdWJMSmJ1QWdNRDU3eGNHTzcwNHJtSkc4c1VwTmc0Ty1xMGRoRWluRmJtaWFJTTV5OWgycEwtYkdOSHZVUzhBLUxvS0pNQ3A3YzVrcFVQdE1GWUtIbw?oc=5",
+          "pubDate": "Sat, 29 Sep 2018 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNFhsXzhTS3gtV3d3Q1U1dGtaR0Njek1YWTN3dHVvNDVYUWNhX2RTMUpPcUF6MGZGalJLRkY2XzlTX0RsRkNkOGhHSG8yX3N3dGNHbmJUZ2xvcTVpcHpXMTJhUXUzWlBXX2UtXzloOFdLU05qNlU1dVg2TnBhdDN2S2dSM2VEU1Nnc2ZV0gGQAUFVX3lxTE0zaUZxZlZmUnAzS0Q2UTZ6Wll",
+          "source": "Ocracoke Observer",
+          "date": "2018-09-29"
+        },
+        {
           "title": "Decades of water quality safeguards erased, advocates say - Coastal Review",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRUx2b0JPd0poRFNqeDBjV3NodHpfNWZzYjN1cUc3U1hWZGJVYzVyYms2bW00UG9WX1duUzc2eVN3MkVraVIxSTFCMVp4RFlHTUF0TVJSenkwaTA0T1RQX1RFelI5akZ5UG9UZUg4NHlsbi03eVVDWExBMmVDVW93VW4xMUpwYkIycUJzcUJpUUVacVhrZnc?oc=5",
           "pubDate": "Wed, 06 Sep 2023 07:00:00 GMT",
@@ -2086,27 +2111,19 @@
           "date": "2023-09-06"
         },
         {
-          "title": "How One Rural NC County Made Civil Rights History - WUNC",
+          "title": "How One Rural NC County Made Civil Rights History - WUNC News",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdEpaZFVPTU03dWlRM1lOZzVVcTYzMGxKUGR0MWxqMTN5aHFpWmdLMFd2RzhpaDY2czdZR29mWmduak5YVE45WDFEbzFnRlFpQ1dTUmJ2ZDVUeE5NY1FuRVZ1WjdCZEc1bk85UUptQWJucGx4Y0Fkb0Z5dUxvQ3hYRzR3MDJCS3hLLTVFWFluUDdiRHRjWmd5MGNKa3Z2Z2V0?oc=5",
           "pubDate": "Tue, 28 May 2019 07:00:00 GMT",
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNdEpaZFVPTU03dWlRM1lOZzVVcTYzMGxKUGR0MWxqMTN5aHFpWmdLMFd2RzhpaDY2czdZR29mWmduak5YVE45WDFEbzFnRlFpQ1dTUmJ2ZDVUeE5NY1FuRVZ1WjdCZEc1bk85UUptQWJucGx4Y0Fkb0Z5dUxvQ3hYRzR3MDJCS3hLLTVFWFluUDdiRHRjWmd5MGNKa3Z2Z2V0?oc=5\" targ",
-          "source": "WUNC",
+          "source": "WUNC News",
           "date": "2019-05-28"
-        },
-        {
-          "title": "Ocean water quality off Ocracoke Island safe for swimming - Ocracoke Observer",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNFhsXzhTS3gtV3d3Q1U1dGtaR0Njek1YWTN3dHVvNDVYUWNhX2RTMUpPcUF6MGZGalJLRkY2XzlTX0RsRkNkOGhHSG8yX3N3dGNHbmJUZ2xvcTVpcHpXMTJhUXUzWlBXX2UtXzloOFdLU05qNlU1dVg2TnBhdDN2S2dSM2VEU1Nnc2ZV0gGQAUFVX3lxTE0zaUZxZlZmUnAzS0Q2UTZ6WllMel9GMnhuTlJCOEs4ZmJzYWllaTRPWUM3djVVb2QtRVJYdWJMSmJ1QWdNRDU3eGNHTzcwNHJtSkc4c1VwTmc0Ty1xMGRoRWluRmJtaWFJTTV5OWgycEwtYkdOSHZVUzhBLUxvS0pNQ3A3YzVrcFVQdE1GWUtIbw?oc=5",
-          "pubDate": "Sat, 29 Sep 2018 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNFhsXzhTS3gtV3d3Q1U1dGtaR0Njek1YWTN3dHVvNDVYUWNhX2RTMUpPcUF6MGZGalJLRkY2XzlTX0RsRkNkOGhHSG8yX3N3dGNHbmJUZ2xvcTVpcHpXMTJhUXUzWlBXX2UtXzloOFdLU05qNlU1dVg2TnBhdDN2S2dSM2VEU1Nnc2ZV0gGQAUFVX3lxTE0zaUZxZlZmUnAzS0Q2UTZ6Wll",
-          "source": "Ocracoke Observer",
-          "date": "2018-09-29"
         }
       ]
     },
     "Iredell": {
       "county": "Iredell",
       "fips": "37097",
-      "lastUpdated": "2026-04-19T08:08:03.288Z",
+      "lastUpdated": "2026-04-20T09:09:38.608Z",
       "analysis": "",
       "articles": [
         {
@@ -2162,9 +2179,17 @@
     "Jackson": {
       "county": "Jackson",
       "fips": "37099",
-      "lastUpdated": "2026-04-19T08:08:06.708Z",
+      "lastUpdated": "2026-04-20T09:09:41.558Z",
       "analysis": "",
       "articles": [
+        {
+          "title": "Attorneys: Presence of 'forever chemicals' in North Georgia water 'alarming' - FOX 5 Atlanta",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcDk3VURrSUtkckFGVGlLdWRsY2FZSmk5U09RY3lJTlB3Mm5KVDlCcHlUbVFaRnllTVdrVDgyZkkzcloyTDhOUkJCV3FJUmQ5NGtVaWVFQTBkQWpTTEtRTlgwVk5fbV9uNy0zczhpa1hmdm4tUnB3cTBMSG9IeWJTbFBrN2RnRVRaX1c3NDFRM2VIbjhMeHZ1enVFTjV5WGJsanfSAacBQVVfeXFMT2JoRzVTSng3bTdzTWZjby13WmdDeHNVUHM4WXZpNS1XdVk0T2hSMXRLb2RVNXlDbzdwbGZNY1RpVC0wc3NNbEFxNVNBT3Q0WjlFNHFlWTZGS3FnVTR5QjQyYnZ0Rk14RmYyT1ZNTXQza0NweGtGRll2WlJwbzM4ZDBDV3ByME1IVVlsdFROblNZaEpjN3BmT05seHNaWVdPM3poZHM2Sms?oc=5",
+          "pubDate": "Wed, 11 Jun 2025 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPcDk3VURrSUtkckFGVGlLdWRsY2FZSmk5U09RY3lJTlB3Mm5KVDlCcHlUbVFaRnllTVdrVDgyZkkzcloyTDhOUkJCV3FJUmQ5NGtVaWVFQTBkQWpTTEtRTlgwVk5fbV9uNy0zczhpa1hmdm4tUnB3cTBMSG9IeWJTbFBrN2RnRVRaX1c3NDFRM2VIbjhMeHZ1enVFTjV5WGJsanfSAacBQVV",
+          "source": "FOX 5 Atlanta",
+          "date": "2025-06-11"
+        },
         {
           "title": "DEQ plans to set state limits on toxic PFAS in groundwater, rivers, lakes - News From The States",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaEpFUk1sUk9odHVneDBrYi1rcDUtc2l6WjRHS2t5bmtIMWlpdTMzYmxJTXNPQm80eHVmbDc5cTFBendYWDYyNGcyUDZDdFhrU1Zxa3FMQlFGZThHcDVOUUF6U0otbFQtZUVjX09UYTJTYkk0M3A0VFpxaE83Um1aY2dZeTAtQ3dmZTNXRjlpTVdBSURkN2tmbVljVzdhbEtJTEZOQTJWWQ?oc=5",
@@ -2174,12 +2199,20 @@
           "date": "2023-07-13"
         },
         {
-          "title": "Attorneys: Presence of 'forever chemicals' in North Georgia water 'alarming' - FOX 5 Atlanta",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcDk3VURrSUtkckFGVGlLdWRsY2FZSmk5U09RY3lJTlB3Mm5KVDlCcHlUbVFaRnllTVdrVDgyZkkzcloyTDhOUkJCV3FJUmQ5NGtVaWVFQTBkQWpTTEtRTlgwVk5fbV9uNy0zczhpa1hmdm4tUnB3cTBMSG9IeWJTbFBrN2RnRVRaX1c3NDFRM2VIbjhMeHZ1enVFTjV5WGJsanfSAacBQVVfeXFMT2JoRzVTSng3bTdzTWZjby13WmdDeHNVUHM4WXZpNS1XdVk0T2hSMXRLb2RVNXlDbzdwbGZNY1RpVC0wc3NNbEFxNVNBT3Q0WjlFNHFlWTZGS3FnVTR5QjQyYnZ0Rk14RmYyT1ZNTXQza0NweGtGRll2WlJwbzM4ZDBDV3ByME1IVVlsdFROblNZaEpjN3BmT05seHNaWVdPM3poZHM2Sms?oc=5",
-          "pubDate": "Wed, 11 Jun 2025 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPcDk3VURrSUtkckFGVGlLdWRsY2FZSmk5U09RY3lJTlB3Mm5KVDlCcHlUbVFaRnllTVdrVDgyZkkzcloyTDhOUkJCV3FJUmQ5NGtVaWVFQTBkQWpTTEtRTlgwVk5fbV9uNy0zczhpa1hmdm4tUnB3cTBMSG9IeWJTbFBrN2RnRVRaX1c3NDFRM2VIbjhMeHZ1enVFTjV5WGJsanfSAacBQVV",
-          "source": "FOX 5 Atlanta",
-          "date": "2025-06-11"
+          "title": "PFAS Water Contamination Map Shows States With Highest ‘Forever Chemicals’ - AboutLawsuits.com",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5RV0dQLTJlcDVVb2JpN3VIb2tVYmxMVi1TTEx3eEk2LWxxaVVaUFAwUjM3Wm14MkYyN2ZMWjZtMi1kbjNmMVZzWnZLc1Fnb19EbFBpdzE0c1J6YUxvZ1RXVDkxUk0tLXNPS1dnQVljVEZuVGZzYTdFajA4M21jdw?oc=5",
+          "pubDate": "Fri, 22 Aug 2025 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE5RV0dQLTJlcDVVb2JpN3VIb2tVYmxMVi1TTEx3eEk2LWxxaVVaUFAwUjM3Wm14MkYyN2ZMWjZtMi1kbjNmMVZzWnZLc1Fnb19EbFBpdzE0c1J6YUxvZ1RXVDkxUk0tLXNPS1dnQVljVEZuVGZzYTdFajA4M21jdw?oc=5\" target=\"_blank\"&gt;PFAS Water Contamination Map Sh",
+          "source": "AboutLawsuits.com",
+          "date": "2025-08-22"
+        },
+        {
+          "title": "Brunswick County Public Utilities named as one of the largest utilities in the state to still have PFAS levels above national standards - WECT",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbUIxU0J5R200MW5RNFZDczQ1bjFYOUVwcWZmNUs3UURJMHBYMElKX3JydU9nb05UcHhWXzAyX2dOQ2tFY3VmNkhRbEtENFBpaHFvYVN5eW5rdGVEQlc2ZTEzRW8wa1VBOWVnZG8yanc3T1U5SzNoVnNLUmdXWFdQTTd4WjJoZlZXbVptNTRmNGlOUG5lZWNJWGZscDYxZDhzcmhYeTAzWUxRRFhzekgwbDJONWhsZ1RJc29ibFFaTmJOYWZKZjl4UjFNOW9NcTBudnh6TFFxZjhGMjJuYldRQ1ln0gH2AUFVX3lxTE12VlRYUURjM0MzeFVmTXRVcjZacHgxVXdHRW5jVnUtZDg1c3IzTi1zdk1SRTRpbjRnTXcwMGJJQzFkXzhRVDg2TFJWSzRqdERFVzBiaDh0MTRrY1JNZGRvbkxVX0hnQVAwTlRfU3RPMHdnQWZaeWViczVNM09IWFRGNFhhazIxWFJyMlVrTFU5MDZKcnBFM1cxUDZ1Ymp1Mjg4TWFwWE15T1Z2OXNtQ2FCUjRTY3RyTmJwdkkxMWFqUkdBUGRNYXRMdF9MWERlOVVTZDFENUdmLUNHaEYyeExlTTJsdk5icm8zTUlDZWFoS19QWUNaQQ?oc=5",
+          "pubDate": "Thu, 06 Jun 2024 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbUIxU0J5R200MW5RNFZDczQ1bjFYOUVwcWZmNUs3UURJMHBYMElKX3JydU9nb05UcHhWXzAyX2dOQ2tFY3VmNkhRbEtENFBpaHFvYVN5eW5rdGVEQlc2ZTEzRW8wa1VBOWVnZG8yanc3T1U5SzNoVnNLUmdXWFdQTTd4WjJoZlZXbVptNTRmNGlOUG5lZWNJWGZscDYxZDhzcmhYeTAzWUx",
+          "source": "WECT",
+          "date": "2024-06-06"
         },
         {
           "title": "New research confirms presence of toxic \"forever chemicals\" in scores of NC water supplies - NC Newsline",
@@ -2196,29 +2229,13 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTGZoSDVZWTNmVU5lZHdfb1EyYzBCM1FJUGpYWWExLU5ZVmljVjhsV0V3cWtDR0xfcExTWFlLdlJOWEhxT1JzbWFUWERlZm5lendYS2xkeUFVZTZWbW9UY0lJdVNZLVBjTGd6VTlERDNXYVhHRGVfb0x4SEJEeERfeWtfSlhFbDQwTlpKZ1VZNHpYQ181aTlKTlVCVXJySVExRUkxdDVuVUv",
           "source": "WECT",
           "date": "2025-05-21"
-        },
-        {
-          "title": "Haywood septic repair project earns award - Smoky Mountain News",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMmVoOTdDLW9mRHF3VUJuN3JnWnpxdjcxWl9wNXcwWFpfZ0E3R29wVWRqaFFZMVlMYnBTMlF0azc0cVZMX2lYUFM2Zjg4TGdpeER4RHpUZm9xeU1KYUxqNlpPZG5XTTlCVnh2TUJOaVJnNkF2bUpqQnBRdWhScHZtYm80OC1WeEJJZWxEZ1hPU2xaNVAyNWc?oc=5",
-          "pubDate": "Wed, 18 May 2022 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNMmVoOTdDLW9mRHF3VUJuN3JnWnpxdjcxWl9wNXcwWFpfZ0E3R29wVWRqaFFZMVlMYnBTMlF0azc0cVZMX2lYUFM2Zjg4TGdpeER4RHpUZm9xeU1KYUxqNlpPZG5XTTlCVnh2TUJOaVJnNkF2bUpqQnBRdWhScHZtYm80OC1WeEJJZWxEZ1hPU2xaNVAyNWc?oc=5\" target=\"_blank\"&g",
-          "source": "Smoky Mountain News",
-          "date": "2022-05-18"
-        },
-        {
-          "title": "NC attorney general sues EPA over elimination of solar energy grants - WECT",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRjJGY25BbWgtMEpYVVpLLWNRaC1aWkZHTjlUWVNhMU9mOS1qQWo1WmE1TmY3MUI2QmpldDRVQ1hiVFliR0s3cG1BM2JISlhFbnlXN3lZeDhFa1h2eTBhdXBXNFdDZzZXTWVjYllwM2tFVVdhSUstaVNrYmZuaWlfRHR0OUZIcGdxd25yckdQMWFTOVQwM0FfdEF0Zl9acmPSAbMBQVVfeXFMUDA1NHB4clcxUkVmZTUxbmxLZmk3Y2tWOXUyaDVUS1BtS0lkaTZXWnFNZktPRVFoX0ZWQ3QzaFVsN1hEMmpnY1lfdzZIMmMycjlGV2lvaVUxYWRJY2VKVFdRR1FPclRGZ0VlbzNpV2VMZTJyTXVZa1o0QW4xMzZQOHBCUjRnSnhZamsyVFJaTFpLekRCVGk5c0RFY19qSGFGV24za3BIUzJINFljcXcteEVQeTg?oc=5",
-          "pubDate": "Thu, 16 Oct 2025 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPRjJGY25BbWgtMEpYVVpLLWNRaC1aWkZHTjlUWVNhMU9mOS1qQWo1WmE1TmY3MUI2QmpldDRVQ1hiVFliR0s3cG1BM2JISlhFbnlXN3lZeDhFa1h2eTBhdXBXNFdDZzZXTWVjYllwM2tFVVdhSUstaVNrYmZuaWlfRHR0OUZIcGdxd25yckdQMWFTOVQwM0FfdEF0Zl9acmPSAbMBQVVfeXF",
-          "source": "WECT",
-          "date": "2025-10-16"
         }
       ]
     },
     "Johnston": {
       "county": "Johnston",
       "fips": "37101",
-      "lastUpdated": "2026-04-19T08:08:08.686Z",
+      "lastUpdated": "2026-04-20T09:09:43.524Z",
       "analysis": "",
       "articles": [
         {
@@ -2274,7 +2291,7 @@
     "Jones": {
       "county": "Jones",
       "fips": "37103",
-      "lastUpdated": "2026-04-19T08:08:10.636Z",
+      "lastUpdated": "2026-04-20T09:09:45.471Z",
       "analysis": "",
       "articles": [
         {
@@ -2302,20 +2319,12 @@
           "date": "2024-07-01"
         },
         {
-          "title": "Officials outline steps to address PFAS contamination - Coastal Review",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON0FtSFl2M3BGLUlPR05lTUZqQ0NCakdLeG10SW5kMGtVRGRUR2lYSWNLMGdwY0ljcllnS3hVZUJ4ODJRYTJ5QUFzb2V4MEdXV0xrRDB6dUJFc2Z4NmJnRnVqNkIwMG5meHBxMlFNWFBLaHNZbXNUeEdOWEFZNnhLM3FIdV85ZnRicU9lSVBoNm9JZw?oc=5",
-          "pubDate": "Thu, 09 Jun 2022 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxON0FtSFl2M3BGLUlPR05lTUZqQ0NCakdLeG10SW5kMGtVRGRUR2lYSWNLMGdwY0ljcllnS3hVZUJ4ODJRYTJ5QUFzb2V4MEdXV0xrRDB6dUJFc2Z4NmJnRnVqNkIwMG5meHBxMlFNWFBLaHNZbXNUeEdOWEFZNnhLM3FIdV85ZnRicU9lSVBoNm9JZw?oc=5\" target=\"_blank\"&gt;Off",
+          "title": "Maysville Sets Meeting on PFAS in Water - Coastal Review",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81M2g0LUZ0RTJfQkdBVTVvWWtyQVB1TUtnOFQ0R1o4M0JibzN3NUc4TF9rMFNQTTAydDZIZy1XZEt1YnZYa2hEbC1HSjZ5UXExM1VXUVhYamcwOERlZVd3TUszLXVaSFE4OU5zZXZ4U19SMDRaVGJMVl9sYmNKX3M?oc=5",
+          "pubDate": "Thu, 13 Jun 2019 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE81M2g0LUZ0RTJfQkdBVTVvWWtyQVB1TUtnOFQ0R1o4M0JibzN3NUc4TF9rMFNQTTAydDZIZy1XZEt1YnZYa2hEbC1HSjZ5UXExM1VXUVhYamcwOERlZVd3TUszLXVaSFE4OU5zZXZ4U19SMDRaVGJMVl9sYmNKX3M?oc=5\" target=\"_blank\"&gt;Maysville Sets Meeting on PFAS",
           "source": "Coastal Review",
-          "date": "2022-06-09"
-        },
-        {
-          "title": "NC County Accused Of Withholding Landfill PFAS Records - Law360",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcmlBZUFKS0hpeDViSDJkOFFYeVZnZ24wRTJZUFVfbVpKNk5tRGpqMkNOcDIyYnliMGJJZTVYYVBVZ0FxUHVQa0hkcl96ckk3RzBqSGt0dVpwRHE5WjRtU1RiQjFMMmZsQ0N2Y01ET2FLNGtjUXIxVTJKZVpxU0FEel96RVZZQzRxd1NzMHUyRzRoTUtXZFE1R0tR0gFWQVVfeXFMTWtxbWlBNjZsYzhaRWt2eW5aUWpSU1NVaEZGYjl3aW5tZG9sQXZILXljWW1YNk5JUWNmU1RHenltWEhIYkV6T21pcS1sUXZibEhGRThSTGc?oc=5",
-          "pubDate": "Mon, 30 Mar 2026 18:46:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQcmlBZUFKS0hpeDViSDJkOFFYeVZnZ24wRTJZUFVfbVpKNk5tRGpqMkNOcDIyYnliMGJJZTVYYVBVZ0FxUHVQa0hkcl96ckk3RzBqSGt0dVpwRHE5WjRtU1RiQjFMMmZsQ0N2Y01ET2FLNGtjUXIxVTJKZVpxU0FEel96RVZZQzRxd1NzMHUyRzRoTUtXZFE1R0tR0gFWQVVfeXFMTWtxbWl",
-          "source": "Law360",
-          "date": "2026-03-30"
+          "date": "2019-06-13"
         },
         {
           "title": "State budget, new scientific tests shine a light on NC's growing drinking water pollution problem - NC Newsline",
@@ -2324,13 +2333,21 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQc3BfS0RGMnRzYXpqS0JFNWdtRVpPbG1vNmVCQW5BSVk0cmhBZ0FoTjhBX3ZrUnJiREc5aW45bjBKcnJENkJQQ0J6b3RSRVNWRkE3WWwzWVBRUVNaM2lqWlB1a1dCWUJjV2FkSFd2eW9xRkNZT1FkVFpiQXE0QUE2a1MzdlM0YkxoS0ZiRS1SSHRUcUxHTkRKNVpWdGx5anBWSnZIMnpCWjF",
           "source": "NC Newsline",
           "date": "2019-05-31"
+        },
+        {
+          "title": "NC County Accused Of Withholding Landfill PFAS Records - Law360",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcmlBZUFKS0hpeDViSDJkOFFYeVZnZ24wRTJZUFVfbVpKNk5tRGpqMkNOcDIyYnliMGJJZTVYYVBVZ0FxUHVQa0hkcl96ckk3RzBqSGt0dVpwRHE5WjRtU1RiQjFMMmZsQ0N2Y01ET2FLNGtjUXIxVTJKZVpxU0FEel96RVZZQzRxd1NzMHUyRzRoTUtXZFE1R0tR0gFWQVVfeXFMTWtxbWlBNjZsYzhaRWt2eW5aUWpSU1NVaEZGYjl3aW5tZG9sQXZILXljWW1YNk5JUWNmU1RHenltWEhIYkV6T21pcS1sUXZibEhGRThSTGc?oc=5",
+          "pubDate": "Mon, 30 Mar 2026 18:46:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQcmlBZUFKS0hpeDViSDJkOFFYeVZnZ24wRTJZUFVfbVpKNk5tRGpqMkNOcDIyYnliMGJJZTVYYVBVZ0FxUHVQa0hkcl96ckk3RzBqSGt0dVpwRHE5WjRtU1RiQjFMMmZsQ0N2Y01ET2FLNGtjUXIxVTJKZVpxU0FEel96RVZZQzRxd1NzMHUyRzRoTUtXZFE1R0tR0gFWQVVfeXFMTWtxbWl",
+          "source": "Law360",
+          "date": "2026-03-30"
         }
       ]
     },
     "Lee": {
       "county": "Lee",
       "fips": "37105",
-      "lastUpdated": "2026-04-19T08:08:13.643Z",
+      "lastUpdated": "2026-04-20T09:09:48.449Z",
       "analysis": "",
       "articles": [
         {
@@ -2386,7 +2403,7 @@
     "Lenoir": {
       "county": "Lenoir",
       "fips": "37107",
-      "lastUpdated": "2026-04-19T08:08:16.914Z",
+      "lastUpdated": "2026-04-20T09:09:51.586Z",
       "analysis": "",
       "articles": [
         {
@@ -2418,7 +2435,7 @@
     "Lincoln": {
       "county": "Lincoln",
       "fips": "37109",
-      "lastUpdated": "2026-04-19T08:08:20.216Z",
+      "lastUpdated": "2026-04-20T09:09:54.846Z",
       "analysis": "",
       "articles": [
         {
@@ -2474,7 +2491,7 @@
     "McDowell": {
       "county": "McDowell",
       "fips": "37111",
-      "lastUpdated": "2026-04-19T08:08:23.243Z",
+      "lastUpdated": "2026-04-20T09:09:57.777Z",
       "analysis": "",
       "articles": [
         {
@@ -2530,7 +2547,7 @@
     "Macon": {
       "county": "Macon",
       "fips": "37113",
-      "lastUpdated": "2026-04-19T08:08:26.484Z",
+      "lastUpdated": "2026-04-20T09:10:00.943Z",
       "analysis": "",
       "articles": [
         {
@@ -2554,17 +2571,9 @@
     "Madison": {
       "county": "Madison",
       "fips": "37115",
-      "lastUpdated": "2026-04-19T08:08:29.472Z",
+      "lastUpdated": "2026-04-20T09:10:03.873Z",
       "analysis": "",
       "articles": [
-        {
-          "title": "What are threats to French Broad River water quality post-Helene? - The Asheville Citizen Times",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcUMzQk5XV1pRU19Zdk1YeTdtbUFObXhaNWZfUWZYSWJ6NEwwSVUwcUFiTHVHSk1oNnhVcTAzbHpQYWQ4QVV2XzFGVHRGaGo5cElHVVRvNldqdmlLWnJ1OUhVOHZxSV9KNmpnSkRleE1xcFFPUWhOUHdLNmVJRmRJV2tzcWpwWEtIZzI1VUhncXBVUnFDemxvR2hvdDJiN0swekN4QnQ1M2w0cnR3b0IxakNJN2d0NkM1V0xKZ0lTS0xsMTBkMmJRbVZKcHJOQQ?oc=5",
-          "pubDate": "Fri, 06 Feb 2026 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxPcUMzQk5XV1pRU19Zdk1YeTdtbUFObXhaNWZfUWZYSWJ6NEwwSVUwcUFiTHVHSk1oNnhVcTAzbHpQYWQ4QVV2XzFGVHRGaGo5cElHVVRvNldqdmlLWnJ1OUhVOHZxSV9KNmpnSkRleE1xcFFPUWhOUHdLNmVJRmRJV2tzcWpwWEtIZzI1VUhncXBVUnFDemxvR2hvdDJiN0swekN4QnQ1M2w",
-          "source": "The Asheville Citizen Times",
-          "date": "2026-02-06"
-        },
         {
           "title": "Attorneys: Presence of 'forever chemicals' in North Georgia water 'alarming' - FOX 5 Atlanta",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcDk3VURrSUtkckFGVGlLdWRsY2FZSmk5U09RY3lJTlB3Mm5KVDlCcHlUbVFaRnllTVdrVDgyZkkzcloyTDhOUkJCV3FJUmQ5NGtVaWVFQTBkQWpTTEtRTlgwVk5fbV9uNy0zczhpa1hmdm4tUnB3cTBMSG9IeWJTbFBrN2RnRVRaX1c3NDFRM2VIbjhMeHZ1enVFTjV5WGJsanfSAacBQVVfeXFMT2JoRzVTSng3bTdzTWZjby13WmdDeHNVUHM4WXZpNS1XdVk0T2hSMXRLb2RVNXlDbzdwbGZNY1RpVC0wc3NNbEFxNVNBT3Q0WjlFNHFlWTZGS3FnVTR5QjQyYnZ0Rk14RmYyT1ZNTXQza0NweGtGRll2WlJwbzM4ZDBDV3ByME1IVVlsdFROblNZaEpjN3BmT05seHNaWVdPM3poZHM2Sms?oc=5",
@@ -2572,6 +2581,14 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPcDk3VURrSUtkckFGVGlLdWRsY2FZSmk5U09RY3lJTlB3Mm5KVDlCcHlUbVFaRnllTVdrVDgyZkkzcloyTDhOUkJCV3FJUmQ5NGtVaWVFQTBkQWpTTEtRTlgwVk5fbV9uNy0zczhpa1hmdm4tUnB3cTBMSG9IeWJTbFBrN2RnRVRaX1c3NDFRM2VIbjhMeHZ1enVFTjV5WGJsanfSAacBQVV",
           "source": "FOX 5 Atlanta",
           "date": "2025-06-11"
+        },
+        {
+          "title": "What are threats to French Broad River water quality post-Helene? - The Asheville Citizen Times",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcUMzQk5XV1pRU19Zdk1YeTdtbUFObXhaNWZfUWZYSWJ6NEwwSVUwcUFiTHVHSk1oNnhVcTAzbHpQYWQ4QVV2XzFGVHRGaGo5cElHVVRvNldqdmlLWnJ1OUhVOHZxSV9KNmpnSkRleE1xcFFPUWhOUHdLNmVJRmRJV2tzcWpwWEtIZzI1VUhncXBVUnFDemxvR2hvdDJiN0swekN4QnQ1M2w0cnR3b0IxakNJN2d0NkM1V0xKZ0lTS0xsMTBkMmJRbVZKcHJOQQ?oc=5",
+          "pubDate": "Fri, 06 Feb 2026 08:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxPcUMzQk5XV1pRU19Zdk1YeTdtbUFObXhaNWZfUWZYSWJ6NEwwSVUwcUFiTHVHSk1oNnhVcTAzbHpQYWQ4QVV2XzFGVHRGaGo5cElHVVRvNldqdmlLWnJ1OUhVOHZxSV9KNmpnSkRleE1xcFFPUWhOUHdLNmVJRmRJV2tzcWpwWEtIZzI1VUhncXBVUnFDemxvR2hvdDJiN0swekN4QnQ1M2w",
+          "source": "The Asheville Citizen Times",
+          "date": "2026-02-06"
         },
         {
           "title": "Troubled Waters: WAAY investigates potentially dangerous chemicals in North Alabama drinking water - WAAY 31 News",
@@ -2610,7 +2627,7 @@
     "Martin": {
       "county": "Martin",
       "fips": "37117",
-      "lastUpdated": "2026-04-19T08:08:31.428Z",
+      "lastUpdated": "2026-04-20T09:10:05.815Z",
       "analysis": "",
       "articles": [
         {
@@ -2654,19 +2671,19 @@
           "date": "2024-04-10"
         },
         {
-          "title": "DEQ records show repeated releases of probable carcinogen into Haw River - North Carolina Health News",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNS0VqTndLNjZSSWpkVVYybGpZQ2Z4blBCbTZna3hrWkxESmVmcmN5VzJOX2JzU3V3Vko2WEg5bzlMelJGNUFDZU9mV01DaTdreUljQ01seXM0QnhnVWpldHh0ZFYweVFmQXp6bDV1d09qRWl1UVd2djZPWHg3VEN2UzN5RW1wUXlUR1BMTXlkYkQ4YURfNnc?oc=5",
-          "pubDate": "Tue, 19 Nov 2019 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNS0VqTndLNjZSSWpkVVYybGpZQ2Z4blBCbTZna3hrWkxESmVmcmN5VzJOX2JzU3V3Vko2WEg5bzlMelJGNUFDZU9mV01DaTdreUljQ01seXM0QnhnVWpldHh0ZFYweVFmQXp6bDV1d09qRWl1UVd2djZPWHg3VEN2UzN5RW1wUXlUR1BMTXlkYkQ4YURfNnc?oc=5\" target=\"_blank\"&g",
+          "title": "PFAS research lauded as environmentalists call for regulatory action - North Carolina Health News",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzTzNkaUpkZk81UFVqaTBNR2JYbU5WSkRCN2hfUjlDZ1RzNmo3X05CUjh2MVNxZFJLV2ZiMzczRURpVFBoZVNpcFIzLTdJbGxkYWVLUDVGNDF5U2RMZ2pYVjlSSGZha1dVOFVQY29MTEhsQ2JaZE5pWUxR?oc=5",
+          "pubDate": "Tue, 09 Apr 2024 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFBzTzNkaUpkZk81UFVqaTBNR2JYbU5WSkRCN2hfUjlDZ1RzNmo3X05CUjh2MVNxZFJLV2ZiMzczRURpVFBoZVNpcFIzLTdJbGxkYWVLUDVGNDF5U2RMZ2pYVjlSSGZha1dVOFVQY29MTEhsQ2JaZE5pWUxR?oc=5\" target=\"_blank\"&gt;PFAS research lauded as environmental",
           "source": "North Carolina Health News",
-          "date": "2019-11-19"
+          "date": "2024-04-09"
         }
       ]
     },
     "Mecklenburg": {
       "county": "Mecklenburg",
       "fips": "37119",
-      "lastUpdated": "2026-04-19T08:08:33.423Z",
+      "lastUpdated": "2026-04-20T09:10:07.752Z",
       "analysis": "",
       "articles": [
         {
@@ -2722,9 +2739,17 @@
     "Mitchell": {
       "county": "Mitchell",
       "fips": "37121",
-      "lastUpdated": "2026-04-19T08:08:36.827Z",
+      "lastUpdated": "2026-04-20T09:10:10.956Z",
       "analysis": "",
       "articles": [
+        {
+          "title": "Spruce Pine’s wastewater plant rebounds after Hurricane Helene’s destruction - North Carolina Health News",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZFg2R0NwTjlQa3RnbVc3T3NlRmEtanB2SFJOMm5lLVJzTHluM0lodG1ablJ2eW9DTHJKY0hPbEJwSEtOUEpiODlnWl82eDc2SHFLbEZNemNaMXpuYWpjQXdRRm1nNTZyZF9VT3B0TE9CN01GeFo2Q0JhY2JLeFY1LUhxZjcySVRpYlAxSjIzVXd2aldSQmVnQVRNNEFyOWhabnp5WTFTUnlrNnBUdVVoRFd0SnkwTHRFRUtoT1JjNm9DV2pN?oc=5",
+          "pubDate": "Tue, 08 Apr 2025 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQZFg2R0NwTjlQa3RnbVc3T3NlRmEtanB2SFJOMm5lLVJzTHluM0lodG1ablJ2eW9DTHJKY0hPbEJwSEtOUEpiODlnWl82eDc2SHFLbEZNemNaMXpuYWpjQXdRRm1nNTZyZF9VT3B0TE9CN01GeFo2Q0JhY2JLeFY1LUhxZjcySVRpYlAxSjIzVXd2aldSQmVnQVRNNEFyOWhabnp5WTFTUnl",
+          "source": "North Carolina Health News",
+          "date": "2025-04-08"
+        },
         {
           "title": "'This is already illegal': One SC river has highest PFAS levels in nation, study finds - WLOS",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPN3FjMTdqWUEzb00ydmFxODA3VUdrSjg4TnVLUVRUc0h2cVBIXzVVc2dianpJS3gyWWZ5QjJmaGY5YTRaM1l3T0I5djdVYjhaaXpIbGthMjE0S2NUYmJ3OHVfVzY3M1ZmMDMzeU5SSU5jTl9EQUZpRElZV2tnbi1WUnZXdDNxRFZIekd6dWdEYVc2WnFuM3BYVzctNHRDNnViMTdLT3lieWRkXzFuZHBxT0JZYkxvZ0lSRzFIQV9sOVVtdFFONnVDSzRYSlNLNDRsc0xvMlcwUEg3V2hvazNDZi1Law?oc=5",
@@ -2732,30 +2757,6 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxPN3FjMTdqWUEzb00ydmFxODA3VUdrSjg4TnVLUVRUc0h2cVBIXzVVc2dianpJS3gyWWZ5QjJmaGY5YTRaM1l3T0I5djdVYjhaaXpIbGthMjE0S2NUYmJ3OHVfVzY3M1ZmMDMzeU5SSU5jTl9EQUZpRElZV2tnbi1WUnZXdDNxRFZIekd6dWdEYVc2WnFuM3BYVzctNHRDNnViMTdLT3lieWR",
           "source": "WLOS",
           "date": "2025-06-27"
-        },
-        {
-          "title": "Online tool tracks E. coli levels in Asheville area rivers, creeks - 828 News Now",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRkhmak1iZVpnbGlXMFdzOGFyX0w5TmlhMGtpRHI1TFpFSS1kNjlMUEZyX1lBTmxJNUpPdTUtQlJYZEdyTUxydkxRWkc3SjU4OXhBY3dEQzhucGw4Umd1aWMzTkhnek5KeXFnekpzZDRRQ1RxZHR1cXc3TWpFLWxHdFFabEltSktzb0wyTVdwejlJNE5HalVyUzA5VEtQd3BWalE?oc=5",
-          "pubDate": "Sun, 24 Aug 2025 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQRkhmak1iZVpnbGlXMFdzOGFyX0w5TmlhMGtpRHI1TFpFSS1kNjlMUEZyX1lBTmxJNUpPdTUtQlJYZEdyTUxydkxRWkc3SjU4OXhBY3dEQzhucGw4Umd1aWMzTkhnek5KeXFnekpzZDRRQ1RxZHR1cXc3TWpFLWxHdFFabEltSktzb0wyTVdwejlJNE5HalVyUzA5VEtQd3BWalE?oc=5\" t",
-          "source": "828 News Now",
-          "date": "2025-08-24"
-        },
-        {
-          "title": "DEQ, environmental groups say illegal mine is still polluting the Nolichucky River, nearby creek - WUNC",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNlF0VF9UXzJEeDllMXR2aTZiakRFWDdfMkl1aDdSa3BLaHlHMkFPV29wRGhYNnlreThDVEVNdTNxb0R4YmItZmFmSXNZeE9adi0tTzFVdjN1bEhlX2p0SkN3VmVFSjdQamFCM3hwT2p0ZnVSdjE3djJCbVZ5U1UwM05lVmdRNEFKdmoyQkNFVWoxWGljenNDNkkzWHhud28?oc=5",
-          "pubDate": "Fri, 27 Feb 2026 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQNlF0VF9UXzJEeDllMXR2aTZiakRFWDdfMkl1aDdSa3BLaHlHMkFPV29wRGhYNnlreThDVEVNdTNxb0R4YmItZmFmSXNZeE9adi0tTzFVdjN1bEhlX2p0SkN3VmVFSjdQamFCM3hwT2p0ZnVSdjE3djJCbVZ5U1UwM05lVmdRNEFKdmoyQkNFVWoxWGljenNDNkkzWHhud28?oc=5\" targe",
-          "source": "WUNC",
-          "date": "2026-02-27"
-        },
-        {
-          "title": "NCDEQ denies permit application for company accused of unpermitted mining - NC Newsline",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYkptbmFkNGFiNnNzNkN1azdVNnNtbThiMXNMQTdGeG1OcDJ4WkEzcmd1RGxyZHZrUEZkYkVUcUItZFJ3UDZCdnQ2akZydmlDLU5NVHB2aktqRGpBODZmc3FiaVpZMmpyRkxEemk0MHB6blk3S1pWQnlHWWJRWWtIWVdva1Y5bUZOb1BGdlpGVXNjQjczeDdzcGZwT0pud2dLNWpGcHFpYw?oc=5",
-          "pubDate": "Thu, 28 Aug 2025 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQYkptbmFkNGFiNnNzNkN1azdVNnNtbThiMXNMQTdGeG1OcDJ4WkEzcmd1RGxyZHZrUEZkYkVUcUItZFJ3UDZCdnQ2akZydmlDLU5NVHB2aktqRGpBODZmc3FiaVpZMmpyRkxEemk0MHB6blk3S1pWQnlHWWJRWWtIWVdva1Y5bUZOb1BGdlpGVXNjQjczeDdzcGZwT0pud2dLNWpGcHFpYw?",
-          "source": "NC Newsline",
-          "date": "2025-08-28"
         },
         {
           "title": "Mitchell County residents navigate water shortages and wastewater challenges after Helene - North Carolina Health News",
@@ -2766,29 +2767,37 @@
           "date": "2024-10-16"
         },
         {
-          "title": "NC Department of Labor officials discover illegal mine in western NC, DEQ seeks halt to operations - WUNC",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZkNnZmxzRFNNcUJieXVQOU1ENkcxT20yamR2TVMxSk9Wc0dlQ2lFUXY4dlJmcENHeS1USzFpS05GRUpKMXlpbThhR3U0ZjlFUVRZa2RBVnFaMmd2OVpVY2tob2lRQm0xb082MFpIUlRscjJnV29sekNVNVluc3JvWTBmdklieGtZTm1UYWlCS2JWMkx0ZDJPejZOUUJ0SW1ZN3lzcVhn?oc=5",
-          "pubDate": "Fri, 08 Aug 2025 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxOZkNnZmxzRFNNcUJieXVQOU1ENkcxT20yamR2TVMxSk9Wc0dlQ2lFUXY4dlJmcENHeS1USzFpS05GRUpKMXlpbThhR3U0ZjlFUVRZa2RBVnFaMmd2OVpVY2tob2lRQm0xb082MFpIUlRscjJnV29sekNVNVluc3JvWTBmdklieGtZTm1UYWlCS2JWMkx0ZDJPejZOUUJ0SW1ZN3lzcVhn?oc",
-          "source": "WUNC",
-          "date": "2025-08-08"
+          "title": "Online tool tracks E. coli levels in Asheville area rivers, creeks - 828 News Now",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRkhmak1iZVpnbGlXMFdzOGFyX0w5TmlhMGtpRHI1TFpFSS1kNjlMUEZyX1lBTmxJNUpPdTUtQlJYZEdyTUxydkxRWkc3SjU4OXhBY3dEQzhucGw4Umd1aWMzTkhnek5KeXFnekpzZDRRQ1RxZHR1cXc3TWpFLWxHdFFabEltSktzb0wyTVdwejlJNE5HalVyUzA5VEtQd3BWalE?oc=5",
+          "pubDate": "Sun, 24 Aug 2025 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQRkhmak1iZVpnbGlXMFdzOGFyX0w5TmlhMGtpRHI1TFpFSS1kNjlMUEZyX1lBTmxJNUpPdTUtQlJYZEdyTUxydkxRWkc3SjU4OXhBY3dEQzhucGw4Umd1aWMzTkhnek5KeXFnekpzZDRRQ1RxZHR1cXc3TWpFLWxHdFFabEltSktzb0wyTVdwejlJNE5HalVyUzA5VEtQd3BWalE?oc=5\" t",
+          "source": "828 News Now",
+          "date": "2025-08-24"
+        },
+        {
+          "title": "DEQ, environmental groups say illegal mine is still polluting the Nolichucky River, nearby creek - WUNC News",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNlF0VF9UXzJEeDllMXR2aTZiakRFWDdfMkl1aDdSa3BLaHlHMkFPV29wRGhYNnlreThDVEVNdTNxb0R4YmItZmFmSXNZeE9adi0tTzFVdjN1bEhlX2p0SkN3VmVFSjdQamFCM3hwT2p0ZnVSdjE3djJCbVZ5U1UwM05lVmdRNEFKdmoyQkNFVWoxWGljenNDNkkzWHhud28?oc=5",
+          "pubDate": "Fri, 27 Feb 2026 08:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQNlF0VF9UXzJEeDllMXR2aTZiakRFWDdfMkl1aDdSa3BLaHlHMkFPV29wRGhYNnlreThDVEVNdTNxb0R4YmItZmFmSXNZeE9adi0tTzFVdjN1bEhlX2p0SkN3VmVFSjdQamFCM3hwT2p0ZnVSdjE3djJCbVZ5U1UwM05lVmdRNEFKdmoyQkNFVWoxWGljenNDNkkzWHhud28?oc=5\" targe",
+          "source": "WUNC News",
+          "date": "2026-02-27"
+        },
+        {
+          "title": "NCDEQ denies permit application for company accused of unpermitted mining - NC Newsline",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYkptbmFkNGFiNnNzNkN1azdVNnNtbThiMXNMQTdGeG1OcDJ4WkEzcmd1RGxyZHZrUEZkYkVUcUItZFJ3UDZCdnQ2akZydmlDLU5NVHB2aktqRGpBODZmc3FiaVpZMmpyRkxEemk0MHB6blk3S1pWQnlHWWJRWWtIWVdva1Y5bUZOb1BGdlpGVXNjQjczeDdzcGZwT0pud2dLNWpGcHFpYw?oc=5",
+          "pubDate": "Thu, 28 Aug 2025 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQYkptbmFkNGFiNnNzNkN1azdVNnNtbThiMXNMQTdGeG1OcDJ4WkEzcmd1RGxyZHZrUEZkYkVUcUItZFJ3UDZCdnQ2akZydmlDLU5NVHB2aktqRGpBODZmc3FiaVpZMmpyRkxEemk0MHB6blk3S1pWQnlHWWJRWWtIWVdva1Y5bUZOb1BGdlpGVXNjQjczeDdzcGZwT0pud2dLNWpGcHFpYw?",
+          "source": "NC Newsline",
+          "date": "2025-08-28"
         }
       ]
     },
     "Montgomery": {
       "county": "Montgomery",
       "fips": "37123",
-      "lastUpdated": "2026-04-19T08:08:38.918Z",
+      "lastUpdated": "2026-04-20T09:10:12.936Z",
       "analysis": "",
       "articles": [
-        {
-          "title": "Buxco and Montco communities will get $5 million to study health effects of PFAS - WHYY",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQXpUQlMtaVJPUUUwYXl5NHFQVUNHOWlTMWZJYWsxWllkRlE0cnZsS3BXOTg4Q1pjaHlmbnowblU0RGowRk84SG9KbGFrazZrZVVQWUZNeEl0NGRudVBRUm1USHdIV2lmM014dE9PVGtNR29jQjlmV0U4YVA1UjZqVjlwczF6Y2FPVlJMRkk2YW40aGh1QjIyQl95d0o5Qkdxak9sYnlB?oc=5",
-          "pubDate": "Mon, 23 Sep 2019 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxOQXpUQlMtaVJPUUUwYXl5NHFQVUNHOWlTMWZJYWsxWllkRlE0cnZsS3BXOTg4Q1pjaHlmbnowblU0RGowRk84SG9KbGFrazZrZVVQWUZNeEl0NGRudVBRUm1USHdIV2lmM014dE9PVGtNR29jQjlmV0U4YVA1UjZqVjlwczF6Y2FPVlJMRkk2YW40aGh1QjIyQl95d0o5Qkdxak9sYnlB?oc",
-          "source": "WHYY",
-          "date": "2019-09-23"
-        },
         {
           "title": "EPA cancels limits for several PFAS chemicals in drinking water - KATV",
           "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOX3VQaS1sMi1MYjhOX1lyN0MtaWthV0lTODVsUzhxWWJvTVhYTUdrX3VJS2dDdGotZnNHUDhFS3N5bmRiOE5WV3N0ZkZCcXpUSnFpMUV4dW83TnFpRklwSC1jNE16TWY0bXpUR1BWNTRBZ0hzOURHYnMxUTBSWGNhNUhQck5UeV81b2hxZFpTbmdTLU1VSXlJa0dUdG81T043OUNibWxRWV9sS0Qzejl0LV81MmFacEFHWE5meVZUa0xMWV9CUno0QVB3a21sc2FyYkxBLWRDWVh6TVVrMFhnWXhvS1F3SnFZazlfY2JIVFExbnNtU2g2Y1Jlc3pUQ2thbk9mNGFQTjl5RE5vOWdFY2pCV2lqejdNV0pSeVo4ZkNHb21ISnUyRi1HbVYtOUQwNTJFWWl1RUZYamdqYjE4?oc=5",
@@ -2796,6 +2805,14 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMivwJBVV95cUxOX3VQaS1sMi1MYjhOX1lyN0MtaWthV0lTODVsUzhxWWJvTVhYTUdrX3VJS2dDdGotZnNHUDhFS3N5bmRiOE5WV3N0ZkZCcXpUSnFpMUV4dW83TnFpRklwSC1jNE16TWY0bXpUR1BWNTRBZ0hzOURHYnMxUTBSWGNhNUhQck5UeV81b2hxZFpTbmdTLU1VSXlJa0dUdG81T043OUNibWxRWV9",
           "source": "KATV",
           "date": "2025-06-12"
+        },
+        {
+          "title": "Buxco and Montco communities will get $5 million to study health effects of PFAS - WHYY",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQXpUQlMtaVJPUUUwYXl5NHFQVUNHOWlTMWZJYWsxWllkRlE0cnZsS3BXOTg4Q1pjaHlmbnowblU0RGowRk84SG9KbGFrazZrZVVQWUZNeEl0NGRudVBRUm1USHdIV2lmM014dE9PVGtNR29jQjlmV0U4YVA1UjZqVjlwczF6Y2FPVlJMRkk2YW40aGh1QjIyQl95d0o5Qkdxak9sYnlB?oc=5",
+          "pubDate": "Mon, 23 Sep 2019 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxOQXpUQlMtaVJPUUUwYXl5NHFQVUNHOWlTMWZJYWsxWllkRlE0cnZsS3BXOTg4Q1pjaHlmbnowblU0RGowRk84SG9KbGFrazZrZVVQWUZNeEl0NGRudVBRUm1USHdIV2lmM014dE9PVGtNR29jQjlmV0U4YVA1UjZqVjlwczF6Y2FPVlJMRkk2YW40aGh1QjIyQl95d0o5Qkdxak9sYnlB?oc",
+          "source": "WHYY",
+          "date": "2019-09-23"
         },
         {
           "title": "Geographic and demographic variability in serum PFAS concentrations for pregnant women in the United States - Nature",
@@ -2834,7 +2851,7 @@
     "Moore": {
       "county": "Moore",
       "fips": "37125",
-      "lastUpdated": "2026-04-19T08:08:42.211Z",
+      "lastUpdated": "2026-04-20T09:10:16.104Z",
       "analysis": "",
       "articles": [
         {
@@ -2852,14 +2869,6 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE5zRzdnUXBHYkd5OGd5UGl2TVZselg1MmFZSUt6eVgxam5SNWJMZ0NfQkJSRHZNS3RTeDRCNXNVZVhRTlNFNVlFR08xZ2NjZWlyYnFyTDFhTkdxTWJRUmRjSGZkaw?oc=5\" target=\"_blank\"&gt;What's in Your Drinking Water?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;fon",
           "source": "Environmental Working Group",
           "date": "2017-08-07"
-        },
-        {
-          "title": "Geologists uncover new evidence from ancient asteroid that hit the Chesapeake Bay - VPM",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSnJ4LWd1VC1DY2Z4dGppODlXeFU2eWl6RDFKZU1uRHp4R0tHbzY0enJDa0ZCUFczU3hXWEdlcElwelhOc19JTndvbzlpeE4zUE1TWWY0T1M5NGNpcEIxQ0lJQkNrdk1yTlo1TGlyWWdqbC0yTGJKMUstdmFiWXRfajZheUtDWEpadnhSeU50cl9HaDRiVEZkLW9pWklKMXNYTThZRUFhekg?oc=5",
-          "pubDate": "Mon, 30 Jun 2025 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSnJ4LWd1VC1DY2Z4dGppODlXeFU2eWl6RDFKZU1uRHp4R0tHbzY0enJDa0ZCUFczU3hXWEdlcElwelhOc19JTndvbzlpeE4zUE1TWWY0T1M5NGNpcEIxQ0lJQkNrdk1yTlo1TGlyWWdqbC0yTGJKMUstdmFiWXRfajZheUtDWEpadnhSeU50cl9HaDRiVEZkLW9pWklKMXNYTThZRUFhekg",
-          "source": "VPM",
-          "date": "2025-06-30"
         },
         {
           "title": "Study area map with sites, Moore County, NC Groundwater Study - USGS (.gov)",
@@ -2884,13 +2893,21 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTlpDajNEMjI4S0dsOVpIdEI5VzFYRDhBUERySjgtdEJjenlPR2w5bHFSUkdpZzYtamROcEJicUFfQ1RndUtxRWwxXzVzS05GVUE4a3JES1dNZ1g2UGxEYU9WSk9iamhRVEpUajlqU09Ic1lHSTh1YlJiM084NjIzYURYQi1lSGtfd2JBc2Zqa2VyRFF0V2dMZFZtNklPbVBSMXg4bEFxTEg",
           "source": "NC Newsline",
           "date": "2023-10-24"
+        },
+        {
+          "title": "Fed up with owners, DEQ takes control of Woodlake Dam - ABC11 Raleigh-Durham",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMkFyZnR6QVVfWkQwX19NZTRtenF4ODRzVFp5cUd5bUExZHczbGVqNnVqTmh5MTRwXzR6TldYOFI5NjgyQ3dlbUg5NXFPc3JZSXJzdTdCeU42ZFF1MlYtUy10SUlGaXJseldNVFNTU3RBTzlmQ2lSaTVHTEpXNnc5YURFZkFNZlRZdnNJUdIBkgFBVV95cUxNMDR4bHpoMm9vWFhYemwxTEtWbFhRMUVpTVJvUU1EZFpKa0oxSlJxQ0FHc3hYNlRKSGNfY29CandJX0pwT0dKY1kxLWFFZzNSYVcyN190dS1tSzVTWHpCeDluYlVZejdTNkI5NVJxUlpLT2U2TXpYYklsSVRZeXoxa21kVVhQbGpGYVUxNDBwWmtvUQ?oc=5",
+          "pubDate": "Fri, 09 Jun 2017 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPMkFyZnR6QVVfWkQwX19NZTRtenF4ODRzVFp5cUd5bUExZHczbGVqNnVqTmh5MTRwXzR6TldYOFI5NjgyQ3dlbUg5NXFPc3JZSXJzdTdCeU42ZFF1MlYtUy10SUlGaXJseldNVFNTU3RBTzlmQ2lSaTVHTEpXNnc5YURFZkFNZlRZdnNJUdIBkgFBVV95cUxNMDR4bHpoMm9vWFhYemwxTEt",
+          "source": "ABC11 Raleigh-Durham",
+          "date": "2017-06-09"
         }
       ]
     },
     "Nash": {
       "county": "Nash",
       "fips": "37127",
-      "lastUpdated": "2026-04-19T08:08:45.451Z",
+      "lastUpdated": "2026-04-20T09:10:19.231Z",
       "analysis": "",
       "articles": [
         {
@@ -2922,7 +2939,7 @@
     "New Hanover": {
       "county": "New Hanover",
       "fips": "37129",
-      "lastUpdated": "2026-04-19T08:08:47.493Z",
+      "lastUpdated": "2026-04-20T09:10:21.312Z",
       "analysis": "",
       "articles": [
         {
@@ -2942,11 +2959,11 @@
           "date": "2026-03-12"
         },
         {
-          "title": "Two new studies find PFAS in sea foam and Wilmington residents’ blood - WUNC",
+          "title": "Two new studies find PFAS in sea foam and Wilmington residents’ blood - WUNC News",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU0NUYmU1RVBCZ3Y2eWdMaERkNkNza1ViVlBac3N6cUZGeDNadWxOaGxhV1I5WjEzWExUWEFodU5NaEgzblZaRmVJYmkxQ3liaXNDTk9aRHM3ZXp1S3ExYVBDMDRtVC01ZlZhY0pQRkw2eWpleE1yem5hc3YyUFIwc2F1aGprRkFlWTdvVw?oc=5",
           "pubDate": "Wed, 05 Nov 2025 08:00:00 GMT",
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOU0NUYmU1RVBCZ3Y2eWdMaERkNkNza1ViVlBac3N6cUZGeDNadWxOaGxhV1I5WjEzWExUWEFodU5NaEgzblZaRmVJYmkxQ3liaXNDTk9aRHM3ZXp1S3ExYVBDMDRtVC01ZlZhY0pQRkw2eWpleE1yem5hc3YyUFIwc2F1aGprRkFlWTdvVw?oc=5\" target=\"_blank\"&gt;Two new stu",
-          "source": "WUNC",
+          "source": "WUNC News",
           "date": "2025-11-05"
         },
         {
@@ -2978,7 +2995,7 @@
     "Northampton": {
       "county": "Northampton",
       "fips": "37131",
-      "lastUpdated": "2026-04-19T08:08:50.794Z",
+      "lastUpdated": "2026-04-20T09:10:24.441Z",
       "analysis": "",
       "articles": [
         {
@@ -3026,17 +3043,9 @@
     "Onslow": {
       "county": "Onslow",
       "fips": "37133",
-      "lastUpdated": "2026-04-19T08:08:52.782Z",
+      "lastUpdated": "2026-04-20T09:10:26.350Z",
       "analysis": "",
       "articles": [
-        {
-          "title": "NC County Sues DuPont, 3M, Tyco Over PFAS Contamination - Law360",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMEdqSGhRTEtjT2k4MUVUYkVBYWk3RVJsOUZCY2FKNl9JWV9sTlE4c0xPT3RXem5FSEd1MmVCdjlGUExWT01hQ3EwaXZiY3BHWDFEdjA2TTQwWmh6RjVDd0pVUzU4dnlrNWtsWC1tRVpXQTZVbVREODRIbGMtOTFKQ1VLanNQSEMzTGgzekVRUGpyb19UdXZNatIBVkFVX3lxTE1pNWxjTy1lTUgxZ3paOFNobi15NGRLRGx2ZWNRZWUwdXd1am4xSnpfd05Kc1p3elRWRlNyVUd4bkN6b2FZYW1lSjhOOVVjRi1MdmdDVmZn?oc=5",
-          "pubDate": "Thu, 11 Dec 2025 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPMEdqSGhRTEtjT2k4MUVUYkVBYWk3RVJsOUZCY2FKNl9JWV9sTlE4c0xPT3RXem5FSEd1MmVCdjlGUExWT01hQ3EwaXZiY3BHWDFEdjA2TTQwWmh6RjVDd0pVUzU4dnlrNWtsWC1tRVpXQTZVbVREODRIbGMtOTFKQ1VLanNQSEMzTGgzekVRUGpyb19UdXZNatIBVkFVX3lxTE1pNWxjTy1",
-          "source": "Law360",
-          "date": "2025-12-11"
-        },
         {
           "title": "North Carolina Town Sues 3M, DuPont and Others Over PFAS Contamination - USA Herald",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcmRnRlp6LThKeXBEdWdqZEdyOU9XYUhkZERodmdfNjlTbWRRYlNENkJjVTBVUGVhT0ZkcEg0TENpTllKOGpvX0kxanM3VS1UNVMxMmFNSjkzLTNsOXl5SE03WmdPbWpuTUc3SkFsMGR5MFNvbHE5NUhQek1RUVhBTS1uSVpvMHQxVFYxLVhYRTZiWm1FQXB3?oc=5",
@@ -3044,6 +3053,14 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQcmRnRlp6LThKeXBEdWdqZEdyOU9XYUhkZERodmdfNjlTbWRRYlNENkJjVTBVUGVhT0ZkcEg0TENpTllKOGpvX0kxanM3VS1UNVMxMmFNSjkzLTNsOXl5SE03WmdPbWpuTUc3SkFsMGR5MFNvbHE5NUhQek1RUVhBTS1uSVpvMHQxVFYxLVhYRTZiWm1FQXB3?oc=5\" target=\"_blank\"&",
           "source": "USA Herald",
           "date": "2026-02-18"
+        },
+        {
+          "title": "NC County Sues DuPont, 3M, Tyco Over PFAS Contamination - Law360",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMEdqSGhRTEtjT2k4MUVUYkVBYWk3RVJsOUZCY2FKNl9JWV9sTlE4c0xPT3RXem5FSEd1MmVCdjlGUExWT01hQ3EwaXZiY3BHWDFEdjA2TTQwWmh6RjVDd0pVUzU4dnlrNWtsWC1tRVpXQTZVbVREODRIbGMtOTFKQ1VLanNQSEMzTGgzekVRUGpyb19UdXZNatIBVkFVX3lxTE1pNWxjTy1lTUgxZ3paOFNobi15NGRLRGx2ZWNRZWUwdXd1am4xSnpfd05Kc1p3elRWRlNyVUd4bkN6b2FZYW1lSjhOOVVjRi1MdmdDVmZn?oc=5",
+          "pubDate": "Thu, 11 Dec 2025 08:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPMEdqSGhRTEtjT2k4MUVUYkVBYWk3RVJsOUZCY2FKNl9JWV9sTlE4c0xPT3RXem5FSEd1MmVCdjlGUExWT01hQ3EwaXZiY3BHWDFEdjA2TTQwWmh6RjVDd0pVUzU4dnlrNWtsWC1tRVpXQTZVbVREODRIbGMtOTFKQ1VLanNQSEMzTGgzekVRUGpyb19UdXZNatIBVkFVX3lxTE1pNWxjTy1",
+          "source": "Law360",
+          "date": "2025-12-11"
         },
         {
           "title": "New PFAS water standards impact some Eastern North Carolina communities - WCTI",
@@ -3062,27 +3079,27 @@
           "date": "2022-09-13"
         },
         {
-          "title": "PFAS found near ONWASA water wells - WITN",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9RdWtYM0ZYaUFtOW9od3ZXcUVQZzBXaThMd2MxdDY4LUFlbzBYSmNBWnhIUW1ZWHI3SVpmOUM1dzNqYjE4clVwNWsxcDRMbmhDTXkzOVJJMDR4Q3NFOTlENUFfX1VEWERKa3dkT1RkY1NEeHdGZFE?oc=5",
-          "pubDate": "Fri, 29 Jan 2021 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9RdWtYM0ZYaUFtOW9od3ZXcUVQZzBXaThMd2MxdDY4LUFlbzBYSmNBWnhIUW1ZWHI3SVpmOUM1dzNqYjE4clVwNWsxcDRMbmhDTXkzOVJJMDR4Q3NFOTlENUFfX1VEWERKa3dkT1RkY1NEeHdGZFE?oc=5\" target=\"_blank\"&gt;PFAS found near ONWASA water wells&lt;/a&g",
-          "source": "WITN",
-          "date": "2021-01-29"
-        },
-        {
           "title": "PFAS testing: 1,000 homes qualify for filtration or tap, so far - Coastal Review",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNc0o4SjBMU0ZNZTJKSkFvMEwxLXR2WE1jU05BODFMVkNKNXk5TDNEUnk4WVc3cW00VmVubXdVNnB1VEhOcVNCbVNqalk3ZmtPcVpWWmlMMkExT2VFaU40UWdYVnA1VW4tNktjQ08xakR3QWNLRDFEMWxoRlpmbkVYU1ZvMFI1N1BQQTdnMDVvQUpIbDEwM3JwQXNKaw?oc=5",
           "pubDate": "Fri, 03 Mar 2023 08:00:00 GMT",
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNc0o4SjBMU0ZNZTJKSkFvMEwxLXR2WE1jU05BODFMVkNKNXk5TDNEUnk4WVc3cW00VmVubXdVNnB1VEhOcVNCbVNqalk3ZmtPcVpWWmlMMkExT2VFaU40UWdYVnA1VW4tNktjQ08xakR3QWNLRDFEMWxoRlpmbkVYU1ZvMFI1N1BQQTdnMDVvQUpIbDEwM3JwQXNKaw?oc=5\" target=\"_b",
           "source": "Coastal Review",
           "date": "2023-03-03"
+        },
+        {
+          "title": "No PFAS found in ONWASA wells in the Holly Ridge area - WCTI",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUjRpbExBMmpfeHMzMC1BTXNrNjNiU09oNFM2b3I2ekNOaGY4N2p1UENuQUhNcVl4U2lISjVhNFFqRnNTTWpob1QzcEx4UjFoOGxlaVF4SXpfaV9LaVo2V2oybWRGRWlBOHVJdHdxU3N4X3NQVjhsRE9qRHVOOFZEdGtnQWEzU0ZSODB3?oc=5",
+          "pubDate": "Fri, 05 Feb 2021 08:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUjRpbExBMmpfeHMzMC1BTXNrNjNiU09oNFM2b3I2ekNOaGY4N2p1UENuQUhNcVl4U2lISjVhNFFqRnNTTWpob1QzcEx4UjFoOGxlaVF4SXpfaV9LaVo2V2oybWRGRWlBOHVJdHdxU3N4X3NQVjhsRE9qRHVOOFZEdGtnQWEzU0ZSODB3?oc=5\" target=\"_blank\"&gt;No PFAS found",
+          "source": "WCTI",
+          "date": "2021-02-05"
         }
       ]
     },
     "Orange": {
       "county": "Orange",
       "fips": "37135",
-      "lastUpdated": "2026-04-19T08:08:54.852Z",
+      "lastUpdated": "2026-04-20T09:10:28.318Z",
       "analysis": "",
       "articles": [
         {
@@ -3100,14 +3117,6 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPTW8tLTR5cHhHVTE0M1RhcjRVdHVGSVpvNTBuUU5xRU5mT29yamx3NTk5b1dJX3QtVFR6aWxGQ3JlSURId284STFZQVFhNFRpWXk4Y1lZME5BSXhZQXpqQUtRZDBxWEtuNGF1LVJubnpETkVrbEF0UnpuemxSX1ljMDlEc002TmVWTGE0QVRmejNwZjJKRkpsSmJR?oc=5\" target=\"_bla",
           "source": "Spectrum News",
           "date": "2026-02-20"
-        },
-        {
-          "title": "PFAS pesticides taint 40% of California produce - MSN",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQa08zYkhBX3lQLXNwQVBrMHNEY0pBV1RzVkVYNXpWMnNDaVotUGRTakY1YzN6ZVVqT1ROZWd5Y3ZiQ200VlZ1MTlzWkh6N0VRdDJlNzZzZVVCaXFfTFMzNXM3dHpBT1hfNHdOQ3NDZEVuQTBXM0lOOVpzakdMN0pMM3hWcXB6bTN2UnhfS0hGeEh4R0xieXB5NkpaNGtkU002aTA4VlJ2TW9Bd2ZOeGNxZ1JiVURFQkl1RUZ6QmlGaUlLNTU5VXg1TVhVR2h3UDBBR2xqTzdLZm1WY19aX19DWGdn?oc=5",
-          "pubDate": "Wed, 11 Mar 2026 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxQa08zYkhBX3lQLXNwQVBrMHNEY0pBV1RzVkVYNXpWMnNDaVotUGRTakY1YzN6ZVVqT1ROZWd5Y3ZiQ200VlZ1MTlzWkh6N0VRdDJlNzZzZVVCaXFfTFMzNXM3dHpBT1hfNHdOQ3NDZEVuQTBXM0lOOVpzakdMN0pMM3hWcXB6bTN2UnhfS0hGeEh4R0xieXB5NkpaNGtkU002aTA4VlJ2TW9",
-          "source": "MSN",
-          "date": "2026-03-11"
         },
         {
           "title": "\"Forever chemicals\" found in Chapel Hill well as county studies sludge’s role - WRAL",
@@ -3132,13 +3141,21 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNaVBJbklWMVNqS0h3VWEtSU9qcXp2a0h3VW04VzNScDlPVHNtYnptamUzWXZZT2JDdmNpWjM1cHpjYXo2RVhBTHYySS1xcHlCUExKdXIwN3lOZmt4bllTWGI1ejc2MVdqYmxfTUVJZFlDV25WdnNfY1RFc0VDakRCd1I4SVMzNUlwU3FTRw?oc=5\" target=\"_blank\"&gt;‘Forever ch",
           "source": "WRAL",
           "date": "2025-08-27"
+        },
+        {
+          "title": "Trump Administration Aims to Roll Back Limits on Toxic “Forever Chemicals” in Drinking Water - Mother Jones",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdEtEQ21iX2FTZmpBYThkUGhjbDc0TWVUa2lqaVMwRjlIQXN4YVJyLW50SVRlRkpjdXpSWnZSZFg5aVN6Rzl6bUc2N2ZFZGtPVkprdFhQTFZYaTBTMEZ3RDFxSllfRjBINnJuakg2UFBDMWctUld2X28wdmJpLVVocmpuTjJNR2w4aWZ3bHlkS2JqVVhxSE5QcndIRWhvSjctTzBaVUl3MWVoYkhtelNrZTkzWE93M25BVGFaMUh6YklfOGpPSVhQOGQxZDlnVTcxblZTWk1oYXpkS00?oc=5",
+          "pubDate": "Fri, 16 May 2025 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdEtEQ21iX2FTZmpBYThkUGhjbDc0TWVUa2lqaVMwRjlIQXN4YVJyLW50SVRlRkpjdXpSWnZSZFg5aVN6Rzl6bUc2N2ZFZGtPVkprdFhQTFZYaTBTMEZ3RDFxSllfRjBINnJuakg2UFBDMWctUld2X28wdmJpLVVocmpuTjJNR2w4aWZ3bHlkS2JqVVhxSE5QcndIRWhvSjctTzBaVUl3MWV",
+          "source": "Mother Jones",
+          "date": "2025-05-16"
         }
       ]
     },
     "Pamlico": {
       "county": "Pamlico",
       "fips": "37137",
-      "lastUpdated": "2026-04-19T08:08:56.839Z",
+      "lastUpdated": "2026-04-20T09:10:30.233Z",
       "analysis": "",
       "articles": [
         {
@@ -3194,7 +3211,7 @@
     "Pasquotank": {
       "county": "Pasquotank",
       "fips": "37139",
-      "lastUpdated": "2026-04-19T08:09:00.115Z",
+      "lastUpdated": "2026-04-20T09:10:33.358Z",
       "analysis": "",
       "articles": [
         {
@@ -3218,7 +3235,7 @@
     "Pender": {
       "county": "Pender",
       "fips": "37141",
-      "lastUpdated": "2026-04-19T08:09:02.125Z",
+      "lastUpdated": "2026-04-20T09:10:35.304Z",
       "analysis": "",
       "articles": [
         {
@@ -3274,7 +3291,7 @@
     "Perquimans": {
       "county": "Perquimans",
       "fips": "37143",
-      "lastUpdated": "2026-04-19T08:09:05.348Z",
+      "lastUpdated": "2026-04-20T09:10:38.413Z",
       "analysis": "",
       "articles": [
         {
@@ -3298,7 +3315,7 @@
     "Person": {
       "county": "Person",
       "fips": "37145",
-      "lastUpdated": "2026-04-19T08:09:08.711Z",
+      "lastUpdated": "2026-04-20T09:10:41.326Z",
       "analysis": "",
       "articles": [
         {
@@ -3326,35 +3343,35 @@
           "date": "2018-03-08"
         },
         {
-          "title": "Water quality permit for natural gas project MVP Southgate approved - WUNC",
+          "title": "Water quality permit for natural gas project MVP Southgate approved - WUNC News",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd1dDWFdxb3AyeVdmdFVsdmJZNktGYjV6RjhUb1VEU2hIS3NPTzgzVUFyNUlBSmVEU0dzck9tNGUtM0toRS00dUIzVlI1VVk1eFlmZTdBUUMzWnd3bFdqclZyTWwwblVLSHo4cnNHdGRYV0pmcWRobTNsVmdiaDZKTXpIcmJiUGpabXdaeEZTeXYyN204RE5oUVJKemtETDdl?oc=5",
           "pubDate": "Fri, 14 Nov 2025 08:00:00 GMT",
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQd1dDWFdxb3AyeVdmdFVsdmJZNktGYjV6RjhUb1VEU2hIS3NPTzgzVUFyNUlBSmVEU0dzck9tNGUtM0toRS00dUIzVlI1VVk1eFlmZTdBUUMzWnd3bFdqclZyTWwwblVLSHo4cnNHdGRYV0pmcWRobTNsVmdiaDZKTXpIcmJiUGpabXdaeEZTeXYyN204RE5oUVJKemtETDdl?oc=5\" targ",
-          "source": "WUNC",
+          "source": "WUNC News",
           "date": "2025-11-14"
         },
         {
-          "title": "State officials are considering a water quality permit for a controversial natural gas pipeline - WUNC",
+          "title": "NC regulators to hold public hearings on Enbridge’s water quality permit for T-15 Pipeline - Appalachian Voices",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNNGRHMkxCOW1RdjRTUmRGRG15RHhXVGlVUDVqa0gwSVFqd2FpMUZlc2c0d2NLMWtHbmF5QTZqR3hxSThBc19RcURWbmZ3eDE5dVVJc3lCMURvZU8xM19tVmQ2ME55bGJtNDkxQlAzeGszMk1jQUQ2X3hBczVRZmFtWng5S3FmY0ZyUDhRXzNoS0lOeDFhZ2ZRODREWFNCWE05WjM5Q3RESnY2cGh3NGtQRUpJM1FabThuMjJvcTR6Y2lDZXZydVUtNnhNdThULTlMamJQb0ZpWjF2OFdYT2JiN2xrMzdqWFVVRDJXWjRyYTBEaU5rTHdQRTB6enlPNjNoM3c?oc=5",
+          "pubDate": "Thu, 05 Jun 2025 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxNNGRHMkxCOW1RdjRTUmRGRG15RHhXVGlVUDVqa0gwSVFqd2FpMUZlc2c0d2NLMWtHbmF5QTZqR3hxSThBc19RcURWbmZ3eDE5dVVJc3lCMURvZU8xM19tVmQ2ME55bGJtNDkxQlAzeGszMk1jQUQ2X3hBczVRZmFtWng5S3FmY0ZyUDhRXzNoS0lOeDFhZ2ZRODREWFNCWE05WjM5Q3RESnY",
+          "source": "Appalachian Voices",
+          "date": "2025-06-05"
+        },
+        {
+          "title": "State officials are considering a water quality permit for a controversial natural gas pipeline - WUNC News",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaDk1eHdjUGdTTy1nT19yUVc1bTdYRnZiOGl3SGZjaHdGbUszUkVKNDJHa0hpS3FzREY4R0x3R2tMMUN4U2dMVkpYR0w2V3FZTTA0dUhmUDN4RVZGUFE0ZkV5ZFZNUXNHTllodVhWd0lQUkEtcFZWSndLWWl3cFh6SzhLVFJvZDJ4RTRteHVKRy1Zd2xBM1gxZURCc25ySEd0VzYyYmJn?oc=5",
           "pubDate": "Fri, 12 Sep 2025 07:00:00 GMT",
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQaDk1eHdjUGdTTy1nT19yUVc1bTdYRnZiOGl3SGZjaHdGbUszUkVKNDJHa0hpS3FzREY4R0x3R2tMMUN4U2dMVkpYR0w2V3FZTTA0dUhmUDN4RVZGUFE0ZkV5ZFZNUXNHTllodVhWd0lQUkEtcFZWSndLWWl3cFh6SzhLVFJvZDJ4RTRteHVKRy1Zd2xBM1gxZURCc25ySEd0VzYyYmJn?oc",
-          "source": "WUNC",
+          "source": "WUNC News",
           "date": "2025-09-12"
-        },
-        {
-          "title": "Judge sides with DEQ on Duke Energy coal ash removal - North Carolina Health News",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX0xHRUUxbUJKY1ZFNWMzcXMxZ0JHeTNhckJLV3NLMGpPUEJENjlKaEdieFF5ZDFwa2NEbFR2TkxVejltTjRPMk50cnNNSTRibktLT01KTl9Hb3lPNjZ0Nnp2V2pHLXoyVmVVdmFFM2p5TUkzVnptRDRkbDRrNW1pTC05ZTV1VUJHRmtVSUg5QUlqeFhfbExDcWZSczhIUXVMMHo0dFVn?oc=5",
-          "pubDate": "Fri, 02 Aug 2019 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxOX0xHRUUxbUJKY1ZFNWMzcXMxZ0JHeTNhckJLV3NLMGpPUEJENjlKaEdieFF5ZDFwa2NEbFR2TkxVejltTjRPMk50cnNNSTRibktLT01KTl9Hb3lPNjZ0Nnp2V2pHLXoyVmVVdmFFM2p5TUkzVnptRDRkbDRrNW1pTC05ZTV1VUJHRmtVSUg5QUlqeFhfbExDcWZSczhIUXVMMHo0dFVn?oc",
-          "source": "North Carolina Health News",
-          "date": "2019-08-02"
         }
       ]
     },
     "Pitt": {
       "county": "Pitt",
       "fips": "37147",
-      "lastUpdated": "2026-04-19T08:09:10.714Z",
+      "lastUpdated": "2026-04-20T09:10:43.247Z",
       "analysis": "",
       "articles": [
         {
@@ -3366,12 +3383,12 @@
           "date": "2023-08-23"
         },
         {
-          "title": "Some areas of Eastern NC not meeting PFAs standards in drinking water - WCTI",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWUJBaFBQekRXbUJpc21tZTVLLVZmamhzX3pid3NJbnZfWnd6Vk8zQWxGYXk5RmVkU212d01LbUhzWUY1TUtoVEp4OGVyS2lJZHlwN1NfdlhBdnB6N2F2czlqMW1KaXU2VFZPWTRVcFF5bkl6Rl9DQkhfQ0M3UU9JaDA2UzhrTWpMMXBoN0NHcXlmNktlX1l2Z3JzN25sUUJI?oc=5",
-          "pubDate": "Wed, 10 Apr 2024 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPWUJBaFBQekRXbUJpc21tZTVLLVZmamhzX3pid3NJbnZfWnd6Vk8zQWxGYXk5RmVkU212d01LbUhzWUY1TUtoVEp4OGVyS2lJZHlwN1NfdlhBdnB6N2F2czlqMW1KaXU2VFZPWTRVcFF5bkl6Rl9DQkhfQ0M3UU9JaDA2UzhrTWpMMXBoN0NHcXlmNktlX1l2Z3JzN25sUUJI?oc=5\" targ",
+          "title": "Samples show PFAs levels up in Greenville, utilities leaders say water is still safe to dr - WCTI",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOHg0UHpOZ1RobWdHOTctZDl1MWQtODVxZzNWMkRJWnVqRDU1WEM5SnJGZTJVblRJRUpVUklyZHIzRVp0U0hNNjdndkhlWllZV1p4R0lFR0hsX1JXOEV3YUtlb2RibGtnYnNFaUNyWmpzNlo0S3ZMTzkzYTdMVUlBUmFhRnNXdHY3elZlQ1lKTGRJcFh1MFVCVVVORXpwQjUxc3AtQ0JZSVdlTFA0dHdEVnBfMlVVVTVmdWNhdk5NYw?oc=5",
+          "pubDate": "Wed, 23 Aug 2023 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxOOHg0UHpOZ1RobWdHOTctZDl1MWQtODVxZzNWMkRJWnVqRDU1WEM5SnJGZTJVblRJRUpVUklyZHIzRVp0U0hNNjdndkhlWllZV1p4R0lFR0hsX1JXOEV3YUtlb2RibGtnYnNFaUNyWmpzNlo0S3ZMTzkzYTdMVUlBUmFhRnNXdHY3elZlQ1lKTGRJcFh1MFVCVVVORXpwQjUxc3AtQ0JZSVd",
           "source": "WCTI",
-          "date": "2024-04-10"
+          "date": "2023-08-23"
         },
         {
           "title": "Greensboro's drinking water far exceeds new EPA standards for PFAs, or 'forever chemicals' - WXII",
@@ -3398,19 +3415,19 @@
           "date": "2020-10-14"
         },
         {
-          "title": "Maysville opens the spigot on new water treatment plant 4.5 years after PFAS contamination - Public Radio East",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMG1RS2RwTEg1VHUxZFliM2N5cTVqd3BDcnF3NzJBelF3aGpCRzl3eENDdEhWa1dNbW5VUHpuS1ZnZ2d6WjlzTHVsWHBWNEdFU2U0STE5ekZBRzNBemlaUWJNRmkwd2NtTnp4RTZqYXJUalJoSnlBLWp5bjhTTE13RHA3UHNTNXRTaDN3dk1GZXpsMEs0UE9XNTFuQkhkQi1GOGpQdHdTV01fWGhIQTJhalBuUEU4aVNNVlNCVDlrWmlJaDRtQkxoTXpITWlPQQ?oc=5",
-          "pubDate": "Tue, 05 Dec 2023 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxQMG1RS2RwTEg1VHUxZFliM2N5cTVqd3BDcnF3NzJBelF3aGpCRzl3eENDdEhWa1dNbW5VUHpuS1ZnZ2d6WjlzTHVsWHBWNEdFU2U0STE5ekZBRzNBemlaUWJNRmkwd2NtTnp4RTZqYXJUalJoSnlBLWp5bjhTTE13RHA3UHNTNXRTaDN3dk1GZXpsMEs0UE9XNTFuQkhkQi1GOGpQdHdTV01",
-          "source": "Public Radio East",
-          "date": "2023-12-05"
+          "title": "Some areas of Eastern NC not meeting PFAs standards in drinking water - WCTI",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWUJBaFBQekRXbUJpc21tZTVLLVZmamhzX3pid3NJbnZfWnd6Vk8zQWxGYXk5RmVkU212d01LbUhzWUY1TUtoVEp4OGVyS2lJZHlwN1NfdlhBdnB6N2F2czlqMW1KaXU2VFZPWTRVcFF5bkl6Rl9DQkhfQ0M3UU9JaDA2UzhrTWpMMXBoN0NHcXlmNktlX1l2Z3JzN25sUUJI?oc=5",
+          "pubDate": "Wed, 10 Apr 2024 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPWUJBaFBQekRXbUJpc21tZTVLLVZmamhzX3pid3NJbnZfWnd6Vk8zQWxGYXk5RmVkU212d01LbUhzWUY1TUtoVEp4OGVyS2lJZHlwN1NfdlhBdnB6N2F2czlqMW1KaXU2VFZPWTRVcFF5bkl6Rl9DQkhfQ0M3UU9JaDA2UzhrTWpMMXBoN0NHcXlmNktlX1l2Z3JzN25sUUJI?oc=5\" targ",
+          "source": "WCTI",
+          "date": "2024-04-10"
         }
       ]
     },
     "Polk": {
       "county": "Polk",
       "fips": "37149",
-      "lastUpdated": "2026-04-19T08:09:13.663Z",
+      "lastUpdated": "2026-04-20T09:10:46.148Z",
       "analysis": "",
       "articles": [
         {
@@ -3466,7 +3483,7 @@
     "Randolph": {
       "county": "Randolph",
       "fips": "37151",
-      "lastUpdated": "2026-04-19T08:09:16.650Z",
+      "lastUpdated": "2026-04-20T09:10:49.012Z",
       "analysis": "",
       "articles": [
         {
@@ -3522,7 +3539,7 @@
     "Richmond": {
       "county": "Richmond",
       "fips": "37153",
-      "lastUpdated": "2026-04-19T08:09:19.903Z",
+      "lastUpdated": "2026-04-20T09:10:52.243Z",
       "analysis": "",
       "articles": [
         {
@@ -3562,7 +3579,7 @@
     "Robeson": {
       "county": "Robeson",
       "fips": "37155",
-      "lastUpdated": "2026-04-19T08:09:21.907Z",
+      "lastUpdated": "2026-04-20T09:10:54.201Z",
       "analysis": "",
       "articles": [
         {
@@ -3618,7 +3635,7 @@
     "Rockingham": {
       "county": "Rockingham",
       "fips": "37157",
-      "lastUpdated": "2026-04-19T08:09:24.900Z",
+      "lastUpdated": "2026-04-20T09:10:57.191Z",
       "analysis": "",
       "articles": [
         {
@@ -3638,6 +3655,14 @@
           "date": "2026-03-13"
         },
         {
+          "title": "Small NC fire department the first to destroy toxic fire foam with new tech - Spectrum News",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxObF8tYzlKWEFmOXl2T3hBNk9uUTZlVlhJLUtRSTZ0d3YxNkgtRkJoMDk2bGU1VWVSRkJ5SWVCNGNtOWFvUzEyNHVteS1CeDhacHhCcTJDaHVWd1JHOFQxd3RwU0pPbkZrempYblNRY0xBTHVGVmczRDdReGVnOVdKN3dMOVVZcGJLcldtVDdRR0Y3TFNobzAtZFZLZ2E1RWpfUnFJSlpLVHJSMW9xeUNFOXlPdTF2UHlua1dqckdKZU45b0JDMVlSSzEwb01xcDRwWlE2OUtWQWw1VWZCbmN2RQ?oc=5",
+          "pubDate": "Fri, 16 Sep 2022 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxObF8tYzlKWEFmOXl2T3hBNk9uUTZlVlhJLUtRSTZ0d3YxNkgtRkJoMDk2bGU1VWVSRkJ5SWVCNGNtOWFvUzEyNHVteS1CeDhacHhCcTJDaHVWd1JHOFQxd3RwU0pPbkZrempYblNRY0xBTHVGVmczRDdReGVnOVdKN3dMOVVZcGJLcldtVDdRR0Y3TFNobzAtZFZLZ2E1RWpfUnFJSlpLVHJ",
+          "source": "Spectrum News",
+          "date": "2022-09-16"
+        },
+        {
           "title": "GenX still flowing: 5 things to know about a new cleanup deal with Chemours - Spectrum News",
           "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPS3Y4dFR6YnRSalNTSERxdjI0aW5ERHFfQWlISHdyN1hjb3loNHJQN0Y3RmR1djltUHROWXVLWFdDYWFtaVVHTlo5VWVhdDlMYm5LRTQ0T2Eyb05SOGVqUF9kZGY3YzFSME9tajhBMWpiVkpBTkRHakRHRXYtZXN5VXA5ZGxmMTRhVFZRU3ZCYXZrUkVxblFUNFBFOVM4MFhqSGVGb0tpWGszWXI2UWVtTUduNTBNeXJBaUk5OTlqRlJlZXM4UFFJcVZ1b0dld0JReGl3ZVZXMkZMd1ZkZEZEZk93aGVUWlFaVy1LbHpGeDhZcHFZYWZv?oc=5",
           "pubDate": "Tue, 15 Nov 2022 08:00:00 GMT",
@@ -3646,11 +3671,11 @@
           "date": "2022-11-15"
         },
         {
-          "title": "Water quality permit for natural gas project MVP Southgate approved - WUNC",
+          "title": "Water quality permit for natural gas project MVP Southgate approved - WUNC News",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd1dDWFdxb3AyeVdmdFVsdmJZNktGYjV6RjhUb1VEU2hIS3NPTzgzVUFyNUlBSmVEU0dzck9tNGUtM0toRS00dUIzVlI1VVk1eFlmZTdBUUMzWnd3bFdqclZyTWwwblVLSHo4cnNHdGRYV0pmcWRobTNsVmdiaDZKTXpIcmJiUGpabXdaeEZTeXYyN204RE5oUVJKemtETDdl?oc=5",
           "pubDate": "Fri, 14 Nov 2025 08:00:00 GMT",
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQd1dDWFdxb3AyeVdmdFVsdmJZNktGYjV6RjhUb1VEU2hIS3NPTzgzVUFyNUlBSmVEU0dzck9tNGUtM0toRS00dUIzVlI1VVk1eFlmZTdBUUMzWnd3bFdqclZyTWwwblVLSHo4cnNHdGRYV0pmcWRobTNsVmdiaDZKTXpIcmJiUGpabXdaeEZTeXYyN204RE5oUVJKemtETDdl?oc=5\" targ",
-          "source": "WUNC",
+          "source": "WUNC News",
           "date": "2025-11-14"
         },
         {
@@ -3660,21 +3685,13 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOaXlJUVpwTHA1OUlaUnJjb0NWN0FreXJaQ3pIeWFKcGt3ZHBIY1ktT29wMEpFUURSSEpvR3V6VFVpVk9EY1UtOFMzRnlXdWk4dm1yYjVMdVJkaGo4bV9hVnc4anh6cVZ1OWlwMkZFaWxrc0x6eXZTQlBldENTWVY4OFE3MHZ3bGk4U0xqWkRJSWdiR3J0U2JsTWVaSm52R0lzX1E?oc=5\" t",
           "source": "Southern Alliance for Clean Energy",
           "date": "2025-08-07"
-        },
-        {
-          "title": "Bill would give DEQ only 5 days to process water quality certifications for pipelines, wetland filling - Port City Daily",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObUw1b0FrUlRNb0MxVWIwalhTUG1BY2FIYU0zeHFhWkcwN2ZKTTJvNElYUmg1Sk1pVEJvOWVpVktYbFJQd29hVm9NOEtEUGNUMl9JSXQ2Y1JUWGFCRXBIZHB3RUtWQlFBR3hkZVN4cHFSYVdFTmtia214YTBLaWp1VV8tSkI3MWVtTTNXWXp3SUpDd2drS2NzU28tM0NfSG05U21vQUpXazhzSVhiWHVldktMQQ?oc=5",
-          "pubDate": "Sun, 27 Apr 2025 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxObUw1b0FrUlRNb0MxVWIwalhTUG1BY2FIYU0zeHFhWkcwN2ZKTTJvNElYUmg1Sk1pVEJvOWVpVktYbFJQd29hVm9NOEtEUGNUMl9JSXQ2Y1JUWGFCRXBIZHB3RUtWQlFBR3hkZVN4cHFSYVdFTmtia214YTBLaWp1VV8tSkI3MWVtTTNXWXp3SUpDd2drS2NzU28tM0NfSG05U21vQUpXazh",
-          "source": "Port City Daily",
-          "date": "2025-04-27"
         }
       ]
     },
     "Rowan": {
       "county": "Rowan",
       "fips": "37159",
-      "lastUpdated": "2026-04-19T08:09:28.201Z",
+      "lastUpdated": "2026-04-20T09:11:00.314Z",
       "analysis": "",
       "articles": [
         {
@@ -3692,14 +3709,6 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE9TRHVUanJVTDdJdjBSTzJNcWZIRFV1RkJ1TUpNaU84bWdEdFBEUVdZODhwcnJwYmU4TkJDQmJaaXlsQmpvd1J6cmhLc3BJNnh2bjkyUFNzaFZUcDlPVDRUSGNWVzRYZw?oc=5\" target=\"_blank\"&gt;Press Release: Public Health Preparedness&lt;/a&gt;&amp;nbsp;&a",
           "source": "Rowan County (.gov)",
           "date": "2026-04-15"
-        },
-        {
-          "title": "City of Salisbury secures major agreement with Cube Yadkin Generation to protect the city’s drinking water - WBTV",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbkloanRBVERMZTMyRl9XOHhPWVVjRkV3cHdDNUU2WWE3N2ZRdmtibS1lWnFaRjJDZl9LUlJTZFZlM1ZsdDBUS24tQmtZd1ZPMFdGdF95T3BKZlBsN0NkTEdXSnlETjA4aGpGQ2p4d2xocXFGS0xzdlZSbW5TNlVxZ0NqQnNTd011UVQyc051VzIxZnZUaGduN080MDdSZ25ZX0ZGUXBKYVBqMWVxZU1JeG11NXdncU5iWnlrb2EzU3RrUFZ1d3Br0gHbAUFVX3lxTE9hVnlLYTJCeVBhbnFWOWV0cG02UTBKZ0h3d21LUVQyd1Ztek1fXzhENmtQZTZ4WXFnUVpMZVVfbGpTMFc1blV6SGhsVFJGQlFIMHh1QTQ3aUhNTlVJMkZlT2x3bDR5VDVOTG5FcVpKX0paaktqSm90ZW1tTEZSeG9CYVF6cjc5bFVVZW5GYklRU200eDNjUmhzTUZZX0VnREUwMDRiZlAxRjVGRlE5Q2tzT0lsSW94aFYxSFdCRGRZNXF5d1pNeEY2OFIxY3hUVThzeHhHOVplZG1Nbw?oc=5",
-          "pubDate": "Tue, 07 Mar 2023 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQbkloanRBVERMZTMyRl9XOHhPWVVjRkV3cHdDNUU2WWE3N2ZRdmtibS1lWnFaRjJDZl9LUlJTZFZlM1ZsdDBUS24tQmtZd1ZPMFdGdF95T3BKZlBsN0NkTEdXSnlETjA4aGpGQ2p4d2xocXFGS0xzdlZSbW5TNlVxZ0NqQnNTd011UVQyc051VzIxZnZUaGduN080MDdSZ25ZX0ZGUXBKYVB",
-          "source": "WBTV",
-          "date": "2023-03-07"
         },
         {
           "title": "EPA proposes ban on 'extremely toxic' TCE, found at dry cleaning sites, other areas throughout NC - NC Newsline",
@@ -3730,7 +3739,7 @@
     "Rutherford": {
       "county": "Rutherford",
       "fips": "37161",
-      "lastUpdated": "2026-04-19T08:09:31.532Z",
+      "lastUpdated": "2026-04-20T09:11:03.622Z",
       "analysis": "",
       "articles": [
         {
@@ -3750,20 +3759,20 @@
           "date": "2025-02-14"
         },
         {
-          "title": "$472M awarded for drinking and wastewater infrastructure projects around North Carolina - WLOS",
-          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOcEU5ejliWjJBRUlqVzhEc3VYc3doMWZSbjNLNWxVdHY4TjltM19nOFBSUmtrd1pMbndCWmZJOEk0M0JvYnhlY2dWZl92eG1VRXpsZUdxRnpXUWQzRFRiZjZoRl9sd09jbGItRmRWbzBvMWRMTVZ6VU9fSEctTzNyRXd3bG40YnNfVVMwelNBSDJKYmkySWtnQWZtUHI2WTdVUF9nSjE2V0RVOHBGYllyX1lTZmpwNUt4Qm1vZkNwclVSZF9IWFpZallHWjRtVDRsbFVMWE4teExlX0tZQm1tTkNNbmlkcnhqZHJRNnBzSTFOYkItQUI5MVFZUVVPLUNFa0VoeUJJOFM4YWlpMVVJNGhyV1lkV0U?oc=5",
-          "pubDate": "Thu, 19 Feb 2026 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMilwJBVV95cUxOcEU5ejliWjJBRUlqVzhEc3VYc3doMWZSbjNLNWxVdHY4TjltM19nOFBSUmtrd1pMbndCWmZJOEk0M0JvYnhlY2dWZl92eG1VRXpsZUdxRnpXUWQzRFRiZjZoRl9sd09jbGItRmRWbzBvMWRMTVZ6VU9fSEctTzNyRXd3bG40YnNfVVMwelNBSDJKYmkySWtnQWZtUHI2WTdVUF9nSjE2V0R",
-          "source": "WLOS",
-          "date": "2026-02-19"
-        },
-        {
           "title": "$270M headed to WNC for water, sewer, septic repairs after Helene - 828 News Now",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNGVTQXpuMUNJZnVYc3JMczh2WDBkWXVrUTJuREkzeVpiZlFEd212ZnlOOVV1TjlETkExYWRvY0VZel9fMUVGWTJfdXVZSzV0ZURwV3pybWNxXzkxRjVVUGRVeXQ0dUxNSXo1MUdicC1WYmF5anlNNU1GUHYybjVsNGdxZzFsRktkbGgxN0VvNkI4aUlablZuNENsQVR2NG8?oc=5",
           "pubDate": "Fri, 12 Dec 2025 08:00:00 GMT",
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQNGVTQXpuMUNJZnVYc3JMczh2WDBkWXVrUTJuREkzeVpiZlFEd212ZnlOOVV1TjlETkExYWRvY0VZel9fMUVGWTJfdXVZSzV0ZURwV3pybWNxXzkxRjVVUGRVeXQ0dUxNSXo1MUdicC1WYmF5anlNNU1GUHYybjVsNGdxZzFsRktkbGgxN0VvNkI4aUlablZuNENsQVR2NG8?oc=5\" targe",
           "source": "828 News Now",
           "date": "2025-12-12"
+        },
+        {
+          "title": "$472M awarded for drinking and wastewater infrastructure projects around North Carolina - WLOS",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOcEU5ejliWjJBRUlqVzhEc3VYc3doMWZSbjNLNWxVdHY4TjltM19nOFBSUmtrd1pMbndCWmZJOEk0M0JvYnhlY2dWZl92eG1VRXpsZUdxRnpXUWQzRFRiZjZoRl9sd09jbGItRmRWbzBvMWRMTVZ6VU9fSEctTzNyRXd3bG40YnNfVVMwelNBSDJKYmkySWtnQWZtUHI2WTdVUF9nSjE2V0RVOHBGYllyX1lTZmpwNUt4Qm1vZkNwclVSZF9IWFpZallHWjRtVDRsbFVMWE4teExlX0tZQm1tTkNNbmlkcnhqZHJRNnBzSTFOYkItQUI5MVFZUVVPLUNFa0VoeUJJOFM4YWlpMVVJNGhyV1lkV0U?oc=5",
+          "pubDate": "Thu, 19 Feb 2026 08:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMilwJBVV95cUxOcEU5ejliWjJBRUlqVzhEc3VYc3doMWZSbjNLNWxVdHY4TjltM19nOFBSUmtrd1pMbndCWmZJOEk0M0JvYnhlY2dWZl92eG1VRXpsZUdxRnpXUWQzRFRiZjZoRl9sd09jbGItRmRWbzBvMWRMTVZ6VU9fSEctTzNyRXd3bG40YnNfVVMwelNBSDJKYmkySWtnQWZtUHI2WTdVUF9nSjE2V0R",
+          "source": "WLOS",
+          "date": "2026-02-19"
         },
         {
           "title": "DEQ issues Tryon International Equestrian Center water quality violation notice - BlueRidgeNow.com",
@@ -3786,7 +3795,7 @@
     "Sampson": {
       "county": "Sampson",
       "fips": "37163",
-      "lastUpdated": "2026-04-19T08:09:33.562Z",
+      "lastUpdated": "2026-04-20T09:11:05.640Z",
       "analysis": "",
       "articles": [
         {
@@ -3842,7 +3851,7 @@
     "Scotland": {
       "county": "Scotland",
       "fips": "37165",
-      "lastUpdated": "2026-04-19T08:09:36.563Z",
+      "lastUpdated": "2026-04-20T09:11:08.794Z",
       "analysis": "",
       "articles": [
         {
@@ -3884,21 +3893,13 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOTlh4eW5RWkFma0MxbXFXMnJQdFFCLXFGTlNCelBuMG8wd25yOGlrNjZaWEFRNEdtcm10Y3VVTnd5SC1pQVp2ZjkwMTY4MDZIbUVNQkhnMDlRcWVUOEFXQ1pxZjBBRjdWUGxRd1BOZTU0cERHNXRHZVIzQXZrOTVSaTB3NE9pb0NEbmhsVl9ta0hoSm1BdXRTYTlTODJyQlRGTExWLXdtcTg",
           "source": "NC Newsline",
           "date": "2023-11-22"
-        },
-        {
-          "title": "City of Georgetown files lawsuit over PFAS contamination in local drinking water supply - WPDE",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbjZtOURDY0tvamFwSGwtYVo2M3hZaENMMzlQMU0tNTZ5MEk4bE5jaWZWWlFOTG9qdWZ5ZWVTcVBJVk1neTZNUDVFZXBlVHo2bm1XamY3Xy03TFpQc3VzSjRMUlRDMWFfNng4NWFCc3hYNlBFT29DNTJKbEwwTEJWbWsxZllGa0VEUkpwd1d5OTJRVU5FN2ZBRVFhblNySEJQOVk4V20wVTgyRW02Mnl0cnh3Z0Rtdw?oc=5",
-          "pubDate": "Wed, 08 Jan 2025 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNbjZtOURDY0tvamFwSGwtYVo2M3hZaENMMzlQMU0tNTZ5MEk4bE5jaWZWWlFOTG9qdWZ5ZWVTcVBJVk1neTZNUDVFZXBlVHo2bm1XamY3Xy03TFpQc3VzSjRMUlRDMWFfNng4NWFCc3hYNlBFT29DNTJKbEwwTEJWbWsxZllGa0VEUkpwd1d5OTJRVU5FN2ZBRVFhblNySEJQOVk4V20wVTg",
-          "source": "WPDE",
-          "date": "2025-01-08"
         }
       ]
     },
     "Stanly": {
       "county": "Stanly",
       "fips": "37167",
-      "lastUpdated": "2026-04-19T08:09:39.781Z",
+      "lastUpdated": "2026-04-20T09:11:11.951Z",
       "analysis": "",
       "articles": [
         {
@@ -3954,7 +3955,7 @@
     "Stokes": {
       "county": "Stokes",
       "fips": "37169",
-      "lastUpdated": "2026-04-19T08:09:42.752Z",
+      "lastUpdated": "2026-04-20T09:11:14.810Z",
       "analysis": "",
       "articles": [
         {
@@ -4010,14 +4011,14 @@
     "Surry": {
       "county": "Surry",
       "fips": "37171",
-      "lastUpdated": "2026-04-19T08:09:46.007Z",
+      "lastUpdated": "2026-04-20T09:11:17.968Z",
       "analysis": "",
       "articles": []
     },
     "Swain": {
       "county": "Swain",
       "fips": "37173",
-      "lastUpdated": "2026-04-19T08:09:49.202Z",
+      "lastUpdated": "2026-04-20T09:11:21.169Z",
       "analysis": "",
       "articles": [
         {
@@ -4049,7 +4050,7 @@
     "Transylvania": {
       "county": "Transylvania",
       "fips": "37175",
-      "lastUpdated": "2026-04-19T08:09:52.523Z",
+      "lastUpdated": "2026-04-20T09:11:24.248Z",
       "analysis": "",
       "articles": [
         {
@@ -4081,24 +4082,16 @@
     "Tyrrell": {
       "county": "Tyrrell",
       "fips": "37177",
-      "lastUpdated": "2026-04-19T08:09:55.743Z",
+      "lastUpdated": "2026-04-20T09:11:27.368Z",
       "analysis": "",
       "articles": []
     },
     "Union": {
       "county": "Union",
       "fips": "37179",
-      "lastUpdated": "2026-04-19T08:09:58.764Z",
+      "lastUpdated": "2026-04-20T09:11:30.330Z",
       "analysis": "",
       "articles": [
-        {
-          "title": "October 2023: Water contaminants identified, addressed in marginalized communities - National Institute of Environmental Health Sciences (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNWxEbFl0OWxrLWRFazlFeUxTOHFOWW52S21ZUHNoQUt6ZGY4SUNZYUV5R3FfUmdaYkRIUHZua1BSMEFvVEY1VGVoWlV5U0sxR0l0ODAyalc5TXFjcExZNHNqWVZuVnpiLWVJODJmeUU2YXJjQTdZOTlzaHZ4UUp6blFYRVhOZEhIVkNQakhyTHJZVjcwcXkyMk5HUEpoaVJGMlE?oc=5",
-          "pubDate": "Fri, 19 Sep 2025 15:13:32 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNNWxEbFl0OWxrLWRFazlFeUxTOHFOWW52S21ZUHNoQUt6ZGY4SUNZYUV5R3FfUmdaYkRIUHZua1BSMEFvVEY1VGVoWlV5U0sxR0l0ODAyalc5TXFjcExZNHNqWVZuVnpiLWVJODJmeUU2YXJjQTdZOTlzaHZ4UUp6blFYRVhOZEhIVkNQakhyTHJZVjcwcXkyMk5HUEpoaVJGMlE?oc=5\" t",
-          "source": "National Institute of Environmental Health Sciences (.gov)",
-          "date": "2025-09-19"
-        },
         {
           "title": "Attorneys: Presence of 'forever chemicals' in North Georgia water 'alarming' - FOX 5 Atlanta",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcDk3VURrSUtkckFGVGlLdWRsY2FZSmk5U09RY3lJTlB3Mm5KVDlCcHlUbVFaRnllTVdrVDgyZkkzcloyTDhOUkJCV3FJUmQ5NGtVaWVFQTBkQWpTTEtRTlgwVk5fbV9uNy0zczhpa1hmdm4tUnB3cTBMSG9IeWJTbFBrN2RnRVRaX1c3NDFRM2VIbjhMeHZ1enVFTjV5WGJsanfSAacBQVVfeXFMT2JoRzVTSng3bTdzTWZjby13WmdDeHNVUHM4WXZpNS1XdVk0T2hSMXRLb2RVNXlDbzdwbGZNY1RpVC0wc3NNbEFxNVNBT3Q0WjlFNHFlWTZGS3FnVTR5QjQyYnZ0Rk14RmYyT1ZNTXQza0NweGtGRll2WlJwbzM4ZDBDV3ByME1IVVlsdFROblNZaEpjN3BmT05seHNaWVdPM3poZHM2Sms?oc=5",
@@ -4106,6 +4099,14 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPcDk3VURrSUtkckFGVGlLdWRsY2FZSmk5U09RY3lJTlB3Mm5KVDlCcHlUbVFaRnllTVdrVDgyZkkzcloyTDhOUkJCV3FJUmQ5NGtVaWVFQTBkQWpTTEtRTlgwVk5fbV9uNy0zczhpa1hmdm4tUnB3cTBMSG9IeWJTbFBrN2RnRVRaX1c3NDFRM2VIbjhMeHZ1enVFTjV5WGJsanfSAacBQVV",
           "source": "FOX 5 Atlanta",
           "date": "2025-06-11"
+        },
+        {
+          "title": "October 2023: Water contaminants identified, addressed in marginalized communities - National Institute of Environmental Health Sciences (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNWxEbFl0OWxrLWRFazlFeUxTOHFOWW52S21ZUHNoQUt6ZGY4SUNZYUV5R3FfUmdaYkRIUHZua1BSMEFvVEY1VGVoWlV5U0sxR0l0ODAyalc5TXFjcExZNHNqWVZuVnpiLWVJODJmeUU2YXJjQTdZOTlzaHZ4UUp6blFYRVhOZEhIVkNQakhyTHJZVjcwcXkyMk5HUEpoaVJGMlE?oc=5",
+          "pubDate": "Fri, 19 Sep 2025 15:13:32 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNNWxEbFl0OWxrLWRFazlFeUxTOHFOWW52S21ZUHNoQUt6ZGY4SUNZYUV5R3FfUmdaYkRIUHZua1BSMEFvVEY1VGVoWlV5U0sxR0l0ODAyalc5TXFjcExZNHNqWVZuVnpiLWVJODJmeUU2YXJjQTdZOTlzaHZ4UUp6blFYRVhOZEhIVkNQakhyTHJZVjcwcXkyMk5HUEpoaVJGMlE?oc=5\" t",
+          "source": "National Institute of Environmental Health Sciences (.gov)",
+          "date": "2025-09-19"
         },
         {
           "title": "Pollution leaks at aging textile plant threaten Broad River, Columbia drinking water - The State",
@@ -4144,7 +4145,7 @@
     "Vance": {
       "county": "Vance",
       "fips": "37181",
-      "lastUpdated": "2026-04-19T08:10:02.027Z",
+      "lastUpdated": "2026-04-20T09:11:33.445Z",
       "analysis": "",
       "articles": [
         {
@@ -4160,7 +4161,7 @@
     "Wake": {
       "county": "Wake",
       "fips": "37183",
-      "lastUpdated": "2026-04-19T08:10:04.039Z",
+      "lastUpdated": "2026-04-20T09:11:35.395Z",
       "analysis": "",
       "articles": [
         {
@@ -4170,14 +4171,6 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNSkJoZVlDcUNQZjNxeTVBMUNWd05ZcXpjeWtHZFlSdlBNOVFKcjQyUHk4RU9LT3VXanhqUGg5ZTBsYTlMemFkaTM3dTdseV9KS0x4VjR2UkFMUWZrWlpSTGZ4dUNOTUxXU2d1Mmp2aDNRclFzdW5RcHZ0cVFlUUV0aGZn0gGCAUFVX3lxTE5sSEw0ZWVDV3BCOE5PYldTbE9UMXlYUkhuZmp",
           "source": "News &amp; Observer",
           "date": "2026-01-09"
-        },
-        {
-          "title": "Judge upholds that DEQ can set wastewater permit limits - Coastal Review",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTkVWRnJRanRBdzZ6cmtYVDMtX2ZJczQ2ZUE0YmIzNHkyTFczZ3NLRGlJRDZpZnNvdXpFUkw0b1k1TDlqZlJvRUFSc3lQUk5vZFJ2UXl0Q0l3Ukc1TEtLN24zbHlRZUVha05MOHZQaWFpWVJ3UlNzTi1fdGRhbTRxaTdWamJsX2NlMThTVS02amROeXE3?oc=5",
-          "pubDate": "Fri, 13 Feb 2026 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPTkVWRnJRanRBdzZ6cmtYVDMtX2ZJczQ2ZUE0YmIzNHkyTFczZ3NLRGlJRDZpZnNvdXpFUkw0b1k1TDlqZlJvRUFSc3lQUk5vZFJ2UXl0Q0l3Ukc1TEtLN24zbHlRZUVha05MOHZQaWFpWVJ3UlNzTi1fdGRhbTRxaTdWamJsX2NlMThTVS02amROeXE3?oc=5\" target=\"_blank\"&gt;J",
-          "source": "Coastal Review",
-          "date": "2026-02-13"
         },
         {
           "title": "Toxic PFAS detected in groundwater around NC landfills - WRAL",
@@ -4196,36 +4189,44 @@
           "date": "2025-03-27"
         },
         {
+          "title": "Judge upholds that DEQ can set wastewater permit limits - Coastal Review",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTkVWRnJRanRBdzZ6cmtYVDMtX2ZJczQ2ZUE0YmIzNHkyTFczZ3NLRGlJRDZpZnNvdXpFUkw0b1k1TDlqZlJvRUFSc3lQUk5vZFJ2UXl0Q0l3Ukc1TEtLN24zbHlRZUVha05MOHZQaWFpWVJ3UlNzTi1fdGRhbTRxaTdWamJsX2NlMThTVS02amROeXE3?oc=5",
+          "pubDate": "Fri, 13 Feb 2026 08:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPTkVWRnJRanRBdzZ6cmtYVDMtX2ZJczQ2ZUE0YmIzNHkyTFczZ3NLRGlJRDZpZnNvdXpFUkw0b1k1TDlqZlJvRUFSc3lQUk5vZFJ2UXl0Q0l3Ukc1TEtLN24zbHlRZUVha05MOHZQaWFpWVJ3UlNzTi1fdGRhbTRxaTdWamJsX2NlMThTVS02amROeXE3?oc=5\" target=\"_blank\"&gt;J",
+          "source": "Coastal Review",
+          "date": "2026-02-13"
+        },
+        {
+          "title": "New PFAS treatment facilities aim to clean North Carolina drinking water - WRAL",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZmgteWdQQWgwRm9aNnJtSTlybTJxcUpXUnNLS040NnBPMm1NRmRPV1JFaFlDeVVBOHR6eG1NdnRFX1hIZHA1VjgtUUw5Y1BoSVRSWnhoUU5QQ09ndWRUUGFZck85cHQ5U2RaUVZKY1VjbW5ydHpYVE82WmZRakxsX3BTY2MzZkZUeXktb3c4dktGNWNlMTRv?oc=5",
+          "pubDate": "Wed, 29 Jan 2025 08:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPZmgteWdQQWgwRm9aNnJtSTlybTJxcUpXUnNLS040NnBPMm1NRmRPV1JFaFlDeVVBOHR6eG1NdnRFX1hIZHA1VjgtUUw5Y1BoSVRSWnhoUU5QQ09ndWRUUGFZck85cHQ5U2RaUVZKY1VjbW5ydHpYVE82WmZRakxsX3BTY2MzZkZUeXktb3c4dktGNWNlMTRv?oc=5\" target=\"_blank\"&",
+          "source": "WRAL",
+          "date": "2025-01-29"
+        },
+        {
           "title": "Groups will sue to stop Asheboro’s toxic pollution of drinking water supplies for 900,000 North Carolinians - Southern Environmental Law Center",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQS2VENGp6M2g1YkFGd3ptMXdvY1V4b2xOVnlkckVVRktXUnBrZDdCS3dCOGZnUXBQWFpNR1hnaFpoZUZiVlBrWmNvX3d5dkZqbkRFamE5OGdiTUM5X3FEaG5zNlFySXo3LUtXMGlZRTR4TGRFeGp0bWU3czd2S0ZtbGJINHprbWlWbGZ3eHFIcFoya0lFZHVaVHZsNk9obC1jdzBfUXJybC02dWRhR3UxdEZWUTlmSGpZX2UtLVh5Z3psek9wM0Y5N1h1NUxDNHQydGZsbnYxeDY?oc=5",
           "pubDate": "Wed, 26 Mar 2025 07:00:00 GMT",
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxQS2VENGp6M2g1YkFGd3ptMXdvY1V4b2xOVnlkckVVRktXUnBrZDdCS3dCOGZnUXBQWFpNR1hnaFpoZUZiVlBrWmNvX3d5dkZqbkRFamE5OGdiTUM5X3FEaG5zNlFySXo3LUtXMGlZRTR4TGRFeGp0bWU3czd2S0ZtbGJINHprbWlWbGZ3eHFIcFoya0lFZHVaVHZsNk9obC1jdzBfUXJybC0",
           "source": "Southern Environmental Law Center",
           "date": "2025-03-26"
-        },
-        {
-          "title": "Adapting to PFAS contamination of private drinking water wells near a PFAS production facility in the US Atlantic Coastal Plain of North Carolina - Wiley Online Library",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43TE1IeU9TV24zdHVJUjhKNk9hZHZrLW9qRHBMVmwxeG54dUkwS3hneUIwYVJHTXk0cUFITTNpdHhubFdiU2JpTkxiNS1ZTWNBTXJvUmZzT0lndG4tUl90V2NUUlNqd20zaFE?oc=5",
-          "pubDate": "Sun, 28 Jul 2024 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE43TE1IeU9TV24zdHVJUjhKNk9hZHZrLW9qRHBMVmwxeG54dUkwS3hneUIwYVJHTXk0cUFITTNpdHhubFdiU2JpTkxiNS1ZTWNBTXJvUmZzT0lndG4tUl90V2NUUlNqd20zaFE?oc=5\" target=\"_blank\"&gt;Adapting to PFAS contamination of private drinking water w",
-          "source": "Wiley Online Library",
-          "date": "2024-07-28"
         }
       ]
     },
     "Warren": {
       "county": "Warren",
       "fips": "37185",
-      "lastUpdated": "2026-04-19T08:10:07.079Z",
+      "lastUpdated": "2026-04-20T09:11:38.665Z",
       "analysis": "",
       "articles": [
         {
-          "title": "EPA Administrator Regan announces new environmental justice office, $3B in funding - News &amp; Observer",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONzd1clBlOEhnbFJZcGdlbVRaMWhUS2RBMFFKZHVPOTZUd1E5d3dGYzBTaXBLU1I2TUxRbVBTVzBRRzhxTlJXWC1yeF9wY3hwNW5OUk1GZXBwdGVlcDE5bW5Ca0JNOW5hcXBLZXBDcE8zRDBTTUdHSVpMUEtmV3plNdIBgAFBVV95cUxOcENjNVBQcGxINGQ4bzRoNmlXRmN2ZGpkeFVQam4xN0lqa0R4MEloY2hSVVlIVktVZHhwaG01d05oeWxtZEczVUR2anBhUFdXU0FtQ1BQMGZjX1hudWh3NjhJWU5JZDB0ejNySTIyNE1DdUNNLTQ5RFFtUUtDNjZ5Zg?oc=5",
-          "pubDate": "Sat, 24 Sep 2022 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxONzd1clBlOEhnbFJZcGdlbVRaMWhUS2RBMFFKZHVPOTZUd1E5d3dGYzBTaXBLU1I2TUxRbVBTVzBRRzhxTlJXWC1yeF9wY3hwNW5OUk1GZXBwdGVlcDE5bW5Ca0JNOW5hcXBLZXBDcE8zRDBTTUdHSVpMUEtmV3plNdIBgAFBVV95cUxOcENjNVBQcGxINGQ4bzRoNmlXRmN2ZGpkeFVQam4",
-          "source": "News &amp; Observer",
-          "date": "2022-09-24"
+          "title": "EPA: Sanford community among worst air quality in state, experts call it 'cause for concern' - ABC11 Raleigh-Durham",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYVJ1LWxYeW5ZUUtoS3gtb0ROS3FfeV8xbWRjM0E0RWdabHo5emdISDQ1dzlzU3hVaFJxbXozZHppM3NFTlNtUlh4dncxQU5rc2R3ZjEtcUx1NlVsQlNndkxuRFpVb0RqN0hFMGZ3UndmV0xrSEFVWVdjTk9hTy10ZTI5VFhCRDdMenZuMGcySHLSAZYBQVVfeXFMUHhKUXFrLXpXd1ljYmQwbEwzUG4xcldpMlpzT3pHMlZ4Q3RjLXRvc0hlSVRtOW9qMjFpOVpNckwxN3pqajlfcTd4enhHbzBCTXdKUkRfaTFNS1NjcTR5eGJNUXp3SngyWHFVbDg4V1ZXNUsyNGNuenJ6RTRteVNmRmFMNXpmYmJPV0NKdHN0NklGOFRTLXVR?oc=5",
+          "pubDate": "Wed, 10 Apr 2024 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNYVJ1LWxYeW5ZUUtoS3gtb0ROS3FfeV8xbWRjM0E0RWdabHo5emdISDQ1dzlzU3hVaFJxbXozZHppM3NFTlNtUlh4dncxQU5rc2R3ZjEtcUx1NlVsQlNndkxuRFpVb0RqN0hFMGZ3UndmV0xrSEFVWVdjTk9hTy10ZTI5VFhCRDdMenZuMGcySHLSAZYBQVVfeXFMUHhKUXFrLXpXd1ljYmQ",
+          "source": "ABC11 Raleigh-Durham",
+          "date": "2024-04-10"
         },
         {
           "title": "From PFAS to gerrymandering: activists strategize solutions at North Carolina summit - North Carolina Health News",
@@ -4234,14 +4235,6 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxOLVBLMjRaTV9iODRGNy1oYVoxYjRzajBnRmY5ajNTa3FCM1E2U2tJM09EeU5qNDEzbVlqdlU5eWtELWtpeFhld2FwMWpwWHdmOE5jV1ZBUk5YRjZZWE5pMWlBTnZ6NlVhTkxUTDJJY2dpLXBhZlAyZEFwM3k4LWFqZzFCZDVSUmZjS24ycm4ySmx0VFFyYTV0RGpuVGc5Z1REeHJqaTlDc3J",
           "source": "North Carolina Health News",
           "date": "2024-01-26"
-        },
-        {
-          "title": "EPA: Sanford community among worst air quality in state, experts call it 'cause for concern' - ABC11 Raleigh-Durham",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYVJ1LWxYeW5ZUUtoS3gtb0ROS3FfeV8xbWRjM0E0RWdabHo5emdISDQ1dzlzU3hVaFJxbXozZHppM3NFTlNtUlh4dncxQU5rc2R3ZjEtcUx1NlVsQlNndkxuRFpVb0RqN0hFMGZ3UndmV0xrSEFVWVdjTk9hTy10ZTI5VFhCRDdMenZuMGcySHLSAZYBQVVfeXFMUHhKUXFrLXpXd1ljYmQwbEwzUG4xcldpMlpzT3pHMlZ4Q3RjLXRvc0hlSVRtOW9qMjFpOVpNckwxN3pqajlfcTd4enhHbzBCTXdKUkRfaTFNS1NjcTR5eGJNUXp3SngyWHFVbDg4V1ZXNUsyNGNuenJ6RTRteVNmRmFMNXpmYmJPV0NKdHN0NklGOFRTLXVR?oc=5",
-          "pubDate": "Wed, 10 Apr 2024 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNYVJ1LWxYeW5ZUUtoS3gtb0ROS3FfeV8xbWRjM0E0RWdabHo5emdISDQ1dzlzU3hVaFJxbXozZHppM3NFTlNtUlh4dncxQU5rc2R3ZjEtcUx1NlVsQlNndkxuRFpVb0RqN0hFMGZ3UndmV0xrSEFVWVdjTk9hTy10ZTI5VFhCRDdMenZuMGcySHLSAZYBQVVfeXFMUHhKUXFrLXpXd1ljYmQ",
-          "source": "ABC11 Raleigh-Durham",
-          "date": "2024-04-10"
         },
         {
           "title": "Testing in rural Warren County at PFAS hot spot - NJ Spotlight News",
@@ -4266,23 +4259,23 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNZl9ETWprWi1RX1pEcjVmVVVHaHY2WGd6bUlEUkxuQmpOZWZUbjdzNXpKZ2ZTekJhNmNHbmJvWEYtQ1JvMkgxcUpTb3VZdjNPdFhwNGx4dmhTb095V283eW5fX0dYWFQwYTJ6ZlhLQnJWc1NURDhraldZOTFUYk9wdjhNUk15TGVMWWhSam83R3NDMmQ2cHc?oc=5\" target=\"_blank\"&g",
           "source": "North Carolina Health News",
           "date": "2022-09-26"
+        },
+        {
+          "title": "PRESS ROOM: EPA Administrator Regan to Join Leaders of Civil Rights, Environmental Justice Movement for Significant Announcement in Warren County, North Carolina - BlackPressUSA",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPSURYekpJclJQdnBHVHNfVURVM0hVMlhCX05NQW5fdUlveUZSVHVmcEhvaEFCc3ozTmFjWVdPZ3hFT3lrN2MtUGxtRkxvQU5XZ1lBRXVHR0xEZFJNUUhVV25xLWVjR0Z6WVN6OFVhR2NtYWRhaHJBQVR4azNCeGRUeEZRREhLZzJuRlI0Ymx4ZHdoSDZ2MlZyMkZPWHlRN24zUjZmQW81Znl1T2ZaVGJhZlJoS1ZKVmlPT3JWRXBhS1MyM1UwTXBvM05yeHF5NWluUlJzR2tsYkJ2elhXYVgyZjlUNTd1NUM1aE1OVC14bUltM2R0MDR2Ylpacl82ZXQzd2NqVHRPLVp2Z3BzNG5aU1hFYw?oc=5",
+          "pubDate": "Sat, 24 Sep 2022 09:01:09 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMikwJBVV95cUxPSURYekpJclJQdnBHVHNfVURVM0hVMlhCX05NQW5fdUlveUZSVHVmcEhvaEFCc3ozTmFjWVdPZ3hFT3lrN2MtUGxtRkxvQU5XZ1lBRXVHR0xEZFJNUUhVV25xLWVjR0Z6WVN6OFVhR2NtYWRhaHJBQVR4azNCeGRUeEZRREhLZzJuRlI0Ymx4ZHdoSDZ2MlZyMkZPWHlRN24zUjZmQW81Znl",
+          "source": "BlackPressUSA",
+          "date": "2022-09-24"
         }
       ]
     },
     "Washington": {
       "county": "Washington",
       "fips": "37187",
-      "lastUpdated": "2026-04-19T08:10:10.179Z",
+      "lastUpdated": "2026-04-20T09:11:41.650Z",
       "analysis": "",
       "articles": [
-        {
-          "title": "EPA is Racking Up Massive Environmental Accomplishments Under the Trump Administration - U.S. Environmental Protection Agency (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdkxWbHJST29WMnNQWm44am9TeUtqWFFtZkZNUlpOMi1lYWVnT2NNdUF0ZDNFTWJxQmNMQmRWdmFhcmFpaXVIdFptSTAzQ3Y0V1ZSNDV2QnNUdGxYNkZmUzVaRElUTEdxWXJ5MW56U2Q5U243aHp0czlHV054cnpaSWRuMEZ5LU9LYWEzbkJBRUlFcmcxc1dJVHhJLWd0X01PdTF5ajJsWUU?oc=5",
-          "pubDate": "Fri, 19 Dec 2025 11:35:13 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdkxWbHJST29WMnNQWm44am9TeUtqWFFtZkZNUlpOMi1lYWVnT2NNdUF0ZDNFTWJxQmNMQmRWdmFhcmFpaXVIdFptSTAzQ3Y0V1ZSNDV2QnNUdGxYNkZmUzVaRElUTEdxWXJ5MW56U2Q5U243aHp0czlHV054cnpaSWRuMEZ5LU9LYWEzbkJBRUlFcmcxc1dJVHhJLWd0X01PdTF5ajJsWUU",
-          "source": "U.S. Environmental Protection Agency (.gov)",
-          "date": "2025-12-19"
-        },
         {
           "title": "Researchers seeking private well owners in 4 states for study of PFAS in well water - News at IU",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdEN0U0NSN1B1UjU4RlhQSmZaUWNvWlJrV1FLUTYtd3ZUdW9XdFdGVEtwMWJtZ25UYXVhSWJxUGhtV1d5ZHpJajJTNHAxbkZBRVdHaUk2SHV3eG1GTS1pNzVXVzF1NWNtY0lDcEFEV0lwZ3QxNG1Hb0Z5YVRPNGNvWm9ONE1kZjA?oc=5",
@@ -4292,20 +4285,20 @@
           "date": "2021-07-13"
         },
         {
+          "title": "EPA is Racking Up Massive Environmental Accomplishments Under the Trump Administration - U.S. Environmental Protection Agency (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdkxWbHJST29WMnNQWm44am9TeUtqWFFtZkZNUlpOMi1lYWVnT2NNdUF0ZDNFTWJxQmNMQmRWdmFhcmFpaXVIdFptSTAzQ3Y0V1ZSNDV2QnNUdGxYNkZmUzVaRElUTEdxWXJ5MW56U2Q5U243aHp0czlHV054cnpaSWRuMEZ5LU9LYWEzbkJBRUlFcmcxc1dJVHhJLWd0X01PdTF5ajJsWUU?oc=5",
+          "pubDate": "Fri, 19 Dec 2025 11:35:13 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdkxWbHJST29WMnNQWm44am9TeUtqWFFtZkZNUlpOMi1lYWVnT2NNdUF0ZDNFTWJxQmNMQmRWdmFhcmFpaXVIdFptSTAzQ3Y0V1ZSNDV2QnNUdGxYNkZmUzVaRElUTEdxWXJ5MW56U2Q5U243aHp0czlHV054cnpaSWRuMEZ5LU9LYWEzbkJBRUlFcmcxc1dJVHhJLWd0X01PdTF5ajJsWUU",
+          "source": "U.S. Environmental Protection Agency (.gov)",
+          "date": "2025-12-19"
+        },
+        {
           "title": "Predicting the occurrence of short-chain PFAS in groundwater using machine-learned Bayesian networks - Frontiers",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcjNxS0xBbU1ubDI0bExLSFRSaUJDTENrTm1CRjBheE91cjUxMXRPRWNCQVF6RnJPdW5tR2JwN1VEbXVkVkxRRTZpa2tZaDBtbjdmaTVZcHcyc3lQWFRkQXpGWTR6a25SM050bHNFRDdVZVNMUDZESldVdDVYRklyS3NYU1JaOExwWi1hMF9EWHVEV2tjbVkxMzUxbm85Y00?oc=5",
           "pubDate": "Thu, 03 Nov 2022 07:00:00 GMT",
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOcjNxS0xBbU1ubDI0bExLSFRSaUJDTENrTm1CRjBheE91cjUxMXRPRWNCQVF6RnJPdW5tR2JwN1VEbXVkVkxRRTZpa2tZaDBtbjdmaTVZcHcyc3lQWFRkQXpGWTR6a25SM050bHNFRDdVZVNMUDZESldVdDVYRklyS3NYU1JaOExwWi1hMF9EWHVEV2tjbVkxMzUxbm85Y00?oc=5\" targe",
           "source": "Frontiers",
           "date": "2022-11-03"
-        },
-        {
-          "title": "PFAS Lawsuit: $12.5 Billion 3M PFAS Contamination Settlement - Consumer Notice",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5aQk1sY0l1RmliVTM5NUFRZmthbWhYVlhLSm5mUWJndk55eUtTbW1EZl9FOS1yejR5U1dvQUlXbGtRZmJEdW9vbExoUGstMTk4dWFDWjNLaGdaSnlINTNn?oc=5",
-          "pubDate": "Thu, 08 Jun 2023 20:49:49 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5aQk1sY0l1RmliVTM5NUFRZmthbWhYVlhLSm5mUWJndk55eUtTbW1EZl9FOS1yejR5U1dvQUlXbGtRZmJEdW9vbExoUGstMTk4dWFDWjNLaGdaSnlINTNn?oc=5\" target=\"_blank\"&gt;PFAS Lawsuit: $12.5 Billion 3M PFAS Contamination Settlement&lt;/a&gt;&am",
-          "source": "Consumer Notice",
-          "date": "2023-06-08"
         },
         {
           "title": "Behind 3M’s Decision to Halt PFAS Production - Twin Cities Business",
@@ -4322,22 +4315,30 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxQV25IemZ2Q0FHU25MSEhFdFM1SnVvb0ZFblYwQmxibjFsWV9EcjNBeVY3MlduSTNhQV9SYVRsSGJycFJZMF9hWUpCMGxDQjRIZnJyM0R1d0lQNlNVZTBiLTNSb2VnQkRkZXI4cFV3ZzA3MUpMSnd3RmRPa1pOakJhLVpQWF9NdWliS1FTRWFzclhOLU5oX2p6Z2pZbFFKbkNkZzRCaU14WDl",
           "source": "Minnesota Reformer",
           "date": "2023-10-02"
+        },
+        {
+          "title": "Brown drinking water concerns many Creswell residents - WITN",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORGs2QkdWQ3k5NGlFUjc3RzJtTWxOMHJTaDFYamFKR0FCQW1HenBVdXZSX0lfbDR0YzFhUEZ6NTBKRFJuMEw3MHAtTTdIaXZ1bnd0Sks0aEg1b3ZWLWVrRHFsaEFJUGowTHM5S0F5QnRWcGpTV0lINFlYUm5sZ0VlbHpGM1d4NjNkWnpzM1R6dDNIWFdBMEFj?oc=5",
+          "pubDate": "Sat, 12 Apr 2025 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxORGs2QkdWQ3k5NGlFUjc3RzJtTWxOMHJTaDFYamFKR0FCQW1HenBVdXZSX0lfbDR0YzFhUEZ6NTBKRFJuMEw3MHAtTTdIaXZ1bnd0Sks0aEg1b3ZWLWVrRHFsaEFJUGowTHM5S0F5QnRWcGpTV0lINFlYUm5sZ0VlbHpGM1d4NjNkWnpzM1R6dDNIWFdBMEFj?oc=5\" target=\"_blank\"&",
+          "source": "WITN",
+          "date": "2025-04-12"
         }
       ]
     },
     "Watauga": {
       "county": "Watauga",
       "fips": "37189",
-      "lastUpdated": "2026-04-19T08:10:13.446Z",
+      "lastUpdated": "2026-04-20T09:11:44.783Z",
       "analysis": "",
       "articles": [
         {
-          "title": "EPA's Hurricane Helene Response Activities: North Carolina - U.S. Environmental Protection Agency (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMUtmVktTdjBxanhLVzJ0bzdVclVLYloyRDJ6QldXakVXRUhad1Q4aDZxa2ZFV2k2VVNiRGVWSHhCcHZzQ2twRm0zcVZPZUx6eFZYc01aR1FjbkdBMTlqUDZ0ZllYVTdTWjBhTWlBVkJIYlRlYXRoU0I5RmlOaDdNLVRFUnN3NS1GeEFJMkdZb2ZmN1plUHV5OExzTQ?oc=5",
-          "pubDate": "Tue, 16 Sep 2025 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQMUtmVktTdjBxanhLVzJ0bzdVclVLYloyRDJ6QldXakVXRUhad1Q4aDZxa2ZFV2k2VVNiRGVWSHhCcHZzQ2twRm0zcVZPZUx6eFZYc01aR1FjbkdBMTlqUDZ0ZllYVTdTWjBhTWlBVkJIYlRlYXRoU0I5RmlOaDdNLVRFUnN3NS1GeEFJMkdZb2ZmN1plUHV5OExzTQ?oc=5\" target=\"_b",
+          "title": "EPA Administrator Lee Zeldin Travels to Western North Carolina to Visit Communities Rebuilding in the Wake of Hurricane Helene - U.S. Environmental Protection Agency (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTWhmcjBxZmZyVHd1ME9Jd09wQlYxM0RjU05XMnQ3QUYxdXdvcC1xQkplZ0k5RWV0V1pSR3B3TkpTbG40eENQeEdla2QwWTViY3hiUlp6M1ctWmJIaWwwdURvYk4xSGJPWVdYMGlLcVB2MlZ2d3lkcXkxdGE1ZXBUUTR0TGU5T3VjYmpjRG5ydU8xaUtsOXdQZXJpanpuUzR5WVRyR2ZVVUk4eC1RWXFJ?oc=5",
+          "pubDate": "Fri, 07 Feb 2025 08:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPTWhmcjBxZmZyVHd1ME9Jd09wQlYxM0RjU05XMnQ3QUYxdXdvcC1xQkplZ0k5RWV0V1pSR3B3TkpTbG40eENQeEdla2QwWTViY3hiUlp6M1ctWmJIaWwwdURvYk4xSGJPWVdYMGlLcVB2MlZ2d3lkcXkxdGE1ZXBUUTR0TGU5T3VjYmpjRG5ydU8xaUtsOXdQZXJpanpuUzR5WVRyR2ZVVUk",
           "source": "U.S. Environmental Protection Agency (.gov)",
-          "date": "2025-09-16"
+          "date": "2025-02-07"
         },
         {
           "title": "Wine To Water offering free water quality testing program in Watauga, WNC - Watauga Democrat",
@@ -4346,21 +4347,13 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxNbFBwVzJSbGNVOHFUTW9mMnlyakRzQS12ZkxWal91RERVdFZZbE9fbW5uejdpZkRuZWhZNnd6SkpPOHlFTjFwUm1BNlk3SzRfVVA2SUE4aWhmMnJsdUJzWTNxSkluTTlEcTBPTFJDTGVhNXRzcHcxdWMzY0pQRUFGamNORTB6MUJaek1tZC10d2czeXhPdGE3NlZqbFVJcG5yM08xZmJfZ0V",
           "source": "Watauga Democrat",
           "date": "2025-07-02"
-        },
-        {
-          "title": "EPA Administrator Lee Zeldin Travels to Western North Carolina to Visit Communities Rebuilding in the Wake of Hurricane Helene - U.S. Environmental Protection Agency (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTWhmcjBxZmZyVHd1ME9Jd09wQlYxM0RjU05XMnQ3QUYxdXdvcC1xQkplZ0k5RWV0V1pSR3B3TkpTbG40eENQeEdla2QwWTViY3hiUlp6M1ctWmJIaWwwdURvYk4xSGJPWVdYMGlLcVB2MlZ2d3lkcXkxdGE1ZXBUUTR0TGU5T3VjYmpjRG5ydU8xaUtsOXdQZXJpanpuUzR5WVRyR2ZVVUk4eC1RWXFJ?oc=5",
-          "pubDate": "Fri, 07 Feb 2025 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPTWhmcjBxZmZyVHd1ME9Jd09wQlYxM0RjU05XMnQ3QUYxdXdvcC1xQkplZ0k5RWV0V1pSR3B3TkpTbG40eENQeEdla2QwWTViY3hiUlp6M1ctWmJIaWwwdURvYk4xSGJPWVdYMGlLcVB2MlZ2d3lkcXkxdGE1ZXBUUTR0TGU5T3VjYmpjRG5ydU8xaUtsOXdQZXJpanpuUzR5WVRyR2ZVVUk",
-          "source": "U.S. Environmental Protection Agency (.gov)",
-          "date": "2025-02-07"
         }
       ]
     },
     "Wayne": {
       "county": "Wayne",
       "fips": "37191",
-      "lastUpdated": "2026-04-19T08:10:16.497Z",
+      "lastUpdated": "2026-04-20T09:11:47.762Z",
       "analysis": "",
       "articles": [
         {
@@ -4396,34 +4389,34 @@
           "date": "2022-03-01"
         },
         {
-          "title": "Goldsboro to receive $33 million for drinking water improvements, governor says - CBS17.com",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMzZGQUt4MmlCRUpOcTZUNk9lQi15UjMzX1BaOHNTQ1lYVXlrMVFENWpJTmhjSUdUa1ZPX1NGcDduczI4U1l4cGpKZDFyMTFObVFCci1aRHJjSk1YbTlaczFHSWxVbXAyWDlvS0lWYkNqYTRxazhleUExd0JPOFhtbWljUHhTLTBQVk1pVlhqWjdubmRULVZycGlsbmxMNkw1ak50SlBaWHpaM3BTenBpaUphb1ZEY05jb244VVhNMEVRSWR2TC1KVDQyUVBsN3fSAdQBQVVfeXFMTmVrVHdPX2xkSUVLS3JoZ084c3RfTTR2N2xFWTctRk9Ia3plR05wcmkxZ2J3RU1xRmo3Z2llektJVTFCOXB1cHlzX3lKOHRaS3VVWVFpZTdrQ0paY1Y5VDJ3aFNkXzVnLTBVbmVaekdZOG83YlpTRlR3MHZldjZ5ZDZvQUVNY0NNeXZvZF83ZXppSmhfbGVFZFQ3NkZ3UVBiaHBLMGV1RVk4cDF2VDlnOS1GLS00OUQ1c3BORDk2cVZDMXBCYXBvamQ2Q0lraFRqZlhJSTg?oc=5",
-          "pubDate": "Thu, 19 Feb 2026 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPMzZGQUt4MmlCRUpOcTZUNk9lQi15UjMzX1BaOHNTQ1lYVXlrMVFENWpJTmhjSUdUa1ZPX1NGcDduczI4U1l4cGpKZDFyMTFObVFCci1aRHJjSk1YbTlaczFHSWxVbXAyWDlvS0lWYkNqYTRxazhleUExd0JPOFhtbWljUHhTLTBQVk1pVlhqWjdubmRULVZycGlsbmxMNkw1ak50SlBaWHp",
-          "source": "CBS17.com",
-          "date": "2026-02-19"
-        },
-        {
           "title": "A Global Chemical Giant Racks Up Violations in Durham, N.C., Where Drinking Water for a Million Is Threatened - Inside Climate News",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeE82VHZYRHdhMktHQWNpanl1NEVld25Ka0JwTk9FNW5kNVdpZ2dpY0czMGNhQlhyVmFDanIzWUF3NGlOODBzLUt3ZGJUeGtnejkybnN6VThhVzBja2ZqN3JTVzJ5d21zY1FFaUhFSGQ4TjhvRkF3bDRERVlacUN0UktHSW5pR0RYSGRfXzRJdUh1VW45YUE?oc=5",
           "pubDate": "Wed, 04 Mar 2026 08:00:00 GMT",
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPeE82VHZYRHdhMktHQWNpanl1NEVld25Ka0JwTk9FNW5kNVdpZ2dpY0czMGNhQlhyVmFDanIzWUF3NGlOODBzLUt3ZGJUeGtnejkybnN6VThhVzBja2ZqN3JTVzJ5d21zY1FFaUhFSGQ4TjhvRkF3bDRERVlacUN0UktHSW5pR0RYSGRfXzRJdUh1VW45YUE?oc=5\" target=\"_blank\"&g",
           "source": "Inside Climate News",
           "date": "2026-03-04"
+        },
+        {
+          "title": "N.C. Judge Upholds the State’s Limits on 1,4-Dioxane Pollution in Utilities’ Wastewater - Inside Climate News",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORXplSi1HWnJDRFdrTlpDdGV2OVNZTDQ0VXNQY3NXNkRfdEJfWElPNVdNeHVJUm5qN2l3a0hNUVZKc0plQ1lzVUFhMGVzbVpwdnVPcWY0MzBBYmlVVk9aM2REZGVCQlNESzlNcVdsbXVIUWpsT3hXbl93RUJkR1pRQWNB?oc=5",
+          "pubDate": "Wed, 11 Feb 2026 08:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxORXplSi1HWnJDRFdrTlpDdGV2OVNZTDQ0VXNQY3NXNkRfdEJfWElPNVdNeHVJUm5qN2l3a0hNUVZKc0plQ1lzVUFhMGVzbVpwdnVPcWY0MzBBYmlVVk9aM2REZGVCQlNESzlNcVdsbXVIUWpsT3hXbl93RUJkR1pRQWNB?oc=5\" target=\"_blank\"&gt;N.C. Judge Upholds the St",
+          "source": "Inside Climate News",
+          "date": "2026-02-11"
         }
       ]
     },
     "Wilkes": {
       "county": "Wilkes",
       "fips": "37193",
-      "lastUpdated": "2026-04-19T08:10:19.686Z",
+      "lastUpdated": "2026-04-20T09:11:50.868Z",
       "analysis": "",
       "articles": []
     },
     "Wilson": {
       "county": "Wilson",
       "fips": "37195",
-      "lastUpdated": "2026-04-19T08:10:22.941Z",
+      "lastUpdated": "2026-04-20T09:11:54.018Z",
       "analysis": "",
       "articles": [
         {
@@ -4455,7 +4448,7 @@
     "Yadkin": {
       "county": "Yadkin",
       "fips": "37197",
-      "lastUpdated": "2026-04-19T08:10:26.163Z",
+      "lastUpdated": "2026-04-20T09:11:57.108Z",
       "analysis": "",
       "articles": [
         {
@@ -4479,7 +4472,7 @@
     "Yancey": {
       "county": "Yancey",
       "fips": "37199",
-      "lastUpdated": "2026-04-19T08:10:29.154Z",
+      "lastUpdated": "2026-04-20T09:12:00.050Z",
       "analysis": "",
       "articles": [
         {
