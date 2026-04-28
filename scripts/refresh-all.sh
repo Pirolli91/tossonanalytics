@@ -16,6 +16,8 @@ echo "--- 1. Updating Knowledge Reports ---"
 $PYTHON_BIN $KNOWLEDGE_DIR/nc_pfas_scout.py
 $PYTHON_BIN $KNOWLEDGE_DIR/nc_regulatory_scout.py
 $PYTHON_BIN $KNOWLEDGE_DIR/pfas_project_harvester.py
+$PYTHON_BIN $KNOWLEDGE_DIR/tosson_research_harvester.py
+$PYTHON_BIN $KNOWLEDGE_DIR/nc_governance_harvester.py
 
 # 2. Run PFAS Data Pipeline
 echo "--- 2. Running PFAS Data Pipeline ---"
