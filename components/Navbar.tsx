@@ -14,6 +14,8 @@ export function Navbar({ active }: NavbarProps) {
   const links = [
     { href: "/dashboard",        label: "Dashboard",     key: "dashboard"        },
     { href: "/news",             label: "County News",   key: "news"             },
+    { href: "/toxicology",       label: "Tox DB",        key: "toxicology"       },
+    { href: "/policy-tracker",   label: "Policy",        key: "policy-tracker"   },
     { href: "/regulatory-watch", label: "Reg Watch",     key: "regulatory-watch" },
     { href: "/insights",         label: "Insights",      key: "insights"         },
     { href: "/services",         label: "Services",      key: "services"         },

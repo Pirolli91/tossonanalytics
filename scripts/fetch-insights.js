@@ -21,11 +21,18 @@ import { execFile } from "child_process";
 import { promisify } from "util";
 
 const execFileAsync = promisify(execFile);
+const HOME         = process.env.HOME || "/home/temitope";
 const __dirname    = dirname(fileURLToPath(import.meta.url));
 const ROOT         = join(__dirname, "..");
 const CONTENT_DIR  = join(ROOT, "content", "insights");
-const LLAMA_CLI    = "/data/data/com.termux/files/home/llama.cpp/build/bin/llama-cli";
-const MODEL_PATH   = "/data/data/com.termux/files/home/llama.cpp/gemma-4-E4B-it-Q5_K_M.gguf";
+
+// ── Portable Llama Paths ──────────────────────────────────────────────────────
+const TERMUX_BASE  = "/data/data/com.termux/files/home/llama.cpp";
+const LOCAL_BASE   = join(HOME, "llama.cpp");
+const LLAMA_BASE   = existsSync(TERMUX_BASE) ? TERMUX_BASE : LOCAL_BASE;
+
+const LLAMA_CLI    = join(LLAMA_BASE, "build", "bin", "llama-cli");
+const MODEL_PATH   = join(LLAMA_BASE, "gemma-4-E4B-it-Q5_K_M.gguf");
 
 mkdirSync(CONTENT_DIR, { recursive: true });
 

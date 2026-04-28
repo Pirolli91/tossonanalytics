@@ -19,11 +19,18 @@ import { join, dirname } from "path";
 import { fileURLToPath }  from "url";
 import { spawn }          from "child_process";
 
+const HOME       = process.env.HOME || "/home/temitope";
 const __dirname  = dirname(fileURLToPath(import.meta.url));
 const ROOT       = join(__dirname, "..");
 const OUT_FILE   = join(ROOT, "public", "data", "county-news.json");
-const LLAMA_SRV  = "/data/data/com.termux/files/home/llama.cpp/build/bin/llama-server";
-const MODEL_PATH = "/data/data/com.termux/files/home/llama.cpp/gemma-4-E4B-it-Q5_K_M.gguf";
+
+// ── Portable Llama Paths ──────────────────────────────────────────────────────
+const TERMUX_BASE = "/data/data/com.termux/files/home/llama.cpp";
+const LOCAL_BASE  = join(HOME, "llama.cpp");
+const LLAMA_BASE  = existsSync(TERMUX_BASE) ? TERMUX_BASE : LOCAL_BASE;
+
+const LLAMA_SRV  = join(LLAMA_BASE, "build", "bin", "llama-server");
+const MODEL_PATH = join(LLAMA_BASE, "gemma-4-E4B-it-Q5_K_M.gguf");
 const SRV_PORT   = 18088;
 const SRV_URL    = `http://127.0.0.1:${SRV_PORT}`;
 
