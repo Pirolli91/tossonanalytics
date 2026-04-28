@@ -1,0 +1,20 @@
+{
+  "last_updated": "2026-04-28",
+  "region": "North Carolina",
+  "bills": [
+    {
+      "id": "HB 602",
+      "url": "https://www.ncleg.gov/BillLookUp/2023/H602",
+      "summary": "Prohibits the manufacture, sale, or distribution of certain products containing PFAS.",
+      "status": "Committee",
+      "impact": "High"
+    },
+    {
+      "id": "SB 211",
+      "url": "https://www.ncleg.gov/BillLookUp/2023/S211",
+      "summary": "Requires DEQ to establish MCLs for certain PFAS compounds in drinking water.",
+      "status": "In Senate",
+      "impact": "Critical"
+    }
+  ]
+}
