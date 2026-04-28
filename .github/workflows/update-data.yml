@@ -33,28 +33,22 @@ jobs:
         run: npm ci
 
       - name: Fetch latest PFAS data
-        run: node scripts/fetch-pfas-data.js
+        run: node scripts/fetch-pfas-data.js || echo "PFAS data fetch failed, continuing with cached data"
         env:
           NODE_OPTIONS: "--experimental-vm-modules"
 
-      - name: Fetch county news (no-AI mode — Gemma runs locally)
-        run: node scripts/fetch-county-news.js --no-ai
-        continue-on-error: true   # don't block deploy if news sources are unavailable
+      - name: Fetch county news (no-AI mode)
+        run: node scripts/fetch-county-news.js --no-ai || echo "County news fetch failed"
 
       - name: Build static site
         run: npm run build
 
-      - name: Install Wrangler
-        run: npm install -g wrangler@3
-
       - name: Publish to Cloudflare Pages
         env:
-          RAW_CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          RAW_CF_ACCOUNT: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
-          export CLOUDFLARE_API_TOKEN=$(echo "$RAW_CF_TOKEN" | tr -d '[:space:]')
-          export CLOUDFLARE_ACCOUNT_ID=$(echo "$RAW_CF_ACCOUNT" | tr -d '[:space:]')
-          wrangler pages deploy out \
+          npx wrangler pages deploy out \
             --project-name=tossonanalytics \
             --branch=master \
             --commit-dirty=true
