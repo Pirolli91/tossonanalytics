@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Droplets, Menu, X } from "lucide-react";
 
 interface NavbarProps {
-  active?: "dashboard" | "about" | "insights" | "services" | "news" | "regulatory-watch";
+  active?: "dashboard" | "about" | "insights" | "services" | "news" | "regulatory-watch" | "policy-tracker" | "toxicology";
 }
 
 export function Navbar({ active }: NavbarProps) {
