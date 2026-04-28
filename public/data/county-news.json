@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-28T20:26:30.461Z",
+  "generated": "2026-04-28T20:43:20.701Z",
   "counties": {
     "Alamance": {
       "county": "Alamance",
@@ -1164,9 +1164,16 @@
     "Cumberland": {
       "county": "Cumberland",
       "fips": "37051",
-      "lastUpdated": "2026-04-28T20:22:54.539Z",
+      "lastUpdated": "2026-04-28T20:43:16.669Z",
       "analysis": "",
       "articles": [
+        {
+          "title": "Proposed industrial wastewater rules 'completely inadequate'",
+          "source": "northcarolinahealthnews",
+          "url": "https://www.northcarolinahealthnews.org/2026/04/19/proposed-industrial-wastewater-rules-completely-inadequate/",
+          "snippet": "Speakers at Fayetteville hearing say proposed wastewater rules fail to protect drinking water from toxic pollutants.",
+          "date": "2026-04-28"
+        },
         {
           "title": "Why Cumberland’s PFAS case against Chemours matters | Opinion - The Fayetteville Observer",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcWxwWWVEaWV3MFd4eVUyekNVQjRYM2xYS3NCbUNTLXM2TW9hSVE3ZFVMU0JfdTgzUjJqb1R6OFN6cV9VX1llRVpRVzhzYk45VWRvV0o4SFRfaEJ0NmVWRUFQTW8zdDZYTGpkVE1nOFprNktBbGViaHc2Q19QVnowWUFuZ3RURXp3eXN0VnJkWVI3bmJhY2FOSmczVmZBbzI0RDU5VlRfQUJEWEN3cDRtQlIxUUhKcTlxaldN?oc=5",
@@ -1206,14 +1213,6 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOTkMxeWpsek5KY3Y1Q1FCaDdheGJtX2pXb1kxM1Bjb2x0WFZ2T0w4TkdyQ1RKTVBQQ1VNbkRvOExiM2s0VHNZNE56U254eUFrYkJOd1JIblMza3J3U3g4dW9QTUg4aHlSVzE1SW1BdVItLW5GaDFWWkFKaGloNmM4ckp4S2lTS1pLV1NRRXZlbFJtNUFPUndQWnVPRm14VDZONmNfN3Iyclh",
           "source": "North Carolina Health News",
           "date": "2022-03-19"
-        },
-        {
-          "title": "Aging infrastructure, PFAS contamination drive $265 million in NC water projects - WRAL",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNDh2WFd1SmZHd1FTX1E2dF9ycVVMUlprTVZLSWFEUU1rV01VY3BLdjdsWW9ETl9uX2VwLS1kTFlva1RxN3dlSGNPczNrUHlMaTVLemdWSmFLM1djUVNGNVJKTWFVNEY4UU5uN2NaNXZMNUJhR2lXc05CU25ucjllbUNtYmFPdk1LZE52QXNLNWNfejNoNGF6SHJWRXgyNnJU?oc=5",
-          "pubDate": "Mon, 24 Feb 2025 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQNDh2WFd1SmZHd1FTX1E2dF9ycVVMUlprTVZLSWFEUU1rV01VY3BLdjdsWW9ETl9uX2VwLS1kTFlva1RxN3dlSGNPczNrUHlMaTVLemdWSmFLM1djUVNGNVJKTWFVNEY4UU5uN2NaNXZMNUJhR2lXc05CU25ucjllbUNtYmFPdk1LZE52QXNLNWNfejNoNGF6SHJWRXgyNnJU?oc=5\" targ",
-          "source": "WRAL",
-          "date": "2025-02-24"
         }
       ]
     },
@@ -3051,9 +3050,37 @@
     "New Hanover": {
       "county": "New Hanover",
       "fips": "37129",
-      "lastUpdated": "2026-04-28T20:24:46.769Z",
+      "lastUpdated": "2026-04-28T20:43:18.723Z",
       "analysis": "",
       "articles": [
+        {
+          "title": "Speakers scold EMC, share health issues at PFAS rules hearing",
+          "source": "coastalreview",
+          "url": "https://coastalreview.org/2026/04/speakers-scold-emc-share-health-issues-at-pfas-rules-hearing/",
+          "snippet": "About 230 crowded into Wilmington's Skyline Center Thursday for the Environmental Management Commission's hearing and dozens spoke, often angrily, about proposed PFAS monitoring and minimization rules.",
+          "date": "2026-04-28"
+        },
+        {
+          "title": "Residents criticize proposed PFAS rules at Wilmington hearing, call for stronger protections",
+          "source": "wwaytv3",
+          "url": "https://www.wwaytv3.com/residents-criticize-proposed-pfas-rules-at-wilmington-hearing-call-for-stronger-protections/",
+          "snippet": "State regulators heard more public feedback tonight on proposed rules to address PFAS contamination in waterways across North Carolina.",
+          "date": "2026-04-28"
+        },
+        {
+          "title": "PFAS hearing in Wilmington follows heated backlash in Raleigh",
+          "source": "msn",
+          "url": "https://www.msn.com/en-us/news/us/pfas-hearing-in-wilmington-follows-heated-backlash-in-raleigh/ar-AA21zXMz",
+          "snippet": "After backlash in Raleigh, a Wilmington PFAS hearing draws concern as residents warn the state's proposed rules lack enforcement and may leave some communities behind.",
+          "date": "2026-04-28"
+        },
+        {
+          "title": "Residents pack Wilmington hearing on proposed PFAS rules for NC waterways",
+          "source": "msn",
+          "url": "https://www.msn.com/en-us/news/us/residents-pack-wilmington-hearing-on-proposed-pfas-rules-for-nc-waterways/ar-AA21B1ga",
+          "snippet": "State officials from the North Carolina Environmental Commission held a public hearing Thursday to address concerns regarding PFAS, or \"Forever Chemicals,\" contaminating waterways in North Carolina.",
+          "date": "2026-04-28"
+        },
         {
           "title": "Governor Stein Announces $17 Million in Grants to Address PFAS in New Hanover County, Highlights Drinking Water and Wastewater Projects - NC Governor (.gov)",
           "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNTnZiWHJaYVhjTTVMREgxejJtanJCa2lvVUxBcnhNLUJjVzkxRlFUNmFBWkF4RDZKTmhjc3BRTHhKZnpxTlF3SWc4UDhHeGQ1U0YxN042ZE5UYVJhbWVYM29kMldpcmFhZjBaVVVqOGlwV193aHdWd1Mybm9abERzWTJTOHBMOWZGam5wbUtnaVQwc1hqYm5BLW9XZ0QtdjFZN3NuOHp6bGExRFVGam1VWllSdk5fQTU0M2RSc3BrNGI3MzlHekd6Qjc0ajMzYzlEdktJQnE5YU9CWmxPSm9NSFFNcFhMel8zZ0JZ?oc=5",
@@ -3069,38 +3096,6 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOU0NUYmU1RVBCZ3Y2eWdMaERkNkNza1ViVlBac3N6cUZGeDNadWxOaGxhV1I5WjEzWExUWEFodU5NaEgzblZaRmVJYmkxQ3liaXNDTk9aRHM3ZXp1S3ExYVBDMDRtVC01ZlZhY0pQRkw2eWpleE1yem5hc3YyUFIwc2F1aGprRkFlWTdvVw?oc=5\" target=\"_blank\"&gt;Two new stu",
           "source": "WUNC",
           "date": "2025-11-05"
-        },
-        {
-          "title": "Study: High levels of new PFAS chemicals found in Wilmington residents’ blood - WECT",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeWtmZVdjZ2wzelZMQmVLeFZNeTcxbFNsUG0wekFfcEJTakhnejBwU09qbUNkYnVoRE41cVNQNGxjODZGQWV2SHJTekRjaU90ajJISGVwSnJfRDRMSUg0bTdZZEZMSGlOWUtXRTZnbGVpNEhNMHJ0VUNiQ2tOeHJPbUFXOTBzX1A2TFkxb2hDR2htQjNSLVh2Zl8zZFRpZzFNcTdIatIBuAFBVV95cUxQY2xkQl9oeWZBXzV0QlJuV0xnN3BTWFFUWFUtUTgwLUF2RXdzUzJQR0Q4UWRaVnBLdGlpVXczQ1VOaTBCcXhMOTRlSFNzSTlRa0ctV05yTHRVcjBlbXU0WEdkbUVPekN4LTdoaFlvRlhyYkt5ZFBzRkxNVWNLVm96M1hvTGxyMFFTVFJfSGFZa0NuU3BwMlBLQXNQejB4WXRrOVpqdUpKZGFoYjdiOU5HbmQtMk1qT0Fy?oc=5",
-          "pubDate": "Mon, 27 Oct 2025 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOeWtmZVdjZ2wzelZMQmVLeFZNeTcxbFNsUG0wekFfcEJTakhnejBwU09qbUNkYnVoRE41cVNQNGxjODZGQWV2SHJTekRjaU90ajJISGVwSnJfRDRMSUg0bTdZZEZMSGlOWUtXRTZnbGVpNEhNMHJ0VUNiQ2tOeHJPbUFXOTBzX1A2TFkxb2hDR2htQjNSLVh2Zl8zZFRpZzFNcTdIatIBuAF",
-          "source": "WECT",
-          "date": "2025-10-27"
-        },
-        {
-          "title": "Wilmington among six NCDEQ stops for proposed PFAS, 1,4-dioxane hearings - Port City Daily",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxON1JlLS13RDNGS25xX2JGRW43WlVOdlVGZHhQM004VUdwWFhoOF9QbTVCQ3FIQVBIQkZwVk8ycjA5b2twTkNMRExjTXBqaXVfQ0ZKS1BuWUxEdXVnX3JHay0xYjZvaTc3UVpGYlJmRDA0WXRqaGFvZXhZMWtPb2xIdlEtSlBCaFFXXzVfQk54SjQzbmpHOEcyeExFTTVLOWtjckVVR3V0SS10VnhVang1TjA5bHM2TjNzVWFF?oc=5",
-          "pubDate": "Thu, 12 Mar 2026 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxON1JlLS13RDNGS25xX2JGRW43WlVOdlVGZHhQM004VUdwWFhoOF9QbTVCQ3FIQVBIQkZwVk8ycjA5b2twTkNMRExjTXBqaXVfQ0ZKS1BuWUxEdXVnX3JHay0xYjZvaTc3UVpGYlJmRDA0WXRqaGFvZXhZMWtPb2xIdlEtSlBCaFFXXzVfQk54SjQzbmpHOEcyeExFTTVLOWtjckVVR3V0SS1",
-          "source": "Port City Daily",
-          "date": "2026-03-12"
-        },
-        {
-          "title": "A short-lived win in a never-ending fight over forever chemicals - North Carolina Health News",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQY3hSNnRlbmVEWkRBcW1feUdLVGQ1OHFnX1VCQ29WWUgwVzBjZkl3UTlvSlIyNU9Bak1DaUQ0b1QzdVJvRUZnbGNNZFdiMjExbWZzenV2WUJ3SFhES24xcDQzaEI0ckRoNTFMT01UMnFtY1ZoYWdSanZ3XzdpSkp6MEpEODFhRTM5U2ZuWGdkSFJxVG50MnQ5TjVPcXR1MTl1eTdTZmpvcGdHd3dTLW1wOFFGaVZuZ00?oc=5",
-          "pubDate": "Sun, 26 Oct 2025 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQY3hSNnRlbmVEWkRBcW1feUdLVGQ1OHFnX1VCQ29WWUgwVzBjZkl3UTlvSlIyNU9Bak1DaUQ0b1QzdVJvRUZnbGNNZFdiMjExbWZzenV2WUJ3SFhES24xcDQzaEI0ckRoNTFMT01UMnFtY1ZoYWdSanZ3XzdpSkp6MEpEODFhRTM5U2ZuWGdkSFJxVG50MnQ5TjVPcXR1MTl1eTdTZmpvcGd",
-          "source": "North Carolina Health News",
-          "date": "2025-10-26"
-        },
-        {
-          "title": "CFPUA to host community meetings on water extensions to PFAS-affected areas - Port City Daily",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQTgwUmdhQnNndTNJYUtJRlpMWk9QaTMwWnowYXBvb3RUZVVMMnpyZi05ZmVJa3pXblpxcXkxRzVERzRUZEVVbjFSUjFVbWpjWkljejlNR20zVUhaTTMxMW9aSWxxUVNYU1lMR1ozX2FxRHRFLW1ZR1JXOWd0X1lJaUR2TDRBXzJwZTZNd0g1ZG1CMDRyMWJ0c000UmNqWjN3bHYtQU9iUWNPNi1BYnpOZm0zbExuX0EzcDlVbUZvMkdUZ3c?oc=5",
-          "pubDate": "Tue, 10 Feb 2026 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQTgwUmdhQnNndTNJYUtJRlpMWk9QaTMwWnowYXBvb3RUZVVMMnpyZi05ZmVJa3pXblpxcXkxRzVERzRUZEVVbjFSUjFVbWpjWkljejlNR20zVUhaTTMxMW9aSWxxUVNYU1lMR1ozX2FxRHRFLW1ZR1JXOWd0X1lJaUR2TDRBXzJwZTZNd0g1ZG1CMDRyMWJ0c000UmNqWjN3bHYtQU9iUWN",
-          "source": "Port City Daily",
-          "date": "2026-02-10"
         }
       ]
     },
@@ -3691,9 +3686,23 @@
     "Robeson": {
       "county": "Robeson",
       "fips": "37155",
-      "lastUpdated": "2026-04-28T20:25:22.123Z",
+      "lastUpdated": "2026-04-28T20:43:20.701Z",
       "analysis": "",
       "articles": [
+        {
+          "title": "'Good Trouble March' protests PFAS contamination near landfill",
+          "source": "robesonian",
+          "url": "https://www.robesonian.com/news/339962/good-trouble-march-protests-pfas-contamination-near-landfill",
+          "snippet": "Participants in the Good Trouble March, held Saturday near St. Pauls, marched in protest of the PFAS contamination in the area surrounding the Robeson County Landfill. Participants in the Good Trouble March, held Saturday near St. Pauls, march in protest of the PFAS contamination in the area surroun",
+          "date": "2026-04-28"
+        },
+        {
+          "title": "Good Trouble March to raise awareness of PFAS contamination scheduled for Saturday",
+          "source": "robesonian",
+          "url": "https://www.robesonian.com/news/339262/good-trouble-march-to-raise-awareness-of-pfas-contamination-scheduled-for-saturday",
+          "snippet": "The Good Trouble March for Environmental Justice will begin at 2 p.m. Its primary organizer is the Lumberton Alumnae Chapter of Delta Sigma Theta Sorority, though St. Pauls Community Action for Progress (CAP) and other organizations are also participating, according to event organizer Viv Tolson Way",
+          "date": "2026-04-28"
+        },
         {
           "title": "A North Carolina county’s landfill is polluting drinking water with toxic ‘forever chemicals’ - Southern Environmental Law Center",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaFo0Wl92akpGa3RlZDJFd09DNVVnUEphc01uN0RiRWxNc1RmMHkzM2x6N1htTFd0dU83dV9MZ1pIcEhXMno4MFJpQ3NFYWxWeTl5OHloVXR4TWp3SVRkaVVKX3pXRm5UeGVYRWZVSXZqd2VIeWdYUktldEZqaGJFTVY4N1dRQnkxY2o5alFyb0ZJUmFTbGJDY04tNHotWlNCNUFVb25TVTlHNjdQazRJd2JuX2Nwbmtf?oc=5",
@@ -3725,22 +3734,6 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNVWFKTHlaRjJjamZPSENOY25OOG03SlpJX2ktdkd5cC1LNFNWRkFiaHIwX3c2T1RCbm81TDdjNndKR2N1YTIyZE5OMDhPSTRMRlJwOHNaTlhPWUJEM2ZKS0NfeEZKblhMRWp2eVV6SXdzcnZRUXdobE11VExueEdJNkhFLU5zWi1tZ2oxbmFfRXdVaDZuS2Q3bTJLbzdUMVhsTGRIU3Y0cld",
           "source": "CityView NC",
           "date": "2025-09-19"
-        },
-        {
-          "title": "PFAS concerns plague the Robeson County Landfill. But the dump keeps getting bigger - CityView NC",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcjhpVWNSMUt4c0lUMW54QncxUmMzQzBoSndHUzhoVHZXQUUzRC1TRmVuWVRuOC03aGYxdnpiYjZrNFhrWklTdjIzbHY2b01QaXpiQm9jY3E3V1VXcHozVzhmLTNPU2pueE0xN2VnUDA4UzZVQmFBVWY0X21uaElHSWNoLWo5ZG9ER3U1YnFVQlBXM0UzNlJGSXRyQzl5VDZ0bEVPaWl5YUFveUxBOXNSeVlWV1lZbFBhVUE?oc=5",
-          "pubDate": "Mon, 26 May 2025 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNcjhpVWNSMUt4c0lUMW54QncxUmMzQzBoSndHUzhoVHZXQUUzRC1TRmVuWVRuOC03aGYxdnpiYjZrNFhrWklTdjIzbHY2b01QaXpiQm9jY3E3V1VXcHozVzhmLTNPU2pueE0xN2VnUDA4UzZVQmFBVWY0X21uaElHSWNoLWo5ZG9ER3U1YnFVQlBXM0UzNlJGSXRyQzl5VDZ0bEVPaWl5YUF",
-          "source": "CityView NC",
-          "date": "2025-05-26"
-        },
-        {
-          "title": "State ‘forever chemicals’ spotlight: North Carolina’s drinking water contamination - EWG",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQmRlSWQxX3BvUEVHbS1mMXh3WEhld0VYZmF3X242VXhSYkU3QzZwbFo3MVJ0bVpMQXRUSndaQ0g0d3lIRUNwclV1U0xzUTBDTXBVWWdOVkxyX2dBRHM3ZnVIWVF4TGRfa09FZDFKTmlEMEdLMTkweEI3RnB3X2NNLWM4NExheGRQSjhfMnhmb0tuMjgzSi1qUGRfbHBNcl9Hd3NDbHctTDVtRkk?oc=5",
-          "pubDate": "Wed, 05 Jun 2024 07:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQmRlSWQxX3BvUEVHbS1mMXh3WEhld0VYZmF3X242VXhSYkU3QzZwbFo3MVJ0bVpMQXRUSndaQ0g0d3lIRUNwclV1U0xzUTBDTXBVWWdOVkxyX2dBRHM3ZnVIWVF4TGRfa09FZDFKTmlEMEdLMTkweEI3RnB3X2NNLWM4NExheGRQSjhfMnhmb0tuMjgzSi1qUGRfbHBNcl9Hd3NDbHctTDV",
-          "source": "EWG",
-          "date": "2024-06-05"
         }
       ]
     },
