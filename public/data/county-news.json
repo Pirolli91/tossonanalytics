@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-28T21:37:27.136Z",
+  "generated": "2026-04-28T21:52:45.360Z",
   "counties": {
     "Alamance": {
       "county": "Alamance",
@@ -1164,14 +1164,14 @@
     "Cumberland": {
       "county": "Cumberland",
       "fips": "37051",
-      "lastUpdated": "2026-04-28T20:43:16.669Z",
+      "lastUpdated": "2026-04-28T21:52:43.008Z",
       "analysis": "",
       "articles": [
         {
-          "title": "Proposed industrial wastewater rules 'completely inadequate'",
-          "source": "northcarolinahealthnews",
-          "url": "https://www.northcarolinahealthnews.org/2026/04/19/proposed-industrial-wastewater-rules-completely-inadequate/",
-          "snippet": "Speakers at Fayetteville hearing say proposed wastewater rules fail to protect drinking water from toxic pollutants.",
+          "title": "NCDHHS: DPH: Epidemiology: OEE: GenX and other PFAS in the Cape …",
+          "source": "epi",
+          "url": "https://epi.dph.ncdhhs.gov/oee/a_z/genx.html",
+          "snippet": "Jul 11, 2024 · GenX and other emerging PFAS were found in the river and drinking water in a study led by researchers at North Carolina State University. The Chemours facility in Fayetteville was identified as …",
           "date": "2026-04-28"
         },
         {
@@ -3050,42 +3050,21 @@
     "New Hanover": {
       "county": "New Hanover",
       "fips": "37129",
-      "lastUpdated": "2026-04-28T21:37:25.151Z",
+      "lastUpdated": "2026-04-28T21:52:45.360Z",
       "analysis": "",
       "articles": [
+        {
+          "title": "Wilmington NC Water Quality: GenX, PFAS, and the Cape Fear River ...",
+          "source": "groundwaterworld",
+          "url": "https://groundwaterworld.org/wilmington-nc-genx-pfas-chemours/",
+          "snippet": "Mar 20, 2026 · Testing identified dozens of PFAS compounds in the Cape Fear — many of which had no names, no CAS numbers, and no health standards. The river had become a cocktail of novel fluorinated …",
+          "date": "2026-04-28"
+        },
         {
           "title": "Speakers scold EMC, share health issues at PFAS rules hearing",
           "source": "coastalreview",
           "url": "https://coastalreview.org/2026/04/speakers-scold-emc-share-health-issues-at-pfas-rules-hearing/",
-          "snippet": "About 230 crowded into Wilmington's Skyline Center Thursday for the Environmental Management Commission's hearing and dozens spoke, often angrily, about proposed PFAS monitoring and minimization rules.",
-          "date": "2026-04-28"
-        },
-        {
-          "title": "Residents criticize proposed PFAS rules at Wilmington hearing, call for stronger protections",
-          "source": "wwaytv3",
-          "url": "https://www.wwaytv3.com/residents-criticize-proposed-pfas-rules-at-wilmington-hearing-call-for-stronger-protections/",
-          "snippet": "State regulators heard more public feedback tonight on proposed rules to address PFAS contamination in waterways across North Carolina.",
-          "date": "2026-04-28"
-        },
-        {
-          "title": "State officials get an earful from residents upset about proposed PFAS regulations",
-          "source": "whqr",
-          "url": "https://www.whqr.org/local/2026-04-27/state-officials-get-an-earful-from-residents-upset-about-proposed-pfas-regulations",
-          "snippet": "Last week, state officials held the last of three public hearings, this one in Wilmington, getting feedback for new proposed regulations on chemical pollution, including the discharge of certain PFAS compounds.",
-          "date": "2026-04-28"
-        },
-        {
-          "title": "PFAS hearing in Wilmington follows heated backlash in Raleigh",
-          "source": "msn",
-          "url": "https://www.msn.com/en-us/news/us/pfas-hearing-in-wilmington-follows-heated-backlash-in-raleigh/ar-AA21zXMz",
-          "snippet": "After backlash in Raleigh, a Wilmington PFAS hearing draws concern as residents warn the state's proposed rules lack enforcement and may leave some communities behind.",
-          "date": "2026-04-28"
-        },
-        {
-          "title": "Residents pack Wilmington hearing on proposed PFAS rules for NC waterways",
-          "source": "msn",
-          "url": "https://www.msn.com/en-us/news/us/residents-pack-wilmington-hearing-on-proposed-pfas-rules-for-nc-waterways/ar-AA21B1ga",
-          "snippet": "State officials from the North Carolina Environmental Commission held a public hearing Thursday to address concerns regarding PFAS, or \"Forever Chemicals,\" contaminating waterways in North Carolina.",
+          "snippet": "1 day ago · WILMINGTON – For more than two hours, residents in an area considered ground zero for PFAS contamination in North Carolina passionately, often angrily, chastised the Environmental …",
           "date": "2026-04-28"
         },
         {
@@ -3095,6 +3074,30 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxNTnZiWHJaYVhjTTVMREgxejJtanJCa2lvVUxBcnhNLUJjVzkxRlFUNmFBWkF4RDZKTmhjc3BRTHhKZnpxTlF3SWc4UDhHeGQ1U0YxN042ZE5UYVJhbWVYM29kMldpcmFhZjBaVVVqOGlwV193aHdWd1Mybm9abERzWTJTOHBMOWZGam5wbUtnaVQwc1hqYm5BLW9XZ0QtdjFZN3NuOHp6bGE",
           "source": "NC Governor (.gov)",
           "date": "2026-03-05"
+        },
+        {
+          "title": "Two new studies find PFAS in sea foam and Wilmington residents’ blood - WUNC",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU0NUYmU1RVBCZ3Y2eWdMaERkNkNza1ViVlBac3N6cUZGeDNadWxOaGxhV1I5WjEzWExUWEFodU5NaEgzblZaRmVJYmkxQ3liaXNDTk9aRHM3ZXp1S3ExYVBDMDRtVC01ZlZhY0pQRkw2eWpleE1yem5hc3YyUFIwc2F1aGprRkFlWTdvVw?oc=5",
+          "pubDate": "Wed, 05 Nov 2025 08:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOU0NUYmU1RVBCZ3Y2eWdMaERkNkNza1ViVlBac3N6cUZGeDNadWxOaGxhV1I5WjEzWExUWEFodU5NaEgzblZaRmVJYmkxQ3liaXNDTk9aRHM3ZXp1S3ExYVBDMDRtVC01ZlZhY0pQRkw2eWpleE1yem5hc3YyUFIwc2F1aGprRkFlWTdvVw?oc=5\" target=\"_blank\"&gt;Two new stu",
+          "source": "WUNC",
+          "date": "2025-11-05"
+        },
+        {
+          "title": "Study: High levels of new PFAS chemicals found in Wilmington residents’ blood - WECT",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeWtmZVdjZ2wzelZMQmVLeFZNeTcxbFNsUG0wekFfcEJTakhnejBwU09qbUNkYnVoRE41cVNQNGxjODZGQWV2SHJTekRjaU90ajJISGVwSnJfRDRMSUg0bTdZZEZMSGlOWUtXRTZnbGVpNEhNMHJ0VUNiQ2tOeHJPbUFXOTBzX1A2TFkxb2hDR2htQjNSLVh2Zl8zZFRpZzFNcTdIatIBuAFBVV95cUxQY2xkQl9oeWZBXzV0QlJuV0xnN3BTWFFUWFUtUTgwLUF2RXdzUzJQR0Q4UWRaVnBLdGlpVXczQ1VOaTBCcXhMOTRlSFNzSTlRa0ctV05yTHRVcjBlbXU0WEdkbUVPekN4LTdoaFlvRlhyYkt5ZFBzRkxNVWNLVm96M1hvTGxyMFFTVFJfSGFZa0NuU3BwMlBLQXNQejB4WXRrOVpqdUpKZGFoYjdiOU5HbmQtMk1qT0Fy?oc=5",
+          "pubDate": "Mon, 27 Oct 2025 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOeWtmZVdjZ2wzelZMQmVLeFZNeTcxbFNsUG0wekFfcEJTakhnejBwU09qbUNkYnVoRE41cVNQNGxjODZGQWV2SHJTekRjaU90ajJISGVwSnJfRDRMSUg0bTdZZEZMSGlOWUtXRTZnbGVpNEhNMHJ0VUNiQ2tOeHJPbUFXOTBzX1A2TFkxb2hDR2htQjNSLVh2Zl8zZFRpZzFNcTdIatIBuAF",
+          "source": "WECT",
+          "date": "2025-10-27"
+        },
+        {
+          "title": "Wilmington among six NCDEQ stops for proposed PFAS, 1,4-dioxane hearings - Port City Daily",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxON1JlLS13RDNGS25xX2JGRW43WlVOdlVGZHhQM004VUdwWFhoOF9QbTVCQ3FIQVBIQkZwVk8ycjA5b2twTkNMRExjTXBqaXVfQ0ZKS1BuWUxEdXVnX3JHay0xYjZvaTc3UVpGYlJmRDA0WXRqaGFvZXhZMWtPb2xIdlEtSlBCaFFXXzVfQk54SjQzbmpHOEcyeExFTTVLOWtjckVVR3V0SS10VnhVang1TjA5bHM2TjNzVWFF?oc=5",
+          "pubDate": "Thu, 12 Mar 2026 07:00:00 GMT",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxON1JlLS13RDNGS25xX2JGRW43WlVOdlVGZHhQM004VUdwWFhoOF9QbTVCQ3FIQVBIQkZwVk8ycjA5b2twTkNMRExjTXBqaXVfQ0ZKS1BuWUxEdXVnX3JHay0xYjZvaTc3UVpGYlJmRDA0WXRqaGFvZXhZMWtPb2xIdlEtSlBCaFFXXzVfQk54SjQzbmpHOEcyeExFTTVLOWtjckVVR3V0SS1",
+          "source": "Port City Daily",
+          "date": "2026-03-12"
         }
       ]
     },
