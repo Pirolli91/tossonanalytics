@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-28T20:43:20.701Z",
+  "generated": "2026-04-28T21:37:27.136Z",
   "counties": {
     "Alamance": {
       "county": "Alamance",
@@ -3050,7 +3050,7 @@
     "New Hanover": {
       "county": "New Hanover",
       "fips": "37129",
-      "lastUpdated": "2026-04-28T20:43:18.723Z",
+      "lastUpdated": "2026-04-28T21:37:25.151Z",
       "analysis": "",
       "articles": [
         {
@@ -3065,6 +3065,13 @@
           "source": "wwaytv3",
           "url": "https://www.wwaytv3.com/residents-criticize-proposed-pfas-rules-at-wilmington-hearing-call-for-stronger-protections/",
           "snippet": "State regulators heard more public feedback tonight on proposed rules to address PFAS contamination in waterways across North Carolina.",
+          "date": "2026-04-28"
+        },
+        {
+          "title": "State officials get an earful from residents upset about proposed PFAS regulations",
+          "source": "whqr",
+          "url": "https://www.whqr.org/local/2026-04-27/state-officials-get-an-earful-from-residents-upset-about-proposed-pfas-regulations",
+          "snippet": "Last week, state officials held the last of three public hearings, this one in Wilmington, getting feedback for new proposed regulations on chemical pollution, including the discharge of certain PFAS compounds.",
           "date": "2026-04-28"
         },
         {
@@ -3088,14 +3095,6 @@
           "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxNTnZiWHJaYVhjTTVMREgxejJtanJCa2lvVUxBcnhNLUJjVzkxRlFUNmFBWkF4RDZKTmhjc3BRTHhKZnpxTlF3SWc4UDhHeGQ1U0YxN042ZE5UYVJhbWVYM29kMldpcmFhZjBaVVVqOGlwV193aHdWd1Mybm9abERzWTJTOHBMOWZGam5wbUtnaVQwc1hqYm5BLW9XZ0QtdjFZN3NuOHp6bGE",
           "source": "NC Governor (.gov)",
           "date": "2026-03-05"
-        },
-        {
-          "title": "Two new studies find PFAS in sea foam and Wilmington residents’ blood - WUNC",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU0NUYmU1RVBCZ3Y2eWdMaERkNkNza1ViVlBac3N6cUZGeDNadWxOaGxhV1I5WjEzWExUWEFodU5NaEgzblZaRmVJYmkxQ3liaXNDTk9aRHM3ZXp1S3ExYVBDMDRtVC01ZlZhY0pQRkw2eWpleE1yem5hc3YyUFIwc2F1aGprRkFlWTdvVw?oc=5",
-          "pubDate": "Wed, 05 Nov 2025 08:00:00 GMT",
-          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOU0NUYmU1RVBCZ3Y2eWdMaERkNkNza1ViVlBac3N6cUZGeDNadWxOaGxhV1I5WjEzWExUWEFodU5NaEgzblZaRmVJYmkxQ3liaXNDTk9aRHM3ZXp1S3ExYVBDMDRtVC01ZlZhY0pQRkw2eWpleE1yem5hc3YyUFIwc2F1aGprRkFlWTdvVw?oc=5\" target=\"_blank\"&gt;Two new stu",
-          "source": "WUNC",
-          "date": "2025-11-05"
         }
       ]
     },
@@ -3686,7 +3685,7 @@
     "Robeson": {
       "county": "Robeson",
       "fips": "37155",
-      "lastUpdated": "2026-04-28T20:43:20.701Z",
+      "lastUpdated": "2026-04-28T21:37:27.136Z",
       "analysis": "",
       "articles": [
         {
