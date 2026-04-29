@@ -36,9 +36,11 @@ echo "--- 2. Running PFAS Data Pipeline ---"
 cd $PROJECT_DIR
 $NODE_BIN scripts/fetch-pfas-data.js
 
-# 3. Run County News Pipeline
-echo "--- 3. Running County News Pipeline ---"
-# AI enabled to provide professional expert analysis
+# 3. Run Insights & News Pipelines
+echo "--- 3. Running Insights & News Pipelines ---"
+# Generate expert editorial articles
+$NODE_BIN scripts/fetch-insights.js
+# Generate county-level news with expert summaries
 $NODE_BIN scripts/fetch-county-news.js
 
 # 4. Commit and Push
