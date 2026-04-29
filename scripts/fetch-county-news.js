@@ -279,22 +279,35 @@ async function fetchCountyNews(county, knowledgeArticles = []) {
   }
 
   // 2. Fill remaining slots from Google News RSS
+  const aliases = [county, ...(COUNTY_ALIASES[county] || [])];
+  const mainAlias = aliases[0];
+  const secondaryAlias = aliases[1] || "";
+  
   const queries = [
-    `PFAS "${county} County" "North Carolina"`,
-    `"water contamination" OR "drinking water" OR "water quality" "${county} County" NC`,
-    `"${county} County" "North Carolina" contamination OR "water treatment" OR "DEQ" OR "EPA"`,
+    `PFAS "${mainAlias} County" NC`,
+    `"${mainAlias} County" water contamination NC`,
+    `"${secondaryAlias}" NC water quality contamination`,
+    `"PFAS" OR "GenX" OR "1,4-dioxane" NC`, // Broader state fallback if county is quiet
+    `"${mainAlias}" North Carolina environment news`,
   ];
+
   for (let i = 0; i < queries.length; i++) {
     if (results.length >= 6) break;
     const items = await fetchGoogleNews(queries[i]);
     for (const item of items) {
       if (seen.has(item.url)) continue;
-      if (!isRelevant(item.title + " " + item.snippet)) continue;
-      seen.add(item.url);
-      results.push(item);
-      if (results.length >= 6) break;
+      // Heuristic: Must be relevant AND (mention county OR be high-impact state news)
+      const isRel = isRelevant(item.title + " " + item.snippet);
+      const mentionsCounty = aliases.some(a => (item.title + " " + item.snippet).toLowerCase().includes(a.toLowerCase()));
+      const isHighImpact = (item.title + " " + item.snippet).toLowerCase().includes("nc deq") || (item.title + " " + item.snippet).toLowerCase().includes("nc emc");
+
+      if (isRel && (mentionsCounty || isHighImpact)) {
+        seen.add(item.url);
+        results.push(item);
+        if (results.length >= 6) break;
+      }
     }
-    if (i < queries.length - 1) await sleep(700);
+    if (i < queries.length - 1) await sleep(500);
   }
 
   return results.slice(0, 6);
@@ -358,92 +371,94 @@ const OPENROUTER_MODELS = [
 
 function buildPrompt(county, articles) {
   const articleList = articles
-    .map((a, i) => `${i + 1}. "${a.title}" (${a.source}, ${a.date})\n   ${a.snippet || a.title}`)
+    .map((a, i) => `Evidence ${i + 1}: "${a.title}" (${a.source})\n   ${a.snippet || a.title}`)
     .join("\n\n");
+
   return [
+    {
+      role: "system",
+      content: "You are Dr. Temitope D. Soneye, PhD, a premier environmental scientist. Output ONLY a 2-3 sentence technical analysis. DO NOT include reasoning, internal monologue, or introductory text. Output only the final paragraph."
+    },
     {
       role: "user",
       content:
-        `You are Dr. Temitope D. Soneye, PhD, founder of Tosson Environmental Analytics LLC ` +
-        `and a leading PFAS expert in North Carolina.\n\n` +
-        `Write a concise 2-3 sentence expert analysis of the current PFAS and water quality ` +
-        `situation in ${county} County, NC, based on these recent news articles. ` +
-        `Reference specific details. Be direct, authoritative, and scientific. ` +
-        `Flowing prose only — no bullet points.\n\n` +
-        `Articles:\n${articleList}\n\n` +
-        `Write ONLY the 2-3 sentence paragraph. Nothing else.`,
+        `Analyze the PFAS situation in ${county} County, NC based on this evidence:\n\n${articleList}\n\n` +
+        `Final Expert Analysis (2-3 sentences):`
     },
   ];
 }
-
 function trimToSentence(text) {
   const last = Math.max(text.lastIndexOf("."), text.lastIndexOf("!"), text.lastIndexOf("?"));
   return last > 60 ? text.slice(0, last + 1).trim() : text.trim();
 }
 
-async function callChatAPI({ url, apiKey, model, messages, timeoutMs = 240_000 }) {
-  const headers = { "Content-Type": "application/json" };
-  if (apiKey) headers["Authorization"] = `Bearer ${apiKey}`;
-  const body = { messages, max_tokens: 280, temperature: 0.65, top_p: 0.9 };
-  if (model) body.model = model;
-  
-  const res = await fetch(`${url}/chat/completions`, {
-    method: "POST",
-    headers,
-    body: JSON.stringify(body),
-    signal: AbortSignal.timeout(timeoutMs),
-  });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  const data = await res.json();
-  return data.choices?.[0]?.message?.content?.trim() ?? "";
-}
-
 async function generateAnalysis(county, articles) {
   const messages = buildPrompt(county, articles);
 
-  // 1. Try local Gemma 4 via llama-server
+  // 1. Try local llama-server
   if (serverProc) {
     try {
       const text = await callChatAPI({ url: SRV_URL, messages });
-      if (text) return trimToSentence(text);
+      if (text && text.length > 50) return trimToSentence(text);
     } catch (err) {
       console.warn(`    ⚠ Gemma local error for ${county}: ${err.message.slice(0, 60)}`);
     }
   }
 
-  // 2. Try blockrun local API
+  // 2. Try blockrun
   try {
     const text = await callChatAPI({
       url: BLOCKRUN_URL, apiKey: BLOCKRUN_KEY,
       model: "premium", messages, timeoutMs: 60_000,
     });
-    if (text) { process.stdout.write(" [blockrun]"); return trimToSentence(text); }
+    if (text && text.length > 50) return trimToSentence(text);
   } catch { /* fall through */ }
 
-  // 3. Try OpenRouter with multiple models and retries
+  // 3. Try OpenRouter
   if (OPENROUTER_KEY) {
     for (const model of OPENROUTER_MODELS) {
       for (let attempt = 0; attempt < 2; attempt++) {
         try {
-          const text = await callChatAPI({
-            url: "https://openrouter.ai/api/v1", apiKey: OPENROUTER_KEY,
-            model, messages, timeoutMs: 60_000,
+          const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+            method: "POST",
+            headers: { 
+              "Authorization": `Bearer ${OPENROUTER_KEY}`, 
+              "Content-Type": "application/json",
+              "HTTP-Referer": "https://tossonanalytics.com",
+              "X-Title": "Tosson Analytics"
+            },
+            body: JSON.stringify({
+              model,
+              messages,
+              temperature: 0.1, // Even more focused
+              max_tokens: 400
+            }),
+            signal: AbortSignal.timeout(60_000)
           });
-          if (text) { 
-            process.stdout.write(` [${model.split("/")[1].split(":")[0]}]`); 
-            return trimToSentence(text); 
+
+          if (res.ok) {
+            const data = await res.json();
+            const text = data.choices?.[0]?.message?.content?.trim();
+            if (text && text.length > 50) {
+              process.stdout.write(` [${model.split("/")[1].split(":")[0]}] ✓`);
+              return trimToSentence(text);
+            }
           }
-        } catch (err) {
-          if (attempt === 0) await sleep(5000);
+
+          if (res.status === 429) {
+            await sleep(10000);
+            continue;
+          } else {
+            break;
+          }
+        } catch (e) { 
+           await sleep(2000);
         }
       }
     }
   }
-
   return "";
-}
-
-// ── Persistence helpers ────────────────────────────────────────────────────────
+}// ── Persistence helpers ────────────────────────────────────────────────────────
 function loadExisting() {
   try {
     return existsSync(OUT_FILE)
@@ -530,7 +545,7 @@ async function main() {
       if (!noAI && articles.length > 0) {
         process.stdout.write(" → AI…");
         analysis = await generateAnalysis(county, articles);
-        process.stdout.write(analysis ? " ✓" : " (empty)");
+        if (!analysis) process.stdout.write(" (failed)");
       }
       process.stdout.write("\n");
 
@@ -543,7 +558,7 @@ async function main() {
         writeFileSync(OUT_FILE, JSON.stringify(existing, null, 2));
       }
 
-      if (i < toProcess.length - 1) await sleep(1000);
+      if (i < toProcess.length - 1) await sleep(3000); // 3s delay to avoid rate limits
     }
   } finally {
     stopServer();
