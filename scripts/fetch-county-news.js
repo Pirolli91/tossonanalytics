@@ -24,6 +24,20 @@ const __dirname  = dirname(fileURLToPath(import.meta.url));
 const ROOT       = join(__dirname, "..");
 const OUT_FILE   = join(ROOT, "public", "data", "county-news.json");
 
+// ── Load ~/.hermes/.env ──────────────────────────────────────────────────────
+const ENV_PATH = join(HOME, ".hermes", ".env");
+if (existsSync(ENV_PATH)) {
+  const envText = readFileSync(ENV_PATH, "utf-8");
+  for (const line of envText.split("\n")) {
+    const trimmed = line.trim();
+    if (trimmed && !trimmed.startsWith("#") && trimmed.includes("=")) {
+      const [key, ...vals] = trimmed.split("=");
+      const val = vals.join("=").trim().replace(/^["']|["']$/g, "");
+      process.env[key.trim()] = val;
+    }
+  }
+}
+
 // ── Portable Llama Paths ──────────────────────────────────────────────────────
 const TERMUX_BASE = "/data/data/com.termux/files/home/llama.cpp";
 const LOCAL_BASE  = join(HOME, "llama.cpp");
@@ -173,24 +187,50 @@ function inferSource(url) {
  * OR if it references a place known to be in that county.
  */
 const COUNTY_ALIASES = {
-  "New Hanover": ["wilmington", "new hanover"],
-  "Cumberland":  ["fayetteville", "cumberland", "fayetteville works"],
-  "Bladen":      ["bladen", "elizabethtown"],
-  "Robeson":     ["robeson", "lumberton"],
-  "Sampson":     ["sampson", "clinton"],
-  "Hoke":        ["hoke", "raeford"],
-  "Harnett":     ["harnett", "lillington"],
-  "Chatham":     ["chatham", "pittsboro"],
-  "Brunswick":   ["brunswick", "bolivia"],
-  "Pender":      ["pender", "burgaw"],
-  "Duplin":      ["duplin", "kenansville"],
+  "Wake":         ["raleigh", "cary", "apex", "wake forest", "morrisville", "holly springs", "fuquay-varina"],
+  "Mecklenburg":  ["charlotte", "huntersville", "cornelius", "davidson", "matthews", "mint hill"],
+  "Guilford":     ["greensboro", "high point"],
+  "Durham":       ["durham"],
+  "Forsyth":      ["winston-salem", "kernersville"],
+  "Buncombe":     ["asheville", "black mountain"],
+  "New Hanover":  ["wilmington", "wrightsville beach", "carolina beach"],
+  "Cumberland":   ["fayetteville", "hope mills", "spring lake"],
+  "Orange":       ["chapel hill", "carrboro", "hillsborough"],
+  "Pitt":         ["greenville"],
+  "Onslow":       ["jacksonville"],
+  "Cabarrus":     ["concord", "kannapolis"],
+  "Union":        ["monroe", "indian trail"],
+  "Gaston":       ["gastonia", "belmont"],
+  "Iredell":      ["statesville", "mooresville"],
+  "Davidson":     ["lexington", "thomasville"],
+  "Alamance":     ["burlington", "graham", "muncipal"],
+  "Chatham":      ["pittsboro", "siler city", "haw river"],
+  "Brunswick":    ["leland", "oak island", "shallotte"],
+  "Bladen":       ["elizabethtown", "chemours"],
+  "Robeson":      ["lumberton", "st. pauls"],
+  "Sampson":      ["clinton"],
+  "Wayne":        ["goldsboro"],
+  "Henderson":    ["hendersonville"],
+  "Nash":         ["rocky mount"],
+  "Edgecombe":    ["tarboro", "rocky mount"],
+  "Wilson":       ["wilson"],
+  "Johnston":     ["smithfield", "clayton", "selma"],
+  "Harnett":      ["lillington", "dunn", "campbell"],
 };
 
 function knowledgeArticlesForCounty(county, articles) {
-  const aliases = COUNTY_ALIASES[county] ?? [county.toLowerCase()];
+  const aliases = [
+    county.toLowerCase(),
+    ...(COUNTY_ALIASES[county] || [])
+  ];
   return articles.filter(a => {
     const hay = (a.title + " " + a.snippet).toLowerCase();
-    return aliases.some(alias => hay.includes(alias));
+    const matchesCounty = aliases.some(alias => hay.includes(alias.toLowerCase()));
+    
+    // Also include very high-importance general NC news for all counties if they don't have enough articles
+    const isGeneralNC = hay.includes("north carolina") || hay.includes("nc deq") || hay.includes("nc emc");
+    
+    return matchesCounty || (isGeneralNC && !hay.includes("county") ); // heuristic for general news
   });
 }
 
@@ -310,9 +350,10 @@ const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY || "";
 
 // Models to try on OpenRouter when local is unavailable
 const OPENROUTER_MODELS = [
-  "qwen/qwen3-30b-a3b:free",
-  "qwen/qwen-2.5-72b-instruct:free",
+  "nvidia/nemotron-3-super-120b-a12b:free",
+  "nousresearch/hermes-3-llama-3.1-405b:free",
   "google/gemma-3-12b-it:free",
+  "qwen/qwen-2.5-72b-instruct:free",
 ];
 
 function buildPrompt(county, articles) {
@@ -345,6 +386,7 @@ async function callChatAPI({ url, apiKey, model, messages, timeoutMs = 240_000 }
   if (apiKey) headers["Authorization"] = `Bearer ${apiKey}`;
   const body = { messages, max_tokens: 280, temperature: 0.65, top_p: 0.9 };
   if (model) body.model = model;
+  
   const res = await fetch(`${url}/chat/completions`, {
     method: "POST",
     headers,
@@ -378,16 +420,23 @@ async function generateAnalysis(county, articles) {
     if (text) { process.stdout.write(" [blockrun]"); return trimToSentence(text); }
   } catch { /* fall through */ }
 
-  // 3. Try OpenRouter with Qwen / Gemma free models
+  // 3. Try OpenRouter with multiple models and retries
   if (OPENROUTER_KEY) {
     for (const model of OPENROUTER_MODELS) {
-      try {
-        const text = await callChatAPI({
-          url: "https://openrouter.ai/api/v1", apiKey: OPENROUTER_KEY,
-          model, messages, timeoutMs: 45_000,
-        });
-        if (text) { process.stdout.write(` [${model.split("/")[1]}]`); return trimToSentence(text); }
-      } catch { /* try next */ }
+      for (let attempt = 0; attempt < 2; attempt++) {
+        try {
+          const text = await callChatAPI({
+            url: "https://openrouter.ai/api/v1", apiKey: OPENROUTER_KEY,
+            model, messages, timeoutMs: 60_000,
+          });
+          if (text) { 
+            process.stdout.write(` [${model.split("/")[1].split(":")[0]}]`); 
+            return trimToSentence(text); 
+          }
+        } catch (err) {
+          if (attempt === 0) await sleep(5000);
+        }
+      }
     }
   }
 
