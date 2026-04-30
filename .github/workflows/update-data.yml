@@ -1,27 +1,20 @@
-name: Nightly PFAS Data Update & Deploy
+name: Cloudflare Pages Deploy
 
 on:
   push:
     branches: [master]
-  schedule:
-    # 02:00 EST = 07:00 UTC
-    - cron: "0 7 * * *"
-  workflow_dispatch: # allow manual trigger from GitHub UI
+  workflow_dispatch: 
 
 jobs:
-  fetch-and-deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    timeout-minutes: 15
     permissions:
-      contents: write
+      contents: read
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -31,14 +24,6 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-
-      - name: Fetch latest PFAS data
-        run: node scripts/fetch-pfas-data.js || echo "PFAS data fetch failed, continuing with cached data"
-        env:
-          NODE_OPTIONS: "--experimental-vm-modules"
-
-      - name: Fetch county news (no-AI mode)
-        run: node scripts/fetch-county-news.js --no-ai || echo "County news fetch failed"
 
       - name: Build static site
         run: npm run build
@@ -52,11 +37,3 @@ jobs:
             --project-name=tossonanalytics \
             --branch=master \
             --commit-dirty=true
-
-      - name: Commit updated data files
-        run: |
-          git config user.name  "Tosson Data Bot"
-          git config user.email "bot@tossonanalytics.com"
-          git add public/data/pfas-nc-data.json public/data/county-news.json
-          git diff --staged --quiet || git commit -m "chore: nightly data update $(date -u +%Y-%m-%d)"
-          git push
