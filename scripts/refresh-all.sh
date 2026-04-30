@@ -45,7 +45,7 @@ $NODE_BIN scripts/fetch-county-news.js
 
 # 4. Commit and Push
 echo "--- 4. Committing and Pushing Updates ---"
-git add public/data/pfas-nc-data.json public/data/pfas-sites.json public/data/county-news.json
+git add public/data/pfas-nc-data.json public/data/pfas-sites.json public/data/county-news.json public/data/nc-regulatory-digest.md
 if git diff --staged --quiet; then
     echo "No data changes to commit."
 else

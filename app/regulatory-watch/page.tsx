@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 function loadDigest(): { html: string; title: string } {
   try {
-    const filePath = join(process.env.HOME ?? "/home/temitope", "knowledge", "nc-regulatory-digest.md");
+    const filePath = join(process.cwd(), "public", "data", "nc-regulatory-digest.md");
     const raw = readFileSync(filePath, "utf-8");
 
     // Extract the title from the first markdown heading
