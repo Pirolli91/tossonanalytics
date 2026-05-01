@@ -278,8 +278,13 @@ const OPENROUTER_MODELS = [
 
 // ── Write MDX file ────────────────────────────────────────────────────────────
 function writeMDX(slug, content) {
+  // Sanitize content: escape '<' that isn't part of a known pattern if needed
+  // But safest is to escape all '<' that aren't followed by a character that starts a tag
+  // In our case, we just want to avoid crashing MDX.
+  const sanitized = content.replace(/<(?![a-zA-Z\\/!])/g, "&lt;");
+  
   const path = join(CONTENT_DIR, `${slug}.mdx`);
-  writeFileSync(path, content, "utf-8");
+  writeFileSync(path, sanitized, "utf-8");
   console.log(`    ✓ Written: content/insights/${slug}.mdx`);
 }
 
