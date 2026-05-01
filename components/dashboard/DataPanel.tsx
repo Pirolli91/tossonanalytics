@@ -203,7 +203,7 @@ export function DataPanel({ county, sites, onClose, onSiteSelect }: DataPanelPro
         <div>
           <h2 className="text-lg font-bold">{county.county} County</h2>
           <p className="text-xs text-white/40">
-            FIPS {county.fips} · {county.pwsCount} water system{county.pwsCount !== 1 ? "s" : ""} · {(county as any).source ?? "EPA UCMR 5"}
+            FIPS {county.fips} · {county.pwsCount} water system{county.pwsCount !== 1 ? "s" : ""} · {county.source ?? "EPA UCMR 5"}
           </p>
         </div>
         <button onClick={onClose} className="shrink-0 rounded-lg p-1.5 text-white/40 hover:bg-white/10 hover:text-white transition-colors">
@@ -264,7 +264,7 @@ export function DataPanel({ county, sites, onClose, onSiteSelect }: DataPanelPro
             { label: "GenX ÷ 10 ppt",    v: county.genx_ppt  / 10 },
             { label: "PFNA ÷ 2000 ppt",  v: county.pfna_ppt  / 2000 },
             { label: "PFHxS ÷ 10 ppt",   v: county.pfhxs_ppt / 10 },
-            { label: "PFBS ÷ 10 ppt",    v: (county as any).pfbs_ppt ? (county as any).pfbs_ppt / 10 : 0 },
+            { label: "PFBS ÷ 10 ppt",    v: county.pfbs_ppt ? county.pfbs_ppt / 10 : 0 },
           ].map(({ label, v }) => (
             <div key={label} className="flex justify-between">
               <span className="text-white/50">{label}</span>

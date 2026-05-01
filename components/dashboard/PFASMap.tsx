@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import type { Map as LeafletMap, GeoJSON as LeafletGeoJSONLayer } from "leaflet";
+import type { Map as LeafletMap, GeoJSON as LeafletGeoJSONLayer, Layer, LeafletMouseEvent, Path } from "leaflet";
 
 export interface CountyData {
   county: string;
@@ -17,6 +17,7 @@ export interface CountyData {
   exceedsMCL: boolean;
   pwsCount: number;
   lastUpdated: string;
+  source?: string;
 }
 
 interface PFASMapProps {
@@ -56,21 +57,23 @@ export function PFASMap({ data, onCountySelect, selectedFips }: PFASMapProps) {
   // Re-style selected county when selectedFips changes
   useEffect(() => {
     if (!geojsonLayerRef.current) return;
-    geojsonLayerRef.current.eachLayer((lyr: any) => {
-      const fips: string = lyr.feature?.properties?.FIPS;
+    geojsonLayerRef.current.eachLayer((lyr: Layer) => {
+      const path = lyr as Path;
+      const fips: string = (lyr as any).feature?.properties?.FIPS;
       const countyData = data.find((d) => d.fips === fips);
       if (fips === selectedFips) {
-        lyr.setStyle({ weight: 3, color: "#00d4aa", opacity: 1, fillOpacity: 0.9 });
+        path.setStyle({ weight: 3, color: "#00d4aa", opacity: 1, fillOpacity: 0.9 });
       } else {
-        lyr.setStyle({
+        path.setStyle({
           weight: 0.8,
           color: "rgba(255,255,255,0.25)",
           opacity: 0.6,
           fillColor: countyData ? getColor(countyData) : "#1e3a5f",
-          fillOpacity: countyData ? 0.72 : 0.25,
+          fillOpacity: countyData ? 0.8 : 0.2,
         });
       }
     });
+
   }, [selectedFips, data]);
 
   useEffect(() => {
@@ -131,28 +134,30 @@ export function PFASMap({ data, onCountySelect, selectedFips }: PFASMapProps) {
                 opacity: 0.6,
               };
             },
-            onEachFeature: (feature, lyr) => {
+            onEachFeature: (feature, lyr: Layer) => {
               const fips: string = feature?.properties?.FIPS;
               const name: string = feature?.properties?.CountyName ?? "Unknown";
               const cd = dataMap.get(fips);
+              const path = lyr as Path;
 
               lyr.on({
-                mouseover(e) {
-                  const t = e.target as any;
+                mouseover(e: LeafletMouseEvent) {
+                  const t = e.target as Path;
                   if (fips !== selectedFips) {
                     t.setStyle({ weight: 2, color: "#00d4aa", opacity: 0.9, fillOpacity: cd ? 0.88 : 0.4 });
                   }
                   t.bringToFront();
                 },
-                mouseout(e) {
+                mouseout(e: LeafletMouseEvent) {
                   if (fips !== selectedFips) {
-                    layer.resetStyle(e.target as any);
+                    layer.resetStyle(e.target as Path);
                   }
                 },
                 click() {
                   onCountySelect(cd ?? null);
                 },
               });
+
 
               // Tooltip shown on hover — county name + key metric
               const tipContent = cd

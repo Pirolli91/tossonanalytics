@@ -4,10 +4,26 @@ import { Navbar } from "@/components/Navbar";
 import { Activity, Beaker, GraduationCap, ArrowUpRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
+interface Paper {
+  id: string;
+  title: string;
+  year: string;
+  summary: string;
+  url: string;
+}
+
+interface ResearchData {
+  papers: Paper[];
+}
+
+interface ToxData {
+  findings: string[];
+}
+
 export default function ToxicologyPage() {
-  let researchData = { papers: [] };
-  let toxData = { findings: [] };
-  
+  let researchData: ResearchData = { papers: [] };
+  let toxData: ToxData = { findings: [] };
+
   try {
     const researchPath = join(process.cwd(), "public", "data", "tosson-research-feed.json");
     researchData = JSON.parse(readFileSync(researchPath, "utf-8"));
@@ -27,25 +43,26 @@ export default function ToxicologyPage() {
             <div>
               <h1 className="text-3xl font-bold">Compound Intelligence</h1>
               <p className="text-white/40 max-w-xl mt-1">
-                Bridging the gap between global toxicological data and local contamination events in North Carolina.
+                Advanced scientific intelligence on PFAS health risks and destruction mechanisms, synthesized from 2024-2026 research.
               </p>
             </div>
           </div>
-          <Badge className="bg-white/5 text-[var(--brand-accent)] border-white/10 px-4 py-1.5 h-fit">
-            Updated: {new Date().toLocaleDateString()}
+          <Badge variant="outline" className="border-white/10 text-white/40 h-fit">
+            Last Harvested: {new Date().toLocaleDateString()}
           </Badge>
         </div>
 
-        <div className="grid gap-8 lg:grid-cols-3">
+        <div className="grid gap-12 lg:grid-cols-3">
           {/* Recent Research Column */}
           <div className="lg:col-span-2 space-y-6">
             <div className="flex items-center gap-2 mb-2">
               <GraduationCap className="h-5 w-5 text-[var(--brand-accent)]" />
               <h2 className="text-lg font-bold">Latest Scientific Findings (2024-2026)</h2>
             </div>
-            
+
             <div className="space-y-4">
-              {researchData.papers.map((paper: any) => (
+              {researchData.papers.map((paper: Paper) => (
+
                 <div key={paper.id} className="group rounded-2xl border border-white/5 bg-white/[0.02] p-6 transition-all hover:bg-white/[0.04] hover:border-white/10">
                   <div className="flex justify-between items-start gap-4 mb-3">
                     <h3 className="font-bold leading-tight group-hover:text-[var(--brand-accent)] transition-colors">

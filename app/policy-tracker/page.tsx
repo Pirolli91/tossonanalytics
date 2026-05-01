@@ -4,8 +4,22 @@ import { Navbar } from "@/components/Navbar";
 import { Scale, Landmark, FileText, AlertCircle, ExternalLink } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
+interface Bill {
+  id: string;
+  status: string;
+  impact: string;
+  summary: string;
+  url: string;
+}
+
+interface PolicyData {
+  bills: Bill[];
+  region: string;
+  last_updated: string;
+}
+
 export default function PolicyTrackerPage() {
-  let policyData = { bills: [], region: "", last_updated: "" };
+  let policyData: PolicyData = { bills: [], region: "", last_updated: "" };
   let globalData = { summary: "", categories: [] };
   
   try {
@@ -27,7 +41,7 @@ export default function PolicyTrackerPage() {
             <h1 className="text-3xl font-bold">Policy & Governance Tracker</h1>
           </div>
           <p className="text-white/40 max-w-2xl">
-            Monitoring the legislative landscape for "forever chemicals" from the NC General Assembly to federal regulatory actions.
+            Monitoring the legislative landscape for &quot;forever chemicals&quot; from the NC General Assembly to federal regulatory actions.
           </p>
         </div>
 
@@ -45,7 +59,7 @@ export default function PolicyTrackerPage() {
             </div>
 
             <div className="space-y-4">
-              {policyData.bills.map((bill: any) => (
+              {policyData.bills.map((bill: Bill) => (
                 <div key={bill.id} className="rounded-2xl border border-white/5 bg-white/[0.02] p-6">
                   <div className="flex justify-between items-start mb-4">
                     <div className="flex items-center gap-3">
