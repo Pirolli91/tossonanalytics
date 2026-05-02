@@ -1,35 +1,85 @@
-# NC Regulatory Digest — May 01, 2026
+# NC Regulatory Digest — May 02, 2026
 
 ```html
 <section>
-<h2>Public Comment</h2>
-<p><strong>Speakers scold EMC, share health issues at PFAS rules hearing</strong> – Coastal Review (3 days ago). Residents and experts testified before the Environmental Management Commission, highlighting adverse health outcomes linked to PFAS exposure and urging stricter discharge limits. Strategic implication: The heightened public pressure may accelerate the Commission’s move toward enforceable numeric criteria, increasing litigation risk for non‑compliant dischargers.</p>
-<p><strong>Residents pack Wilmington hearing on proposed PFAS rules for NC waterways</strong> – WECT (April 24, 2026). Large turnout demonstrated community concern over inadequate monitoring provisions in the draft rule. Strategic implication: Strong local opposition could trigger legislative oversight or amendments that tighten monitoring frequencies and expand the analyte list beyond the three EPA‑selected compounds.</p>
-<p><strong>“No limits, no accountability”: Area residents rebuke state’s proposed PFAS, 1,4‑dioxane rules</strong> – Port City Daily (5 days ago). Commenters argued that the proposed minimization rules would allow increased discharges. Strategic implication: If the rule is perceived as permissive, advocacy groups may pursue citizen suits under the Clean Water Act, compelling the state to adopt more protective standards.</p>
+  <h2>Public Comment</h2>
+  <div class="item">
+    <h3>Environmental Management Commission Meeting Information</h3>
+    <p>Details on upcoming EMC meetings, agendas, and materials for public participation.</p>
+    <p><strong>Strategic Implications:</strong> Stakeholders can anticipate procedural windows for influencing PFAS and 1,4-dioxane rulemaking; timely submission of comments may shape final regulatory thresholds.</p>
+    <a href="https://www.deq.nc.gov/about/divisions/water-resources/water-resources-commissions/environmental-management-commission/meeting-information">Source</a>
+  </div>
+  <div class="item">
+    <h3>NCUC Public Hearings</h3>
+    <p>Schedule of public hearings designated by the North Carolina Utilities Commission for expert and public witness testimony.</p>
+    <p><strong>Strategic Implications:</strong> Provides a formal avenue for intervenors to address utility rate cases, energy procurement, and related policy matters; strategic testimony can influence commission orders.</p>
+    <a href="https://www.ncuc.gov/Hearings/hearings.html">Source</a>
+  </div>
+  <div class="item">
+    <h3>P2 Industry Newsletter – April 2026 (1,4‑Dioxane Minimization)</h3>
+    <p>Call for public comments on proposed 1,4‑dioxane minimization strategies; submissions accepted via email or mail.</p>
+    <p><strong>Strategic Implications:</strong> Industry and NGOs can shape forthcoming minimization guidance; early engagement may mitigate future compliance costs.</p>
+    <a href="https://www.linkedin.com/pulse/p2-industry-newsletter-april-2026-03wje">Source</a>
+  </div>
+  <div class="item">
+    <h3>Speakers Scold EMC, Share Health Issues at PFAS Rules Hearing</h3>
+    <p>Coastal Review coverage of public testimony concerning health impacts of PFAS exposure and criticism of proposed EMC rules.</p>
+    <p><strong>Strategic Implications:</strong> Heightened public scrutiny may pressure the EMC to adopt stricter standards; anticipating heightened advocacy can inform risk management.</p>
+    <a href="https://coastalreview.org/2026/04/speakers-scold-emc-share-health-issues-at-pfas-rules-hearing/">Source</a>
+  </div>
+  <div class="item">
+    <h3>‘No Limits, No Accountability’: Area Residents Rebuke State’s Proposed PFAS, 1,4‑Dioxane Rules</h3>
+    <p>Port City Daily article detailing community opposition to perceived weak minimization rules for PFAS and 1,4‑dioxane.</p>
+    <p><strong>Strategic Implications:</strong> Growing grassroots dissent signals potential for litigation or legislative intervention; proactive stakeholder engagement is advisable.</p>
+    <a href="https://portcitydaily.com/latest-news/2026/04/26/no-limits-no-accountability-area-residents-rebuke-states-proposed-pfas-14-dioxane-rules/">Source</a>
+  </div>
+  <div class="item">
+    <h3>Petition: Ban All 8 PFAS – Clean Our Drinking Water</h3>
+    <p>Change.org petition urging the NC Environmental Management Commission to prohibit all eight PFAS compounds in drinking water.</p>
+    <p><strong>Strategic Implications:</strong> Demonstrates mobilized public pressure; monitoring petition signatures can gauge emerging regulatory risk.</p>
+    <a href="https://www.change.org/p/nc-environmental-management-commission-ban-all-8-pfas-clean-our-drinking-water">Source</a>
+  </div>
 </section>
 
 <section>
-<h2>Regulatory Actions</h2>
-<p><strong>EMC’s Selective PFAS Regulation: A Limited Step Forward</strong> – Haw River Assembly. The Environmental Management Commission advanced regulation for three PFAS compounds while deferring action on the remaining five EPA‑listed substances. Strategic implication: Partial regulation creates a compliance patchwork; facilities may face uneven enforcement and potential future retrofitting costs as the rule set expands.</p>
-<p><strong>EPA announces landmark PFAS regulations to protect drinking water</strong> – Haw River Assembly. EPA’s new national drinking‑water standards for PFAS set enforceable MCLs that will supersede state‑level guidance. Strategic implication: North Carolina must align its state rules with federal MCLs or risk preemption challenges; early alignment can reduce regulatory uncertainty for utilities.</p>
-<p><strong>DEQ Rulemaking – Meeting Information</strong> – NC DEQ (2 days ago). The Environmental Management Commission’s agenda includes PFAS and 1,4‑dioxane rulemaking workshops. Strategic implication: Stakeholder engagement at these meetings will shape the final rule language; proactive participation can mitigate costly post‑adoption revisions.</p>
-<p><strong>Bill Summary for H 1063 (2025‑2026)</strong> – Legislative Reporting. Appropriates $240,000 recurring from the General Fund to DEQ for water‑use standards applicable to data centers. Strategic implication: Funding signals growing regulatory scrutiny of water‑intensive tech infrastructure; data‑center operators should anticipate forthcoming permitting conditions and efficiency mandates.</p>
-<p><strong>NC Environmental Defense Calls on Environmental Management Commission to Require Strict NOx Limits</strong> – EDF. Urges permanent NOx rule for outdated utility plants. Strategic implication: Successful advocacy could trigger a parallel rulemaking process, imposing additional emissions controls on power generators and influencing regional air‑quality attainment strategies.</p>
-<p><strong>NC Environmental Management Commission votes to update wetlands definition</strong> – NC Newsline (Sept 12, 2025). Adopted definition aligns with federal standards, expanding jurisdictional waters. Strategic implication: Expanded wetland jurisdiction may increase permitting burdens for infrastructure projects; developers should conduct early jurisdictional assessments to avoid delays.</p>
-<p><strong>FILED SENATE Apr 28, 2026 – S889v0.pdf</strong> – NC General Assembly. Concerns tax year provisions affecting NPDES permit fees. Strategic implication: Fee adjustments could alter the cost structure of discharge permits; permittees should budget for potential increases and explore fee‑abatement programs.</p>
-</section>
-
-<section>
-<h2>Energy</h2>
-<p><strong>Solar industry appeals North Carolina’s pause on its projects</strong> – EENews/Politico Pro (April 30, 2026). Carolinas Clean Energy Business Association challenges the NCUC’s halt on solar procurement, alleging procedural violations. Strategic implication: A successful appeal could reinstate stalled projects, accelerating renewable‑energy capacity growth and reducing reliance on fossil‑fuel generation.</p>
-<p><strong>North Carolina Utilities Commission</strong> – NCUC.gov. Ongoing oversight of utility rates and service quality. Strategic implication: The Commission’s pending decisions on grid modernization and distributed generation interconnection standards will shape investment returns for renewable developers and utilities alike.</p>
-<p><strong>In North Carolina, conservative clean energy supporters aren’t worried</strong> – Yahoo News. Survey indicates bipartisan support for clean energy despite national political rhetoric. Strategic implication: Stable political backing may sustain state‑level incentives and reduce policy‑risk premiums for clean‑energy financiers.</p>
-<p><strong>North Carolina town sues Duke Energy for climate deception</strong> – Canary Media. First‑of‑its‑kind climate‑deception lawsuit alleges misleading statements about renewable commitments. Strategic implication: Litigation outcome could set a precedent for municipal accountability claims, prompting utilities to enhance transparency in climate‑related disclosures.</p>
-</section>
-
-<section>
-<h2>Litigation</h2>
-<p><strong>Appeals Court wrestles with NC permit for MVP pipeline</strong> – Carolina Journal (3 days ago). The 4th U.S. Circuit Court of Appeals scrutinized whether NC regulators adequately mitigated environmental impacts of the Mountain Valley Pipeline. Strategic implication: A remand or vacatur could impose additional mitigation measures or trigger supplemental permitting, increasing project timelines and costs for energy‑transport infrastructure.</p>
-<p><strong>Relaxed EPA Rules Will Not Affect NC Environmental Enforcement</strong> – WUNC (April 7, 2020). Analysis indicating state enforcement remains independent of federal rollbacks. Strategic implication: Despite federal leniency, North Carolina’s enforcement posture remains stringent; regulated entities should maintain compliance programs that exceed minimal federal baselines.</p>
-</section>
+  <h2>Regulatory Actions</h2>
+  <div class="item">
+    <h3>EMC’s Selective PFAS Regulation: A Limited Step Forward</h3>
+    <p>Haw River Assembly analysis of the Environmental Management Commission’s proposal to regulate only three PFAS compounds, urging inclusion of the remaining five EPA‑listed PFAS.</p>
+    <p><strong>Strategic Implications:</strong> Partial regulation may create compliance loopholes; firms should prepare for potential expansion of the regulated PFAS list.</p>
+    <a href="https://www.hawriver.org/news/emcs-selective-pfas-regulation-a-limited-step-forward-amidst-concerns-over-industrial-influence">Source</a>
+  </div>
+  <div class="item">
+    <h3>EPA Announces Landmark PFAS Regulations to Protect Drinking Water</h3>
+    <p>Haw River Assembly coverage of EPA’s nationwide PFAS drinking‑water standards, with statement from Executive Director Elaine Chiosso.</p>
+    <p><strong>Strategic Implications:</strong> Federal standards will preempt weaker state rules; alignment with EPA limits reduces future regulatory uncertainty.</p>
+    <a href="https://www.hawriver.org/news/epa-announces-landmark-pfas-regulations-to-protect-drinking-water-impacting-millions">Source</a>
+  </div>
+  <div class="item">
+    <h3>Industrial Contaminants: PFAS and 1,4‑Dioxane</h3>
+    <p>Haw River Assembly resource page describing sources of PFAS and 1,4‑dioxane contamination, noting Swepsonville drinking‑water impacts.</p>
+    <p><strong>Strategic Implications:</strong> Identifies high‑risk discharge zones; prioritizing monitoring in these watersheds can mitigate enforcement exposure.</p>
+    <a href="https://www.hawriver.org/industrial-contaminants">Source</a>
+  </div>
+  <div class="item">
+    <h3>New Sheepshead Fishing Rule in Place – Columbus County News</h3>
+    <p>Notification of updated creel and size limits for sheepshead in joint fishing waters, effective immediately.</p>
+    <p><strong>Strategic Implications:</strong> Reflects ongoing wildlife‑resource adjustments; angling‑related businesses should verify compliance with new limits.</p>
+    <a href="https://columbuscountynews.com/2026/04/new-sheepshead-fishing-rule-in-place/">Source</a>
+  </div>
+  <div class="item">
+    <h3>State Study Finds PFAS in Sewage Sludge Spread on NC Farmland, No Limits in Place</h3>
+    <p>WRAL.com report on detection of PFAS in sludge, soil, and water across North Carolina, highlighting absence of testing or limits for land application.</p>
+    <p><strong>Strategic Implications:</strong> Signals impending regulatory scrutiny of biosolids; producers should anticipate forthcoming testing requirements.</p>
+    <a href="https://www.wral.com/news/local/nc-study-pfas-sewage-sludge-spread-farmland-no-limits-april-2026/">Source</a>
+  </div>
+  <div class="item">
+    <h3>Notice of Intent to Issue an NPDES Wastewater Permit (NC0007510 – Columbia WTP)</h3>
+    <p>DEQ announcement of intent to issue a wastewater permit, with comment period open 30 days after publication.</p>
+    <p><strong>Strategic Implications:</strong> Opportunity to influence effluent limits; early comment submission can shape permit conditions favorable to operational flexibility.</p>
+    <a href="https://www.deq.nc.gov/news/events/notice-intent-issue-npdes-wastewater-permit-no-nc0007510-columbia-wtp">Source</a>
+  </div>
+  <div class="item">
+    <h3>DNREC Public Notices</h3>
+    <p>Delaware Department of Natural Resources and Environmental Control listing of recent public notices related to permitting, enforcement, and planning.</p
 ```
