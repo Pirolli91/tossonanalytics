@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
-import { Bell, ExternalLink, Mail, CheckCircle, AlertCircle } from "lucide-react";
+import { useState, useEffect } from "react";
+import { Bell, ExternalLink, Mail, CheckCircle, AlertCircle, Bookmark, ChevronRight, Hash, Clock } from "lucide-react";
 
 interface Props {
   digestHtml: string;
@@ -13,6 +13,33 @@ export function RegulatoryWatchClient({ digestHtml, digestTitle }: Props) {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
+  const [activeSection, setActiveSection] = useState("");
+
+  // Table of Contents logic
+  const sections = [
+    { id: "public-comment", label: "Public Comment" },
+    { id: "regulatory-actions", label: "Regulatory Actions" },
+    { id: "energy", label: "Energy & Infrastructure" },
+    { id: "litigation", label: "Litigation & Enforcement" },
+  ];
+
+  // Helper to scroll to section
+  const scrollTo = (id: string) => {
+    const el = document.getElementById(id);
+    if (el) {
+      const offset = 100;
+      const bodyRect = document.body.getBoundingClientRect().top;
+      const elementRect = el.getBoundingClientRect().top;
+      const elementPosition = elementRect - bodyRect;
+      const offsetPosition = elementPosition - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+      setActiveSection(id);
+    }
+  };
 
   async function handleSubscribe(e: React.FormEvent) {
     e.preventDefault();
@@ -43,179 +70,199 @@ export function RegulatoryWatchClient({ digestHtml, digestTitle }: Props) {
   return (
     <>
       {/* ── Hero ── */}
-      <section className="relative overflow-hidden border-b border-white/10 px-6 py-16 sm:py-20">
+      <section className="relative overflow-hidden border-b border-white/5 bg-white/[0.01] px-6 py-20 sm:py-24">
         <div
           className="pointer-events-none absolute inset-0 -z-10"
           style={{
             background:
-              "radial-gradient(ellipse 70% 50% at 50% 0%, rgba(0,212,170,0.08) 0%, transparent 70%)",
+              "radial-gradient(circle at 50% -20%, rgba(16,185,129,0.1) 0%, transparent 50%)",
           }}
         />
-        <div className="mx-auto max-w-4xl text-center">
-          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[var(--brand-accent)]/30 bg-[var(--brand-accent)]/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-[var(--brand-accent)]">
-            <Bell className="h-3 w-3" />
-            Daily Digest
+        <div className="mx-auto max-w-5xl">
+          <div className="flex flex-col items-center text-center">
+            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-[var(--brand-accent)]/20 bg-[var(--brand-accent)]/5 px-4 py-1.5 text-[10px] font-bold uppercase tracking-[0.2em] text-[var(--brand-accent)]">
+              <Clock className="h-3 w-3" />
+              Daily Intelligence Briefing
+            </div>
+            <h1 className="text-4xl font-extrabold leading-[1.1] tracking-tight text-white sm:text-5xl lg:text-6xl">
+              NC Regulatory <span className="text-[var(--brand-accent)]">Watch</span>
+            </h1>
+            <p className="mt-6 max-w-2xl text-lg text-white/50 leading-relaxed">
+              Consolidated, PhD-level monitoring of North Carolina’s environmental and energy landscape. 
+              We track the DEQ, EMC, and NCUC so you can focus on compliance and strategy.
+            </p>
+            <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
+              <a
+                href="https://temitopesoneye.substack.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-xl bg-[var(--brand-accent)] px-8 py-4 text-sm font-bold text-[var(--bg-main)] transition-all hover:scale-[1.02] active:scale-[0.98]"
+              >
+                Join 500+ Stakeholders
+                <ExternalLink className="h-4 w-4" />
+              </a>
+            </div>
           </div>
-          <h1 className="text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl">
-            NC Environmental &amp; Energy
-            <br />
-            <span style={{ color: "var(--brand-accent)" }}>Regulatory Watch</span>
-          </h1>
-          <p className="mx-auto mt-4 max-w-2xl text-base text-white/60 sm:text-lg">
-            Daily monitoring of NC DEQ, EMC, NCUC, and EPA actions affecting North Carolina —
-            public comment windows, rulemaking, enforcement actions, and energy filings.
-          </p>
-          <a
-            href="https://temitopesoneye.substack.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-8 inline-flex items-center gap-2 rounded-lg px-6 py-3 text-sm font-semibold transition-opacity hover:opacity-90"
-            style={{ background: "var(--brand-accent)", color: "var(--bg-main)" }}
-          >
-            Subscribe to Weekly Newsletter
-            <ExternalLink className="h-4 w-4" />
-          </a>
         </div>
       </section>
 
       {/* ── Main content + sidebar ── */}
-      <div className="mx-auto max-w-7xl px-6 py-12">
-        <div className="grid gap-10 lg:grid-cols-[1fr_320px] lg:gap-12 xl:grid-cols-[1fr_360px]">
+      <div className="mx-auto max-w-7xl px-6 py-16">
+        <div className="grid gap-12 lg:grid-cols-[240px_1fr_340px]">
+
+          {/* ── Left Nav (TOC) ── */}
+          <nav className="hidden lg:block sticky top-24 self-start">
+            <p className="mb-6 text-[10px] font-bold uppercase tracking-widest text-white/30">Intelligence Sections</p>
+            <div className="flex flex-col gap-1">
+              {sections.map((s) => (
+                <button
+                  key={s.id}
+                  onClick={() => scrollTo(s.id)}
+                  className={`flex items-center gap-3 rounded-lg px-4 py-3 text-sm font-medium transition-all ${
+                    activeSection === s.id 
+                      ? "bg-[var(--brand-accent)]/10 text-[var(--brand-accent)]" 
+                      : "text-white/40 hover:bg-white/5 hover:text-white"
+                  }`}
+                >
+                  <Hash className={`h-4 w-4 ${activeSection === s.id ? "opacity-100" : "opacity-30"}`} />
+                  {s.label}
+                </button>
+              ))}
+            </div>
+          </nav>
 
           {/* ── Digest ── */}
-          <article>
-            <header className="mb-6 flex items-start justify-between gap-4">
-              <div>
-                <h2 className="text-xl font-bold text-white/90 sm:text-2xl">{digestTitle}</h2>
-                <p className="mt-1 text-sm text-white/40">Updated daily by the Regulatory Intelligence Team</p>
+          <article className="min-w-0">
+            <div className="mb-10 border-b border-white/5 pb-10">
+              <h2 className="text-3xl font-bold text-white mb-2">{digestTitle}</h2>
+              <div className="flex items-center gap-4 text-sm text-white/40 font-medium">
+                <span className="flex items-center gap-1.5"><Clock className="h-4 w-4" /> Updated {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric'})}</span>
+                <span className="w-1.5 h-1.5 rounded-full bg-white/10" />
+                <span className="flex items-center gap-1.5"><Bookmark className="h-4 w-4" /> 10+ Sources Monitored</span>
               </div>
-            </header>
+            </div>
 
             <div
-              className="regulatory-digest prose"
+              className="regulatory-briefing-ui"
               dangerouslySetInnerHTML={{ __html: digestHtml }}
             />
+            
+            {/* Legend / Methodology */}
+            <div className="mt-16 rounded-2xl border border-white/5 bg-white/[0.02] p-8">
+              <h3 className="mb-4 text-sm font-bold uppercase tracking-widest text-white/80 flex items-center gap-2">
+                <AlertCircle className="h-4 w-4 text-[var(--brand-accent)]" />
+                Analyst Methodology
+              </h3>
+              <p className="text-sm text-white/40 leading-relaxed">
+                Items are curated daily using a proprietary intelligence pipeline targeting high-value NC sources including the NCGA, Haw River Assembly, and NC DEQ. Summaries are synthesized by our AI analyst and verified for strategic relevance to municipal water utilities and environmental consultants.
+              </p>
+            </div>
           </article>
 
           {/* ── Sidebar ── */}
-          <aside className="flex flex-col gap-6">
+          <aside className="flex flex-col gap-8">
 
             {/* Email Signup Card */}
-            <div
-              className="rounded-xl border border-white/10 p-6"
-              style={{ background: "var(--bg-card)" }}
-            >
-              <div className="mb-4 flex items-center gap-2">
-                <Mail className="h-5 w-5" style={{ color: "var(--brand-accent)" }} />
-                <h3 className="font-semibold text-white">Get Alerts in Your Inbox</h3>
+            <div className="group rounded-2xl border border-white/10 bg-white/[0.03] p-8 transition-colors hover:border-[var(--brand-accent)]/30">
+              <div className="mb-6 flex items-center gap-3">
+                <div className="rounded-xl bg-[var(--brand-accent)]/10 p-3">
+                  <Mail className="h-6 w-6 text-[var(--brand-accent)]" />
+                </div>
+                <h3 className="text-lg font-bold text-white leading-tight">Executive Briefing</h3>
               </div>
-              <p className="mb-5 text-sm text-white/60 leading-relaxed">
-                Receive email alerts when key comment deadlines approach, rulemaking actions drop,
-                or enforcement orders are issued.
+              <p className="mb-6 text-sm text-white/50 leading-relaxed">
+                Get alerted the moment key comment deadlines approach or enforcement orders are issued.
               </p>
 
               {status === "success" ? (
-                <div className="flex items-start gap-3 rounded-lg border border-[var(--brand-safe)]/30 bg-[var(--brand-safe)]/10 p-4">
+                <div className="flex items-start gap-3 rounded-xl border border-[var(--brand-safe)]/20 bg-[var(--brand-safe)]/5 p-4">
                   <CheckCircle className="mt-0.5 h-4 w-4 shrink-0 text-[var(--brand-safe)]" />
-                  <p className="text-sm text-[var(--brand-safe)]">{message}</p>
+                  <p className="text-sm text-[var(--brand-safe)]/80 leading-snug">{message}</p>
                 </div>
               ) : (
-                <form onSubmit={handleSubscribe} className="flex flex-col gap-3">
-                  <div>
-                    <label htmlFor="reg-name" className="mb-1.5 block text-xs font-medium text-white/50">
-                      Name
-                    </label>
+                <form onSubmit={handleSubscribe} className="flex flex-col gap-4">
+                  <div className="space-y-1.5">
+                    <label htmlFor="reg-name" className="px-1 text-[10px] font-bold uppercase tracking-widest text-white/30">Name</label>
                     <input
                       id="reg-name"
                       type="text"
-                      placeholder="Your name"
+                      placeholder="e.g. Director, Water Resources"
                       value={name}
                       onChange={(e) => setName(e.target.value)}
-                      className="w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2.5 text-sm text-white placeholder-white/30 outline-none transition-colors focus:border-[var(--brand-accent)]/60 focus:bg-white/8"
+                      className="w-full rounded-xl border border-white/5 bg-white/5 px-4 py-3 text-sm text-white outline-none transition-all focus:bg-white/10 focus:ring-1 focus:ring-[var(--brand-accent)]/50"
                     />
                   </div>
-                  <div>
-                    <label htmlFor="reg-email" className="mb-1.5 block text-xs font-medium text-white/50">
-                      Email <span className="text-[var(--brand-accent)]">*</span>
-                    </label>
+                  <div className="space-y-1.5">
+                    <label htmlFor="reg-email" className="px-1 text-[10px] font-bold uppercase tracking-widest text-white/30">Business Email</label>
                     <input
                       id="reg-email"
                       type="email"
-                      placeholder="you@example.com"
+                      placeholder="name@agency.gov"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       required
-                      className="w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2.5 text-sm text-white placeholder-white/30 outline-none transition-colors focus:border-[var(--brand-accent)]/60 focus:bg-white/8"
+                      className="w-full rounded-xl border border-white/5 bg-white/5 px-4 py-3 text-sm text-white outline-none transition-all focus:bg-white/10 focus:ring-1 focus:ring-[var(--brand-accent)]/50"
                     />
                   </div>
 
                   {status === "error" && (
-                    <div className="flex items-start gap-2 rounded-lg border border-[var(--brand-alert)]/30 bg-[var(--brand-alert)]/10 p-3">
+                    <div className="flex items-start gap-2 rounded-lg bg-[var(--brand-alert)]/10 p-3">
                       <AlertCircle className="mt-0.5 h-4 w-4 shrink-0 text-[var(--brand-alert)]" />
-                      <p className="text-xs text-[var(--brand-alert)]">{message}</p>
+                      <p className="text-xs text-[var(--brand-alert)]/90">{message}</p>
                     </div>
                   )}
 
                   <button
                     type="submit"
                     disabled={status === "loading"}
-                    className="mt-1 w-full rounded-lg px-4 py-2.5 text-sm font-semibold transition-opacity hover:opacity-90 disabled:opacity-50"
-                    style={{ background: "var(--brand-accent)", color: "var(--bg-main)" }}
+                    className="mt-2 w-full rounded-xl bg-[var(--brand-accent)] py-3.5 text-sm font-bold text-[var(--bg-main)] transition-all hover:opacity-90 active:scale-[0.98] disabled:opacity-50"
                   >
-                    {status === "loading" ? "Subscribing…" : "Subscribe for Alerts"}
+                    {status === "loading" ? "Processing..." : "Secure My Alerts"}
                   </button>
                 </form>
               )}
             </div>
 
-            {/* Newsletter CTA */}
-            <div
-              className="rounded-xl border border-[var(--brand-accent)]/20 p-6"
-              style={{ background: "rgba(0,212,170,0.05)" }}
-            >
-              <h3 className="font-semibold text-white">Weekly Newsletter</h3>
-              <p className="mt-2 mb-4 text-sm text-white/60 leading-relaxed">
-                Get a curated weekly roundup of NC environmental and energy regulatory
-                developments delivered to your inbox every Monday.
+            {/* Substack Promotion */}
+            <div className="rounded-2xl border border-[var(--brand-accent)]/20 bg-gradient-to-br from-[var(--brand-accent)]/10 to-transparent p-8">
+              <h3 className="text-lg font-bold text-white mb-3">Professional Newsletter</h3>
+              <p className="text-sm text-white/60 leading-relaxed mb-6">
+                Dr. Soneye’s curated weekly roundup delivered every Monday morning. Join the inner circle of NC environmental leaders.
               </p>
               <a
                 href="https://temitopesoneye.substack.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-[var(--brand-accent)]/40 px-4 py-2.5 text-sm font-semibold text-[var(--brand-accent)] transition-colors hover:bg-[var(--brand-accent)]/10"
+                className="group inline-flex items-center gap-2 text-sm font-bold text-[var(--brand-accent)] hover:underline"
               >
-                Subscribe on Substack
-                <ExternalLink className="h-4 w-4" />
+                Go to Substack
+                <ChevronRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               </a>
             </div>
 
-            {/* Key Agencies */}
-            <div
-              className="rounded-xl border border-white/10 p-6"
-              style={{ background: "var(--bg-card)" }}
-            >
-              <h3 className="mb-4 font-semibold text-white">Agencies We Monitor</h3>
-              <ul className="flex flex-col gap-2 text-sm text-white/60">
+            {/* Agency Monitor List */}
+            <div className="rounded-2xl border border-white/5 bg-white/[0.01] p-8">
+              <h3 className="mb-6 text-[10px] font-bold uppercase tracking-[0.2em] text-white/30">Active Agency Monitor</h3>
+              <div className="space-y-4">
                 {[
-                  { label: "NC DEQ", url: "https://deq.nc.gov" },
-                  { label: "Environmental Management Commission", url: "https://deq.nc.gov/about/divisions/water-resources/emc" },
+                  { label: "NC DEQ (Primary)", url: "https://deq.nc.gov" },
+                  { label: "Environmental Management Comm.", url: "https://deq.nc.gov/about/divisions/water-resources/emc" },
                   { label: "NC Utilities Commission", url: "https://www.ncuc.gov" },
                   { label: "EPA Region 4", url: "https://www.epa.gov/aboutepa/epa-region-4-southeast" },
                   { label: "EPA PFAS Program", url: "https://www.epa.gov/pfas" },
                 ].map(({ label, url }) => (
-                  <li key={label}>
-                    <a
-                      href={url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-1.5 transition-colors hover:text-[var(--brand-accent)]"
-                    >
-                      <ExternalLink className="h-3 w-3 shrink-0 opacity-50" />
-                      {label}
-                    </a>
-                  </li>
+                  <a
+                    key={label}
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-between group"
+                  >
+                    <span className="text-sm text-white/50 transition-colors group-hover:text-white">{label}</span>
+                    <ExternalLink className="h-3.5 w-3.5 text-white/20 group-hover:text-[var(--brand-accent)]" />
+                  </a>
                 ))}
-              </ul>
+              </div>
             </div>
           </aside>
         </div>

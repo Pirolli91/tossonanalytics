@@ -1,7 +1,28 @@
 {
-  "generated_at": "2026-05-01",
+  "generated_at": "2026-05-07",
   "total_papers": 20,
   "papers": [
+    {
+      "id": "42083094",
+      "title": "Integrating Adverse Outcome Pathway-Bayesian Network and Physiologically Based Pharmacokinetic Modeling for Quantitative Prediction of Developmental Neurotoxicity of F-53B under Human-Relevant Exposure Scenarios.",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42083094/",
+      "summary": "F-53B (6:2 Cl-PFESA), a major replacement for perfluorooctanesulfonate (PFOS), is frequently detected in human cord blood, yet its developmental neurotoxicity risks remain poorly characterized. This study establishes a quantitative testing strategy c..."
+    },
+    {
+      "id": "42074387",
+      "title": "PFAS Contamination and the Impacts of Environmental Turbulence: The Role of Collective Memory and Narrative Epidemiology in Invisible Disaster.",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42074387/",
+      "summary": "PFAS contamination represents a slow, invisible chronic technological disaster with documented long-term psychosocial impacts on affected communities. However, existing research has predominantly focused on toxicological and biomedical outcomes, leav..."
+    },
+    {
+      "id": "42072678",
+      "title": "PFAS Compounds Display Distinct Toxicological Effects in ",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42072678/",
+      "summary": "Per- and polyfluoroalkyl substances (PFAS) are environmentally persistent chemicals associated with a wide range of adverse health effects, yet individual PFAS compounds may exert distinct toxicological mechanisms. In this study, we investigate the t..."
+    },
     {
       "id": "42045079",
       "title": "New Docking, Molecular Dynamics, and QSAR Models to Predict Disruption of Human and Rat Transthyretin Function by Per- and Polyfluoroalkyl Substances (PFAS).",
@@ -15,27 +36,6 @@
       "year": "2026",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42033635/",
       "summary": "This review aims to summarize the effects of per- and poly-fluoroalkyl substances (PFAS) exposures on the lung, emphasizing data coverage across steps of human health risk assessments."
-    },
-    {
-      "id": "42019663",
-      "title": "Multigenerational exposure to per- and polyfluoroalkyl substances (PFAS) negatively impacts the reproductive health of male mice.",
-      "year": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42019663/",
-      "summary": "Widespread exposure to per- and polyfluoroalkyl substances (PFAS) poses substantial health risks to humans and animals. PFAS have the propensity to bioaccumulate in organs such as the testes, wherein they have been implicated in adverse effects on sp..."
-    },
-    {
-      "id": "42002200",
-      "title": "Prenatal and childhood exposure to perfluoroalkyl substances and fat distribution in 9-year-old children: A prospective cohort study in the Faroe Islands.",
-      "year": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42002200/",
-      "summary": "Per- and polyfluoroalkyl substances (PFASs) are known to cause adverse health effects, especially in children, and they might also be obesogenic. Given the rise in global obesity and overweight, and the likely origin in childhood, we aimed to examine..."
-    },
-    {
-      "id": "42000461",
-      "title": "Toxicometabolomic profiling of perfluorinated sulfonic acids and perfluorinated carboxylic acids reveals conserved effects on lipids and bile acids in Atlantic salmon hepatocytes.",
-      "year": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42000461/",
-      "summary": "Per- and polyfluoroalkyl substances (PFAS) are highly persistent environmental contaminants that pose potential ecological and health risks to humans and wildlife. This study investigated the comparative toxicity of four PFAS compounds, PFOS, PFOA, P..."
     },
     {
       "id": "41769302",
@@ -108,6 +108,13 @@
       "summary": "Per- and polyfluoroalkyl substances (PFAS) are recognized as ubiquitous \"forever chemicals\" with endocrine-disrupting properties. Prenatal exposure to PFAS has been implicated in the disruption of glucose homeostasis, potentially contributing to the ..."
     },
     {
+      "id": "42089299",
+      "title": "Potential Effects of Prepubertal Exposure to Perfluorooctane Sulfonic Acid on the First Wave of Folliculogenesis in Young CD-1 Mice.",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42089299/",
+      "summary": "Perfluorooctane sulfonic acid (PFOS) belongs to a group of synthetic chemicals referred to as per- and polyfluoroalkyl substances (PFAS) that are known to degrade slowly. Exposure to PFOS has been reported to cause birth defects and disrupt female se..."
+    },
+    {
       "id": "42043164",
       "title": "Per- and Polyfluoroalkyl Substances and Endometriosis: A Systematic Review and Meta-Analysis.",
       "year": "2026",
@@ -134,13 +141,6 @@
       "year": "2026",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42022024/",
       "summary": "As two classes of persistent environmental pollutants, microplastics (MPs) and per- and polyfluoroalkyl substances (PFAS) accumulate in the human urogenital system, posing a significant health threat. To elucidate their toxic mechanisms and inform di..."
-    },
-    {
-      "id": "42000108",
-      "title": "Prenatal exposure to 33 endocrine-disrupting chemicals and pubertal development at age 9 in Spain.",
-      "year": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42000108/",
-      "summary": "Puberty relies on a hormone-regulated cascade of events initiated in fetal life and might be disrupted by prenatal exposure to endocrine-disrupting chemicals (EDCs), with alterations manifesting during pubertal development. However, studies addressin..."
     }
   ]
 }
