@@ -59,7 +59,8 @@ export function PFASMap({ data, onCountySelect, selectedFips }: PFASMapProps) {
     if (!geojsonLayerRef.current) return;
     geojsonLayerRef.current.eachLayer((lyr: Layer) => {
       const path = lyr as Path;
-      const fips: string = (lyr as any).feature?.properties?.FIPS;
+      // @ts-expect-error - Leaflet layers within GeoJSON have feature properties
+      const fips: string = lyr.feature?.properties?.FIPS;
       const countyData = data.find((d) => d.fips === fips);
       if (fips === selectedFips) {
         path.setStyle({ weight: 3, color: "#00d4aa", opacity: 1, fillOpacity: 0.9 });
