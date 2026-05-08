@@ -1,23 +1,49 @@
-# NC Regulatory Digest — May 07, 2026
+# NC Regulatory Digest — May 08, 2026
 
 ```html
 <section>
   <h2>Public Comment</h2>
-  <p>The North Carolina Department of Environmental Quality (DEQ) has concluded its public comment period on the proposed court order against Chemours regarding GenX contamination. This regulatory action underscores the state's commitment to addressing industrial pollutants and protecting water quality. The strategic implications include potential legal precedents for future environmental litigation and heightened scrutiny on industrial compliance with environmental standards.</p>
+  <article>
+    <h3>DEQ Public Comment Period on Coal Ash Closure Plan</h3>
+    <p>The North Carolina Department of Environmental Quality (DEQ) is soliciting public feedback on its proposal to expedite the closure of coal ash ponds at three facilities near Charlotte. A public hearing is scheduled for February 13, 2026. This initiative reflects DEQ's commitment to addressing environmental hazards associated with coal ash, a byproduct of coal combustion that poses significant risks to water quality and public health.</p>
+    <h4>Strategic Implications</h4>
+    <p>The acceleration of coal ash pond closures could mitigate long-term environmental liabilities and enhance public trust in regulatory processes. However, it necessitates careful consideration of the technical and financial feasibility of closure plans, as well as stakeholder engagement to ensure comprehensive risk management.</p>
+  </article>
 </section>
 
 <section>
   <h2>Regulatory Actions</h2>
-  <p>The Environmental Management Commission (EMC) has initiated selective regulation of PFAS compounds, aligning with the EPA's broader regulatory framework. However, the Haw River Assembly has expressed concerns over the limited scope, advocating for comprehensive regulation of all PFAS compounds. Strategically, this selective approach may lead to incremental policy shifts, potentially influencing national standards and encouraging industry innovation in pollution control technologies.</p>
+  <article>
+    <h3>EPA's Landmark PFAS Regulations</h3>
+    <p>The Environmental Protection Agency (EPA) has announced new regulations targeting PFAS, or "forever chemicals," to safeguard drinking water. These regulations are expected to impact millions and represent a significant step in addressing widespread contamination issues.</p>
+    <h4>Strategic Implications</h4>
+    <p>The EPA's regulations could drive innovation in water treatment technologies and necessitate increased compliance costs for industries. Organizations must strategize to align operational practices with regulatory requirements, potentially leveraging advancements in filtration and chemical management.</p>
+  </article>
+  <article>
+    <h3>EMC's Regulation on 1,4-Dioxane</h3>
+    <p>The North Carolina Environmental Management Commission has approved a regulation to identify and reduce 1,4-dioxane levels in public water supplies. This action underscores the state's proactive stance on managing industrial contaminants.</p>
+    <h4>Strategic Implications</h4>
+    <p>This regulation may prompt industries to reassess their waste management practices and invest in technologies to minimize 1,4-dioxane emissions. It also highlights the need for continuous monitoring and adaptive management strategies to ensure compliance and protect public health.</p>
+  </article>
 </section>
 
 <section>
   <h2>Energy</h2>
-  <p>The Annual Energy Outlook 2026 by the U.S. Energy Information Administration highlights significant advancements in renewable energy technologies, including solar and wind. These developments are critical for North Carolina's energy strategy, particularly in light of new climate legislation aimed at decarbonization. The strategic implications involve increased investment in renewable infrastructure, potential shifts in energy market dynamics, and enhanced energy security.</p>
+  <article>
+    <h3>NC Utilities Commission's Pause on Solar Development</h3>
+    <p>The North Carolina Utilities Commission has issued an order halting Duke Energy's solar energy projects, a decision that has faced opposition from clean energy advocates. The Southern Environmental Law Center has filed a motion for reconsideration.</p>
+    <h4>Strategic Implications</h4>
+    <p>This pause could disrupt the state's renewable energy trajectory and affect investment confidence in solar infrastructure. Stakeholders must evaluate the regulatory landscape and advocate for policies that support sustainable energy growth while addressing grid reliability and economic impacts.</p>
+  </article>
 </section>
 
 <section>
   <h2>Litigation</h2>
-  <p>The recent regulation by the North Carolina Environmental Management Commission to address 1,4-dioxane contamination in public water supplies marks a pivotal step in environmental litigation. This action is likely to influence ongoing and future lawsuits, as it sets a regulatory benchmark for water quality standards. Strategically, it may drive innovation in water treatment technologies and foster collaborative efforts between regulators and industry stakeholders to mitigate environmental risks.</p>
+  <article>
+    <h3>1,4-Dioxane Lawsuit for Water Districts</h3>
+    <p>Legal actions are underway concerning the presence of 1,4-dioxane in water supplies, with the aim of holding polluters accountable and ensuring safe drinking water standards.</p>
+    <h4>Strategic Implications</h4>
+    <p>The litigation emphasizes the importance of corporate accountability and environmental stewardship. Companies may need to enhance their compliance frameworks and engage in transparent communication with stakeholders to mitigate legal risks and reinforce their commitment to sustainable practices.</p>
+  </article>
 </section>
 ```
