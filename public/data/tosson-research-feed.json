@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07",
+  "generated_at": "2026-05-11",
   "total_papers": 20,
   "papers": [
     {
@@ -108,6 +108,13 @@
       "summary": "Per- and polyfluoroalkyl substances (PFAS) are recognized as ubiquitous \"forever chemicals\" with endocrine-disrupting properties. Prenatal exposure to PFAS has been implicated in the disruption of glucose homeostasis, potentially contributing to the ..."
     },
     {
+      "id": "42097390",
+      "title": "Nest attendance in two Finnish waterfowl species in relation to per- and polyfluoroalkyl substances and thyroid hormones.",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42097390/",
+      "summary": "Contamination of aquatic environments with per- and polyfluoroalkyl substances (PFAS) may disrupt wildlife reproduction by altering hormonal-behavioural pathways. In birds, nest attendance is a key incubation behaviour, mediating embryonic developmen..."
+    },
+    {
       "id": "42089299",
       "title": "Potential Effects of Prepubertal Exposure to Perfluorooctane Sulfonic Acid on the First Wave of Folliculogenesis in Young CD-1 Mice.",
       "year": "2026",
@@ -134,13 +141,6 @@
       "year": "2026",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42030548/",
       "summary": "Per- and polyfluoroalkyl substances (PFAS) are environmentally persistent chemicals to which nearly all humans have detectable exposure. Although clinical interpretation of PFAS biomonitoring data often focuses on individual analytes, emerging toxico..."
-    },
-    {
-      "id": "42022024",
-      "title": "From environment to organs: individual and combined effects of MPs and PFAS on urinary system health.",
-      "year": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42022024/",
-      "summary": "As two classes of persistent environmental pollutants, microplastics (MPs) and per- and polyfluoroalkyl substances (PFAS) accumulate in the human urogenital system, posing a significant health threat. To elucidate their toxic mechanisms and inform di..."
     }
   ]
 }
