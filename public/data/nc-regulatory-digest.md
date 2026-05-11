@@ -2,38 +2,22 @@
 
 ```html
 <section>
-  <h1>North Carolina Regulatory Briefing - May 11, 2026</h1>
-
   <h2>Public Comment</h2>
-  <article>
-    <h3>DEQ Public Comment Period on Coal Ash Closure Plan</h3>
-    <p>The North Carolina Department of Environmental Quality (DEQ) has opened a public comment period regarding its plan to expedite the closure of coal ash ponds near Charlotte. A public hearing is scheduled for February 13, 2026. Stakeholders are encouraged to provide feedback on the proposed measures.</p>
-    <h4>Strategic Implications</h4>
-    <p>The acceleration of coal ash pond closures could mitigate environmental risks and align with state and federal environmental priorities. However, it may also impose operational and financial challenges on the facilities involved, necessitating strategic adjustments in resource allocation and compliance strategies.</p>
-  </article>
+  <p>The North Carolina Department of Environmental Quality (DEQ) is actively seeking public feedback on its plan to expedite the closure of coal ash ponds at three facilities near Charlotte. This initiative reflects a strategic effort to mitigate environmental risks associated with coal ash disposal. Stakeholder engagement is crucial, as public input can influence regulatory decisions and ensure that community concerns are addressed. The DEQ's approach underscores the importance of transparency and public participation in environmental governance.</p>
+</section>
 
+<section>
   <h2>Regulatory Actions</h2>
-  <article>
-    <h3>EPA's Landmark PFAS Regulations</h3>
-    <p>The Environmental Protection Agency (EPA) has announced new regulations targeting PFAS chemicals to protect drinking water, impacting millions. This move represents a significant step in addressing widespread contamination concerns.</p>
-    <h4>Strategic Implications</h4>
-    <p>Organizations must evaluate their compliance frameworks to align with the new PFAS regulations. This may involve revisiting supply chains, enhancing water treatment processes, and investing in advanced monitoring technologies to ensure adherence and mitigate potential liabilities.</p>
-  </article>
+  <p>The North Carolina Environmental Management Commission (EMC) is poised to vote on new regulations concerning PFAS and 1,4-dioxane. These regulations are critical in addressing the pervasive issue of industrial contaminants in public water supplies. However, the proposed plan has faced criticism for its perceived leniency and potential to transfer cleanup costs to local communities. The strategic implications of this regulatory action are significant, as it highlights the ongoing tension between environmental protection and industrial interests. Effective regulation is essential to safeguard public health and ensure sustainable water management practices.</p>
+</section>
 
+<section>
   <h2>Energy</h2>
-  <article>
-    <h3>NC Utilities Commission's Solar Development Pause</h3>
-    <p>The North Carolina Utilities Commission has issued an order pausing solar energy development, a decision that has sparked opposition from clean energy groups. The order was issued without a public hearing, raising concerns about transparency and stakeholder engagement.</p>
-    <h4>Strategic Implications</h4>
-    <p>This regulatory pause may hinder North Carolina's progress toward renewable energy goals, potentially affecting investment in solar infrastructure. Stakeholders should engage with regulators to advocate for policy clarity and support mechanisms that facilitate sustainable energy transitions.</p>
-  </article>
+  <p>The North Carolina Utilities Commission's decision to pause Duke Energy's solar projects has sparked considerable backlash from clean energy advocates. This regulatory pause represents a significant shift in the state's energy policy, potentially hindering progress toward renewable energy goals. The strategic implications of this decision are profound, as it may impact North Carolina's ability to meet future energy demands sustainably. The pushback from environmental groups underscores the need for a balanced approach that considers both economic and environmental factors in energy planning.</p>
+</section>
 
+<section>
   <h2>Litigation</h2>
-  <article>
-    <h3>Chatham County Faces Lawsuit Over Data Center Moratorium</h3>
-    <p>Eco TIP West has filed a lawsuit against Chatham County following the imposition of a one-year moratorium on data center development. This legal challenge underscores tensions between local governance and economic development interests.</p>
-    <h4>Strategic Implications</h4>
-    <p>The outcome of this litigation could set precedents for future data center developments and local regulatory authority. Stakeholders should monitor the case closely and prepare for potential shifts in zoning and development policies that could impact strategic planning and investment decisions.</p>
-  </article>
+  <p>Recent litigation efforts in North Carolina focus on addressing 1,4-dioxane contamination in water supplies. Lawsuits aim to hold industrial polluters accountable for discharges that threaten public health and environmental integrity. The strategic implications of these legal actions are multifaceted, as they not only seek remediation but also aim to establish precedents for future environmental accountability. Successful litigation could lead to stricter enforcement of environmental regulations and incentivize industries to adopt more sustainable practices.</p>
 </section>
 ```
