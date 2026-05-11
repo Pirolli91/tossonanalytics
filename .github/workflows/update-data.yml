@@ -6,12 +6,8 @@ on:
   workflow_dispatch: 
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
-    permissions:
-      contents: read
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -20,28 +16,19 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-          cache: "npm"
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Build static site
+      - name: Build site
         run: npm run build
 
-      - name: Verify build output
-        run: |
-          ls -R out
-          ls out/index.html
-
       - name: Deploy to Cloudflare Pages
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: |
-          echo "Deploying to project: tossonanalytics"
-          npx wrangler pages deploy out \
-            --project-name=tossonanalytics \
-            --branch=master \
-            --commit-dirty=true \
-            --upload-source-maps=true
-
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: tossonanalytics
+          directory: out
+          branch: master
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
