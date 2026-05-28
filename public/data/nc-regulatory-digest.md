@@ -1,31 +1,35 @@
-# NC Regulatory Digest — May 12, 2026
+# NC Regulatory Digest — May 28, 2026
 
 ```html
 <section>
   <h2>Public Comment</h2>
-  <p>The North Carolina Department of Environmental Quality (DEQ) has opened a public comment period concerning the expedited closure of coal ash ponds near Charlotte. This initiative reflects ongoing efforts to mitigate environmental hazards associated with coal ash storage. Stakeholders are encouraged to participate in the public hearing scheduled for February 13, 2026, to express their perspectives and influence policy outcomes.</p>
-  <h3>Strategic Implications</h3>
-  <p>The engagement of public stakeholders in the DEQ's decision-making process underscores the importance of community involvement in environmental governance. This participatory approach may enhance transparency and accountability, potentially leading to more robust environmental policies that align with public interests.</p>
+  <h3>North Carolina Board Seeks Public Comment on Election Rules</h3>
+  <p>The North Carolina State Board of Elections is soliciting public input on proposed amendments to voter ID, absentee ballots, and polling site conduct regulations. This initiative reflects an ongoing commitment to refining electoral processes to enhance transparency and accessibility.</p>
+  <h4>Strategic Implications</h4>
+  <p>Engagement in this public comment period is crucial for stakeholders aiming to influence electoral policy. The proposed changes could significantly impact voter participation and election integrity, necessitating a thorough analysis by political analysts and advocacy groups.</p>
 </section>
 
 <section>
   <h2>Regulatory Actions</h2>
-  <p>The Environmental Management Commission (EMC) is set to meet in Raleigh to discuss the regulation of PFAS compounds, following the EPA's landmark announcement on PFAS regulations. The EMC's selective regulation of three PFAS compounds has been criticized for its limited scope, with advocacy groups urging comprehensive regulation of all eight compounds identified by the EPA.</p>
-  <h3>Strategic Implications</h3>
-  <p>The EMC's regulatory approach highlights the tension between industrial interests and environmental advocacy. A broader regulatory framework could enhance public health protections but may face resistance from industrial stakeholders. The outcome of these discussions will likely influence future regulatory strategies and the balance of power between economic and environmental priorities.</p>
+  <h3>EMC's Selective PFAS Regulation</h3>
+  <p>The Environmental Management Commission (EMC) is advancing permanent groundwater standards for three PFAS compounds. This regulatory move is distinct from existing Interim Maximum Allowable Concentrations (IMACs) and signifies a targeted approach to managing industrial contaminants.</p>
+  <h4>Strategic Implications</h4>
+  <p>Industries reliant on PFAS must prepare for potential compliance challenges and increased scrutiny. The regulation underscores the necessity for proactive environmental management strategies and could catalyze innovation in alternative materials.</p>
 </section>
 
 <section>
   <h2>Energy</h2>
-  <p>The North Carolina Utilities Commission (NCUC) is evaluating the economic valuation of solar energy within the state. Recent discussions have centered on the financial implications of solar energy expansion and the potential impact on ratepayers, as highlighted by Commissioner Donald van der Vaart's cautionary stance on solar investments.</p>
-  <h3>Strategic Implications</h3>
-  <p>The NCUC's deliberations on solar energy valuation are critical in shaping North Carolina's energy policy landscape. The decisions made will affect investment in renewable energy infrastructure and could set precedents for balancing cost-effectiveness with environmental sustainability. Stakeholders must consider long-term energy security and economic viability in their strategic planning.</p>
+  <h3>NC Utilities Commission and Rooftop Solar</h3>
+  <p>The North Carolina Utilities Commission has partially approved a rooftop solar settlement, excluding an up-front rebate for new customers. This decision reflects a cautious approach to solar incentives, balancing consumer benefits with grid stability concerns.</p>
+  <h4>Strategic Implications</h4>
+  <p>Energy providers and consumers must navigate a complex regulatory landscape where financial incentives for renewable energy are in flux. This decision may influence future investment in solar infrastructure and necessitates strategic planning for energy transition goals.</p>
 </section>
 
 <section>
   <h2>Litigation</h2>
-  <p>The North Carolina Environmental Management Commission has approved a regulation aimed at reducing 1,4-dioxane levels in public water supplies. This regulatory action follows significant public backlash against perceived inadequacies in PFAS protection plans, which have been criticized for insufficient enforcement mechanisms.</p>
-  <h3>Strategic Implications</h3>
-  <p>The regulatory focus on 1,4-dioxane represents a proactive step in addressing water quality concerns, potentially mitigating legal liabilities associated with environmental contamination. However, the ongoing public dissent suggests a need for more stringent enforcement measures to satisfy community expectations and reduce litigation risks.</p>
+  <h3>Camp Lejeune Water Contamination Lawsuit</h3>
+  <p>The ongoing litigation concerning water contamination at Camp Lejeune is progressing slowly towards bellwether trials, with settlement negotiations continuing. This case highlights significant legal and environmental accountability issues.</p>
+  <h4>Strategic Implications</h4>
+  <p>Legal professionals and affected parties must remain vigilant as this high-profile case unfolds. The outcomes could set precedents for environmental litigation and influence regulatory frameworks governing military and industrial sites.</p>
 </section>
 ```
