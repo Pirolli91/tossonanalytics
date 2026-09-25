@@ -8,7 +8,8 @@ interface Article {
   url: string;
   snippet: string;
   source: string;
-  date: string;
+  date: string | null;
+  pubDate?: string;
 }
 
 interface CountyEntry {
@@ -40,12 +41,23 @@ const ALL_COUNTIES = [
   "Wayne","Wilkes","Wilson","Yadkin","Yancey",
 ];
 
-function formatDate(iso: string) {
+function formatDate(iso: string | null | undefined, fallback?: string) {
+  const fb = (fallback && fallback !== "None") ? fallback : "";
+  if (!iso) return fb;
   try {
-    return new Date(iso + "T12:00:00Z").toLocaleDateString("en-US", {
+    // Partial precision: "YYYY-MM" -> "Aug 2026", "YYYY" -> "2026"
+    if (/^\d{4}-\d{2}$/.test(iso)) {
+      return new Date(iso + "-15T12:00:00Z").toLocaleDateString("en-US", {
+        year: "numeric", month: "short",
+      });
+    }
+    if (/^\d{4}$/.test(iso)) return iso;
+    const d = new Date(iso + "T12:00:00Z");
+    if (isNaN(d.getTime())) return fb || iso;
+    return d.toLocaleDateString("en-US", {
       year: "numeric", month: "short", day: "numeric",
     });
-  } catch { return iso; }
+  } catch { return fb || iso; }
 }
 
 function timeAgo(iso: string) {
@@ -71,7 +83,7 @@ function ArticleCard({ article, index }: { article: Article; index: number }) {
         >
           {article.source}
         </span>
-        <span className="text-[11px] text-white/35 shrink-0">{formatDate(article.date)}</span>
+        <span className="text-[11px] text-white/35 shrink-0">{formatDate(article.date, article.pubDate)}</span>
       </div>
 
       {/* Title */}
