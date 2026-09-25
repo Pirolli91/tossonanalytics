@@ -10,6 +10,18 @@ interface Bill {
   impact: string;
   summary: string;
   url: string;
+  title?: string;
+  last_action?: string;
+  last_action_date?: string;
+}
+
+interface FederalAction {
+  title: string;
+  jurisdiction: string;
+  status: string;
+  date: string;
+  summary: string;
+  url: string;
 }
 
 interface PolicyData {
@@ -20,7 +32,7 @@ interface PolicyData {
 
 export default function PolicyTrackerPage() {
   let policyData: PolicyData = { bills: [], region: "", last_updated: "" };
-  let globalData = { summary: "", categories: [] };
+  let globalData: { summary: string; categories: string[]; actions: FederalAction[] } = { summary: "", categories: [], actions: [] };
   
   try {
     const policyPath = join(process.cwd(), "public", "data", "nc-pfas-policy.json");
@@ -43,6 +55,11 @@ export default function PolicyTrackerPage() {
           <p className="text-white/40 max-w-2xl">
             Monitoring the legislative landscape for &quot;forever chemicals&quot; from the NC General Assembly to federal regulatory actions.
           </p>
+          {policyData.last_updated && (
+            <p className="mt-3 text-xs text-white/30">
+              Data current as of {policyData.last_updated} · {policyData.bills.length} items tracked
+            </p>
+          )}
         </div>
 
         <div className="grid gap-8 lg:grid-cols-3">
@@ -61,7 +78,7 @@ export default function PolicyTrackerPage() {
             <div className="space-y-4">
               {policyData.bills.map((bill: Bill) => (
                 <div key={bill.id} className="rounded-2xl border border-white/5 bg-white/[0.02] p-6">
-                  <div className="flex justify-between items-start mb-4">
+                  <div className="flex justify-between items-start mb-3">
                     <div className="flex items-center gap-3">
                       <span className="text-xl font-bold text-[var(--brand-accent)]">{bill.id}</span>
                       <Badge className="bg-white/5 text-white/60 border-white/10">{bill.status}</Badge>
@@ -70,9 +87,17 @@ export default function PolicyTrackerPage() {
                       Impact: {bill.impact}
                     </Badge>
                   </div>
-                  <p className="text-sm text-white/70 leading-relaxed mb-6">
+                  {bill.title && (
+                    <h3 className="font-semibold text-white/90 mb-2">{bill.title}</h3>
+                  )}
+                  <p className="text-sm text-white/70 leading-relaxed mb-4">
                     {bill.summary}
                   </p>
+                  {(bill.last_action || bill.last_action_date) && (
+                    <p className="text-xs text-white/35 mb-4">
+                      Last action{bill.last_action_date ? ` · ${bill.last_action_date}` : ""}: {bill.last_action}
+                    </p>
+                  )}
                   <a 
                     href={bill.url} 
                     target="_blank" 
@@ -104,6 +129,30 @@ export default function PolicyTrackerPage() {
                 ))}
               </div>
             </div>
+
+            {globalData.actions.length > 0 && (
+              <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6">
+                <div className="flex items-center gap-2 mb-4 text-[var(--brand-accent)]">
+                  <Landmark className="h-5 w-5" />
+                  <h2 className="font-bold text-sm uppercase tracking-wider">Federal &amp; Global</h2>
+                </div>
+                <div className="space-y-5">
+                  {globalData.actions.map((action: FederalAction) => (
+                    <div key={action.title} className="border-b border-white/5 pb-4 last:border-0 last:pb-0">
+                      <a href={action.url} target="_blank" rel="noreferrer" className="font-semibold text-sm text-white/85 hover:text-[var(--brand-accent)] transition-colors">
+                        {action.title}
+                      </a>
+                      <p className="mt-1 text-[11px] text-white/35">
+                        {action.jurisdiction} · {action.date} · {action.status}
+                      </p>
+                      <p className="mt-2 text-xs text-white/55 leading-relaxed">
+                        {action.summary}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
 
             <div className="rounded-2xl border border-[var(--brand-accent)]/20 bg-[var(--brand-accent)]/5 p-6">
               <div className="flex items-start gap-3">
