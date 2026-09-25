@@ -101,13 +101,12 @@ export function PFASMap({ data, onCountySelect, selectedFips }: PFASMapProps) {
         maxZoom: 13,
       });
 
-      // Dark CartoDB base layer
+      // Dark Esri base layer (no API key required)
       L.tileLayer(
-        "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}",
         {
-          subdomains: "abcd",
           maxZoom: 19,
-          attribution: "© <a href='https://carto.com'>CartoDB</a> © <a href='https://www.openstreetmap.org/copyright'>OSM</a>",
+          attribution: "Esri, Maxar, Earthstar Geographics, and the GIS User Community",
         }
       ).addTo(map);
 
