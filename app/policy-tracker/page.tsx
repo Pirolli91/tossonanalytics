@@ -30,9 +30,105 @@ interface PolicyData {
   last_updated: string;
 }
 
+interface PfEvent {
+  id: string;
+  event_date: string;
+  published_date: string;
+  event_type: string;
+  title: string;
+  jurisdiction: string;
+  status: string;
+  status_basis: string;
+  entities: string[];
+  summary: string;
+  source_urls: string[];
+  compound_ids: string[];
+  amount_usd: number | null;
+}
+
+const EVENT_TYPE_META: Record<string, { label: string; classes: string }> = {
+  claim_correction: { label: "Claim correction", classes: "bg-amber-400/10 text-amber-300 border-amber-400/20" },
+  guidance_rescission: { label: "Guidance rescission", classes: "bg-orange-400/10 text-orange-300 border-orange-400/20" },
+  settlement: { label: "Settlement", classes: "bg-emerald-400/10 text-emerald-300 border-emerald-400/20" },
+  enforcement_notice: { label: "Enforcement notice", classes: "bg-rose-400/10 text-rose-300 border-rose-400/20" },
+};
+
+function formatMoney(usd: number | null): string | null {
+  if (!usd) return null;
+  if (usd >= 1_000_000) return `$${(usd / 1_000_000).toLocaleString()} million`;
+  return `$${usd.toLocaleString()}`;
+}
+
+function EventsTimeline({ events }: { events: PfEvent[] }) {
+  if (events.length === 0) return null;
+  return (
+    <section className="mb-12">
+      <div className="mb-6">
+        <div className="flex items-center gap-3 mb-2">
+          <FileText className="h-6 w-6 text-[var(--brand-accent)]" />
+          <h2 className="text-xl font-bold">Events Timeline — September 2026</h2>
+        </div>
+        <p className="text-sm text-white/40 max-w-3xl">
+          Dated policy and enforcement events, verified against primary sources. Measurements are never
+          changed by news — each card is labeled by what it is: guidance, settlement, allegation, or correction.
+          Detections measure occurrence; they do not establish production origin.
+        </p>
+      </div>
+      <div className="grid gap-4 md:grid-cols-2">
+        {events.map((event) => {
+          const meta = EVENT_TYPE_META[event.event_type] ?? { label: event.event_type, classes: "bg-white/5 text-white/60 border-white/10" };
+          const money = formatMoney(event.amount_usd);
+          const reportedDifferently = event.published_date && event.published_date !== event.event_date;
+          return (
+            <article key={event.id} className="rounded-2xl border border-white/10 bg-white/[0.03] p-6">
+              <div className="flex flex-wrap items-center gap-2 mb-3">
+                <span className={`inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold ${meta.classes}`}>
+                  {meta.label}
+                </span>
+                <span className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-2.5 py-0.5 text-xs font-semibold text-white/60">
+                  {event.status}
+                </span>
+                {money && (
+                  <span className="inline-flex items-center rounded-full border border-emerald-400/20 bg-emerald-400/10 px-2.5 py-0.5 text-xs font-bold text-emerald-300">
+                    {money}
+                  </span>
+                )}
+              </div>
+              <h3 className="font-bold text-white/90 leading-snug mb-1">{event.title}</h3>
+              <p className="text-[11px] text-white/35 mb-3">
+                Event date: {event.event_date}
+                {reportedDifferently ? ` · Reported: ${event.published_date}` : ""}
+                {" · "}{event.jurisdiction}
+              </p>
+              <p className="text-sm text-white/70 leading-relaxed mb-3">{event.summary}</p>
+              <p className="text-[11px] text-white/30 mb-4" title={event.status_basis}>
+                {event.status_basis}
+              </p>
+              <div className="flex flex-wrap gap-3">
+                {event.source_urls.map((url, i) => (
+                  <a
+                    key={url}
+                    href={url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-1.5 text-xs font-bold text-white/40 hover:text-[var(--brand-accent)] transition-colors"
+                  >
+                    Source {event.source_urls.length > 1 ? i + 1 : ""} <ExternalLink className="h-3 w-3" />
+                  </a>
+                ))}
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
+
 export default function PolicyTrackerPage() {
   let policyData: PolicyData = { bills: [], region: "", last_updated: "" };
   let globalData: { summary: string; categories: string[]; actions: FederalAction[] } = { summary: "", categories: [], actions: [] };
+  let events: PfEvent[] = [];
   
   try {
     const policyPath = join(process.cwd(), "public", "data", "nc-pfas-policy.json");
@@ -40,6 +136,10 @@ export default function PolicyTrackerPage() {
     
     const globalPath = join(process.cwd(), "public", "data", "pfas-governance.json");
     globalData = JSON.parse(readFileSync(globalPath, "utf-8"));
+
+    const eventsPath = join(process.cwd(), "public", "data", "pfas-events.json");
+    const eventsRaw = JSON.parse(readFileSync(eventsPath, "utf-8"));
+    if (Array.isArray(eventsRaw.events)) events = eventsRaw.events;
   } catch (e) {}
 
   return (
@@ -61,6 +161,8 @@ export default function PolicyTrackerPage() {
             </p>
           )}
         </div>
+
+        <EventsTimeline events={events} />
 
         <div className="grid gap-8 lg:grid-cols-3">
           {/* NC Bills Column */}

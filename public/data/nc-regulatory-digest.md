@@ -1,4 +1,4 @@
-# NC Regulatory Digest — September 25, 2026
+# NC Regulatory Digest — September 26, 2026
 
 ```html
 <section>
@@ -12,6 +12,14 @@
 
 <section>
   <h2>Regulatory Actions</h2>
+  <h3>EPA Corrects Claim That PFOA Manufacture and Import Were Phased Out</h3>
+  <p><strong>Response dated September 18, 2026</strong> (publicly reported September 24). After an Information Quality Act correction request from Public Employees for Environmental Responsibility, EPA removed the categorical website statement that PFOA manufacture and import had been phased out in the United States and replaced it with language acknowledging that quantities of PFOA may still be produced, imported, and used by companies.</p>
+  <h4>Why it matters</h4>
+  <p>Federal progress claims shape what the public and water systems believe about exposure risk. This correction is to agency wording, not a finding about any specific facility — and it is a reminder that detection data measures occurrence, not production origin. Source: <a href="https://peer.org/epa-retracts-central-claim-of-pfas-progress/">PEER</a>.</p>
+  <h3>EPA Office of Water Rescinds 2022 PFAS NPDES Guidance</h3>
+  <p><strong>Memorandum dated August 11, 2026</strong> (publicly reported September 22). EPA withdrew the 2022 memorandum on addressing PFAS discharges through NPDES permits, pretreatment, and monitoring — the guidance that encouraged states and wastewater utilities to use existing Clean Water Act authorities to monitor and control industrial PFAS before it reaches waterways and drinking-water supplies.</p>
+  <h4>Why it matters</h4>
+  <p>This is a withdrawal of permitting and source-control guidance, not a repeal of the 4 ppt PFOA/PFOS drinking-water standards. It shifts the burden of industrial PFAS control toward state action — measure at the tap, control at the source. Sources: <a href="https://www.selc.org/press-release/epa-quietly-withdraws-guidance-that-stops-toxic-pfas-pollution/">SELC</a>, <a href="https://www.publicradioeast.org/2026-09-22/epa-withdraws-environmental-guidelines-designed-to-stop-pfas-from-entering-drinking-water">Public Radio East</a>.</p>
   <h3>EMC Closes Comment on PFAS &amp; 1,4-Dioxane Monitoring Rules</h3>
   <p><strong>Comment period:</strong> March 16 – June 15, 2026 (closed); hearings held April–May in Hickory, Fayetteville, and Jamestown. The Environmental Management Commission's proposed monitoring and minimization rules (15A NCAC 02B .0512, 02H .0923) would require industrial dischargers and municipal treatment plants to begin baseline PFAS sampling within 60 days, test quarterly for a year, and develop minimization plans. The package advanced 10–3 in January.</p>
   <h4>Why it matters</h4>
