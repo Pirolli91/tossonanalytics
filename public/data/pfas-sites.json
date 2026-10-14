@@ -188,7 +188,7 @@
     "hazardIndex": 0.3,
     "severityScore": 1.525,
     "exceedsMCL": true,
-    "sampleCount": 10,
+    "sampleCount": 13,
     "lastSampled": "9/10/2025"
   },
   {
@@ -197,12 +197,13 @@
     "fips": "37109",
     "county": "Lincoln",
     "pfoa_ppt": 5.7,
+    "pfbs_ppt": 3.6,
     "pfhxa_ppt": 5.3,
     "pfpea_ppt": 4.7,
-    "hazardIndex": 0,
+    "hazardIndex": 0.36,
     "severityScore": 1.425,
     "exceedsMCL": true,
-    "sampleCount": 9,
+    "sampleCount": 13,
     "lastSampled": "7/2/2025"
   },
   {
@@ -535,6 +536,18 @@
     "exceedsMCL": false,
     "sampleCount": 1,
     "lastSampled": "8/15/2023"
+  },
+  {
+    "pwsid": "NC0235030",
+    "name": "FRANKLIN COUNTY WATER & SEWER",
+    "fips": "37069",
+    "county": "Franklin",
+    "pfos_ppt": 4.4,
+    "hazardIndex": 0,
+    "severityScore": 1.1,
+    "exceedsMCL": true,
+    "sampleCount": 1,
+    "lastSampled": "6/3/2026"
   },
   {
     "pwsid": "NC0235108",
@@ -923,7 +936,7 @@
     "hazardIndex": 1.47,
     "severityScore": 3.9,
     "exceedsMCL": true,
-    "sampleCount": 37,
+    "sampleCount": 48,
     "lastSampled": "8/27/2025"
   },
   {
@@ -1190,7 +1203,7 @@
     "hazardIndex": 0.47,
     "severityScore": 1.925,
     "exceedsMCL": true,
-    "sampleCount": 18,
+    "sampleCount": 24,
     "lastSampled": "9/15/2025"
   },
   {
@@ -1346,14 +1359,14 @@
     "fips": "37135",
     "county": "Orange",
     "pfoa_ppt": 9.4,
-    "pfos_ppt": 11.8,
-    "pfhxa_ppt": 4,
+    "pfos_ppt": 12.2,
+    "pfhxa_ppt": 4.1,
     "pfhpa_ppt": 3.3,
     "pfpea_ppt": 3.9,
     "hazardIndex": 0,
-    "severityScore": 2.95,
+    "severityScore": 3.05,
     "exceedsMCL": true,
-    "sampleCount": 9,
+    "sampleCount": 16,
     "lastSampled": "8/27/2025"
   },
   {
@@ -1676,11 +1689,11 @@
     "name": "BEAUFORT, TOWN OF",
     "fips": "37031",
     "county": "Carteret",
-    "lithium_ppb": 16500,
+    "lithium_ppb": 22600,
     "hazardIndex": 0,
     "severityScore": 0,
     "exceedsMCL": false,
-    "sampleCount": 3,
+    "sampleCount": 6,
     "lastSampled": "6/10/2025"
   },
   {
@@ -1784,12 +1797,13 @@
     "name": "TARBORO, TOWN OF",
     "fips": "37065",
     "county": "Edgecombe",
-    "pfoa_ppt": 4.1,
+    "pfoa_ppt": 5.9,
     "pfos_ppt": 5.1,
-    "hazardIndex": 0,
-    "severityScore": 1.275,
+    "pfbs_ppt": 4.3,
+    "hazardIndex": 0.43,
+    "severityScore": 1.475,
     "exceedsMCL": true,
-    "sampleCount": 2,
+    "sampleCount": 4,
     "lastSampled": "9/23/2025"
   },
   {
@@ -2213,12 +2227,16 @@
     "name": "FARMVILLE, TOWN OF",
     "fips": "37147",
     "county": "Pitt",
-    "pfos_ppt": 4,
+    "pfoa_ppt": 5.3,
+    "pfos_ppt": 4.2,
+    "pfbs_ppt": 4.2,
+    "pfhxa_ppt": 3.6,
+    "pfpea_ppt": 3.2,
     "lithium_ppb": 14600,
-    "hazardIndex": 0,
-    "severityScore": 1,
+    "hazardIndex": 0.42,
+    "severityScore": 1.325,
     "exceedsMCL": true,
-    "sampleCount": 2,
+    "sampleCount": 11,
     "lastSampled": "9/16/2025"
   },
   {
@@ -2396,11 +2414,11 @@
     "name": "WAYNE WATER DISTRICTS",
     "fips": "37191",
     "county": "Wayne",
-    "pfba_ppt": 8.4,
+    "pfba_ppt": 9.2,
     "hazardIndex": 0,
     "severityScore": 0,
     "exceedsMCL": false,
-    "sampleCount": 1,
+    "sampleCount": 2,
     "lastSampled": "5/28/2025"
   },
   {
