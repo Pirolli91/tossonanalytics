@@ -50,9 +50,9 @@ const SERVICES = [
   {
     icon: Building2,
     title: "Federal & State Contracting",
-    badges: ["HUB Eligible", "NCSBE Pending"],
+    badges: ["SAM Registered", "Small Business"],
     description:
-      "Active UEI & CAGE identifiers. NAICS 541620, 541690, 541380. Positioned for NC DEQ Division of Water Infrastructure State Revolving Fund contracts.",
+      "Tosson Services LLC dba Tosson Environmental Analytics. UEI KC31W9F8P7D6 · CAGE 1A1V5. NAICS 541690, 541620, 541380, 541511, 541713. Positioned for NC DEQ Division of Water Infrastructure State Revolving Fund contracts.",
     href: "/about#contracting",
     accent: "var(--brand-accent)",
   },
@@ -87,9 +87,9 @@ const SERVICES = [
 
 // ─── Regulatory alert banner ───────────────────────────────────────────────────
 const ALERT = {
-  label: "Regulatory Update — March 2026",
-  body: "NC Environmental Management Commission initiates public hearings on proposed rules 15A NCAC 02b.0512 and 02H.0923, requiring industrial facilities and municipal WWTPs to monitor for 1,4-dioxane, PFOA, PFOS, and GenX.",
-  href: "/insights/nc-emc-hearings-march-2026",
+  label: "Regulatory Update — October 2026",
+  body: "NC Environmental Management Commission PFAS & 1,4-dioxane monitoring rules (15A NCAC 02B .0512 and 02H .0923) — public comment period closed June 15, 2026; adoption tracking continues on the Regulatory Watch page.",
+  href: "/regulatory-watch",
 };
 
 export default function Home() {
@@ -134,13 +134,13 @@ export default function Home() {
                     className="border-0 text-xs font-semibold"
                     style={{ background: "rgba(0,212,170,0.15)", color: "var(--brand-accent)" }}
                   >
-                    HUB Eligible
+                    SAM.gov Registered — Small Business
                   </Badge>
                   <Badge
                     className="border-0 text-xs font-semibold"
                     style={{ background: "rgba(243,156,18,0.15)", color: "var(--brand-warning)" }}
                   >
-                    NCSBE Application Pending
+                    UEI KC31W9F8P7D6 · CAGE 1A1V5
                   </Badge>
                   <Badge
                     className="border-0 text-xs font-semibold"
@@ -193,11 +193,11 @@ export default function Home() {
             </p>
             <dl className="mt-4 space-y-3 text-sm">
               {[
-                { term: "UEI", detail: "Active — SAM.gov registered" },
-                { term: "CAGE Code", detail: "Active — federal procurement ready" },
-                { term: "HUB Status", detail: "Eligible — NC DOA certified track" },
-                { term: "NCSBE", detail: "Application pending (≤90-day review)" },
-                { term: "eVP Portal", detail: "Registered — SWUC in review" },
+                { term: "UEI", detail: "KC31W9F8P7D6" },
+                { term: "CAGE Code", detail: "1A1V5" },
+                { term: "SAM.gov", detail: "Active — renewal March 2027" },
+                { term: "Business Type", detail: "Small Business (SAM self-certified)" },
+                { term: "eVP Portal", detail: "Registered NC vendor" },
               ].map(({ term, detail }) => (
                 <div key={term} className="flex items-start justify-between gap-2">
                   <dt className="font-semibold text-white/80 shrink-0">{term}</dt>
@@ -212,6 +212,13 @@ export default function Home() {
             >
               Full credentials <ArrowRight className="h-3 w-3" />
             </Link>
+            <a
+              href="/capability-statement.pdf"
+              className="mt-2 block text-xs font-semibold"
+              style={{ color: "var(--brand-accent)" }}
+            >
+              Download Capability Statement (PDF)
+            </a>
           </div>
 
           {/* ── [3] Stats counter — full width ── */}
@@ -332,7 +339,7 @@ export default function Home() {
         <footer className="mt-16 border-t border-white/10 pt-8 pb-4">
           <div className="flex flex-col items-center gap-2 text-center text-xs text-white/30">
             <p className="font-semibold text-white/50">
-              Tosson Environmental Analytics LLC
+              Tosson Services LLC dba Tosson Environmental Analytics
             </p>
             <p>
               Dr. Temitope D. Soneye, PhD — NC A&T / Joint School of

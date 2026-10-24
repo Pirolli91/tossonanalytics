@@ -18,7 +18,7 @@ const sourceSans3 = Source_Sans_3({
 export const metadata: Metadata = {
   title: "Tosson Environmental Analytics | PFAS & Water Quality Data for NC",
   description:
-    "Interactive PFAS and water quality dashboards for North Carolina municipalities. Federal & state contractor — HUB Eligible, NCSBE Pending. Led by Dr. Temitope D. Soneye, PhD.",
+    "Interactive PFAS and water quality dashboards for North Carolina municipalities. Federal & state contractor — Tosson Services LLC dba Tosson Environmental Analytics, SAM.gov-registered small business (UEI KC31W9F8P7D6). Led by Dr. Temitope D. Soneye, PhD.",
   keywords: [
     "PFAS North Carolina",
     "water quality dashboard",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "NC DEQ",
     "PFOA PFOS monitoring",
     "environmental consulting",
-    "federal contractor HUB",
+    "federal contractor small business",
   ],
 };
 

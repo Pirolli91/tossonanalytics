@@ -46,6 +46,8 @@ const NAICS = [
   { code: "541620", desc: "Environmental Consulting Services" },
   { code: "541690", desc: "Other Scientific & Technical Consulting" },
   { code: "541380", desc: "Testing Laboratories & Services" },
+  { code: "541511", desc: "Custom Computer Programming Services" },
+  { code: "541713", desc: "Research & Development in Nanotechnology" },
 ];
 
 export default function AboutPage() {
@@ -118,7 +120,7 @@ export default function AboutPage() {
                 <span style={{ color: "var(--brand-accent)" }}>Damilotun Soneye</span>
               </h1>
               <p className="mt-1 text-sm text-white/40">
-                Founder & Principal Scientist · Tosson Environmental Analytics LLC
+                Founder & Principal Scientist · Tosson Services LLC dba Tosson Environmental Analytics
               </p>
             </div>
 
@@ -232,9 +234,9 @@ export default function AboutPage() {
               </h3>
               <dl className="space-y-4">
                 {[
-                  { term: "Unique Entity ID (UEI)", detail: "Active — SAM.gov registered", status: "active" },
-                  { term: "CAGE Code", detail: "Active — federal procurement ready", status: "active" },
-                  { term: "SAM.gov Registration", detail: "Current — annual renewal maintained", status: "active" },
+                  { term: "Unique Entity ID (UEI)", detail: "KC31W9F8P7D6", status: "active" },
+                  { term: "CAGE Code", detail: "1A1V5", status: "active" },
+                  { term: "SAM.gov Registration", detail: "Active — renewal March 2027 · Small Business (self-certified)", status: "active" },
                 ].map(({ term, detail, status }) => (
                   <div key={term} className="flex items-start justify-between gap-4 border-b border-white/5 pb-4 last:border-0 last:pb-0">
                     <dt className="text-sm font-semibold text-white/80">{term}</dt>
@@ -255,13 +257,13 @@ export default function AboutPage() {
             {/* NC State certifications */}
             <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6">
               <h3 className="mb-4 text-sm font-bold text-white/70 uppercase tracking-wider">
-                NC State Certifications
+                NC State Vendor Status
               </h3>
               <dl className="space-y-4">
                 {[
-                  { term: "HUB Status", detail: "NC DOA Historically Underutilized Business — eligible track", status: "active" },
-                  { term: "NCSBE Certification", detail: "NC Small Business Enterprise — application submitted, ≤90-day review via eVP", status: "pending" },
-                  { term: "SWUC", detail: "Statewide Uniform Certification — in review", status: "pending" },
+                  { term: "NC eVP Vendor Portal", detail: "Registered vendor — Tosson Services LLC", status: "active" },
+                  { term: "Headquarters", detail: "Mebane, North Carolina — NC-based small business", status: "active" },
+                  { term: "Service Area", detail: "North Carolina statewide · remote nationwide", status: "active" },
                 ].map(({ term, detail, status }) => (
                   <div key={term} className="flex items-start justify-between gap-4 border-b border-white/5 pb-4 last:border-0 last:pb-0">
                     <dt className="text-sm font-semibold text-white/80">{term}</dt>
@@ -298,10 +300,10 @@ export default function AboutPage() {
                 ))}
               </div>
               <p className="mt-4 text-xs text-white/30 font-[var(--font-source-sans)]">
-                NCSBE eligibility criteria: NC-headquartered, ≤100 employees, for-profit,
-                annual net income ≤$1,500,000 after COGS. Eligible for NC DEQ Division of
-                Water Infrastructure State Revolving Fund — Emerging Contaminants Study
-                Projects (rolling 2026 funding rounds).
+                Primary NAICS 541690. The firm is positioned to support NC DEQ Division
+                of Water Infrastructure State Revolving Fund — Emerging Contaminants Study
+                Projects (rolling 2026 funding rounds) as a consultant or subconsultant
+                to funded utilities and engineering primes.
               </p>
             </div>
           </div>
@@ -311,7 +313,7 @@ export default function AboutPage() {
 
       {/* Footer */}
       <footer className="mt-16 border-t border-white/10 px-6 py-8 text-center text-xs text-white/30">
-        <p className="font-semibold text-white/50">Tosson Environmental Analytics LLC</p>
+        <p className="font-semibold text-white/50">Tosson Services LLC dba Tosson Environmental Analytics</p>
         <p className="mt-1">North Carolina · tossonanalytics.com</p>
       </footer>
     </main>

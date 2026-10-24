@@ -60,14 +60,16 @@ const SERVICES = [
   {
     icon: Building2,
     title: "Federal & State Contract Support",
-    badges: ["HUB Eligible", "NCSBE Pending"],
+    badges: ["SAM Registered", "UEI · CAGE"],
     accent: "var(--brand-accent)",
     description:
-      "Tosson Environmental Analytics holds an active UEI and CAGE code, with HUB eligibility and a pending NCSBE certification. We are positioned for NC DEQ Division of Water Infrastructure SRF contracts and federal environmental consulting vehicles.",
+      "Tosson Services LLC dba Tosson Environmental Analytics holds an active SAM.gov registration (UEI KC31W9F8P7D6, CAGE 1A1V5) as a self-certified small business and is a registered NC vendor in the eVP portal. We are positioned for NC DEQ Division of Water Infrastructure SRF contracts and federal environmental consulting vehicles.",
     deliverables: [
       "NAICS 541620 — Environmental Consulting Services",
       "NAICS 541690 — Other Scientific & Technical Consulting",
       "NAICS 541380 — Testing Laboratories & Services",
+      "NAICS 541511 — Custom Computer Programming (data pipelines & dashboards)",
+      "NAICS 541713 — Research & Development in Nanotechnology",
       "Teaming and subcontracting for prime contractors pursuing PFAS-related SOWs",
       "Expert witness and technical review for regulatory and legal proceedings",
     ],
@@ -86,7 +88,7 @@ export default function ServicesPage() {
             className="mb-4 border-0 text-xs"
             style={{ background: "rgba(0,212,170,0.12)", color: "var(--brand-accent)" }}
           >
-            HUB Eligible · NCSBE Pending · NAICS 541620 / 541690 / 541380
+            SAM.gov Registered · Small Business · NAICS 541690 / 541620 / 541380 / 541511 / 541713
           </Badge>
           <h1 className="text-3xl font-bold leading-tight lg:text-4xl">
             Services &{" "}
@@ -166,6 +168,12 @@ export default function ServicesPage() {
             >
               Contact for Consulting
             </Link>
+            <a
+              href="/capability-statement.pdf"
+              className="inline-flex items-center gap-2 rounded-xl border border-white/20 px-6 py-3 text-sm font-semibold text-white/70 hover:text-white transition-colors"
+            >
+              Capability Statement (PDF)
+            </a>
             <Link
               href="/about#contracting"
               className="inline-flex items-center gap-2 rounded-xl border border-white/20 px-6 py-3 text-sm font-semibold text-white/70 hover:text-white transition-colors"
@@ -177,7 +185,7 @@ export default function ServicesPage() {
       </div>
 
       <footer className="mt-12 border-t border-white/10 px-6 py-8 text-center text-xs text-white/30">
-        <p className="font-semibold text-white/50">Tosson Environmental Analytics LLC</p>
+        <p className="font-semibold text-white/50">Tosson Services LLC dba Tosson Environmental Analytics</p>
         <p className="mt-1">North Carolina · tossonanalytics.com</p>
       </footer>
     </main>
