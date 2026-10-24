@@ -63,7 +63,7 @@ const SERVICES = [
     badges: ["SAM Registered", "UEI · CAGE"],
     accent: "var(--brand-accent)",
     description:
-      "Tosson Services LLC dba Tosson Environmental Analytics holds an active SAM.gov registration (UEI KC31W9F8P7D6, CAGE 1A1V5) as a self-certified small business and is a registered NC vendor in the eVP portal. We are positioned for NC DEQ Division of Water Infrastructure SRF contracts and federal environmental consulting vehicles.",
+      "Tosson Services LLC dba Tosson Environmental Analytics holds an active SAM.gov registration (UEI KC31W9F8P7D6, CAGE 1A1V5) as a small business and is a registered NC vendor in the eVP portal. We are positioned for NC DEQ Division of Water Infrastructure SRF contracts and federal environmental consulting vehicles.",
     deliverables: [
       "NAICS 541620 — Environmental Consulting Services",
       "NAICS 541690 — Other Scientific & Technical Consulting",

@@ -236,7 +236,7 @@ export default function AboutPage() {
                 {[
                   { term: "Unique Entity ID (UEI)", detail: "KC31W9F8P7D6", status: "active" },
                   { term: "CAGE Code", detail: "1A1V5", status: "active" },
-                  { term: "SAM.gov Registration", detail: "Active — renewal March 2027 · Small Business (self-certified)", status: "active" },
+                  { term: "SAM.gov Registration", detail: "Active — renewal March 2027 · Small Business", status: "active" },
                 ].map(({ term, detail, status }) => (
                   <div key={term} className="flex items-start justify-between gap-4 border-b border-white/5 pb-4 last:border-0 last:pb-0">
                     <dt className="text-sm font-semibold text-white/80">{term}</dt>
