@@ -14,31 +14,71 @@ import {
 const PUBLICATIONS = [
   {
     title:
-      "Spectral Investigation of Alkaline Hydrothermal Liquefaction Products from PFAS-Laden Municipal Sewage Sludge",
-    journal: "Environmental Science & Technology",
+      "Effect of Ammonia Removal and Biochar Detoxification on Anaerobic Digestion of Aqueous Phase from Municipal Sludge Hydrothermal Liquefaction",
+    authors:
+      "Wang, P., Sakhno, Y., Adhikari, S., Peng, H., Jaisi, D., Soneye, T. D., Higgins, B., & Wang, Q.",
+    journal: "Bioresource Technology · Vol. 326, 124730",
+    year: "2021",
+    doi: "10.1016/j.biortech.2021.124730",
+    tags: ["HTL", "Sludge", "Bioenergy"],
+  },
+  {
+    title: "Nanotoxicity of Emerging NMC-Family Energy Storage Nanomaterials",
+    authors: "Soneye, T. D., Olatunji, O., & Adesanya, E. A.",
+    journal: "Universal Journal of Materials Science · Vol. 10, No. 1, pp. 1–8",
+    year: "2022",
+    doi: "10.13189/ujms.2022.100101",
+    tags: ["Nanotoxicology", "Energy Storage", "Nanomaterials"],
+  },
+  {
+    title: "Current Status of Nanoscale Quantum Materials",
+    authors: "Soneye, T. D., & Sadiku, B. L.",
+    journal: "Journal of Nanotechnology Research · Vol. 5, pp. 21–30",
+    year: "2022",
+    doi: "10.26502/jnr.2688-85210028",
+    tags: ["Nanomaterials", "Catalysis", "Review"],
+  },
+  {
+    title:
+      "Impacts of Titanium Dioxide Nanomaterials on Health, Safety and Environment",
+    authors: "Sadiku, B., Ogunshe, A. A. O., Falode, O., & Soneye, T.",
+    journal:
+      "International Journal of Research in Engineering, Science and Management · Vol. 5, No. 10, pp. 11–18",
+    year: "2022",
+    link: "https://journal.ijresm.com/index.php/ijresm/article/view/2372",
+    linkLabel: "Publisher record",
+    tags: ["TiO2", "Nanotoxicology", "Review"],
+  },
+  {
+    title:
+      "Attribute Analysis and Structural Modeling of X Field, Niger Delta, Southern Nigeria",
+    authors: "Soneye, T. D., & Osinowo, O. O.",
+    journal: "International Journal of Engineering and Science · Vol. 8, pp. 70–77",
+    year: "2019",
+    tags: ["Petroleum Geoscience", "Seismic", "Reservoir Modeling"],
+  },
+];
+
+const SCHOLARLY_OUTPUTS = [
+  {
+    title:
+      "Alumina Nanocatalyst for Destructing Recalcitrant PFAS Contaminants through Hydrothermal Liquefaction",
+    detail:
+      "PhD Dissertation · North Carolina A&T State University / Joint School of Nanoscience and Nanoengineering",
     year: "2024",
-    tags: ["PFAS", "HTL", "Sludge"],
   },
   {
     title:
-      "Hydrothermal Liquefaction of Municipal Sewage Sludge: Energy Recovery and Contaminant Fate",
-    journal: "Bioresource Technology",
-    year: "2023",
-    tags: ["HTL", "Energy", "Wastewater"],
+      "Spectral Investigation of Alkaline Hydrothermal Liquefaction Products from Pure and Landfill Leachate-Induced PFAS",
+    detail:
+      "Poster Presentation · 2022 COE Annual Graduate Poster Competition, North Carolina A&T State University (Soneye, T., Zhang, L., & Zhao, R.)",
+    year: "2022",
   },
   {
     title:
-      "Nanotoxicity of Emerging Energy Storage Nanomaterials in Aquatic Systems",
-    journal: "NanoImpact",
-    year: "2023",
-    tags: ["Nanotoxicology", "Nanomaterials"],
-  },
-  {
-    title:
-      "GenX and Ultra-Short Chain PFAS Destruction via Advanced Oxidation Processes",
-    journal: "Water Research",
-    year: "2024",
-    tags: ["GenX", "PFAS", "Remediation"],
+      "Hydrothermal Liquefaction of Municipal Sludge and Biocrude Upgrading Using Carinata Oil",
+    detail: "MS Thesis · Auburn University",
+    year: "2020",
   },
 ];
 
@@ -139,27 +179,26 @@ export default function AboutPage() {
                 advanced water treatment, and environmental nanotechnology.
               </p>
               <p>
-                His published research portfolio establishes deep empirical
-                authority in the precise contaminants this platform tracks —
-                including pioneering investigations into the{" "}
+                His published research portfolio covers the{" "}
                 <strong className="text-white/85">
                   hydrothermal liquefaction of municipal sewage sludge
-                </strong>
-                , spectral characterization of PFAS destruction byproducts, and
-                the nanotoxicity of emerging energy storage materials in aquatic
-                systems.
+                </strong>{" "}
+                and the recovery of energy and nutrients from its aqueous
+                products, the nanotoxicity of emerging energy storage
+                materials, and his doctoral research on destroying PFAS
+                contaminants through hydrothermal liquefaction — the same
+                contaminant classes this platform tracks.
               </p>
               <p>
                 This technical depth positions Tosson Environmental Analytics
-                beyond simple data aggregation. The firm operates as an{" "}
+                beyond simple data aggregation. The firm operates as a{" "}
                 <strong className="text-white/85">
-                  elite scientific consultancy
+                  scientific consultancy
                 </strong>{" "}
-                capable of interpreting complex molecular contamination data,
-                advising municipal governments on remediation strategy, and
-                executing sophisticated chemical mitigation protocols —
-                particularly for GenX and ultra-short chain PFAS variants
-                affecting the Cape Fear River basin.
+                capable of interpreting complex molecular contamination data
+                and advising municipal governments and utilities on remediation
+                strategy — including for GenX and other PFAS affecting the
+                Cape Fear River basin.
               </p>
             </div>
 
@@ -200,9 +239,33 @@ export default function AboutPage() {
                 <p className="text-sm font-semibold text-white/90 leading-snug">
                   {pub.title}
                 </p>
-                <p className="mt-2 text-xs text-white/40">
+                <p className="mt-2 text-xs text-white/50">{pub.authors}</p>
+                <p className="mt-1 text-xs text-white/40">
                   {pub.journal} · {pub.year}
                 </p>
+                {"doi" in pub && pub.doi ? (
+                  <a
+                    href={`https://doi.org/${pub.doi}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-2 inline-flex items-center gap-1 text-xs font-semibold hover:underline"
+                    style={{ color: "var(--brand-accent)" }}
+                  >
+                    DOI: {pub.doi}
+                    <ExternalLink className="h-3 w-3" />
+                  </a>
+                ) : "link" in pub && pub.link ? (
+                  <a
+                    href={pub.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-2 inline-flex items-center gap-1 text-xs font-semibold hover:underline"
+                    style={{ color: "var(--brand-accent)" }}
+                  >
+                    {pub.linkLabel}
+                    <ExternalLink className="h-3 w-3" />
+                  </a>
+                ) : null}
                 <div className="mt-3 flex flex-wrap gap-1.5">
                   {pub.tags.map((tag) => (
                     <span
@@ -214,6 +277,25 @@ export default function AboutPage() {
                     </span>
                   ))}
                 </div>
+              </div>
+            ))}
+          </div>
+
+          <h3 className="mb-4 mt-10 text-sm font-bold uppercase tracking-wider text-white/60">
+            Dissertation, Thesis &amp; Selected Presentations
+          </h3>
+          <div className="grid gap-4 md:grid-cols-3">
+            {SCHOLARLY_OUTPUTS.map((item) => (
+              <div
+                key={item.title}
+                className="rounded-2xl border border-white/10 bg-white/[0.03] p-5"
+              >
+                <p className="text-sm font-semibold text-white/90 leading-snug">
+                  {item.title}
+                </p>
+                <p className="mt-2 text-xs text-white/40">
+                  {item.detail} · {item.year}
+                </p>
               </div>
             ))}
           </div>
