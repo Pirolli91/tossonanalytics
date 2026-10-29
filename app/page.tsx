@@ -196,7 +196,7 @@ export default function Home() {
                 { term: "UEI", detail: "KC31W9F8P7D6" },
                 { term: "CAGE Code", detail: "1A1V5" },
                 { term: "SAM.gov", detail: "Active — renewal March 2027" },
-                { term: "Business Type", detail: "Small Business (SAM self-certified)" },
+                { term: "Business Type", detail: "Small Business" },
                 { term: "eVP Portal", detail: "Registered NC vendor" },
               ].map(({ term, detail }) => (
                 <div key={term} className="flex items-start justify-between gap-2">
