@@ -14,7 +14,7 @@ export interface CountyData {
   pfbs_ppt: number;
   severityScore: number;
   hazardIndex: number;
-  exceedsMCL: boolean;
+  aboveBenchmark: boolean;
   pwsCount: number;
   lastUpdated: string;
   source?: string;
@@ -44,7 +44,7 @@ function getColor(d: CountyData): string {
   const s = calcSeverity(d);
   if (s >= 10)  return "#e74c3c"; // extreme
   if (s >= 5)   return "#e67e22"; // critical
-  if (s >= 1.0) return "#f39c12"; // exceeds MCL
+  if (s >= 1.0) return "#f39c12"; // above benchmark
   if (s >= 0.5) return "#f1c40f"; // approaching
   return "#27ae60";               // safe
 }
@@ -162,7 +162,7 @@ export function PFASMap({ data, onCountySelect, selectedFips }: PFASMapProps) {
               // Tooltip shown on hover — county name + key metric
               const tipContent = cd
                 ? `<div class="ltt-name">${name} County</div>
-                   <div class="ltt-row"><span>Severity</span><span class="ltt-val ${cd.exceedsMCL ? "ltt-alert" : "ltt-safe"}">${calcSeverity(cd).toFixed(2)}× MCL</span></div>
+                   <div class="ltt-row"><span>Severity</span><span class="ltt-val ${cd.aboveBenchmark ? "ltt-alert" : "ltt-safe"}">${calcSeverity(cd).toFixed(2)}× MCL benchmark</span></div>
                    <div class="ltt-row"><span>Max PFAS</span><span class="ltt-val">PFOA ${cd.pfoa_ppt} ppt</span></div>
                    <div class="ltt-row"><span>GenX</span><span class="ltt-val">${cd.genx_ppt} ppt</span></div>
                    <div class="ltt-hint">Click for full breakdown</div>`

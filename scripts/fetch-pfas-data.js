@@ -224,7 +224,7 @@ function buildRecords(systems) {
 
     pws.hazardIndex   = round(calcHazardIndex(pws));
     pws.severityScore = round(calcSeverity(pws));
-    pws.exceedsMCL    = pws.severityScore >= 1.0;
+    pws.aboveBenchmark = pws.severityScore >= 1.0;
     pws.sampleCount   = Object.values(sys.readings).reduce((a,b) => a + b.length, 0);
     pws.lastSampled   = sys.dates.sort().at(-1) ?? null;
 
@@ -257,7 +257,7 @@ function buildRecords(systems) {
     ...c,
     hazardIndex:   round(calcHazardIndex(c)),
     severityScore: round(calcSeverity(c)),
-    exceedsMCL:    calcSeverity(c) >= 1.0,
+    aboveBenchmark: calcSeverity(c) >= 1.0,
     lastUpdated:   today,
     source:        "EPA UCMR 5",
   })).sort((a, b) => b.severityScore - a.severityScore);
@@ -346,7 +346,7 @@ async function main() {
     if (!existingFips.has(s.fips)) {
       const hi   = calcHazardIndex(s);
       const sev  = calcSeverity(s);
-      counties.push({ ...s, hazardIndex: round(hi), severityScore: round(sev), exceedsMCL: sev >= 1.0, lastUpdated: today });
+      counties.push({ ...s, hazardIndex: round(hi), severityScore: round(sev), aboveBenchmark: sev >= 1.0, lastUpdated: today });
       console.log(`  ↩ Seed fallback: ${s.county} County (NC DEQ)`);
     }
   }
@@ -357,13 +357,13 @@ async function main() {
   writeFileSync(join(OUT_DIR, "pfas-nc-data.json"), JSON.stringify(counties, null, 2));
   writeFileSync(join(OUT_DIR, "pfas-sites.json"),   JSON.stringify(sites,    null, 2));
 
-  const exceeds = counties.filter(c => c.exceedsMCL).length;
-  const detectedSites = sites.filter(s => s.exceedsMCL).length;
+  const above = counties.filter(c => c.aboveBenchmark).length;
+  const detectedSites = sites.filter(s => s.aboveBenchmark).length;
 
   console.log(`\n✅ Done`);
-  console.log(`   Counties: ${counties.length} total  |  ${exceeds} exceed EPA MCL`);
-  console.log(`   Sites:    ${sites.length} PWS records  |  ${detectedSites} exceed MCL`);
-  console.log(`   Worst:    ${counties[0]?.county} (${counties[0]?.severityScore}× MCL)`);
+  console.log(`   Counties: ${counties.length} total  |  ${above} above EPA MCL benchmark`);
+  console.log(`   Sites:    ${sites.length} PWS records  |  ${detectedSites} above benchmark`);
+  console.log(`   Highest:  ${counties[0]?.county} (${counties[0]?.severityScore}× MCL benchmark)`);
   console.log(`   Outputs:  public/data/pfas-nc-data.json`);
   console.log(`             public/data/pfas-sites.json`);
 }

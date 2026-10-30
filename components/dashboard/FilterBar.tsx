@@ -3,7 +3,7 @@
 import { Layers, Filter } from "lucide-react";
 
 export type CompoundFilter = "severity" | "pfoa" | "pfos" | "genx" | "pfna" | "pfhxs";
-export type ThresholdFilter = "all" | "exceeds" | "approaching";
+export type ThresholdFilter = "all" | "above" | "approaching";
 export type LayerFilter = "counties" | "sites" | "both";
 
 interface FilterBarProps {
@@ -26,8 +26,8 @@ const COMPOUNDS: { value: CompoundFilter; label: string }[] = [
 
 const THRESHOLDS: { value: ThresholdFilter; label: string }[] = [
   { value: "all",         label: "All counties" },
-  { value: "exceeds",     label: "Exceeds MCL" },
-  { value: "approaching", label: "≥ 0.5× MCL" },
+  { value: "above",       label: "Above MCL Benchmark" },
+  { value: "approaching", label: "≥ 0.5× Benchmark" },
 ];
 
 const LAYERS: { value: LayerFilter; label: string }[] = [

@@ -8,9 +8,9 @@
     "pfhxs_ppt": 5,
     "hazardIndex": 0.5,
     "severityScore": 2.275,
-    "exceedsMCL": true,
     "sampleCount": 8,
-    "lastSampled": "7/1/2025"
+    "lastSampled": "7/1/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0113025",
@@ -24,9 +24,9 @@
     "pfpea_ppt": 4.1,
     "hazardIndex": 0.91,
     "severityScore": 2.575,
-    "exceedsMCL": true,
     "sampleCount": 42,
-    "lastSampled": "7/15/2025"
+    "lastSampled": "7/15/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0118015",
@@ -36,9 +36,9 @@
     "pfhxa_ppt": 3.3,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 1,
-    "lastSampled": "7/26/2023"
+    "lastSampled": "7/26/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0118030",
@@ -48,9 +48,9 @@
     "pfoa_ppt": 11.9,
     "hazardIndex": 0,
     "severityScore": 2.975,
-    "exceedsMCL": true,
     "sampleCount": 1,
-    "lastSampled": "8/12/2024"
+    "lastSampled": "8/12/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0123020",
@@ -61,9 +61,9 @@
     "pfpea_ppt": 5.3,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 8,
-    "lastSampled": "8/27/2024"
+    "lastSampled": "8/27/2024",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0136015",
@@ -74,9 +74,9 @@
     "pfpea_ppt": 3.6,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 8,
-    "lastSampled": "9/12/2024"
+    "lastSampled": "9/12/2024",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0136025",
@@ -92,9 +92,9 @@
     "lithium_ppb": 16000,
     "hazardIndex": 0,
     "severityScore": 1.45,
-    "exceedsMCL": true,
     "sampleCount": 24,
-    "lastSampled": "8/21/2023"
+    "lastSampled": "8/21/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0136065",
@@ -109,9 +109,9 @@
     "pfpea_ppt": 8.5,
     "hazardIndex": 0.39,
     "severityScore": 1.1,
-    "exceedsMCL": true,
     "sampleCount": 12,
-    "lastSampled": "8/22/2023"
+    "lastSampled": "8/22/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0149025",
@@ -129,9 +129,9 @@
     "lithium_ppb": 9060,
     "hazardIndex": 0.98,
     "severityScore": 4.7,
-    "exceedsMCL": true,
     "sampleCount": 40,
-    "lastSampled": "8/6/2024"
+    "lastSampled": "8/6/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0149158",
@@ -141,9 +141,9 @@
     "pfpea_ppt": 3.1,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 1,
-    "lastSampled": "9/18/2024"
+    "lastSampled": "9/18/2024",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0149182",
@@ -157,9 +157,9 @@
     "pfpea_ppt": 3.6,
     "hazardIndex": 1.13,
     "severityScore": 1.15,
-    "exceedsMCL": true,
     "sampleCount": 8,
-    "lastSampled": "6/7/2023"
+    "lastSampled": "6/7/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0149185",
@@ -172,9 +172,9 @@
     "pfpea_ppt": 9.2,
     "hazardIndex": 1.15,
     "severityScore": 1.15,
-    "exceedsMCL": true,
     "sampleCount": 14,
-    "lastSampled": "7/7/2025"
+    "lastSampled": "7/7/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0155010",
@@ -187,9 +187,9 @@
     "pfpea_ppt": 5.5,
     "hazardIndex": 0.3,
     "severityScore": 1.525,
-    "exceedsMCL": true,
     "sampleCount": 13,
-    "lastSampled": "9/10/2025"
+    "lastSampled": "9/10/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0155035",
@@ -202,9 +202,9 @@
     "pfpea_ppt": 4.7,
     "hazardIndex": 0.36,
     "severityScore": 1.425,
-    "exceedsMCL": true,
     "sampleCount": 13,
-    "lastSampled": "7/2/2025"
+    "lastSampled": "7/2/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0156025",
@@ -215,9 +215,9 @@
     "lithium_ppb": 11000,
     "hazardIndex": 0.51,
     "severityScore": 0.51,
-    "exceedsMCL": false,
     "sampleCount": 5,
-    "lastSampled": "8/23/2023"
+    "lastSampled": "8/23/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0160010",
@@ -228,9 +228,9 @@
     "pfpea_ppt": 3.4,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 6,
-    "lastSampled": "8/8/2023"
+    "lastSampled": "8/8/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0160156",
@@ -245,9 +245,9 @@
     "pfpea_ppt": 8.3,
     "hazardIndex": 1.34,
     "severityScore": 1.35,
-    "exceedsMCL": true,
     "sampleCount": 22,
-    "lastSampled": "8/22/2023"
+    "lastSampled": "8/22/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0180040",
@@ -259,9 +259,9 @@
     "pfpea_ppt": 3,
     "hazardIndex": 0,
     "severityScore": 1.1,
-    "exceedsMCL": true,
     "sampleCount": 4,
-    "lastSampled": "7/23/2024"
+    "lastSampled": "7/23/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0180065",
@@ -271,9 +271,9 @@
     "pfos_ppt": 5.4,
     "hazardIndex": 0,
     "severityScore": 1.35,
-    "exceedsMCL": true,
     "sampleCount": 3,
-    "lastSampled": "8/28/2024"
+    "lastSampled": "8/28/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0181035",
@@ -283,9 +283,9 @@
     "pfba_ppt": 5.1,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 1,
-    "lastSampled": "8/16/2023"
+    "lastSampled": "8/16/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0184010",
@@ -297,9 +297,9 @@
     "pfpea_ppt": 3,
     "hazardIndex": 0,
     "severityScore": 1.075,
-    "exceedsMCL": true,
     "sampleCount": 4,
-    "lastSampled": "7/11/2024"
+    "lastSampled": "7/11/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0184015",
@@ -310,9 +310,9 @@
     "pfpea_ppt": 3.2,
     "hazardIndex": 0,
     "severityScore": 1.275,
-    "exceedsMCL": true,
     "sampleCount": 4,
-    "lastSampled": "8/11/2025"
+    "lastSampled": "8/11/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0184025",
@@ -324,9 +324,9 @@
     "pfpea_ppt": 3.6,
     "hazardIndex": 0,
     "severityScore": 1.375,
-    "exceedsMCL": true,
     "sampleCount": 4,
-    "lastSampled": "7/22/2024"
+    "lastSampled": "7/22/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0184035",
@@ -338,9 +338,9 @@
     "pfpea_ppt": 3.8,
     "hazardIndex": 0,
     "severityScore": 1.425,
-    "exceedsMCL": true,
     "sampleCount": 4,
-    "lastSampled": "9/18/2024"
+    "lastSampled": "9/18/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0188104",
@@ -350,9 +350,9 @@
     "lithium_ppb": 26400,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 6,
-    "lastSampled": "9/15/2025"
+    "lastSampled": "9/15/2025",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0190010",
@@ -363,9 +363,9 @@
     "pfba_ppt": 6.9,
     "hazardIndex": 0.56,
     "severityScore": 0.56,
-    "exceedsMCL": false,
     "sampleCount": 5,
-    "lastSampled": "9/21/2023"
+    "lastSampled": "9/21/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0190030",
@@ -378,9 +378,9 @@
     "pfpea_ppt": 4.3,
     "hazardIndex": 0,
     "severityScore": 1.225,
-    "exceedsMCL": true,
     "sampleCount": 8,
-    "lastSampled": "9/12/2023"
+    "lastSampled": "9/12/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0190413",
@@ -394,9 +394,9 @@
     "pfpea_ppt": 10,
     "hazardIndex": 0,
     "severityScore": 1.225,
-    "exceedsMCL": true,
     "sampleCount": 19,
-    "lastSampled": "7/3/2023"
+    "lastSampled": "7/3/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0195010",
@@ -406,9 +406,9 @@
     "pfpea_ppt": 3.5,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 1,
-    "lastSampled": "7/12/2023"
+    "lastSampled": "7/12/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0197020",
@@ -418,9 +418,9 @@
     "fts62_ppt": 8.2,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 1,
-    "lastSampled": "9/8/2025"
+    "lastSampled": "9/8/2025",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0197030",
@@ -430,9 +430,9 @@
     "pfbs_ppt": 3.7,
     "hazardIndex": 0.37,
     "severityScore": 0.37,
-    "exceedsMCL": false,
     "sampleCount": 1,
-    "lastSampled": "7/18/2023"
+    "lastSampled": "7/18/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0201010",
@@ -448,9 +448,9 @@
     "pfpea_ppt": 4.1,
     "hazardIndex": 0.32,
     "severityScore": 4.25,
-    "exceedsMCL": true,
     "sampleCount": 22,
-    "lastSampled": "7/12/2024"
+    "lastSampled": "7/12/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0201015",
@@ -464,9 +464,9 @@
     "pfpea_ppt": 3.4,
     "hazardIndex": 1.06,
     "severityScore": 1.9,
-    "exceedsMCL": true,
     "sampleCount": 14,
-    "lastSampled": "8/12/2024"
+    "lastSampled": "8/12/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0201018",
@@ -480,9 +480,9 @@
     "pfpea_ppt": 3.4,
     "hazardIndex": 1.08,
     "severityScore": 1.95,
-    "exceedsMCL": true,
     "sampleCount": 12,
-    "lastSampled": "8/12/2024"
+    "lastSampled": "8/12/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0201025",
@@ -494,9 +494,9 @@
     "pfba_ppt": 5.8,
     "hazardIndex": 0,
     "severityScore": 2.25,
-    "exceedsMCL": true,
     "sampleCount": 7,
-    "lastSampled": "9/9/2024"
+    "lastSampled": "9/9/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0229020",
@@ -506,9 +506,9 @@
     "pfos_ppt": 4.7,
     "hazardIndex": 0,
     "severityScore": 1.175,
-    "exceedsMCL": true,
     "sampleCount": 3,
-    "lastSampled": "7/24/2024"
+    "lastSampled": "7/24/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0229035",
@@ -521,9 +521,9 @@
     "pfpea_ppt": 3.3,
     "hazardIndex": 0.38,
     "severityScore": 1.025,
-    "exceedsMCL": true,
     "sampleCount": 4,
-    "lastSampled": "8/16/2023"
+    "lastSampled": "8/16/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0230010",
@@ -533,9 +533,9 @@
     "fts62_ppt": 12.3,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 1,
-    "lastSampled": "8/15/2023"
+    "lastSampled": "8/15/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0235030",
@@ -545,9 +545,9 @@
     "pfos_ppt": 4.4,
     "hazardIndex": 0,
     "severityScore": 1.1,
-    "exceedsMCL": true,
     "sampleCount": 1,
-    "lastSampled": "6/3/2026"
+    "lastSampled": "6/3/2026",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0235108",
@@ -557,9 +557,9 @@
     "pfos_ppt": 4.8,
     "hazardIndex": 0,
     "severityScore": 1.2,
-    "exceedsMCL": true,
     "sampleCount": 2,
-    "lastSampled": "7/19/2023"
+    "lastSampled": "7/19/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0239010",
@@ -570,9 +570,9 @@
     "pfba_ppt": 7.3,
     "hazardIndex": 0,
     "severityScore": 1.325,
-    "exceedsMCL": true,
     "sampleCount": 3,
-    "lastSampled": "8/15/2023"
+    "lastSampled": "8/15/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0239107",
@@ -583,9 +583,9 @@
     "pfos_ppt": 19,
     "hazardIndex": 0,
     "severityScore": 4.75,
-    "exceedsMCL": true,
     "sampleCount": 6,
-    "lastSampled": "9/14/2023"
+    "lastSampled": "9/14/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0241010",
@@ -603,9 +603,9 @@
     "pfpea_ppt": 9.7,
     "hazardIndex": 2.21,
     "severityScore": 8.9,
-    "exceedsMCL": true,
     "sampleCount": 48,
-    "lastSampled": "7/24/2023"
+    "lastSampled": "7/24/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0241020",
@@ -620,9 +620,9 @@
     "pfpea_ppt": 6.6,
     "hazardIndex": 0.93,
     "severityScore": 2.75,
-    "exceedsMCL": true,
     "sampleCount": 11,
-    "lastSampled": "8/12/2025"
+    "lastSampled": "8/12/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0241025",
@@ -633,9 +633,9 @@
     "pfba_ppt": 5,
     "hazardIndex": 0,
     "severityScore": 2.05,
-    "exceedsMCL": true,
     "sampleCount": 5,
-    "lastSampled": "7/23/2024"
+    "lastSampled": "7/23/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0241030",
@@ -652,9 +652,9 @@
     "pfpea_ppt": 10.3,
     "hazardIndex": 1.39,
     "severityScore": 2.6,
-    "exceedsMCL": true,
     "sampleCount": 74,
-    "lastSampled": "8/16/2023"
+    "lastSampled": "8/16/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0241647",
@@ -664,9 +664,9 @@
     "lithium_ppb": 16000,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 2,
-    "lastSampled": "6/12/2024"
+    "lastSampled": "6/12/2024",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0273010",
@@ -676,9 +676,9 @@
     "pfos_ppt": 4.6,
     "hazardIndex": 0,
     "severityScore": 1.15,
-    "exceedsMCL": true,
     "sampleCount": 1,
-    "lastSampled": "8/12/2024"
+    "lastSampled": "8/12/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0276010",
@@ -695,9 +695,9 @@
     "pfpea_ppt": 8.6,
     "hazardIndex": 1.29,
     "severityScore": 4.075,
-    "exceedsMCL": true,
     "sampleCount": 8,
-    "lastSampled": "9/9/2024"
+    "lastSampled": "9/9/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0276015",
@@ -714,9 +714,9 @@
     "pfpea_ppt": 13.3,
     "hazardIndex": 1.37,
     "severityScore": 3.525,
-    "exceedsMCL": true,
     "sampleCount": 53,
-    "lastSampled": "8/12/2025"
+    "lastSampled": "8/12/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0276030",
@@ -733,9 +733,9 @@
     "pfpea_ppt": 9.6,
     "hazardIndex": 0.92,
     "severityScore": 2.65,
-    "exceedsMCL": true,
     "sampleCount": 29,
-    "lastSampled": "7/8/2024"
+    "lastSampled": "7/8/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0279020",
@@ -745,9 +745,9 @@
     "pfos_ppt": 4,
     "hazardIndex": 0,
     "severityScore": 1,
-    "exceedsMCL": true,
     "sampleCount": 1,
-    "lastSampled": "8/22/2023"
+    "lastSampled": "8/22/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0291010",
@@ -757,9 +757,9 @@
     "pfos_ppt": 4.8,
     "hazardIndex": 0,
     "severityScore": 1.2,
-    "exceedsMCL": true,
     "sampleCount": 2,
-    "lastSampled": "5/10/2023"
+    "lastSampled": "5/10/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0293015",
@@ -769,9 +769,9 @@
     "pfos_ppt": 5.5,
     "hazardIndex": 0,
     "severityScore": 1.375,
-    "exceedsMCL": true,
     "sampleCount": 3,
-    "lastSampled": "9/9/2025"
+    "lastSampled": "9/9/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0299015",
@@ -781,9 +781,9 @@
     "pfbs_ppt": 3.1,
     "hazardIndex": 0.31,
     "severityScore": 0.31,
-    "exceedsMCL": false,
     "sampleCount": 1,
-    "lastSampled": "8/12/2024"
+    "lastSampled": "8/12/2024",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0304010",
@@ -796,9 +796,9 @@
     "pfpea_ppt": 4.6,
     "hazardIndex": 0,
     "severityScore": 1.375,
-    "exceedsMCL": true,
     "sampleCount": 5,
-    "lastSampled": "7/15/2024"
+    "lastSampled": "7/15/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0304020",
@@ -811,9 +811,9 @@
     "pfpea_ppt": 3.9,
     "hazardIndex": 0,
     "severityScore": 1.3,
-    "exceedsMCL": true,
     "sampleCount": 14,
-    "lastSampled": "9/19/2023"
+    "lastSampled": "9/19/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0309010",
@@ -823,9 +823,9 @@
     "pfhxs_ppt": 5,
     "hazardIndex": 0.5,
     "severityScore": 0.5,
-    "exceedsMCL": false,
     "sampleCount": 2,
-    "lastSampled": "6/27/2023"
+    "lastSampled": "6/27/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0309060",
@@ -836,9 +836,9 @@
     "lithium_ppb": 9250,
     "hazardIndex": 1.36,
     "severityScore": 1.36,
-    "exceedsMCL": true,
     "sampleCount": 3,
-    "lastSampled": "9/12/2023"
+    "lastSampled": "9/12/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0309527",
@@ -854,9 +854,9 @@
     "pfpea_ppt": 5.7,
     "hazardIndex": 0.72,
     "severityScore": 1.525,
-    "exceedsMCL": true,
     "sampleCount": 24,
-    "lastSampled": "8/13/2024"
+    "lastSampled": "8/13/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0319010",
@@ -869,9 +869,9 @@
     "pfpea_ppt": 3.4,
     "hazardIndex": 0,
     "severityScore": 3.025,
-    "exceedsMCL": true,
     "sampleCount": 21,
-    "lastSampled": "8/13/2025"
+    "lastSampled": "8/13/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0319015",
@@ -883,9 +883,9 @@
     "pfpea_ppt": 11.6,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 7,
-    "lastSampled": "8/12/2024"
+    "lastSampled": "8/12/2024",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0319126",
@@ -896,9 +896,9 @@
     "pfpea_ppt": 4.8,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 4,
-    "lastSampled": "8/5/2025"
+    "lastSampled": "8/5/2025",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0326010",
@@ -916,9 +916,9 @@
     "pfpea_ppt": 21.5,
     "hazardIndex": 3.12,
     "severityScore": 5.45,
-    "exceedsMCL": true,
     "sampleCount": 58,
-    "lastSampled": "7/10/2024"
+    "lastSampled": "7/10/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0326020",
@@ -935,9 +935,9 @@
     "pfpea_ppt": 14.9,
     "hazardIndex": 1.47,
     "severityScore": 3.9,
-    "exceedsMCL": true,
     "sampleCount": 48,
-    "lastSampled": "8/27/2025"
+    "lastSampled": "8/27/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0326127",
@@ -954,9 +954,9 @@
     "pfpea_ppt": 15.9,
     "hazardIndex": 8.89,
     "severityScore": 8.89,
-    "exceedsMCL": true,
     "sampleCount": 216,
-    "lastSampled": "9/9/2025"
+    "lastSampled": "9/9/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0326332",
@@ -972,9 +972,9 @@
     "pfpea_ppt": 8.7,
     "hazardIndex": 2.33,
     "severityScore": 4.875,
-    "exceedsMCL": true,
     "sampleCount": 179,
-    "lastSampled": "9/2/2025"
+    "lastSampled": "9/2/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0332010",
@@ -987,9 +987,9 @@
     "pfba_ppt": 5.2,
     "hazardIndex": 0.65,
     "severityScore": 1.45,
-    "exceedsMCL": true,
     "sampleCount": 16,
-    "lastSampled": "8/8/2023"
+    "lastSampled": "8/8/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0343010",
@@ -1006,9 +1006,9 @@
     "pfpea_ppt": 22.4,
     "hazardIndex": 1.94,
     "severityScore": 3.6,
-    "exceedsMCL": true,
     "sampleCount": 32,
-    "lastSampled": "7/28/2023"
+    "lastSampled": "7/28/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0343015",
@@ -1025,9 +1025,9 @@
     "pfpea_ppt": 9.8,
     "hazardIndex": 0.82,
     "severityScore": 3.375,
-    "exceedsMCL": true,
     "sampleCount": 26,
-    "lastSampled": "9/10/2024"
+    "lastSampled": "9/10/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0343025",
@@ -1044,9 +1044,9 @@
     "pfpea_ppt": 10.2,
     "hazardIndex": 0.96,
     "severityScore": 2.85,
-    "exceedsMCL": true,
     "sampleCount": 20,
-    "lastSampled": "9/11/2023"
+    "lastSampled": "9/11/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0343045",
@@ -1062,9 +1062,9 @@
     "pfpea_ppt": 6.9,
     "hazardIndex": 0.65,
     "severityScore": 3.075,
-    "exceedsMCL": true,
     "sampleCount": 22,
-    "lastSampled": "9/9/2025"
+    "lastSampled": "9/9/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0347025",
@@ -1077,9 +1077,9 @@
     "lithium_ppb": 12000,
     "hazardIndex": 0.77,
     "severityScore": 1.2,
-    "exceedsMCL": true,
     "sampleCount": 11,
-    "lastSampled": "6/17/2024"
+    "lastSampled": "6/17/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0347030",
@@ -1096,9 +1096,9 @@
     "pfpea_ppt": 9.6,
     "hazardIndex": 1.08,
     "severityScore": 3.75,
-    "exceedsMCL": true,
     "sampleCount": 29,
-    "lastSampled": "9/17/2024"
+    "lastSampled": "9/17/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0351010",
@@ -1113,9 +1113,9 @@
     "pfpea_ppt": 4.2,
     "hazardIndex": 0.3,
     "severityScore": 1.925,
-    "exceedsMCL": true,
     "sampleCount": 6,
-    "lastSampled": "8/13/2024"
+    "lastSampled": "8/13/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0351015",
@@ -1131,9 +1131,9 @@
     "pfpea_ppt": 12,
     "hazardIndex": 2.38,
     "severityScore": 2.75,
-    "exceedsMCL": true,
     "sampleCount": 10,
-    "lastSampled": "6/27/2023"
+    "lastSampled": "6/27/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0351020",
@@ -1147,9 +1147,9 @@
     "pfpea_ppt": 6.4,
     "hazardIndex": 0.4,
     "severityScore": 2.05,
-    "exceedsMCL": true,
     "sampleCount": 10,
-    "lastSampled": "7/29/2024"
+    "lastSampled": "7/29/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0351025",
@@ -1166,9 +1166,9 @@
     "pfpea_ppt": 12,
     "hazardIndex": 1.19,
     "severityScore": 3.75,
-    "exceedsMCL": true,
     "sampleCount": 56,
-    "lastSampled": "9/23/2024"
+    "lastSampled": "9/23/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0351070",
@@ -1185,9 +1185,9 @@
     "pfpea_ppt": 9.2,
     "hazardIndex": 0.98,
     "severityScore": 3.525,
-    "exceedsMCL": true,
     "sampleCount": 66,
-    "lastSampled": "9/3/2025"
+    "lastSampled": "9/3/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0351185",
@@ -1202,9 +1202,9 @@
     "pfpea_ppt": 6.8,
     "hazardIndex": 0.47,
     "severityScore": 1.925,
-    "exceedsMCL": true,
     "sampleCount": 24,
-    "lastSampled": "9/15/2025"
+    "lastSampled": "9/15/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0351195",
@@ -1221,9 +1221,9 @@
     "pfpea_ppt": 6.2,
     "hazardIndex": 0.84,
     "severityScore": 2.375,
-    "exceedsMCL": true,
     "sampleCount": 24,
-    "lastSampled": "9/18/2024"
+    "lastSampled": "9/18/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0353010",
@@ -1240,9 +1240,9 @@
     "pfpea_ppt": 23,
     "hazardIndex": 2.03,
     "severityScore": 4,
-    "exceedsMCL": true,
     "sampleCount": 26,
-    "lastSampled": "7/24/2023"
+    "lastSampled": "7/24/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0353101",
@@ -1259,9 +1259,9 @@
     "pfpea_ppt": 11.5,
     "hazardIndex": 0.92,
     "severityScore": 3.5,
-    "exceedsMCL": true,
     "sampleCount": 26,
-    "lastSampled": "8/13/2025"
+    "lastSampled": "8/13/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0353127",
@@ -1273,9 +1273,9 @@
     "lithium_ppb": 11300,
     "hazardIndex": 0.77,
     "severityScore": 1.05,
-    "exceedsMCL": true,
     "sampleCount": 3,
-    "lastSampled": "4/19/2023"
+    "lastSampled": "4/19/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0362010",
@@ -1286,9 +1286,9 @@
     "pfhxa_ppt": 3.6,
     "hazardIndex": 0,
     "severityScore": 1.1,
-    "exceedsMCL": true,
     "sampleCount": 2,
-    "lastSampled": "8/21/2024"
+    "lastSampled": "8/21/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0362020",
@@ -1300,9 +1300,9 @@
     "pfpea_ppt": 3,
     "hazardIndex": 0,
     "severityScore": 1.375,
-    "exceedsMCL": true,
     "sampleCount": 6,
-    "lastSampled": "7/21/2025"
+    "lastSampled": "7/21/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0363020",
@@ -1317,9 +1317,9 @@
     "pfpea_ppt": 4,
     "hazardIndex": 3.02,
     "severityScore": 3.02,
-    "exceedsMCL": true,
     "sampleCount": 14,
-    "lastSampled": "8/5/2025"
+    "lastSampled": "8/5/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0363108",
@@ -1336,9 +1336,9 @@
     "pfpea_ppt": 18.8,
     "hazardIndex": 1.81,
     "severityScore": 2.4,
-    "exceedsMCL": true,
     "sampleCount": 19,
-    "lastSampled": "9/28/2023"
+    "lastSampled": "9/28/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0368010",
@@ -1349,9 +1349,9 @@
     "pfos_ppt": 4.8,
     "hazardIndex": 0,
     "severityScore": 1.2,
-    "exceedsMCL": true,
     "sampleCount": 2,
-    "lastSampled": "9/8/2025"
+    "lastSampled": "9/8/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0368020",
@@ -1365,9 +1365,9 @@
     "pfpea_ppt": 3.9,
     "hazardIndex": 0,
     "severityScore": 3.05,
-    "exceedsMCL": true,
     "sampleCount": 16,
-    "lastSampled": "8/27/2025"
+    "lastSampled": "8/27/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0377010",
@@ -1379,9 +1379,9 @@
     "pfhxs_ppt": 3.8,
     "hazardIndex": 0.38,
     "severityScore": 1.725,
-    "exceedsMCL": true,
     "sampleCount": 6,
-    "lastSampled": "7/16/2024"
+    "lastSampled": "7/16/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0377015",
@@ -1395,9 +1395,9 @@
     "pfpea_ppt": 4.4,
     "hazardIndex": 0.32,
     "severityScore": 1.225,
-    "exceedsMCL": true,
     "sampleCount": 12,
-    "lastSampled": "8/9/2023"
+    "lastSampled": "8/9/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0377109",
@@ -1412,9 +1412,9 @@
     "lithium_ppb": 12000,
     "hazardIndex": 0.31,
     "severityScore": 1.175,
-    "exceedsMCL": true,
     "sampleCount": 16,
-    "lastSampled": "9/12/2023"
+    "lastSampled": "9/12/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0378010",
@@ -1427,9 +1427,9 @@
     "pfpea_ppt": 4.4,
     "hazardIndex": 0,
     "severityScore": 1.975,
-    "exceedsMCL": true,
     "sampleCount": 10,
-    "lastSampled": "7/21/2025"
+    "lastSampled": "7/21/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0378055",
@@ -1448,9 +1448,9 @@
     "lithium_ppb": 12000,
     "hazardIndex": 5.09,
     "severityScore": 7.5,
-    "exceedsMCL": true,
     "sampleCount": 34,
-    "lastSampled": "7/25/2023"
+    "lastSampled": "7/25/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0392010",
@@ -1464,9 +1464,9 @@
     "pfpea_ppt": 4.3,
     "hazardIndex": 0.33,
     "severityScore": 1.4,
-    "exceedsMCL": true,
     "sampleCount": 13,
-    "lastSampled": "8/8/2023"
+    "lastSampled": "8/8/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0392020",
@@ -1479,9 +1479,9 @@
     "pfpea_ppt": 7,
     "hazardIndex": 0.34,
     "severityScore": 0.34,
-    "exceedsMCL": false,
     "sampleCount": 13,
-    "lastSampled": "8/5/2025"
+    "lastSampled": "8/5/2025",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0392045",
@@ -1494,9 +1494,9 @@
     "pfpea_ppt": 7.8,
     "hazardIndex": 0.4,
     "severityScore": 0.4,
-    "exceedsMCL": false,
     "sampleCount": 11,
-    "lastSampled": "8/29/2023"
+    "lastSampled": "8/29/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0392050",
@@ -1513,9 +1513,9 @@
     "pfpea_ppt": 8.1,
     "hazardIndex": 0.77,
     "severityScore": 3,
-    "exceedsMCL": true,
     "sampleCount": 25,
-    "lastSampled": "8/6/2024"
+    "lastSampled": "8/6/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0392055",
@@ -1533,9 +1533,9 @@
     "pfpea_ppt": 21,
     "hazardIndex": 1.94,
     "severityScore": 2.75,
-    "exceedsMCL": true,
     "sampleCount": 29,
-    "lastSampled": "8/14/2023"
+    "lastSampled": "8/14/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0392159",
@@ -1546,9 +1546,9 @@
     "lithium_ppb": 11300,
     "hazardIndex": 0.35,
     "severityScore": 0.35,
-    "exceedsMCL": false,
     "sampleCount": 3,
-    "lastSampled": "8/12/2025"
+    "lastSampled": "8/12/2025",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0392373",
@@ -1566,9 +1566,9 @@
     "lithium_ppb": 16300,
     "hazardIndex": 19.22,
     "severityScore": 19.22,
-    "exceedsMCL": true,
     "sampleCount": 264,
-    "lastSampled": "9/4/2025"
+    "lastSampled": "9/4/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0407010",
@@ -1578,9 +1578,9 @@
     "lithium_ppb": 11000,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 2,
-    "lastSampled": "4/22/2024"
+    "lastSampled": "4/22/2024",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0407040",
@@ -1590,9 +1590,9 @@
     "lithium_ppb": 34000,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 3,
-    "lastSampled": "8/16/2023"
+    "lastSampled": "8/16/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0408085",
@@ -1602,9 +1602,9 @@
     "lithium_ppb": 20100,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 1,
-    "lastSampled": "6/17/2025"
+    "lastSampled": "6/17/2025",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0410020",
@@ -1622,9 +1622,9 @@
     "pfpea_ppt": 12,
     "hazardIndex": 1.63,
     "severityScore": 3,
-    "exceedsMCL": true,
     "sampleCount": 16,
-    "lastSampled": "7/22/2024"
+    "lastSampled": "7/22/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0410035",
@@ -1642,9 +1642,9 @@
     "pfpea_ppt": 8.4,
     "hazardIndex": 1.67,
     "severityScore": 3.75,
-    "exceedsMCL": true,
     "sampleCount": 81,
-    "lastSampled": "8/13/2024"
+    "lastSampled": "8/13/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0410045",
@@ -1662,9 +1662,9 @@
     "pfpea_ppt": 11.5,
     "hazardIndex": 1.81,
     "severityScore": 3.1,
-    "exceedsMCL": true,
     "sampleCount": 26,
-    "lastSampled": "8/3/2023"
+    "lastSampled": "8/3/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0410060",
@@ -1680,9 +1680,9 @@
     "pfpea_ppt": 5.9,
     "hazardIndex": 1.56,
     "severityScore": 2.725,
-    "exceedsMCL": true,
     "sampleCount": 25,
-    "lastSampled": "8/13/2024"
+    "lastSampled": "8/13/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0416010",
@@ -1692,9 +1692,9 @@
     "lithium_ppb": 22600,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 6,
-    "lastSampled": "6/10/2025"
+    "lastSampled": "6/10/2025",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0416020",
@@ -1704,9 +1704,9 @@
     "pfos_ppt": 8.1,
     "hazardIndex": 0,
     "severityScore": 2.025,
-    "exceedsMCL": true,
     "sampleCount": 3,
-    "lastSampled": "5/8/2023"
+    "lastSampled": "5/8/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0416028",
@@ -1716,9 +1716,9 @@
     "lithium_ppb": 17000,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 1,
-    "lastSampled": "7/23/2024"
+    "lastSampled": "7/23/2024",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0416031",
@@ -1728,9 +1728,9 @@
     "lithium_ppb": 10600,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 5,
-    "lastSampled": "7/16/2025"
+    "lastSampled": "7/16/2025",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0416035",
@@ -1740,9 +1740,9 @@
     "lithium_ppb": 13300,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 2,
-    "lastSampled": "7/18/2023"
+    "lastSampled": "7/18/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0421010",
@@ -1752,9 +1752,9 @@
     "lithium_ppb": 39000,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 4,
-    "lastSampled": "9/18/2024"
+    "lastSampled": "9/18/2024",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0424010",
@@ -1764,9 +1764,9 @@
     "lithium_ppb": 14100,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 10,
-    "lastSampled": "4/14/2025"
+    "lastSampled": "4/14/2025",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0425040",
@@ -1776,9 +1776,9 @@
     "lithium_ppb": 10700,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 1,
-    "lastSampled": "8/12/2025"
+    "lastSampled": "8/12/2025",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0425132",
@@ -1788,9 +1788,9 @@
     "lithium_ppb": 16600,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 2,
-    "lastSampled": "5/21/2024"
+    "lastSampled": "5/21/2024",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0433010",
@@ -1802,9 +1802,9 @@
     "pfbs_ppt": 4.3,
     "hazardIndex": 0.43,
     "severityScore": 1.475,
-    "exceedsMCL": true,
     "sampleCount": 4,
-    "lastSampled": "9/23/2025"
+    "lastSampled": "9/23/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0433050",
@@ -1815,9 +1815,9 @@
     "pfos_ppt": 4.7,
     "hazardIndex": 0,
     "severityScore": 1.175,
-    "exceedsMCL": true,
     "sampleCount": 4,
-    "lastSampled": "8/10/2023"
+    "lastSampled": "8/10/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0437020",
@@ -1827,9 +1827,9 @@
     "lithium_ppb": 9100,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 1,
-    "lastSampled": "9/27/2023"
+    "lastSampled": "9/27/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0440106",
@@ -1839,9 +1839,9 @@
     "pfos_ppt": 4.3,
     "hazardIndex": 0,
     "severityScore": 1.075,
-    "exceedsMCL": true,
     "sampleCount": 1,
-    "lastSampled": "8/12/2024"
+    "lastSampled": "8/12/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0442010",
@@ -1851,9 +1851,9 @@
     "pfos_ppt": 5.4,
     "hazardIndex": 0,
     "severityScore": 1.35,
-    "exceedsMCL": true,
     "sampleCount": 3,
-    "lastSampled": "8/6/2024"
+    "lastSampled": "8/6/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0442028",
@@ -1864,9 +1864,9 @@
     "pfos_ppt": 6.9,
     "hazardIndex": 0,
     "severityScore": 1.725,
-    "exceedsMCL": true,
     "sampleCount": 10,
-    "lastSampled": "8/6/2024"
+    "lastSampled": "8/6/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0442040",
@@ -1876,9 +1876,9 @@
     "pfos_ppt": 5,
     "hazardIndex": 0,
     "severityScore": 1.25,
-    "exceedsMCL": true,
     "sampleCount": 5,
-    "lastSampled": "8/11/2025"
+    "lastSampled": "8/11/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0446010",
@@ -1888,9 +1888,9 @@
     "lithium_ppb": 11000,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 1,
-    "lastSampled": "4/16/2024"
+    "lastSampled": "4/16/2024",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0452020",
@@ -1900,9 +1900,9 @@
     "lithium_ppb": 11000,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 1,
-    "lastSampled": "9/27/2023"
+    "lastSampled": "9/27/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0454010",
@@ -1918,9 +1918,9 @@
     "pfpea_ppt": 4.3,
     "hazardIndex": 0.72,
     "severityScore": 2.125,
-    "exceedsMCL": true,
     "sampleCount": 33,
-    "lastSampled": "7/9/2025"
+    "lastSampled": "7/9/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0454025",
@@ -1936,9 +1936,9 @@
     "pfpea_ppt": 7.2,
     "hazardIndex": 1.16,
     "severityScore": 2.525,
-    "exceedsMCL": true,
     "sampleCount": 27,
-    "lastSampled": "9/25/2023"
+    "lastSampled": "9/25/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0454030",
@@ -1954,9 +1954,9 @@
     "pfpea_ppt": 6.5,
     "hazardIndex": 1.04,
     "severityScore": 2.875,
-    "exceedsMCL": true,
     "sampleCount": 32,
-    "lastSampled": "9/10/2025"
+    "lastSampled": "9/10/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0459010",
@@ -1967,9 +1967,9 @@
     "lithium_ppb": 9030,
     "hazardIndex": 0,
     "severityScore": 1.2,
-    "exceedsMCL": true,
     "sampleCount": 4,
-    "lastSampled": "9/11/2023"
+    "lastSampled": "9/11/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0464010",
@@ -1980,9 +1980,9 @@
     "pfos_ppt": 9.4,
     "hazardIndex": 0,
     "severityScore": 2.35,
-    "exceedsMCL": true,
     "sampleCount": 10,
-    "lastSampled": "9/17/2024"
+    "lastSampled": "9/17/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0464020",
@@ -1998,9 +1998,9 @@
     "lithium_ppb": 9500,
     "hazardIndex": 3.86,
     "severityScore": 122.5,
-    "exceedsMCL": true,
     "sampleCount": 19,
-    "lastSampled": "9/23/2024"
+    "lastSampled": "9/23/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0465010",
@@ -2010,9 +2010,9 @@
     "pfpea_ppt": 4.4,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 1,
-    "lastSampled": "9/3/2024"
+    "lastSampled": "9/3/2024",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0465015",
@@ -2022,9 +2022,9 @@
     "lithium_ppb": 19200,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 8,
-    "lastSampled": "8/15/2024"
+    "lastSampled": "8/15/2024",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0465020",
@@ -2035,9 +2035,9 @@
     "lithium_ppb": 15700,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 11,
-    "lastSampled": "9/13/2023"
+    "lastSampled": "9/13/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0465025",
@@ -2047,9 +2047,9 @@
     "lithium_ppb": 13500,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 3,
-    "lastSampled": "8/13/2025"
+    "lastSampled": "8/13/2025",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0465137",
@@ -2061,9 +2061,9 @@
     "lithium_ppb": 19000,
     "hazardIndex": 0.78,
     "severityScore": 0.78,
-    "exceedsMCL": false,
     "sampleCount": 7,
-    "lastSampled": "9/24/2024"
+    "lastSampled": "9/24/2024",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0465199",
@@ -2075,9 +2075,9 @@
     "lithium_ppb": 17500,
     "hazardIndex": 1.3,
     "severityScore": 1.3,
-    "exceedsMCL": true,
     "sampleCount": 10,
-    "lastSampled": "7/23/2025"
+    "lastSampled": "7/23/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0466110",
@@ -2087,9 +2087,9 @@
     "pfos_ppt": 6.2,
     "hazardIndex": 0,
     "severityScore": 1.55,
-    "exceedsMCL": true,
     "sampleCount": 3,
-    "lastSampled": "9/27/2023"
+    "lastSampled": "9/27/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0467010",
@@ -2099,9 +2099,9 @@
     "lithium_ppb": 9040,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 1,
-    "lastSampled": "6/6/2023"
+    "lastSampled": "6/6/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0467035",
@@ -2111,9 +2111,9 @@
     "lithium_ppb": 29500,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 7,
-    "lastSampled": "8/1/2023"
+    "lastSampled": "8/1/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0467042",
@@ -2123,9 +2123,9 @@
     "lithium_ppb": 32700,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 2,
-    "lastSampled": "6/2/2025"
+    "lastSampled": "6/2/2025",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0469025",
@@ -2135,9 +2135,9 @@
     "lithium_ppb": 38500,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 7,
-    "lastSampled": "6/28/2023"
+    "lastSampled": "6/28/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0470010",
@@ -2147,9 +2147,9 @@
     "lithium_ppb": 20900,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 2,
-    "lastSampled": "7/10/2023"
+    "lastSampled": "7/10/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0470015",
@@ -2159,9 +2159,9 @@
     "lithium_ppb": 14000,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 2,
-    "lastSampled": "8/15/2023"
+    "lastSampled": "8/15/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0471010",
@@ -2171,9 +2171,9 @@
     "lithium_ppb": 16700,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 3,
-    "lastSampled": "4/5/2023"
+    "lastSampled": "4/5/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0472025",
@@ -2183,9 +2183,9 @@
     "lithium_ppb": 28000,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 3,
-    "lastSampled": "9/26/2023"
+    "lastSampled": "9/26/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0474010",
@@ -2200,9 +2200,9 @@
     "pfpea_ppt": 5.1,
     "hazardIndex": 0.61,
     "severityScore": 1.9,
-    "exceedsMCL": true,
     "sampleCount": 12,
-    "lastSampled": "8/29/2023"
+    "lastSampled": "8/29/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0474015",
@@ -2218,9 +2218,9 @@
     "pfpea_ppt": 7.4,
     "hazardIndex": 0.97,
     "severityScore": 2.6,
-    "exceedsMCL": true,
     "sampleCount": 18,
-    "lastSampled": "8/30/2023"
+    "lastSampled": "8/30/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0474020",
@@ -2235,9 +2235,9 @@
     "lithium_ppb": 14600,
     "hazardIndex": 0.42,
     "severityScore": 1.325,
-    "exceedsMCL": true,
     "sampleCount": 11,
-    "lastSampled": "9/16/2025"
+    "lastSampled": "9/16/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0474025",
@@ -2253,9 +2253,9 @@
     "pfpea_ppt": 5.8,
     "hazardIndex": 1.01,
     "severityScore": 2.875,
-    "exceedsMCL": true,
     "sampleCount": 21,
-    "lastSampled": "8/13/2024"
+    "lastSampled": "8/13/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0474035",
@@ -2271,9 +2271,9 @@
     "pfpea_ppt": 6.6,
     "hazardIndex": 1.06,
     "severityScore": 2.875,
-    "exceedsMCL": true,
     "sampleCount": 34,
-    "lastSampled": "8/13/2024"
+    "lastSampled": "8/13/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0474040",
@@ -2287,9 +2287,9 @@
     "pfpea_ppt": 3.7,
     "hazardIndex": 0.33,
     "severityScore": 1.65,
-    "exceedsMCL": true,
     "sampleCount": 7,
-    "lastSampled": "9/12/2023"
+    "lastSampled": "9/12/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0474045",
@@ -2305,9 +2305,9 @@
     "pfpea_ppt": 3.4,
     "hazardIndex": 0.78,
     "severityScore": 2.475,
-    "exceedsMCL": true,
     "sampleCount": 16,
-    "lastSampled": "9/12/2024"
+    "lastSampled": "9/12/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0474060",
@@ -2321,9 +2321,9 @@
     "pfpea_ppt": 3,
     "hazardIndex": 0.46,
     "severityScore": 1.5,
-    "exceedsMCL": true,
     "sampleCount": 12,
-    "lastSampled": "8/11/2025"
+    "lastSampled": "8/11/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0494010",
@@ -2333,9 +2333,9 @@
     "lithium_ppb": 60300,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 2,
-    "lastSampled": "5/7/2024"
+    "lastSampled": "5/7/2024",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0494025",
@@ -2345,9 +2345,9 @@
     "lithium_ppb": 45300,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 2,
-    "lastSampled": "8/8/2024"
+    "lastSampled": "8/8/2024",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0496010",
@@ -2362,9 +2362,9 @@
     "pfpea_ppt": 4.9,
     "hazardIndex": 0.33,
     "severityScore": 1.7,
-    "exceedsMCL": true,
     "sampleCount": 18,
-    "lastSampled": "8/5/2025"
+    "lastSampled": "8/5/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0496045",
@@ -2376,9 +2376,9 @@
     "lithium_ppb": 9200,
     "hazardIndex": 0.87,
     "severityScore": 0.87,
-    "exceedsMCL": false,
     "sampleCount": 4,
-    "lastSampled": "8/27/2024"
+    "lastSampled": "8/27/2024",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0496055",
@@ -2393,9 +2393,9 @@
     "pfpea_ppt": 6.2,
     "hazardIndex": 0.44,
     "severityScore": 1.825,
-    "exceedsMCL": true,
     "sampleCount": 17,
-    "lastSampled": "9/12/2023"
+    "lastSampled": "9/12/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC0496060",
@@ -2405,9 +2405,9 @@
     "lithium_ppb": 10100,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 1,
-    "lastSampled": "5/14/2025"
+    "lastSampled": "5/14/2025",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC0496065",
@@ -2417,9 +2417,9 @@
     "pfba_ppt": 9.2,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 2,
-    "lastSampled": "5/28/2025"
+    "lastSampled": "5/28/2025",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC2023003",
@@ -2435,9 +2435,9 @@
     "pfpea_ppt": 9.3,
     "hazardIndex": 0.94,
     "severityScore": 4,
-    "exceedsMCL": true,
     "sampleCount": 27,
-    "lastSampled": "9/24/2024"
+    "lastSampled": "9/24/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC3041076",
@@ -2450,9 +2450,9 @@
     "pfpea_ppt": 3.7,
     "hazardIndex": 0,
     "severityScore": 1.325,
-    "exceedsMCL": true,
     "sampleCount": 6,
-    "lastSampled": "6/10/2024"
+    "lastSampled": "6/10/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC4051009",
@@ -2467,9 +2467,9 @@
     "pfpea_ppt": 5.1,
     "hazardIndex": 0.46,
     "severityScore": 1.65,
-    "exceedsMCL": true,
     "sampleCount": 17,
-    "lastSampled": "9/12/2023"
+    "lastSampled": "9/12/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC4051018",
@@ -2486,9 +2486,9 @@
     "pfpea_ppt": 7.8,
     "hazardIndex": 0.93,
     "severityScore": 2.425,
-    "exceedsMCL": true,
     "sampleCount": 23,
-    "lastSampled": "9/16/2024"
+    "lastSampled": "9/16/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC4064005",
@@ -2500,9 +2500,9 @@
     "pfba_ppt": 6.2,
     "hazardIndex": 0,
     "severityScore": 2.55,
-    "exceedsMCL": true,
     "sampleCount": 10,
-    "lastSampled": "8/2/2023"
+    "lastSampled": "8/2/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC4098012",
@@ -2512,9 +2512,9 @@
     "lithium_ppb": 17200,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 2,
-    "lastSampled": "6/3/2024"
+    "lastSampled": "6/3/2024",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC5026019",
@@ -2531,9 +2531,9 @@
     "pfpea_ppt": 10.3,
     "hazardIndex": 1.08,
     "severityScore": 3.575,
-    "exceedsMCL": true,
     "sampleCount": 29,
-    "lastSampled": "9/24/2024"
+    "lastSampled": "9/24/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC5026027",
@@ -2550,9 +2550,9 @@
     "pfpea_ppt": 9.5,
     "hazardIndex": 0.85,
     "severityScore": 3.5,
-    "exceedsMCL": true,
     "sampleCount": 27,
-    "lastSampled": "8/12/2025"
+    "lastSampled": "8/12/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC5043001",
@@ -2569,9 +2569,9 @@
     "pfpea_ppt": 14,
     "hazardIndex": 1.91,
     "severityScore": 3.5,
-    "exceedsMCL": true,
     "sampleCount": 56,
-    "lastSampled": "9/12/2023"
+    "lastSampled": "9/12/2023",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC5063011",
@@ -2588,9 +2588,9 @@
     "pfpea_ppt": 9,
     "hazardIndex": 0.84,
     "severityScore": 3,
-    "exceedsMCL": true,
     "sampleCount": 62,
-    "lastSampled": "8/12/2024"
+    "lastSampled": "8/12/2024",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC6027001",
@@ -2600,9 +2600,9 @@
     "pfbs_ppt": 3.7,
     "hazardIndex": 0.37,
     "severityScore": 0.37,
-    "exceedsMCL": false,
     "sampleCount": 1,
-    "lastSampled": "5/8/2023"
+    "lastSampled": "5/8/2023",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC6096001",
@@ -2615,9 +2615,9 @@
     "pfpea_ppt": 3.2,
     "hazardIndex": 0,
     "severityScore": 1.35,
-    "exceedsMCL": true,
     "sampleCount": 11,
-    "lastSampled": "7/28/2025"
+    "lastSampled": "7/28/2025",
+    "aboveBenchmark": true
   },
   {
     "pwsid": "NC7024007",
@@ -2627,9 +2627,9 @@
     "lithium_ppb": 9600,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "sampleCount": 1,
-    "lastSampled": "7/23/2024"
+    "lastSampled": "7/23/2024",
+    "aboveBenchmark": false
   },
   {
     "pwsid": "NC7071011",
@@ -2642,8 +2642,8 @@
     "pfpea_ppt": 7.6,
     "hazardIndex": 0.53,
     "severityScore": 0.53,
-    "exceedsMCL": false,
     "sampleCount": 8,
-    "lastSampled": "8/15/2023"
+    "lastSampled": "8/15/2023",
+    "aboveBenchmark": false
   }
 ]

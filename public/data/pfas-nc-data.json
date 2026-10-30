@@ -18,9 +18,9 @@
     "lithium_ppb": 9500,
     "hazardIndex": 3.86,
     "severityScore": 122.5,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37183",
@@ -42,9 +42,9 @@
     "lithium_ppb": 16300,
     "hazardIndex": 19.22,
     "severityScore": 19.22,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37081",
@@ -66,9 +66,9 @@
     "lithium_ppb": 16000,
     "hazardIndex": 2.44,
     "severityScore": 8.9,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37051",
@@ -89,9 +89,9 @@
     "pfpea_ppt": 21.5,
     "hazardIndex": 8.89,
     "severityScore": 8.89,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37155",
@@ -112,9 +112,9 @@
     "lithium_ppb": 12000,
     "hazardIndex": 5.09,
     "severityScore": 7.5,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37077",
@@ -133,9 +133,9 @@
     "pfuna_ppt": 0,
     "hazardIndex": 0,
     "severityScore": 4.75,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37097",
@@ -156,9 +156,9 @@
     "lithium_ppb": 9060,
     "hazardIndex": 1.7,
     "severityScore": 4.7,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37001",
@@ -179,9 +179,9 @@
     "pfpea_ppt": 4.1,
     "hazardIndex": 1.4,
     "severityScore": 4.25,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37151",
@@ -201,9 +201,9 @@
     "pfpea_ppt": 13.3,
     "hazardIndex": 1.47,
     "severityScore": 4.075,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37045",
@@ -223,9 +223,9 @@
     "pfpea_ppt": 9.3,
     "hazardIndex": 0.94,
     "severityScore": 4,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37105",
@@ -246,9 +246,9 @@
     "lithium_ppb": 11300,
     "hazardIndex": 2.27,
     "severityScore": 4,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37019",
@@ -268,9 +268,9 @@
     "pfpea_ppt": 12,
     "hazardIndex": 1.89,
     "severityScore": 3.75,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37093",
@@ -291,9 +291,9 @@
     "pfpea_ppt": 9.6,
     "hazardIndex": 1.08,
     "severityScore": 3.75,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37101",
@@ -314,9 +314,9 @@
     "fts62_ppt": 17,
     "hazardIndex": 2.52,
     "severityScore": 3.75,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37085",
@@ -336,9 +336,9 @@
     "pfpea_ppt": 22.4,
     "hazardIndex": 2.02,
     "severityScore": 3.6,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37135",
@@ -358,9 +358,9 @@
     "pfpea_ppt": 3.9,
     "hazardIndex": 0,
     "severityScore": 3.05,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37125",
@@ -380,9 +380,9 @@
     "pfpea_ppt": 18.8,
     "hazardIndex": 3.04,
     "severityScore": 3.04,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37037",
@@ -402,9 +402,9 @@
     "pfpea_ppt": 11.6,
     "hazardIndex": 0,
     "severityScore": 3.025,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37035",
@@ -423,9 +423,9 @@
     "pfuna_ppt": 0,
     "hazardIndex": 0,
     "severityScore": 2.975,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37107",
@@ -445,9 +445,9 @@
     "pfpea_ppt": 7.2,
     "hazardIndex": 1.16,
     "severityScore": 2.875,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37147",
@@ -468,9 +468,9 @@
     "lithium_ppb": 14600,
     "hazardIndex": 1.23,
     "severityScore": 2.875,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37025",
@@ -490,9 +490,9 @@
     "pfpea_ppt": 4.1,
     "hazardIndex": 0.92,
     "severityScore": 2.575,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37017",
@@ -513,9 +513,9 @@
     "pfpea_ppt": 5.7,
     "hazardIndex": 2.23,
     "severityScore": 2.23,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37031",
@@ -535,9 +535,9 @@
     "lithium_ppb": 22600,
     "hazardIndex": 0,
     "severityScore": 2.025,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37191",
@@ -558,9 +558,9 @@
     "lithium_ppb": 10100,
     "hazardIndex": 0.87,
     "severityScore": 1.825,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37083",
@@ -579,9 +579,9 @@
     "pfuna_ppt": 0,
     "hazardIndex": 0,
     "severityScore": 1.725,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37153",
@@ -603,9 +603,9 @@
     "lithium_ppb": 12000,
     "hazardIndex": 0.69,
     "severityScore": 1.725,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37129",
@@ -626,9 +626,9 @@
     "lithium_ppb": 19200,
     "hazardIndex": 1.71,
     "severityScore": 1.71,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37131",
@@ -647,9 +647,9 @@
     "pfuna_ppt": 0,
     "hazardIndex": 0,
     "severityScore": 1.55,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37109",
@@ -669,9 +669,9 @@
     "pfpea_ppt": 5.5,
     "hazardIndex": 0.36,
     "severityScore": 1.525,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37065",
@@ -690,9 +690,9 @@
     "pfuna_ppt": 0,
     "hazardIndex": 0.43,
     "severityScore": 1.475,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37063",
@@ -711,9 +711,9 @@
     "pfuna_ppt": 0,
     "hazardIndex": 0.65,
     "severityScore": 1.45,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37071",
@@ -735,9 +735,9 @@
     "lithium_ppb": 16000,
     "hazardIndex": 0.39,
     "severityScore": 1.45,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37167",
@@ -757,9 +757,9 @@
     "pfpea_ppt": 3.8,
     "hazardIndex": 0,
     "severityScore": 1.425,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37007",
@@ -779,9 +779,9 @@
     "pfpea_ppt": 4.6,
     "hazardIndex": 0,
     "severityScore": 1.375,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37123",
@@ -801,9 +801,9 @@
     "pfpea_ppt": 3,
     "hazardIndex": 0,
     "severityScore": 1.375,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37185",
@@ -822,9 +822,9 @@
     "pfuna_ppt": 0,
     "hazardIndex": 0,
     "severityScore": 1.375,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37119",
@@ -844,9 +844,9 @@
     "pfpea_ppt": 8.3,
     "hazardIndex": 1.34,
     "severityScore": 1.35,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37159",
@@ -866,9 +866,9 @@
     "pfpea_ppt": 3,
     "hazardIndex": 0,
     "severityScore": 1.35,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37179",
@@ -888,9 +888,9 @@
     "pfpea_ppt": 10,
     "hazardIndex": 0.56,
     "severityScore": 1.225,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37069",
@@ -909,9 +909,9 @@
     "pfuna_ppt": 0,
     "hazardIndex": 0,
     "severityScore": 1.2,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37117",
@@ -931,9 +931,9 @@
     "lithium_ppb": 9030,
     "hazardIndex": 0,
     "severityScore": 1.2,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37181",
@@ -952,9 +952,9 @@
     "pfuna_ppt": 0,
     "hazardIndex": 0,
     "severityScore": 1.2,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37057",
@@ -974,9 +974,9 @@
     "pfpea_ppt": 3.3,
     "hazardIndex": 0.38,
     "severityScore": 1.175,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37145",
@@ -995,9 +995,9 @@
     "pfuna_ppt": 0,
     "hazardIndex": 0,
     "severityScore": 1.15,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37079",
@@ -1016,9 +1016,9 @@
     "pfuna_ppt": 0,
     "hazardIndex": 0,
     "severityScore": 1.075,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37157",
@@ -1037,9 +1037,9 @@
     "pfuna_ppt": 0,
     "hazardIndex": 0,
     "severityScore": 1,
-    "exceedsMCL": true,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": true
   },
   {
     "fips": "37141",
@@ -1060,9 +1060,9 @@
     "pfpea_ppt": 7.6,
     "hazardIndex": 0.53,
     "severityScore": 0.53,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37111",
@@ -1082,9 +1082,9 @@
     "lithium_ppb": 11000,
     "hazardIndex": 0.51,
     "severityScore": 0.51,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37053",
@@ -1103,9 +1103,9 @@
     "pfuna_ppt": 0,
     "hazardIndex": 0.37,
     "severityScore": 0.37,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37193",
@@ -1125,9 +1125,9 @@
     "fts62_ppt": 8.2,
     "hazardIndex": 0.37,
     "severityScore": 0.37,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37197",
@@ -1146,9 +1146,9 @@
     "pfuna_ppt": 0,
     "hazardIndex": 0.31,
     "severityScore": 0.31,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37013",
@@ -1168,9 +1168,9 @@
     "lithium_ppb": 34000,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37015",
@@ -1190,9 +1190,9 @@
     "lithium_ppb": 20100,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37041",
@@ -1212,9 +1212,9 @@
     "lithium_ppb": 39000,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37047",
@@ -1234,9 +1234,9 @@
     "lithium_ppb": 14100,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37049",
@@ -1256,9 +1256,9 @@
     "lithium_ppb": 16600,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37059",
@@ -1278,9 +1278,9 @@
     "fts62_ppt": 12.3,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37073",
@@ -1300,9 +1300,9 @@
     "lithium_ppb": 9100,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37091",
@@ -1322,9 +1322,9 @@
     "lithium_ppb": 11000,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37103",
@@ -1344,9 +1344,9 @@
     "lithium_ppb": 11000,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37133",
@@ -1366,9 +1366,9 @@
     "lithium_ppb": 32700,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37137",
@@ -1388,9 +1388,9 @@
     "lithium_ppb": 38500,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37139",
@@ -1410,9 +1410,9 @@
     "lithium_ppb": 20900,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37143",
@@ -1432,9 +1432,9 @@
     "lithium_ppb": 28000,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37161",
@@ -1453,9 +1453,9 @@
     "pfuna_ppt": 0,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37175",
@@ -1475,9 +1475,9 @@
     "lithium_ppb": 26400,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37187",
@@ -1497,9 +1497,9 @@
     "lithium_ppb": 60300,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37189",
@@ -1519,9 +1519,9 @@
     "pfpea_ppt": 3.5,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   },
   {
     "fips": "37195",
@@ -1541,8 +1541,8 @@
     "lithium_ppb": 17200,
     "hazardIndex": 0,
     "severityScore": 0,
-    "exceedsMCL": false,
     "lastUpdated": "2026-10-28",
-    "source": "EPA UCMR 5"
+    "source": "EPA UCMR 5",
+    "aboveBenchmark": false
   }
 ]

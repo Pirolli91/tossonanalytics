@@ -24,7 +24,7 @@ export interface SiteData {
   pfbs_ppt?: number;
   hazardIndex: number;
   severityScore: number;
-  exceedsMCL: boolean;
+  aboveBenchmark: boolean;
   sampleCount: number;
   lastSampled?: string;
   source?: string;
@@ -48,14 +48,14 @@ function barColor(value: number, limit: number) {
   return "#27ae60";
 }
 
-function SeverityBadge({ score, exceeds }: { score: number; exceeds: boolean }) {
-  const bg   = exceeds ? "rgba(231,76,60,0.15)"  : "rgba(39,174,96,0.15)";
-  const text = exceeds ? "#e74c3c" : "#27ae60";
-  const Icon = exceeds ? AlertTriangle : CheckCircle;
+function SeverityBadge({ score, above }: { score: number; above: boolean }) {
+  const bg   = above ? "rgba(231,76,60,0.15)"  : "rgba(39,174,96,0.15)";
+  const text = above ? "#e74c3c" : "#27ae60";
+  const Icon = above ? AlertTriangle : CheckCircle;
   return (
     <div className="flex items-center gap-2 rounded-xl px-4 py-3 text-sm font-semibold" style={{ background: bg, color: text }}>
       <Icon className="h-4 w-4 shrink-0" />
-      {exceeds ? `Exceeds EPA MCL — ${score.toFixed(2)}× limit` : `Below EPA MCL — ${score.toFixed(3)}× limit`}
+      {above ? `Above EPA MCL benchmark — ${score.toFixed(2)}×` : `Below EPA MCL benchmark — ${score.toFixed(3)}×`}
     </div>
   );
 }
@@ -86,8 +86,8 @@ function SiteCard({ site, onSelect }: { site: SiteData; onSelect: () => void }) 
         <span
           className="shrink-0 rounded-full px-2 py-0.5 text-[10px] font-bold"
           style={{
-            background: site.exceedsMCL ? "rgba(231,76,60,0.2)" : "rgba(39,174,96,0.15)",
-            color:      site.exceedsMCL ? "#e74c3c" : "#27ae60",
+            background: site.aboveBenchmark ? "rgba(231,76,60,0.2)" : "rgba(39,174,96,0.15)",
+            color:      site.aboveBenchmark ? "#e74c3c" : "#27ae60",
           }}
         >
           {site.severityScore.toFixed(2)}×
@@ -128,11 +128,11 @@ function SiteDetail({ site, onBack }: { site: SiteData; onBack: () => void }) {
         <p className="text-[10px] text-white/35">{site.pwsid} · {site.sampleCount} samples · Last: {site.lastSampled ?? "N/A"}</p>
       </div>
 
-      <SeverityBadge score={site.severityScore} exceeds={site.exceedsMCL} />
+      <SeverityBadge score={site.severityScore} above={site.aboveBenchmark} />
 
       <div className="grid grid-cols-2 gap-2">
         {[
-          { label: "Severity",     value: site.severityScore.toFixed(3) + "×", color: site.exceedsMCL ? "#e74c3c" : "#27ae60" },
+          { label: "Severity",     value: site.severityScore.toFixed(3) + "×", color: site.aboveBenchmark ? "#e74c3c" : "#27ae60" },
           { label: "Hazard Index", value: site.hazardIndex.toFixed(4),          color: site.hazardIndex >= 1 ? "#e74c3c" : "#f39c12" },
           { label: "GenX (ppt)",   value: (site.genx_ppt ?? 0).toString(),      color: "var(--brand-accent)" },
           { label: "Source",       value: site.source ?? "EPA UCMR 5",          color: "rgba(255,255,255,0.5)" },
@@ -146,7 +146,7 @@ function SiteDetail({ site, onBack }: { site: SiteData; onBack: () => void }) {
 
       <div>
         <p className="mb-2 text-[10px] font-semibold uppercase tracking-wider text-white/40">
-          PFAS vs EPA MCL
+          PFAS vs EPA MCL Benchmark
         </p>
         <div className="h-40">
           <ResponsiveContainer width="100%" height="100%">
@@ -211,12 +211,12 @@ export function DataPanel({ county, sites, onClose, onSiteSelect }: DataPanelPro
         </button>
       </div>
 
-      <SeverityBadge score={county.severityScore} exceeds={county.exceedsMCL} />
+      <SeverityBadge score={county.severityScore} above={county.aboveBenchmark} />
 
       {/* Key metrics */}
       <div className="grid grid-cols-2 gap-2">
         {[
-          { label: "Severity Score", value: county.severityScore.toFixed(3) + "×", color: county.exceedsMCL ? "#e74c3c" : "#27ae60" },
+          { label: "Severity Score", value: county.severityScore.toFixed(3) + "×", color: county.aboveBenchmark ? "#e74c3c" : "#27ae60" },
           { label: "Hazard Index",   value: county.hazardIndex.toFixed(4),          color: county.hazardIndex >= 1 ? "#e74c3c" : "#f39c12" },
           { label: "GenX (ppt)",     value: county.genx_ppt.toFixed(1),             color: "var(--brand-accent)" },
           { label: "Last Updated",   value: county.lastUpdated,                     color: "rgba(255,255,255,0.5)" },
@@ -231,7 +231,7 @@ export function DataPanel({ county, sites, onClose, onSiteSelect }: DataPanelPro
       {/* Chart */}
       <div>
         <p className="mb-2 text-[10px] font-semibold uppercase tracking-wider text-white/40">
-          County Max Concentrations vs MCL
+          County Max Concentrations vs MCL Benchmark
         </p>
         <div className="h-44">
           <ResponsiveContainer width="100%" height="100%">
@@ -293,7 +293,7 @@ export function DataPanel({ county, sites, onClose, onSiteSelect }: DataPanelPro
                 {countySites.length} Water System{countySites.length !== 1 ? "s" : ""}
               </span>
               <span className="text-[11px] text-white/40">
-                ({countySites.filter(s => s.exceedsMCL).length} exceed MCL)
+                ({countySites.filter(s => s.aboveBenchmark).length} above benchmark)
               </span>
             </div>
             {showSites ? <ChevronUp className="h-4 w-4 text-white/40" /> : <ChevronDown className="h-4 w-4 text-white/40" />}
@@ -316,6 +316,8 @@ export function DataPanel({ county, sites, onClose, onSiteSelect }: DataPanelPro
       <p className="text-[10px] text-white/25 font-[var(--font-source-sans)]">
         Data: EPA UCMR 5 (29 PFAS compounds) · NC DEQ · USGS WQP.
         MCL: 4.0 ppt PFOA/PFOS (EPA April 10, 2024). Updated nightly.
+        Severity is a screening comparison of the highest UCMR 5 result to the MCL benchmark.
+        UCMR 5 measures occurrence, not compliance — EPA determines MCL compliance from running annual averages of compliance monitoring.
       </p>
     </div>
   );

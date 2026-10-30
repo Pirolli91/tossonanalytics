@@ -287,8 +287,9 @@ export default function Home() {
                 </h2>
                 <p className="mt-2 text-sm text-white/55 font-[var(--font-source-sans)]">
                   Interactive choropleth map updated nightly from USGS WQP,
-                  EPA UCMR 5, and NC DEQ datasets. Severity scores normalized
-                  against 4.0 ppt MCL thresholds.
+                  EPA UCMR 5, and NC DEQ datasets. Severity scores benchmark the highest UCMR 5 result
+                  against the 4.0 ppt EPA MCLs — a screening comparison,
+                  not a compliance finding.
                 </p>
               </div>
               <Link

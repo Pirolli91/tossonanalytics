@@ -45,12 +45,12 @@ export default function DashboardPage() {
   }, []);
 
   const filteredCounties = useMemo(() => {
-    if (threshold === "exceeds")     return counties.filter(c => c.exceedsMCL);
+    if (threshold === "above")       return counties.filter(c => c.aboveBenchmark);
     if (threshold === "approaching") return counties.filter(c => c.severityScore >= 0.5);
     return counties;
   }, [counties, threshold]);
 
-  const exceedsCount = counties.filter(c => c.exceedsMCL).length;
+  const aboveCount = counties.filter(c => c.aboveBenchmark).length;
   const maxSeverity  = counties.length ? Math.max(...counties.map(c => c.severityScore)) : 0;
   const worstCounty  = counties[0]?.county ?? "—";
 
@@ -88,11 +88,11 @@ export default function DashboardPage() {
             <div className="flex items-center gap-x-3 gap-y-1 whitespace-nowrap px-3 py-1.5 text-[10px] sm:px-5 sm:py-2 sm:text-[11px]">
               <span className="text-white/30">{counties.length} counties</span>
               <span className="text-white/15">·</span>
-              <span style={{ color: "#e74c3c" }}>{exceedsCount} exceed MCL</span>
+              <span style={{ color: "#e74c3c" }}>{aboveCount} above MCL benchmark</span>
               <span className="text-white/15">·</span>
               <span className="text-white/30">{sites.length} water systems</span>
               <span className="text-white/15 hidden sm:inline">·</span>
-              <span className="text-white/30 hidden sm:inline">Worst: {worstCounty} ({maxSeverity.toFixed(1)}×)</span>
+              <span className="text-white/30 hidden sm:inline">Highest: {worstCounty} ({maxSeverity.toFixed(1)}× benchmark)</span>
               <span className="text-white/15 hidden sm:inline">·</span>
               <span className="text-white/30 hidden sm:inline">MCL: 4 ppt PFOA/PFOS</span>
             </div>
