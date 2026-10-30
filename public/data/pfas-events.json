@@ -15,7 +15,7 @@
       "event_type": "claim_correction",
       "facility_ids": [],
       "id": "epa-pfoa-claim-2026-09",
-      "jurisdiction": "Federal \u2014 U.S. Environmental Protection Agency",
+      "jurisdiction": "Federal — U.S. Environmental Protection Agency",
       "last_verified": "2026-09-26",
       "obligations": [],
       "published_date": "2026-09-24",
@@ -45,7 +45,7 @@
       "event_type": "guidance_rescission",
       "facility_ids": [],
       "id": "epa-npdes-pfas-2026-08",
-      "jurisdiction": "Federal \u2014 EPA Office of Water",
+      "jurisdiction": "Federal — EPA Office of Water",
       "last_verified": "2026-09-26",
       "obligations": [],
       "published_date": "2026-09-22",
@@ -58,7 +58,7 @@
       ],
       "status": "effective",
       "status_basis": "Office of Water memorandum dated August 11, 2026; publicly reported September 22, 2026",
-      "summary": "EPA rescinded its 2022 memorandum on addressing PFAS discharges through NPDES permits, pretreatment programs, and monitoring \u2014 the guidance that pushed states and wastewater utilities to use existing Clean Water Act authorities to monitor and control industrial PFAS before it reaches waterways and drinking-water supplies. This is a withdrawal of permitting and source-control guidance, not a repeal of the 4 ppt PFOA/PFOS drinking-water standards. Measured drinking-water occurrence values are unchanged; the change shifts the source-control burden toward state action.",
+      "summary": "EPA rescinded its 2022 memorandum on addressing PFAS discharges through NPDES permits, pretreatment programs, and monitoring — the guidance that pushed states and wastewater utilities to use existing Clean Water Act authorities to monitor and control industrial PFAS before it reaches waterways and drinking-water supplies. This is a withdrawal of permitting and source-control guidance, not a repeal of the 4 ppt PFOA/PFOS drinking-water standards. Measured drinking-water occurrence values are unchanged; the change shifts the source-control burden toward state action.",
       "title": "EPA Office of Water rescinds 2022 PFAS NPDES permitting guidance",
       "waterbody_ids": []
     },
@@ -90,7 +90,7 @@
         "fayetteville-works"
       ],
       "id": "nc-chemours-settlement-2026",
-      "jurisdiction": "North Carolina \u2014 DEQ and Attorney General",
+      "jurisdiction": "North Carolina — DEQ and Attorney General",
       "last_verified": "2026-09-26",
       "obligations": [
         "2019 Consent Order obligations continue, backstopped by the $135 million reserve"
@@ -105,7 +105,7 @@
       ],
       "status": "announced",
       "status_basis": "NC DEQ / Attorney General press release, September 10, 2026",
-      "summary": "North Carolina announced a $590 million settlement over PFAS contamination tied to the Chemours Fayetteville Works plant \u2014 the largest environmental-damages recovery in state history. The structure: $455 million in guaranteed direct payments over 10\u201315 years ($380 million to 11 local governments, $75 million to the state) plus a $135 million reserve from DuPont and Corteva to support Chemours' existing 2019 consent-order obligations. Dollar amounts are a financial agreement, not a contamination measurement or a cleanup-completion metric; payment schedules and deliverables should be tracked separately.",
+      "summary": "North Carolina announced a $590 million settlement over PFAS contamination tied to the Chemours Fayetteville Works plant — the largest environmental-damages recovery in state history. The structure: $455 million in guaranteed direct payments over 10–15 years ($380 million to 11 local governments, $75 million to the state) plus a $135 million reserve from DuPont and Corteva to support Chemours' existing 2019 consent-order obligations. Dollar amounts are a financial agreement, not a contamination measurement or a cleanup-completion metric; payment schedules and deliverables should be tracked separately.",
       "title": "North Carolina announces $590 million PFAS settlement with DuPont and Chemours",
       "waterbody_ids": [
         "cape-fear-river"
@@ -146,7 +146,7 @@
       ],
       "status": "alleged",
       "status_basis": "Notice issued by SELC on behalf of Cape Fear River Watch, September 23, 2026. Allegations have not been adjudicated.",
-      "summary": "SELC notified Chemours of alleged violations of the 2019 Consent Order and 2020 Addendum, including air emissions, groundwater contamination, and continuing PFAS loading to nearby waters \u2014 alleging failure to achieve a required 75% reduction in PFAS reaching Willis Creek, Georgia Branch, Old Outfall 002, and the Cape Fear River. The notice argues the 17-compound compliance approach omits ultra-short-chain PFAS detected in finished downstream drinking water. These are allegations, not adjudicated findings; the groups say they may return to court if the alleged violations are not addressed.",
+      "summary": "SELC notified Chemours of alleged violations of the 2019 Consent Order and 2020 Addendum, including air emissions, groundwater contamination, and continuing PFAS loading to nearby waters — alleging failure to achieve a required 75% reduction in PFAS reaching Willis Creek, Georgia Branch, Old Outfall 002, and the Cape Fear River. The notice argues the 17-compound compliance approach omits ultra-short-chain PFAS detected in finished downstream drinking water. These are allegations, not adjudicated findings; the groups say they may return to court if the alleged violations are not addressed.",
       "title": "SELC, for Cape Fear River Watch, alleges ongoing Chemours consent-order violations",
       "waterbody_ids": [
         "willis-creek",
@@ -206,7 +206,7 @@
       "published_date": "2026-10-01",
       "event_type": "litigation",
       "title": "15 states and Guam sue Corteva and Vylor over alleged fraudulent transfer of legacy DuPont PFAS liabilities",
-      "summary": "Fifteen state attorneys general and the territory of Guam sued Corteva and Vylor in Indiana state court on October 1, 2026, alleging the spinoff of Corteva's seed business into Vylor fraudulently moved nearly $40 billion in assets beyond the reach of PFAS creditors \u2014 including the legacy liabilities Corteva inherited from the Dow-DuPont merger. The states' bid to block the separation was denied on September 30 (the Fourth Circuit reversed a freeze order and the district court declined to halt the distribution), and the spinoff completed October 1. North Carolina is not a plaintiff, but it is exposed through the September 9 settlement: DuPont and Corteva/EIDP guarantee Chemours' payments on a 71/29 basis and backstop the $135 million consent-order reserve fund. According to the companies' October 13, 2026 SEC filings, a temporary restraining order was granted on October 9, 2026, barring Corteva/EIDP and Vylor from disposing of assets outside the ordinary course, paying dividends, or repurchasing shares without court approval; on October 10, 2026, the order was stayed pending an emergency stay motion before the U.S. Court of Appeals for the Seventh Circuit, so the TRO is not currently in effect. The separation itself is unaffected.",
+      "summary": "Fifteen state attorneys general and the territory of Guam sued Corteva and Vylor in Indiana state court on October 1, 2026, alleging the spinoff of Corteva's seed business into Vylor fraudulently moved nearly $40 billion in assets beyond the reach of PFAS creditors — including the legacy liabilities Corteva inherited from the Dow-DuPont merger. The states' bid to block the separation was denied on September 30 (the Fourth Circuit reversed a freeze order and the district court declined to halt the distribution), and the spinoff completed October 1. North Carolina is not a plaintiff, but it is exposed through the September 9 settlement: DuPont and Corteva/EIDP guarantee Chemours' payments on a 71/29 basis and backstop the $135 million consent-order reserve fund. According to the companies' October 13, 2026 SEC filings, a temporary restraining order was granted on October 9, 2026, barring Corteva/EIDP and Vylor from disposing of assets outside the ordinary course, paying dividends, or repurchasing shares without court approval; on October 10, 2026, the order was stayed pending an emergency stay motion before the U.S. Court of Appeals for the Seventh Circuit, so the TRO is not currently in effect. The separation itself is unaffected.",
       "status": "active",
       "status_basis": "Complaint filed October 1, 2026, in Indiana state court; Reuters reporting. NC exposure per the Chemours/EIDP 8-K filings on the September 9, 2026 settlement. TRO outcome per Corteva and Vylor Form 8-K filings, October 13, 2026.",
       "entities": [
@@ -216,7 +216,7 @@
         "Guam",
         "DuPont"
       ],
-      "jurisdiction": "Multi-state \u2014 Indiana state court",
+      "jurisdiction": "Multi-state — Indiana state court",
       "county_fips": [],
       "facility_ids": [
         "fayetteville-works"
@@ -246,7 +246,7 @@
       "published_date": "2026-10-01",
       "event_type": "settlement",
       "title": "AFFF MDL notices four proposed public-water-system settlements totaling over $149 million",
-      "summary": "The court-appointed notice administrator announced four proposed class settlements in the AFFF Products Liability MDL (D.S.C. No. 2:18-mn-2873): Carrier $129.2 million (plus applicable insurance proceeds), Archroma $14 million, Amerex $4 million, and Nation Ford Chemical $1.875 million. The settling defendants deny liability. Eligible public water systems nationwide \u2014 including NC utilities \u2014 face key deadlines: objections by November 23, 2026, opt-outs by December 22, 2026, and a final fairness hearing January 15, 2027.",
+      "summary": "The court-appointed notice administrator announced four proposed class settlements in the AFFF Products Liability MDL (D.S.C. No. 2:18-mn-2873): Carrier $129.2 million (plus applicable insurance proceeds), Archroma $14 million, Amerex $4 million, and Nation Ford Chemical $1.875 million. The settling defendants deny liability. Eligible public water systems nationwide — including NC utilities — face key deadlines: objections by November 23, 2026, opt-outs by December 22, 2026, and a final fairness hearing January 15, 2027.",
       "status": "proposed",
       "status_basis": "Simpluris (court-appointed notice administrator) announcement, October 1, 2026. Proposed class settlements, not yet finally approved.",
       "entities": [
@@ -256,7 +256,7 @@
         "Nation Ford Chemical Company",
         "Simpluris"
       ],
-      "jurisdiction": "Federal \u2014 D.S.C. MDL 2:18-mn-2873",
+      "jurisdiction": "Federal — D.S.C. MDL 2:18-mn-2873",
       "county_fips": [],
       "facility_ids": [],
       "compound_ids": [
@@ -286,7 +286,7 @@
         "U.S. Environmental Protection Agency",
         "Illinois Environmental Protection Agency"
       ],
-      "jurisdiction": "Illinois \u2014 EPA Region 5",
+      "jurisdiction": "Illinois — EPA Region 5",
       "county_fips": [],
       "facility_ids": [],
       "compound_ids": [
@@ -312,14 +312,14 @@
       "event_date": "2026-09-30",
       "published_date": "2026-10-02",
       "event_type": "rule_proposal",
-      "title": "EPA's proposed GenX/PFNA/PFHxS drinking-water MCL rescission still at proposal stage \u2014 September finalization target missed",
-      "summary": "EPA's September 2026 target for finalizing the MCL-rescission rule (GenX, PFNA, PFHxS, and the Hazard Index mixture) passed with no final rule issued. The May 20, 2026 proposal \u2014 rescinding those MCLs on procedural grounds and extending PFOA/PFOS compliance to April 2031 for qualifying systems \u2014 remains at the proposal stage. The 2024 federal MCLs remain in force during litigation; the delay extends the window in which state action (like NC's 18C .1540) carries the regulatory load.",
+      "title": "EPA's proposed GenX/PFNA/PFHxS drinking-water MCL rescission still at proposal stage — September finalization target missed",
+      "summary": "EPA's September 2026 target for finalizing the MCL-rescission rule (GenX, PFNA, PFHxS, and the Hazard Index mixture) passed with no final rule issued. The May 20, 2026 proposal — rescinding those MCLs on procedural grounds and extending PFOA/PFOS compliance to April 2031 for qualifying systems — remains at the proposal stage. The 2024 federal MCLs remain in force during litigation; the delay extends the window in which state action (like NC's 18C .1540) carries the regulatory load.",
       "status": "proposal_stage",
-      "status_basis": "Re-verified October 14, 2026 (Pace Analytical, PFAS News and Views \u2014 October 2026): the final rescission rule remains unpublished; the D.C. Circuit heard oral argument September 18, 2026 and declined EPA's requested partial vacatur. The 2024 MCLs remain in force.",
+      "status_basis": "Re-verified October 14, 2026 (Pace Analytical, PFAS News and Views — October 2026): the final rescission rule remains unpublished; the D.C. Circuit heard oral argument September 18, 2026 and declined EPA's requested partial vacatur. The 2024 MCLs remain in force.",
       "entities": [
         "U.S. Environmental Protection Agency"
       ],
-      "jurisdiction": "Federal \u2014 EPA Office of Water",
+      "jurisdiction": "Federal — EPA Office of Water",
       "county_fips": [],
       "facility_ids": [],
       "compound_ids": [
@@ -337,22 +337,21 @@
         "https://www.jonesday.com/en/insights/2026/05/epa-proposes-to-rescind-certain-pfas-drinking-water-standards-and-extend-compliance-deadlines-for-pfoa-and-pfos"
       ],
       "last_verified": "2026-10-14"
-    }
-,
+    },
     {
       "id": "wilmington-harbor-suspension-2026-09",
       "event_date": "2026-09-18",
       "published_date": "2026-10-05",
       "event_type": "project_suspension",
       "title": "NC Ports Authority asks Army Corps to suspend Wilmington Harbor deepening over PFAS in sediment",
-      "summary": "NC State Ports Authority Executive Director Brian Clark wrote to the U.S. Army Corps of Engineers on September 18, 2026, asking the Corps to suspend further consideration of the Wilmington Harbor Navigation Expansion Project \u2014 a $1.35 billion deepening of the Cape Fear River shipping channel from 42 to 47 feet over roughly 26 miles \u2014 and the associated Section 403 Letter Report activities, citing questions about PFAS contamination in harbor sediment. A record of decision is pending. The Corps said the request went to the Office of the Assistant Secretary of the Army for Civil Works; next steps rest with OASA(CW) and Congress.",
+      "summary": "NC State Ports Authority Executive Director Brian Clark wrote to the U.S. Army Corps of Engineers on September 18, 2026, asking the Corps to suspend further consideration of the Wilmington Harbor Navigation Expansion Project — a $1.35 billion deepening of the Cape Fear River shipping channel from 42 to 47 feet over roughly 26 miles — and the associated Section 403 Letter Report activities, citing questions about PFAS contamination in harbor sediment. A record of decision is pending. The Corps said the request went to the Office of the Assistant Secretary of the Army for Civil Works; next steps rest with OASA(CW) and Congress.",
       "status": "suspension_requested",
       "status_basis": "NCSPA letter dated September 18, 2026; reported by WilmingtonBiz and Star News on October 5, 2026, and Public Radio East on October 7, 2026.",
       "entities": [
         "NC State Ports Authority",
         "U.S. Army Corps of Engineers"
       ],
-      "jurisdiction": "North Carolina \u2014 Cape Fear River / Wilmington Harbor",
+      "jurisdiction": "North Carolina — Cape Fear River / Wilmington Harbor",
       "county_fips": [
         "37129"
       ],
@@ -384,7 +383,7 @@
         "U.S. Environmental Protection Agency",
         "Southern Environmental Law Center"
       ],
-      "jurisdiction": "Federal \u2014 EPA Office of Water",
+      "jurisdiction": "Federal — EPA Office of Water",
       "county_fips": [],
       "facility_ids": [],
       "compound_ids": [
@@ -400,8 +399,68 @@
         "https://www.selc.org/press-release/epa-downplays-risks-from-toxic-pfas-contamination-of-farms-food-and-water-sources-in-watered-down-guidance/"
       ],
       "last_verified": "2026-10-14"
+    },
+    {
+      "id": "epa-pfas-tech-strategy-2026-10",
+      "event_date": "2026-10-26",
+      "published_date": "2026-10-26",
+      "event_type": "federal_strategy",
+      "title": "EPA launches first agency-wide PFAS TECH strategy",
+      "summary": "EPA launched its first agency-wide PFAS strategy — PFAS Technology, Evaluation, Coordination, and Harmonization (TECH) — announced by Administrator Zeldin in Commerce City, Colorado on October 26, 2026. Over roughly two years it aims to (1) accelerate treatment and destruction R&D (foam fractionation, supercritical water oxidation, hydrothermal alkaline treatment, novel sorbents) through partnerships, (2) run pilot-scale demonstrations at Superfund sites, military facilities, wastewater plants, and drinking water systems, and (3) translate results into practice through guidance, a new Break the Bond Navigator tool, and help for water systems accessing funding and technical assistance. EPA intends grant funding for PFAS destruction research through STAR and SBIR, but announced no amounts or dates. The strategy changes no MCL and no rule; all six 2024 drinking-water limits remain in force. NC angle is context only: Morrisville-based 374Water aligned its AirSCWO technology with the strategy in October 27–29 releases — company positioning, not a regulatory action.",
+      "status": "launched_no_funding_announced",
+      "status_basis": "EPA news release, October 26, 2026.",
+      "entities": [
+        "U.S. Environmental Protection Agency"
+      ],
+      "jurisdiction": "Federal — U.S. Environmental Protection Agency",
+      "county_fips": [],
+      "facility_ids": [],
+      "compound_ids": [
+        "PFAS (class)"
+      ],
+      "waterbody_ids": [],
+      "obligations": [],
+      "related_event_ids": [
+        "epa-mcl-rescission-status-2026-09"
+      ],
+      "amount_usd": null,
+      "source_urls": [
+        "https://www.epa.gov/newsreleases/epas-first-ever-pfas-tech-strategy-spurs-innovation-research-and-technology-address"
+      ],
+      "last_verified": "2026-10-30"
+    },
+    {
+      "id": "environment-america-nc-waterways-2026-10",
+      "event_date": "2026-10-13",
+      "published_date": "2026-10-26",
+      "event_type": "report_data",
+      "title": "Environment America: PFAS detected in 25 of 29 NC waterways tested",
+      "summary": "Environment America's PFAS report (released October 13, 2026; 2022–2024 data from the Water Quality Portal, Waterkeeper groups, and state data) found PFAS at 83% of 1,602 surface-water locations nationally. The NC-specific breakdown, published by the NC League of Conservation Voters on October 26, 2026: 25 of 29 NC waterways tested by conservation groups showed PFAS detections, 19 above 4 ppt, and 13 above 10 ppt for other PFAS including GenX. These are surface-water detections, not drinking-water compliance findings; the 4 ppt figure is the PFOA/PFOS drinking-water MCL, while the GenX/PFNA/PFHxS MCLs are 10 ppt. The report summary does not name the 29 waterways, so no county-level attribution is made.",
+      "status": "published",
+      "status_basis": "Environment America / Frontier Group report, October 13, 2026; NC League of Conservation Voters Conservation Insider Bulletin, October 26, 2026.",
+      "entities": [
+        "Environment America",
+        "Frontier Group",
+        "NC League of Conservation Voters"
+      ],
+      "jurisdiction": "North Carolina — statewide surface waters",
+      "county_fips": [],
+      "facility_ids": [],
+      "compound_ids": [
+        "PFOA",
+        "PFOS",
+        "HFPO-DA (GenX)"
+      ],
+      "waterbody_ids": [],
+      "obligations": [],
+      "related_event_ids": [],
+      "amount_usd": null,
+      "source_urls": [
+        "https://nclcv.org/cib10262026-most-nc-rivers-pfas-contaminated/"
+      ],
+      "last_verified": "2026-10-30"
     }
   ],
-  "last_updated": "2026-10-14",
-  "note": "Dated policy-and-enforcement events linked to places, media, obligations, and procedural status. Draft source of truth \u2014 measurements live in pfas-nc-data.json and pfas-sites.json and are never altered by narrative events."
+  "last_updated": "2026-10-30",
+  "note": "Dated policy-and-enforcement events linked to places, media, obligations, and procedural status. Draft source of truth — measurements live in pfas-nc-data.json and pfas-sites.json and are never altered by narrative events."
 }

@@ -51,6 +51,8 @@ const EVENT_TYPE_META: Record<string, { label: string; classes: string }> = {
   guidance_rescission: { label: "Guidance rescission", classes: "bg-orange-400/10 text-orange-300 border-orange-400/20" },
   settlement: { label: "Settlement", classes: "bg-emerald-400/10 text-emerald-300 border-emerald-400/20" },
   enforcement_notice: { label: "Enforcement notice", classes: "bg-rose-400/10 text-rose-300 border-rose-400/20" },
+  federal_strategy: { label: "Federal strategy", classes: "bg-sky-400/10 text-sky-300 border-sky-400/20" },
+  report_data: { label: "Report / data", classes: "bg-violet-400/10 text-violet-300 border-violet-400/20" },
 };
 
 function formatMoney(usd: number | null): string | null {
