@@ -266,7 +266,9 @@
       "obligations": [
         "Objections due Nov 23, 2026; opt-outs due Dec 22, 2026; final fairness hearing Jan 15, 2027"
       ],
-      "related_event_ids": [],
+      "related_event_ids": [
+        "3m-afff-pi-settlement-2026-11"
+      ],
       "amount_usd": 149075000,
       "source_urls": [
         "https://www.kcau9.com/business/press-releases/cision/20261001LA62413/notice-to-public-water-systems-in-the-united-states-of-four-proposed-pfas-settlements-totaling-more-than-149-million/"
@@ -278,10 +280,10 @@
       "event_date": "2026-09-30",
       "published_date": "2026-09-30",
       "event_type": "primacy_determination",
-      "title": "EPA tentatively approves Illinois PFAS drinking-water primacy",
-      "summary": "EPA announced a tentative decision to approve Illinois' revised public water system supervision program, finding the state adopted the federal six-PFAS rule with provisions no less stringent than the national standard (Illinois earlier set enforceable MCLs for five PFAS plus a Hazard Index mixture approach). Public comments and hearing requests are due October 30, 2026. This is a comparative-state datapoint: Illinois is moving ahead with federal-alignment enforcement while North Carolina's own drinking-water rule (15A NCAC 18C .1540) sits in the legislature's tracked package.",
-      "status": "tentative",
-      "status_basis": "EPA Region 5 public notice, September 30, 2026; comments due October 30, 2026.",
+      "title": "Illinois PFAS drinking-water primacy final and effective October 30, 2026",
+      "summary": "EPA announced a tentative decision on September 30, 2026 to approve Illinois' revised public water system supervision program, finding the state adopted the federal six-PFAS rule with provisions no less stringent than the national standard (Illinois earlier set enforceable MCLs for five PFAS plus a Hazard Index mixture approach). No substantial hearing request was filed by the October 30, 2026 deadline, so under the Federal Register notice (91 FR 61847) the tentative approval became final and effective October 30, 2026 by operation of the notice — EPA issues no further notice, so finality rests on the notice's terms and the absence of a contrary filing. Illinois' standards are the state's own, mirror the 2024 federal rule, and would not automatically change if EPA finalizes its proposed MCL-rescission and compliance-extension rules. This is a comparative-state datapoint: Illinois now carries federal-alignment enforcement while North Carolina's own drinking-water rule (15A NCAC 18C .1540) sits in the legislature's tracked package.",
+      "status": "final",
+      "status_basis": "EPA Region 5 public notice (91 FR 61847), September 30, 2026: tentative approval becomes effective October 30, 2026 absent a timely substantial hearing request. No hearing request or hearing notice found in EPA, Federal Register, or Illinois sources as of November 6, 2026; Pace PFAS News & Views (November 5, 2026) reports none.",
       "entities": [
         "U.S. Environmental Protection Agency",
         "Illinois Environmental Protection Agency"
@@ -305,7 +307,7 @@
         "https://www.epa.gov/publicnotices/epa-seeks-comments-approval-illinois-public-water-system-supervision-program-revision",
         "https://w4news.org/illinois-pfas-drinking-water-primacy-hearing-2026/"
       ],
-      "last_verified": "2026-10-14"
+      "last_verified": "2026-11-06"
     },
     {
       "id": "epa-mcl-rescission-status-2026-09",
@@ -459,8 +461,71 @@
         "https://nclcv.org/cib10262026-most-nc-rivers-pfas-contaminated/"
       ],
       "last_verified": "2026-10-30"
+    },
+    {
+      "id": "3m-afff-pi-settlement-2026-11",
+      "event_date": "2026-11-03",
+      "published_date": "2026-11-03",
+      "event_type": "settlement",
+      "title": "3M agrees to .35 billion settlement of AFFF personal-injury claims",
+      "summary": "3M entered a Master Settlement Agreement on November 3, 2026 resolving the personal-injury (PI) track of the AFFF Products Liability MDL (D.S.C. No. 2:18-mn-2873): a .35 billion nominal commitment over nine years through 2034 (.8 billion present value; a .8 billion pre-tax charge in Q4 2026; a 80 million reserve for remaining and future claims is included). The opt-in deal addresses roughly 99% of current PI claims in and outside the MDL — an estimated 115,000–120,000 eligible plaintiffs — with 0 million payable in 2026, no payments in 2027, and about 20% due in the final two years. It is not an admission of liability and is subject to participation thresholds 3M may use to terminate if unmet. Judge Gergel's Case Management Orders 39 and 40 (November 4, 2026) set a November 13, 2026 deadline to identify eligible claimants and stayed PI proceedings against 3M. The deal reverses the MDL's prior posture of no PI settlement with a first PI trial expected in 2027. Claims against DuPont, Chemours, Corteva, and other defendants are not settled, and the public-water-system track is separate — the Town of Newport, NC's MDL suit, for example, is an environmental/public-water-system case and is not covered by the PI deal.",
+      "status": "signed_opt_in",
+      "status_basis": "3M press release, November 3, 2026. CMO 39/40 terms as reported in MDL coverage, November 4, 2026 (secondary source; court text not independently read).",
+      "entities": [
+        "3M Company",
+        "U.S. District Court for the District of South Carolina"
+      ],
+      "jurisdiction": "Federal — D.S.C. MDL 2:18-mn-2873",
+      "county_fips": [],
+      "facility_ids": [],
+      "compound_ids": [
+        "PFAS (class)"
+      ],
+      "waterbody_ids": [],
+      "obligations": [
+        "Eligible claimants to be identified by November 13, 2026 (CMO 39)"
+      ],
+      "related_event_ids": [
+        "afff-mdl-pws-settlements-2026-10"
+      ],
+      "amount_usd": 7350000000,
+      "source_urls": [
+        "https://news.3m.com/2026-11-03-3M-Reaches-Broad-Resolution-of-AFFF-Personal-Injury-Litigation"
+      ],
+      "last_verified": "2026-11-06"
+    },
+    {
+      "id": "ewg-ucmr5-final-installment-2026-11",
+      "event_date": "2026-11-05",
+      "published_date": "2026-11-05",
+      "event_type": "report_data",
+      "title": "EWG: final UCMR 5 data put PFAS in the tap water of 197 million people",
+      "summary": "The Environmental Working Group's November 5, 2026 analysis of the final UCMR 5 installment — EPA's completed survey of 29 PFAS in public drinking water (final release: 1,991,977 results from 10,313 public water systems, sampled January 2023–June 2026) — estimates 197 million people are served by systems with PFAS detections, up 23 million from the prior installment, with detections at 3,595 sites and EWG's known-contaminated-sites total rising to 13,459. UCMR 5 results are occurrence and screening data: a detection, or a single result above an MCL benchmark, is not a compliance finding or a violation — compliance is judged on running annual averages under the 2024 rule. Tosson rebuilt its NC layers from the final release on November 6, 2026: the final file added 1,386 NC results, none of which raised any system's recorded maximum, so the NC figures are unchanged — 70 counties and 177 systems with detections, 47 counties above the MCL benchmark, Nash County highest at 122.5× the benchmark.",
+      "status": "published",
+      "status_basis": "EWG news release, November 5, 2026 (as syndicated); EPA UCMR 5 national summary, October 18, 2026; Tosson data pipeline rebuild against the final release, November 6, 2026.",
+      "entities": [
+        "Environmental Working Group",
+        "U.S. Environmental Protection Agency"
+      ],
+      "jurisdiction": "Federal — nationwide",
+      "county_fips": [],
+      "facility_ids": [],
+      "compound_ids": [
+        "PFAS (class)",
+        "PFOA",
+        "PFOS"
+      ],
+      "waterbody_ids": [],
+      "obligations": [],
+      "related_event_ids": [],
+      "amount_usd": null,
+      "source_urls": [
+        "https://getwetprojectblog.com/2026/11/05/toxic-forever-chemicals-found-in-tap-water-of-197m-americans/",
+        "https://www.epa.gov/system/files/documents/2026-10/pfas_ucmr5_national_statistics_20261018.pdf"
+      ],
+      "last_verified": "2026-11-06"
     }
   ],
-  "last_updated": "2026-10-30",
+  "last_updated": "2026-11-06",
   "note": "Dated policy-and-enforcement events linked to places, media, obligations, and procedural status. Draft source of truth — measurements live in pfas-nc-data.json and pfas-sites.json and are never altered by narrative events."
 }
