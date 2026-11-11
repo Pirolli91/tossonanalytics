@@ -64,3 +64,40 @@ remove `draft: true` from its frontmatter on Temitope's approval and push.
 3. **Sending**: issues are created as Buttondown drafts for owner approval;
    the pipeline never sends. Cadence per runbook doc 08 (Wed refresh → Fri
    draft → weekend approval → Mon 07:30 ET send).
+
+## Design delivery — the wrapped standard (2026-11-11, owner-directed)
+
+Issue #0's first Buttondown send went out as Markdown, so subscribers got
+Buttondown's rendering instead of the designed HTML. Owner chose the free
+"wrapped" route over the paywalled raw-HTML mode:
+
+- **Naked mode (raw standalone HTML) is Professional-only: $79/mo** (verified
+  in the account's billing dialog 2026-11-11; Basic $9/mo includes paid
+  subscriptions, so the Issue #10 paid tier costs $9/mo flat at ≤1,000 subs).
+  Buttondown's API cannot be wired headlessly either: it authenticates with
+  `Authorization: Token <key>`, which the Secure Vault API placements cannot
+  express. Delivery stays in the Buttondown editor.
+- **Bug found by the owner in the first designed test:** in Markdown mode the
+  document shell and outer layout tables do not reliably survive, so sections
+  that relied on an ancestor's background lost it — light text (#f8fafc,
+  #e2e8f0, #94a3b8) landed on Buttondown's white wrapper and vanished
+  (measured: 27 text blocks below 4.0:1 contrast, worst 1.05:1 — white on
+  white — in the wrapper simulation; cards with their own backgrounds were
+  unaffected).
+- **Fix: `bin/make-wrapped.js`** converts `out/issue-<N>/issue-<N>.html` into
+  `issue-<N>-wrapped.html`, a body-only fragment for Markdown-mode paste:
+  masthead/footer/banner removed (Buttondown supplies header, address,
+  unsubscribe); masthead issue line re-homed in a slim intro band; footer
+  methodology notice re-homed in a closing card; **every section cell carries
+  its own background-color + bgcolor attribute** (58 bgcolor attrs in
+  Issue #0) so no text depends on an ancestor; secondary text brightened
+  (#94a3b8 → #b7c3d4); body copy raised to 14–15px; blank lines removed so
+  the fragment is a single HTML block.
+- **QA gate:** the wrapped fragment must score **zero text blocks below
+  4.0:1** in the contrast audit even with its own root tables stripped
+  (worst case). Issue #0 wrapped: 277 text nodes, 0 flags in both audits.
+- Weekly flow from Issue #1: run the pipeline, run `make-wrapped.js` on the
+  HTML output, paste the wrapped fragment into the Buttondown draft
+  (Markdown mode), owner approves, send. The standalone HTML remains the
+  design of record (and the Naked-mode file if the plan ever reaches
+  Professional).
