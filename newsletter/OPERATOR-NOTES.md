@@ -101,3 +101,30 @@ Buttondown's rendering instead of the designed HTML. Owner chose the free
   (Markdown mode), owner approves, send. The standalone HTML remains the
   design of record (and the Naked-mode file if the plan ever reaches
   Professional).
+
+## Editorial light theme (2026-11-11, owner-directed — supersedes dark)
+
+The owner rejected the dark wrapped design after Test 2: in his inbox some
+texts rendered **black on the dark cards** (inherited-color text repainted
+by the client/wrapper — the mirror image of Test 1's white-on-white). He
+supplied Clean Water for NC's *Clean Currents* print newsletters (Summer
+2017 + Summer 2022) as the design class to follow — light, bright,
+editorial — and required **colors unique to Tosson**.
+
+- **Fix: `bin/make-editorial.js`** converts the wrapped fragment into the
+  light editorial theme. No dark blocks anywhere: if any background or
+  color is dropped in transit, the fallback is dark text on a light ground,
+  which still reads. QA: 282 text nodes, **zero below 4.0:1 in all three
+  audits** — as-is, roots stripped, and all backgrounds dropped.
+- **Tosson palette — "Cape Fear petrol & marigold"** (original; not the
+  reference's sky blue, not the old slate): paper #FAF6ED, ink #1E2A26,
+  brand/NC petrol #064E5A, marigold #96660A (fills #E9A319), brick #A63A24
+  (Top Line + deadlines), US indigo-slate #3E5C82, Research plum #6E3B8A,
+  tints #F3EDDC / #EAF2EE / #EDF0F3.
+- **Typography:** Georgia serif nameplate, headlines and body copy; sans
+  for labels/data; mono for URLs. Extras: marigold ISSUE pill, petrol
+  double rule, an outlined "Check your county" dashboard button after the
+  Top Line, cream closing band with the methodology notice.
+- Test 3 (editorial Issue #0) sent to the owner only 2026-11-11 for his
+  verdict against Test 2 (dark). Whichever he picks becomes the standing
+  Issue #1+ standard; the other builder stays in the repo unused.
