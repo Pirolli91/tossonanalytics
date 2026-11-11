@@ -125,6 +125,13 @@ editorial — and required **colors unique to Tosson**.
   for labels/data; mono for URLs. Extras: marigold ISSUE pill, petrol
   double rule, an outlined "Check your county" dashboard button after the
   Top Line, cream closing band with the methodology notice.
-- Test 3 (editorial Issue #0) sent to the owner only 2026-11-11 for his
-  verdict against Test 2 (dark). Whichever he picks becomes the standing
-  Issue #1+ standard; the other builder stays in the repo unused.
+- Test 3 (editorial Issue #0) sent to the owner only 2026-11-11.
+  **OWNER VERDICT (2026-11-11): editorial light is THE standard for
+  Issue #1 onward.** The dark wrapped design (Test 2) is retired;
+  `make-wrapped.js` remains only as the structural first pass.
+- **Standing weekly email flow:** run the pipeline →
+  `bin/make-wrapped.js out/issue-<N>/issue-<N>.html` →
+  `bin/make-editorial.js out/issue-<N>/issue-<N>-wrapped.html` → paste the
+  **editorial** fragment into the Buttondown draft (Markdown mode) → owner
+  approves → send. Contrast-audit gate before every test send: zero text
+  nodes below 4.0:1 in all three simulations.
