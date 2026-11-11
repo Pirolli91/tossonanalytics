@@ -286,7 +286,7 @@ export default function Home() {
                   Live PFAS Dashboard — North Carolina
                 </h2>
                 <p className="mt-2 text-sm text-white/55 font-[var(--font-source-sans)]">
-                  Interactive choropleth map updated nightly from USGS WQP,
+                  Interactive choropleth map updated weekly from USGS WQP,
                   EPA UCMR 5, and NC DEQ datasets. Severity scores benchmark the highest UCMR 5 result
                   against the 4.0 ppt EPA MCLs — a screening comparison,
                   not a compliance finding.

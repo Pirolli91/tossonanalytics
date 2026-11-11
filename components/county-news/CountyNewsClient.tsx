@@ -188,7 +188,7 @@ export function CountyNewsClient() {
             className="inline-block rounded-full px-2.5 py-0.5 text-[10px] font-semibold"
             style={{ background: "rgba(124,58,237,0.15)", color: "#a78bfa" }}
           >
-            Gemma 4 · AI analysis
+            AI-assisted analysis
           </span>
         </div>
         <h1 className="text-3xl font-bold leading-tight lg:text-4xl">
@@ -196,8 +196,8 @@ export function CountyNewsClient() {
           <span style={{ color: "var(--brand-accent)" }}>by County</span>
         </h1>
         <p className="mt-2 max-w-2xl text-sm text-white/45 font-[var(--font-source-sans)] leading-relaxed">
-          Real-time PFAS, water quality, and environmental contaminant news for all 100 North
-          Carolina counties — sourced daily and analysed by Gemma 4 in Dr. Soneye&apos;s voice.
+          Weekly PFAS, water quality, and environmental contaminant news for all 100 North
+          Carolina counties — sourced weekly and analysed with AI assistance in Dr. Soneye&apos;s voice.
         </p>
       </div>
 
@@ -305,7 +305,7 @@ export function CountyNewsClient() {
           )}
         </div>
 
-        {/* Gemma analysis card */}
+        {/* AI analysis card */}
         {entry?.analysis && (
           <div
             className="mb-6 rounded-2xl border border-[var(--brand-accent)]/20 p-5"
@@ -314,7 +314,7 @@ export function CountyNewsClient() {
             <div className="flex items-center gap-2 mb-3">
               <FlaskConical className="h-4 w-4" style={{ color: "var(--brand-accent)" }} />
               <span className="text-[11px] font-semibold uppercase tracking-wider" style={{ color: "var(--brand-accent)" }}>
-                Expert Analysis · Dr. Soneye / Gemma 4
+                Expert Analysis · Dr. Soneye
               </span>
             </div>
             <p className="text-sm text-white/70 font-[var(--font-source-sans)] leading-relaxed">
@@ -350,8 +350,8 @@ export function CountyNewsClient() {
 
       {/* Data attribution */}
       <p className="mt-10 text-center text-[10px] text-white/20 font-[var(--font-source-sans)]">
-        News sourced via Google News RSS · AI analysis by Gemma 4 (gemma-4-E4B-it-Q5_K_M) ·
-        Data refreshed nightly · Always verify articles at the source
+        News sourced via Google News RSS · AI-assisted analysis ·
+        Data refreshed weekly · Always verify articles at the source
       </p>
     </div>
   );

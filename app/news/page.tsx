@@ -5,8 +5,8 @@ import { CountyNewsClient } from "@/components/county-news/CountyNewsClient";
 export const metadata: Metadata = {
   title: "PFAS News by County | Tosson Environmental Analytics",
   description:
-    "Real-time PFAS and water contaminant news for all 100 North Carolina counties, " +
-    "analysed by Gemma 4 AI in Dr. Soneye's expert voice.",
+    "Weekly PFAS and water contaminant news for all 100 North Carolina counties, " +
+    "analysed with AI assistance in Dr. Soneye's expert voice.",
 };
 
 export default function CountyNewsPage() {

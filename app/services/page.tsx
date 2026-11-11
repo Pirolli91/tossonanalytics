@@ -51,7 +51,7 @@ const SERVICES = [
       "Custom data pipelines and interactive choropleth visualizations built on the same infrastructure powering this platform — EPA UCMR 5, USGS WQP, and NC DEQ datasets normalized against regulatory thresholds.",
     deliverables: [
       "Custom interactive PFAS maps for municipal or agency reporting",
-      "Automated nightly data ingestion from EPA, USGS, and NC DEQ APIs",
+      "Automated weekly data ingestion from EPA, USGS, and NC DEQ APIs",
       "Hazard Index and severity scoring for multi-compound exposure",
       "Presentation-ready dashboards for public hearings and council meetings",
       "Data export in GeoJSON, CSV, and Excel formats",

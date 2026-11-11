@@ -315,7 +315,7 @@ export function DataPanel({ county, sites, onClose, onSiteSelect }: DataPanelPro
 
       <p className="text-[10px] text-white/25 font-[var(--font-source-sans)]">
         Data: EPA UCMR 5 (29 PFAS compounds) · NC DEQ · USGS WQP.
-        MCL: 4.0 ppt PFOA/PFOS (EPA April 10, 2024). Updated nightly.
+        MCL: 4.0 ppt PFOA/PFOS (EPA April 10, 2024). Updated weekly.
         Severity is a screening comparison of the highest UCMR 5 result to the MCL benchmark.
         UCMR 5 measures occurrence, not compliance — EPA determines MCL compliance from running annual averages of compliance monitoring.
       </p>

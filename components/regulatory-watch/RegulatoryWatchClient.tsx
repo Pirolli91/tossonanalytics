@@ -82,7 +82,7 @@ export function RegulatoryWatchClient({ digestHtml, digestTitle }: Props) {
           <div className="flex flex-col items-center text-center">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-[var(--brand-accent)]/20 bg-[var(--brand-accent)]/5 px-4 py-1.5 text-[10px] font-bold uppercase tracking-[0.2em] text-[var(--brand-accent)]">
               <Clock className="h-3 w-3" />
-              Daily Intelligence Briefing
+              Weekly Intelligence Briefing
             </div>
             <h1 className="text-4xl font-extrabold leading-[1.1] tracking-tight text-white sm:text-5xl lg:text-6xl">
               NC Regulatory <span className="text-[var(--brand-accent)]">Watch</span>
@@ -98,7 +98,7 @@ export function RegulatoryWatchClient({ digestHtml, digestTitle }: Props) {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-xl bg-[var(--brand-accent)] px-8 py-4 text-sm font-bold text-[var(--bg-main)] transition-all hover:scale-[1.02] active:scale-[0.98]"
               >
-                Join 500+ Stakeholders
+                Read the Newsletter
                 <ExternalLink className="h-4 w-4" />
               </a>
             </div>
@@ -154,7 +154,7 @@ export function RegulatoryWatchClient({ digestHtml, digestTitle }: Props) {
                 Analyst Methodology
               </h3>
               <p className="text-sm text-white/40 leading-relaxed">
-                Items are curated daily using a proprietary intelligence pipeline targeting high-value NC sources including the NCGA, Haw River Assembly, and NC DEQ. Summaries are synthesized by our AI analyst and verified for strategic relevance to municipal water utilities and environmental consultants.
+                Items are curated weekly using a proprietary intelligence pipeline targeting high-value NC sources including the NCGA, Haw River Assembly, and NC DEQ. Summaries are synthesized by our AI analyst and verified for strategic relevance to municipal water utilities and environmental consultants.
               </p>
             </div>
           </article>

@@ -7,7 +7,7 @@ import { RegulatoryWatchClient } from "@/components/regulatory-watch/RegulatoryW
 export const metadata: Metadata = {
   title: "NC Regulatory Watch | Tosson Environmental Analytics",
   description:
-    "Daily monitoring of NC DEQ, EMC, NCUC, and EPA actions affecting North Carolina — public comment windows, rulemaking, enforcement, and energy filings.",
+    "Weekly monitoring of NC DEQ, EMC, NCUC, and EPA actions affecting North Carolina — public comment windows, rulemaking, enforcement, and energy filings.",
   keywords: [
     "NC regulatory watch",
     "NC DEQ rulemaking",

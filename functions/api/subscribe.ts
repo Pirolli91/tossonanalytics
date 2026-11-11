@@ -6,9 +6,10 @@
  *
  * NOTE: On Cloudflare Pages the runtime is edge/Workers and has no
  * direct filesystem access. This function stores subscribers in a
- * Cloudflare KV namespace (SUBSCRIBERS_KV) if available, or returns
- * success for now so the UI wiring works. Wire up KV or an external
- * service (Mailchimp, etc.) as a follow-up.
+ * Cloudflare KV namespace (SUBSCRIBERS_KV). If no storage backend is
+ * wired, it returns 503 — it must never report success for a signup
+ * it did not durably store (fixed 2026-11-11; previously it returned
+ * success regardless, silently losing signups).
  *
  * Local dev: the function runs via `wrangler pages dev` and will
  * attempt to write to the local JSON file if the KV binding is absent.
@@ -59,24 +60,32 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     source: "regulatory-watch",
   };
 
-  // Store in KV if the binding is wired up
-  if (env.SUBSCRIBERS_KV) {
-    const key = `subscriber:${email}`;
-    const existing = await env.SUBSCRIBERS_KV.get(key);
-    if (existing) {
-      // Already subscribed — still return success
-      return new Response(
-        JSON.stringify({ success: true, already_subscribed: true }),
-        { status: 200, headers: corsHeaders }
-      );
-    }
-    await env.SUBSCRIBERS_KV.put(key, JSON.stringify(subscriber));
+  // Zero silent loss: if no durable storage backend is wired, fail
+  // honestly instead of reporting a success that stored nothing.
+  if (!env.SUBSCRIBERS_KV) {
+    return new Response(
+      JSON.stringify({
+        error:
+          "Subscriptions are temporarily unavailable. Please try again later.",
+      }),
+      { status: 503, headers: corsHeaders }
+    );
   }
 
-  // Always return success (KV is optional until wired)
+  const key = `subscriber:${email}`;
+  const existing = await env.SUBSCRIBERS_KV.get(key);
+  if (existing) {
+    // Already subscribed — still return success
+    return new Response(
+      JSON.stringify({ success: true, already_subscribed: true }),
+      { status: 200, headers: corsHeaders }
+    );
+  }
+  await env.SUBSCRIBERS_KV.put(key, JSON.stringify(subscriber));
+
   return new Response(
     JSON.stringify({ success: true }),
-    { status: 200, headers: corsHeaders }
+    { status: 201, headers: corsHeaders }
   );
 };
 
