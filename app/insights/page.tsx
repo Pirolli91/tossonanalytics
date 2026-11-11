@@ -49,6 +49,9 @@ function getAllPosts(): PostMeta[] {
         const slug = file.replace(/\.mdx$/, "");
         const source = readFileSync(join(dir, file), "utf-8");
         const meta = parseFrontmatter(source);
+        // Draft gate: posts with `draft: true` in frontmatter (e.g. newsletter
+        // archive seeds awaiting owner approval) are never listed.
+        if (meta.draft === "true") return null;
         return {
           slug,
           title:   (meta.title  as string) ?? slug,
@@ -58,6 +61,7 @@ function getAllPosts(): PostMeta[] {
           summary: (meta.summary as string) ?? "",
         };
       })
+      .filter((p): p is PostMeta => p !== null)
       .sort((a, b) => {
         // Sort by raw ISO date descending — derive from filename for daily posts
         const da = a.slug.match(/\d{4}-\d{2}-\d{2}/)?.[0] ?? a.date;

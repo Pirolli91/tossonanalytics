@@ -93,13 +93,11 @@ export function RegulatoryWatchClient({ digestHtml, digestTitle }: Props) {
             </p>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
               <a
-                href="https://temitopesoneye.substack.com"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#subscribe"
                 className="inline-flex items-center gap-2 rounded-xl bg-[var(--brand-accent)] px-8 py-4 text-sm font-bold text-[var(--bg-main)] transition-all hover:scale-[1.02] active:scale-[0.98]"
               >
-                Read the Newsletter
-                <ExternalLink className="h-4 w-4" />
+                Get the Weekly Briefing
+                <Mail className="h-4 w-4" />
               </a>
             </div>
           </div>
@@ -163,7 +161,7 @@ export function RegulatoryWatchClient({ digestHtml, digestTitle }: Props) {
           <aside className="flex flex-col gap-8">
 
             {/* Email Signup Card */}
-            <div className="group rounded-2xl border border-white/10 bg-white/[0.03] p-8 transition-colors hover:border-[var(--brand-accent)]/30">
+            <div id="subscribe" className="group rounded-2xl border border-white/10 bg-white/[0.03] p-8 transition-colors hover:border-[var(--brand-accent)]/30">
               <div className="mb-6 flex items-center gap-3">
                 <div className="rounded-xl bg-[var(--brand-accent)]/10 p-3">
                   <Mail className="h-6 w-6 text-[var(--brand-accent)]" />
@@ -223,19 +221,17 @@ export function RegulatoryWatchClient({ digestHtml, digestTitle }: Props) {
               )}
             </div>
 
-            {/* Substack Promotion */}
+            {/* Newsletter Promotion — Carolina PFAS Weekly (Buttondown; Substack retired 2026-11-11) */}
             <div className="rounded-2xl border border-[var(--brand-accent)]/20 bg-gradient-to-br from-[var(--brand-accent)]/10 to-transparent p-8">
-              <h3 className="text-lg font-bold text-white mb-3">Professional Newsletter</h3>
+              <h3 className="text-lg font-bold text-white mb-3">Carolina PFAS Weekly</h3>
               <p className="text-sm text-white/60 leading-relaxed mb-6">
-                Dr. Soneye’s curated weekly roundup delivered every Monday morning. Join the inner circle of NC environmental leaders.
+                Dr. Soneye’s curated weekly PFAS briefing for North Carolina — delivered every Monday morning by Tosson Environmental Analytics.
               </p>
               <a
-                href="https://temitopesoneye.substack.com"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#subscribe"
                 className="group inline-flex items-center gap-2 text-sm font-bold text-[var(--brand-accent)] hover:underline"
               >
-                Go to Substack
+                Subscribe free
                 <ChevronRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               </a>
             </div>

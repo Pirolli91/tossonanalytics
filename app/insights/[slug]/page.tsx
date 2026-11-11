@@ -1,17 +1,27 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { readdirSync } from "fs";
+import { readdirSync, readFileSync } from "fs";
 import { join } from "path";
 import { Badge } from "@/components/ui/badge";
 import { Navbar } from "@/components/Navbar";
 import { ArrowLeft, Calendar, User } from "lucide-react";
 
-// Auto-discover all MDX slugs from content/insights/ at build time
+// Auto-discover all MDX slugs from content/insights/ at build time.
+// Draft gate: files whose frontmatter sets `draft: true` (e.g. newsletter
+// archive seeds awaiting owner approval) get no static page.
 export function generateStaticParams() {
   try {
     const dir = join(process.cwd(), "content", "insights");
     return readdirSync(dir)
       .filter((f) => f.endsWith(".mdx"))
+      .filter((f) => {
+        try {
+          const head = readFileSync(join(dir, f), "utf-8").slice(0, 4000);
+          return !/^draft:\s*true\s*$/m.test(head);
+        } catch {
+          return true;
+        }
+      })
       .map((f) => ({ slug: f.replace(/\.mdx$/, "") }));
   } catch {
     return [{ slug: "nc-emc-hearings-march-2026" }];
@@ -42,6 +52,18 @@ export default async function InsightPost({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+
+  // Draft gate (runtime backstop): a `draft: true` post 404s even if reached directly.
+  try {
+    const head = readFileSync(
+      join(process.cwd(), "content", "insights", `${slug}.mdx`),
+      "utf-8"
+    ).slice(0, 4000);
+    if (/^draft:\s*true\s*$/m.test(head)) notFound();
+  } catch {
+    // Unreadable file — fall through to the normal notFound path below.
+  }
+
   const mod = await getPost(slug);
 
   if (!mod) notFound();

@@ -36,8 +36,9 @@ function getLatestInsights(limit = 3) {
         const displayDate = iso
           ? new Date(iso + "T12:00:00Z").toLocaleDateString("en-US", { month: "short", year: "numeric" })
           : "";
-        return { slug, title: meta.title ?? slug, date: iso, displayDate };
+        return { slug, title: meta.title ?? slug, date: iso, displayDate, draft: meta.draft === "true" };
       })
+      .filter((p) => !p.draft)
       .sort((a, b) => b.date.localeCompare(a.date))
       .slice(0, limit);
   } catch {

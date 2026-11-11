@@ -1,0 +1,17 @@
+{
+  "name": "tosson-newsletter-guardrail",
+  "version": "1.0.0",
+  "description": "Headless weekly PFAS intelligence newsletter pipeline and source/framing guardrail for Tosson Environmental Analytics",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build:issue0": "node bin/run-pipeline.js --issue 0 --date 2026-11-16 --seed data/seed-issue-0.json --out-dir ../artifacts/file_generation/ttl=63d/output",
+    "draft:weekly": "node bin/run-pipeline.js",
+    "test:guardrail": "node bin/run-pipeline.js --issue 0 --date 2026-11-16 --seed data/seed-issue-0.json --verify-only"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Dr. Temitope D. Soneye, PhD — Tosson Services LLC dba Tosson Environmental Analytics",
+  "license": "UNLICENSED"
+}
