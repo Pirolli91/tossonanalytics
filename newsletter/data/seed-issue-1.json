@@ -1,0 +1,251 @@
+{
+  "issue_number": 1,
+  "issue_slug": "2026-11-16-issue-1-carolina-pfas-weekly",
+  "issue_title": "Carolina PFAS Weekly — Issue #1: DEQ Finds 'Significant Deficiencies' in Chemours' Cleanup Plan & the AFFF Objection Deadline Hits Nov 23",
+  "publish_date": "2026-11-16",
+  "generated_on": "2026-11-13",
+  "is_sample_issue": false,
+  "top_line": {
+    "headline": "NC DEQ Finds 'Significant Deficiencies' in Chemours' Consent-Order Cleanup Plan and Directs a Full Lower Cape Fear Assessment",
+    "proof_number": "≈$1.2 billion spent on Consent Order compliance · ~27,500 household wells sampled · ~10,500 families offered filtration — yet DEQ says the contamination assessment is unfinished and the long-term cleanup has stalled",
+    "summary": "On November 9, 2026, the NC Department of Environmental Quality (DEQ) sent Chemours formal comments finding significant deficiencies in the company's On and Offsite Assessment and Corrective Action Plan under the 2019 Consent Order, directing Chemours to fully assess contaminated soil and groundwater throughout the Lower Cape Fear region and any associated risks, revise its Corrective Action Plan to restore contaminated groundwater in compliance with state law, expand the plan to include all PFAS associated with Fayetteville Works rather than a limited subset of contaminants, and evaluate the impacts of the facility's remaining emissions on groundwater. 'Today's direction to the company makes clear that DEQ expects Chemours to clean up all the areas they have polluted,' said DEQ Secretary Reid Wilson. 'DEQ will hold Chemours accountable no matter how long it takes.' DEQ framed the action as a major step forward in the process outlined in the September 2026 settlement among Chemours, North Carolina, and 11 counties and municipal water systems — confirming the settlement did not close the consent-order cleanup dispute.",
+    "source_id": "NC-01",
+    "source_url": "https://content.govdelivery.com/accounts/NCDEQ/bulletins/4323a10",
+    "secondary_source_id": "NC-17",
+    "secondary_source_url": "https://tossonanalytics.com/regulatory-watch"
+  },
+  "deadlines_and_dockets": [
+    {
+      "date": "2026-11-23",
+      "tag": "[NC Water Systems]",
+      "title": "AFFF MDL $149.075M Public-Water-System Class Settlements — Objection Deadline",
+      "jurisdiction": "U.S. District Court, D.S.C. (MDL No. 2:18-mn-2873)",
+      "action": "Deadline for eligible public water systems (including NC utilities with UCMR 5 detections) to file objections to proposed class settlements with Carrier ($129.2M), Archroma ($14M), Amerex ($4M), and Nation Ford Chemical ($1.875M). Opt-outs due December 22, 2026; fairness hearing January 15, 2027.",
+      "source_id": "NC-17",
+      "url": "https://tossonanalytics.com/policy-tracker"
+    },
+    {
+      "date": "2026-12-31",
+      "tag": "[NC Rulemaking]",
+      "title": "NC EMC Proposed PFAS & 1,4-Dioxane Monitoring Rules (15A NCAC 02B .0512 / 02H .0923) — Hearing Officer Report & EMC Action Window",
+      "jurisdiction": "NC Environmental Management Commission (EMC) / NC DEQ",
+      "action": "Following the March 16 – June 15, 2026 comment period and public hearings on baseline PFOA, PFOS, and GenX sampling (EPA Method 1633A) and minimization plans for industrial NPDES dischargers and POTWs, utilities and advocates await the hearing officer's report and final EMC adoption vote.",
+      "source_id": "NC-04",
+      "url": "https://www.deq.nc.gov/news/press-releases/2026/03/10/updated-public-hearings-scheduled-proposed-pfas-monitoring-minimization-rules"
+    },
+    {
+      "date": "2027-01-08",
+      "tag": "[Chemours Response]",
+      "title": "Chemours Response Due on DEQ's 'Significant Deficiencies' Comments — Groundwater & Soil Assessment and Corrective Action Plan",
+      "jurisdiction": "NC DEQ / 2019 Consent Order (Fayetteville Works)",
+      "action": "DEQ's November 9, 2026 comments gave Chemours approximately 60 days to respond on the groundwater and soil assessment and Corrective Action Plan, as reported by Inside Climate News (November 11, 2026); DEQ's own release states no date. A plan addressing DEQ's separate air-emissions concerns is reported due by February 2027.",
+      "source_id": "NC-17",
+      "url": "https://tossonanalytics.com/regulatory-watch"
+    },
+    {
+      "date": "2027-01-31",
+      "tag": "[Federal TSCA]",
+      "title": "EPA TSCA Section 8(a)(7) PFAS 2011–2022 Manufacturer Reporting Window Opens",
+      "jurisdiction": "US EPA (Docket EPA-HQ-OPPT-2020-0549)",
+      "action": "Modified submission window opens for manufacturers and importers of PFAS (including fluoropolymers and articles from 2011–2022) per EPA's April 13, 2026 final rule (Document 2026-07062).",
+      "source_id": "US-01",
+      "url": "https://www.federalregister.gov/documents/2026/04/13/2026-07062/modification-to-the-start-of-the-submission-period-for-perfluoroalkyl-and-polyfluoroalkyl-substances"
+    },
+    {
+      "date": "2027-04-26",
+      "tag": "[NC Utilities]",
+      "title": "NC Drinking-Water PFAS Rule (15A NCAC 18C .1540) — Initial System Monitoring Completion Deadline",
+      "jurisdiction": "NC DEQ Public Water Supply Section / US EPA NPDWR",
+      "action": "Community and non-transient non-community water systems across North Carolina must complete initial monitoring for PFOA, PFOS, PFHxS, PFNA, and HFPO-DA (GenX) under NC's incorporated federal drinking-water standard.",
+      "source_id": "NC-17",
+      "url": "https://tossonanalytics.com/policy-tracker"
+    }
+  ],
+  "items": [
+    {
+      "item_id": "NC-2026-11-06",
+      "layer": "NC",
+      "headline": "NC DEQ Finds 'Significant Deficiencies' in Chemours' Assessment and Corrective Action Plan Under the 2019 Consent Order",
+      "summary": "In comments sent November 9, 2026, NC DEQ detailed the problems in Chemours' On and Offsite Assessment and Corrective Action Plan and laid out what compliance with the 2019 Consent Order and North Carolina law requires: a full assessment of contaminated soil and groundwater throughout the Lower Cape Fear region, a revised Corrective Action Plan that restores contaminated groundwater, expansion of the plan to all PFAS associated with Fayetteville Works rather than a limited subset, and an evaluation of how the facility's remaining emissions affect groundwater. Reporting by Inside Climate News (November 11, 2026) adds that DEQ's comments run 36 pages, find that Chemours could not justify how it assessed the public-health and environmental risks of PFAS exposure, and cite missing data, substandard sampling methods, flawed analyses, and outdated toxicological data for GenX; DEQ had rejected an earlier draft Corrective Action Plan in 2020 as inadequate. A Chemours spokesperson responded that the company is reviewing the comments in detail and will respond through the established process.",
+      "why_it_matters": "This is the regulator's own deficiency finding, not an advocacy allegation: nearly a decade after GenX became public, neither Chemours nor DEQ knows the full extent of Lower Cape Fear contamination — and the sampling boundaries, filtration eligibility, and municipal planning that thousands of households depend on all rest on the assessment DEQ just found deficient.",
+      "source_id": "NC-01",
+      "source_name": "NC Department of Environmental Quality (NC DEQ)",
+      "source_url": "https://content.govdelivery.com/accounts/NCDEQ/bulletins/4323a10",
+      "secondary_url": "https://tossonanalytics.com/regulatory-watch",
+      "published_date": "2026-11-09",
+      "metadata": {
+        "counties": "Lower Cape Fear region — Cumberland, Bladen, Robeson, Sampson, Harnett, Hoke, New Hanover, Brunswick, Columbus, Pender",
+        "compounds": "All PFAS associated with Fayetteville Works (incl. HFPO-DA/GenX & Attachment C fluoroethers)",
+        "docket": "2019 Consent Order — On/Offsite Assessment & Corrective Action Plan"
+      }
+    },
+    {
+      "item_id": "NC-2026-11-07",
+      "layer": "NC",
+      "headline": "DEQ's Air Quality Division Separately Flags Chemours' Emissions Data, Lab Analysis and Transparency — With Immediately Required Actions",
+      "summary": "In a separate action the same day (November 9, 2026), DEQ's Division of Air Quality sent Chemours correspondence expressing concerns about data collection, laboratory analysis, and transparency regarding air emissions from Fayetteville Works, including a list of immediately required actions. As reported by Inside Climate News (November 11, 2026), Division Director Michael Abraczinskas wrote that Chemours has also failed to identify all of the PFAS compounds it is emitting into the air from the plant — emissions the division links to continuing groundwater contamination. A plan addressing the state's air concerns is reported due by February 2027.",
+      "why_it_matters": "Air deposition is the pathway that spread GenX from one plant across a region's wells. If the facility's emissions inventory is incomplete, the groundwater assessment built on it cannot be complete either — the two November 9 letters are one story, not two.",
+      "source_id": "NC-01",
+      "source_name": "NC Department of Environmental Quality (NC DEQ)",
+      "source_url": "https://content.govdelivery.com/accounts/NCDEQ/bulletins/4323a10",
+      "secondary_url": "https://tossonanalytics.com/regulatory-watch",
+      "published_date": "2026-11-09",
+      "metadata": {
+        "counties": "Fayetteville Works airshed — Cumberland, Bladen, Robeson, Sampson, Harnett, Hoke, New Hanover, Brunswick, Columbus, Pender",
+        "compounds": "Air-emitted PFAS (completeness of the facility's compound inventory in dispute)",
+        "docket": "NC DEQ Division of Air Quality — Fayetteville Works air emissions"
+      }
+    },
+    {
+      "item_id": "NC-2026-11-08",
+      "layer": "NC",
+      "headline": "The Consent Order at the Tap: ~27,500 Wells Sampled, ~10,500 Families Offered Filtration, a Barrier Wall Over a Mile Long",
+      "summary": "DEQ's November 9 release also inventories what the Consent Order has delivered since 2019: Chemours has stopped discharging highly contaminated wastewater from Fayetteville Works; built a subsurface barrier wall more than a mile long and a treatment system to keep PFAS out of the Cape Fear River; installed systems to treat contaminated groundwater and stormwater; installed pollution controls on facility air emissions; sampled approximately 27,500 household wells across southeastern North Carolina; and offered clean drinking water via filtration systems to approximately 10,500 families whose wells are polluted, alongside agreements to connect additional homesites to municipal water systems. DEQ's point is the contrast: source control and household protection advanced, while the long-term assessment and cleanup plans stalled.",
+      "why_it_matters": "For well owners inside the footprint, these are the programs they actually touch — sampling eligibility and filtration offers continue to operate even as the long-term cleanup dispute escalates, and DEQ's figures are the current official count of both.",
+      "source_id": "NC-02",
+      "source_name": "NC DEQ — GenX Investigation & Consent Order Portal",
+      "source_url": "https://www.deq.nc.gov/news/key-issues/genx-investigation/genx-information-residents",
+      "secondary_url": "https://content.govdelivery.com/accounts/NCDEQ/bulletins/4323a10",
+      "published_date": "2026-11-09",
+      "metadata": {
+        "counties": "Cumberland, Bladen, Robeson, Sampson, Harnett, Hoke, New Hanover, Brunswick, Columbus, Pender",
+        "compounds": "HFPO-DA (GenX) & Attachment C Fluoroethers",
+        "benchmark": "10 ppt individual / 70 ppt combined Consent Order threshold (screening)"
+      }
+    },
+    {
+      "item_id": "US-2026-11-04",
+      "layer": "US",
+      "headline": "TSCA Section 8(a)(7) PFAS Reporting Window Opens January 31, 2027 for 2011–2022 Manufacture and Imports",
+      "summary": "Under EPA's April 13, 2026 final rule (Document 2026-07062, 91 FR 18786), the modified submission window for TSCA Section 8(a)(7) opens January 31, 2027. Manufacturers and importers — including importers of finished articles — must report PFAS manufactured or imported during the 2011–2022 lookback period, covering fluoropolymers and product categories that earlier reporting regimes never captured. The one-time reporting obligation is the federal government's most comprehensive PFAS commerce inventory to date.",
+      "why_it_matters": "North Carolina manufacturers, importers, and downstream users are inside this lookback. The submissions will shape future federal and state PFAS priorities — and companies that cannot reconstruct a decade of supply-chain records by January face a compliance problem, not a paperwork exercise.",
+      "source_id": "US-01",
+      "source_name": "Office of the Federal Register (NARA / GPO)",
+      "source_url": "https://www.federalregister.gov/documents/2026/04/13/2026-07062/modification-to-the-start-of-the-submission-period-for-perfluoroalkyl-and-polyfluoroalkyl-substances",
+      "secondary_url": "https://www.epa.gov/pfas/previous-actions-address-pfas",
+      "published_date": "2026-04-13",
+      "metadata": {
+        "docket": "EPA-HQ-OPPT-2020-0549 · Document 2026-07062 (91 FR 18786)",
+        "compounds": "All PFAS (2011–2022 lookback)",
+        "benchmark": "One-time TSCA §8(a)(7) reporting obligation"
+      }
+    },
+    {
+      "item_id": "US-2026-11-05",
+      "layer": "US",
+      "headline": "AFFF MDL: Public Water Systems Face a November 23 Objection Deadline on $149.075M in Proposed Class Settlements",
+      "summary": "Eligible public water systems — including North Carolina utilities with UCMR 5 detections — have until November 23, 2026 to file objections to proposed AFFF MDL class settlements with Carrier ($129.2M), Archroma ($14M), Amerex ($4M), and Nation Ford Chemical ($1.875M), a combined $149.075 million. Opt-outs are due December 22, 2026, and the fairness hearing is set for January 15, 2027 in the U.S. District Court for the District of South Carolina (MDL No. 2:18-mn-2873). Systems that do nothing are bound by the settlements as approved.",
+      "why_it_matters": "For NC systems weighing treatment capital plans against settlement recoveries, this is the last week of leverage: silence accepts the allocation as written, while the objection window is the only route to argue the amounts before the fairness hearing.",
+      "source_id": "NC-17",
+      "source_name": "Tosson Environmental Analytics — Policy & Governance Tracker",
+      "source_url": "https://tossonanalytics.com/regulatory-watch",
+      "secondary_url": "https://tossonanalytics.com/policy-tracker",
+      "published_date": "2026-11-16",
+      "metadata": {
+        "docket": "MDL No. 2:18-mn-2873 (D.S.C.)",
+        "compounds": "AFFF PFAS (PFOA/PFOS)",
+        "benchmark": "$149.075M proposed class settlements"
+      }
+    },
+    {
+      "item_id": "GL-2026-11-02",
+      "layer": "GLOBAL",
+      "headline": "ECHA's Socio-Economic Committee Final Opinion on the EU-Wide PFAS Restriction Is Due by Year-End",
+      "summary": "The European Chemicals Agency's Committee for Socio-Economic Analysis (SEAC) is scheduled to adopt its final opinion by year-end 2026 on the five-nation universal REACH restriction proposal covering >10,000 PFAS, following the Risk Assessment Committee's final opinion adopted March 2, 2026 (ECHA/NR/26/17) and a 60-day consultation on SEAC's draft that closed May 25, 2026. Adoption starts the European Commission's rulemaking clock. Meanwhile the EU's targeted restrictions are already live: PFHxA limits in textiles and food packaging took effect in April 2026, and the ban on PFAS in portable fire extinguishers and firefighting foams entered into force in October 2026.",
+      "why_it_matters": "North Carolina's textile, electronics, and fluoropolymer supply chains sell into the EU market; the restrictions already in force are binding now, and SEAC's final opinion sets the scope of the far larger universal restriction that follows.",
+      "source_id": "GL-01",
+      "source_name": "European Chemicals Agency (ECHA)",
+      "source_url": "https://echa.europa.eu/hot-topics/perfluoroalkyl-chemicals-pfas",
+      "secondary_url": "https://www.echa.europa.eu/-/echa-supports-pfas-restriction-with-targeted-derogations",
+      "published_date": "2026-03-26",
+      "metadata": {
+        "jurisdiction": "European Union (ECHA REACH) & OECD",
+        "compounds": "Universal PFAS class (>10,000 substances), PFHxA & fluoropolymers",
+        "docket": "ECHA/NR/26/17 (RAC final opinion adopted; SEAC final expected late 2026)"
+      }
+    }
+  ],
+  "data_corner": {
+    "title": "The Consent Order in Numbers: $1.2 Billion Spent — and the Assessment Still Isn't Finished",
+    "metric_highlight": "≈$1.2B Consent Order compliance spend · barrier wall >1 mile · ~27,500 household wells sampled · ~10,500 families offered filtration · full-extent assessment: unfinished (NC DEQ, Nov 9, 2026)",
+    "body": "NC DEQ's November 9, 2026 accounting is the most complete official scorecard of the 2019 Consent Order to date. On the delivery side: approximately $1.2 billion spent on compliance; a subsurface barrier wall more than a mile long with a treatment system guarding the Cape Fear River; approximately 27,500 household wells sampled; approximately 10,500 families offered filtration. On the unfinished side: the full-extent assessment of PFAS contamination in soil and groundwater — the document every long-term decision depends on — is still not complete, and DEQ describes the long-term cleanup plans as stalled. For context, Tosson's UCMR 5 screening build counts 177 North Carolina public water systems with quantifiable PFAS detections and 120 systems screening above federal MCL benchmarks across 47 counties; those are occurrence-screening comparisons against benchmarks, not compliance violations — SDWA compliance is determined by running annual averages. The consent-order scorecard measures something different: what one facility's obligations have, and have not, delivered since 2019.",
+    "source_id": "NC-01",
+    "source_url": "https://content.govdelivery.com/accounts/NCDEQ/bulletins/4323a10",
+    "secondary_source_id": "NC-17",
+    "secondary_source_url": "https://tossonanalytics.com/dashboard"
+  },
+  "private_wells_corner": {
+    "title": "27,500 Wells Sampled Under the Consent Order — and the Three Pathways for Everyone Outside It",
+    "population_methodology_note": "2.4 million (NC DHHS OEEB conservative baseline) to 3.3 million / 35% of state population (USGS 2010 baseline, Maupin et al. 2014 via MacDonald Gibson et al. 2017, PMC5744693); ~2.8 million via CWFNC 2005 public-supply subtraction estimate.",
+    "body": "UCMR 5 did not sample a single private well, leaving North Carolina's unregulated domestic well population — conservatively estimated at 2.4 million residents by the NC Department of Health and Human Services (NC DHHS) and at approximately 3.3 million residents (35% of the state, the second-highest total in the nation after Pennsylvania) in USGS water-use data analyzed by MacDonald Gibson et al. (Environ. Health Perspect., 2017) — entirely outside federal tap-water surveillance. As Clean Water for North Carolina Senior Advisor Hope Taylor observed in a November 2026 exchange with Tosson Analytics, subtracting reported public-water-supply customers from total state population already yielded ~2.8 million residents in 2005 before two decades of rural well permitting. For North Carolina well owners seeking testing today, three verified pathways exist: (1) Free Consent-Order Sampling across 10 Counties: Under the Chemours Consent Order enforced by NC DEQ, Parsons Environment and Infrastructure — reachable at (910) 678-1100 or (910) 678-1101 — is the sole authorized sampler. DEQ reported on November 9, 2026 that approximately 27,500 household wells have been sampled under the Consent Order and approximately 10,500 families offered filtration to date, following NC DEQ's March 10, 2025 expansion (+150,000 residences across Cumberland, Bladen, Robeson, Sampson, and parts of Harnett and Hoke) and September 11, 2025 Lower Cape Fear expansion (+14,000 residences across New Hanover, Brunswick, Columbus, and Pender); wells screening at ≥10 ppt GenX or any listed Attachment C PFAS (or ≥70 ppt combined) qualify for replacement water, RO/GAC filtration, or municipal connection at Chemours' expense; (2) Statewide Free RO or Up to $3,500 Reimbursement: Where no responsible party is identified and private-well results exceed a state or federal standard, NC DEQ's PFAS Alternate Water Program (backed by the Bernard Allen Memorial Emergency Drinking Water Fund, funded with an additional $10.2M in the enacted July 2026 state budget) provides a free under-sink RO system or up to $3,500 in first-come, first-served reimbursement for qualifying treatment installed after November 2019; and (3) Certified Private Lab Panels: Outside free programs, county health departments test bacteria and nitrates ($0–$60) but do not run PFAS; homeowners must order an accredited EPA Method 533 (25 compounds) or Method 537.1 (18 compounds) panel directly from a certified lab (starting around $380 at NC private labs and $300–$600 nationally) and screen their lab report against EPA's MCL benchmarks (4.0 ppt PFOA/PFOS, 10.0 ppt GenX/PFNA/PFHxS).",
+    "sources": [
+      {
+        "label": "NC DHHS OEEB — Private Wells: Facts and Figures (2.4M Baseline)",
+        "source_id": "NC-06",
+        "url": "https://epi.dph.ncdhhs.gov/oee/wellwater/figures.html"
+      },
+      {
+        "label": "MacDonald Gibson et al. (2017) / USGS Maupin et al. (2014) — 3.3M (35%) NC Well Users (PMC5744693)",
+        "source_id": "US-05",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5744693/"
+      },
+      {
+        "label": "NC DEQ — GenX Information for Residents & Parsons Well Sampling ((910) 678-1100)",
+        "source_id": "NC-02",
+        "url": "https://www.deq.nc.gov/news/key-issues/genx-investigation/genx-information-residents"
+      },
+      {
+        "label": "NC DEQ — March 10, 2025 Fayetteville Works 6-County Expansion (+150,000 Residences)",
+        "source_id": "NC-01",
+        "url": "https://www.deq.nc.gov/news/press-releases/2025/03/10/nc-deq-directs-chemours-significantly-expand-well-testing"
+      },
+      {
+        "label": "NC DEQ — September 11, 2025 Lower Cape Fear 4-County Expansion (+14,000 Residences)",
+        "source_id": "NC-01",
+        "url": "https://www.deq.nc.gov/news/press-releases/2025/09/11/deq-requires-chemours-expand-well-testing-lower-cape-fear"
+      },
+      {
+        "label": "NC DEQ — PFAS Alternate Water Program (Bernard Allen Fund $3,500 Reimbursement / Free RO)",
+        "source_id": "NC-03",
+        "url": "https://www.deq.nc.gov/pfas-treatment-system-assistance-program"
+      }
+    ]
+  },
+  "research_radar": [
+    {
+      "paper_id": "RADAR-2026-04",
+      "title": "Serum per- and polyfluoroalkyl substances (PFAS) concentrations and anti-spike SARS-CoV-2 IgG levels following COVID-19 vaccination: A cross-sectional study in three communities with elevated PFAS exposure",
+      "authors": "Sarah Rhea, David Collier, Michael Cuffney, C. Suzanne Lea, Nadine Kotlarz, and Jane A. Hoppin",
+      "journal": "International Journal of Hygiene and Environmental Health",
+      "year": "2026 (Vol. 273, 114755; epub Feb 4, 2026)",
+      "doi": "10.1016/j.ijheh.2026.114755",
+      "pmid": "41643486",
+      "source_id": "US-07",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41643486/",
+      "secondary_url": "https://doi.org/10.1016/j.ijheh.2026.114755",
+      "summary": "NC State and East Carolina University researchers in the GenX Exposure Study measured serum PFAS and anti-spike SARS-CoV-2 IgG in 330 vaccinated adults from three Cape Fear River Basin communities with elevated PFAS exposure (data collected June–November 2021). For the five PFAS detected in >85% of samples, estimates of the PFAS–antibody relationship were modest and inconsistent in direction across communities; the only statistically significant estimate was a small positive association for PFHpS in the Lower Cape Fear River region. The authors found no consistent evidence linking higher serum PFAS to a lower COVID-19 vaccine antibody response.",
+      "claim_boundary_note": "Cross-sectional design using 2021 samples and a single antibody measurement per participant; a null/inconsistent association in this cohort does not settle vaccine-response questions for other populations, vaccines, or exposure windows. The authors call for longitudinal studies with serial antibody measurements."
+    },
+    {
+      "paper_id": "RADAR-2026-05",
+      "title": "Adapting to PFAS contamination of private drinking water wells near a PFAS production facility in the US Atlantic Coastal Plain of North Carolina",
+      "authors": "Tiffany J. VanDerwerker, Detlef R. U. Knappe, and David P. Genereux",
+      "journal": "Water Environment Research",
+      "year": "2024 (Vol. 96, Issue 8, e11091)",
+      "doi": "10.1002/wer.11091",
+      "pmid": "39072849",
+      "source_id": "US-07",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39072849/",
+      "secondary_url": "https://onlinelibrary.wiley.com/doi/full/10.1002/wer.11091",
+      "summary": "NC State researchers used water-quality data from more than 100 wells near the Chemours Fayetteville Works plant — where PFAS are present in over 7,000 drinking-water wells — to test whether deeper aquifers can serve as alternate supplies. GenX concentrations decreased with depth through the four-aquifer sequence (surficial, Black Creek, Upper Cape Fear, bedrock), tracing roughly 40 years of atmospheric emissions downward. Detailed sampling of nine deep wells (143 parameters) found only eight exceedances of drinking-water standards and nine health-advisory exceedances (all sodium), and the authors conclude the bedrock aquifer may be a viable alternative for some residents.",
+      "claim_boundary_note": "Site-specific hydrogeology: the depth pattern reflects this aquifer sequence and emission history, and the authors flag arsenic treatment needs at some deep wells and long-term bedrock sustainability as open questions. Not a blanket recommendation to drill deeper — NC's regulatory response at the time mentioned deeper wells only for nonresidential users."
+    }
+  ],
+  "watch_next_week": [
+    "AFFF MDL Public-Water-System Objection Window (Nov 23, 2026): Whether any North Carolina municipal utilities or water authorities file formal objections ahead of the November 23 deadline on the $149.075 million Carrier/Archroma/Amerex/Nation Ford settlement track in D.S.C. MDL No. 2:18-mn-2873.",
+    "Chemours' Response to DEQ's Deficiency Comments: Whether Chemours answers through the consent-order process on the reported ~60-day clock (air-emissions plan reported due by February 2027), and whether DEQ publishes the exchange — the September settlement process makes this response the first test of the accelerated track.",
+    "EPA Office of Water Final Rule Timing on 91 FR 29413: Any OMB/OIRA movement on the overdue final rules for the proposed GenX/PFHxS/PFNA MCL rescission and the 2031 PFOA/PFOS compliance extension; no final rule had issued as of this issue's build.",
+    "ECHA SEAC Final Opinion (due by year-end 2026): Adoption of the socio-economic opinion on the universal PFAS restriction would start the European Commission's rulemaking clock.",
+    "Clean Water for North Carolina & Community Webinar Scheduling: Coordination continues on Tosson Environmental Analytics' community webinar covering NC private-well PFAS testing eligibility, certified EPA Method 533/537.1 lab panels, and reading lab reports against federal benchmarks — as this briefing's readership grows through the statewide PFAS calls network."
+  ]
+}

@@ -620,7 +620,7 @@ function buildEmailHtml(seed, groupedItems, auditSummary) {
                 🔬 RESEARCH RADAR · PEER-REVIEWED LITERATURE (CLAIMS KEPT INSIDE STUDY BOUNDS)
               </div>
               <h2 style="margin:0 0 14px 0;font-size:19px;color:#f8fafc;">
-                Three Peer-Reviewed Studies Every NC Water Professional Should Read
+                Peer-Reviewed Studies Every NC Water Professional Should Read
               </h2>
               ${radarHtml}
             </td>
