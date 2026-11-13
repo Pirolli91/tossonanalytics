@@ -71,6 +71,88 @@ export default async function InsightPost({
   const Content = mod.default;
   const meta = mod.frontmatter ?? {};
 
+  // Carolina PFAS Weekly issues render in the newsletter's editorial-light
+  // design (the Buttondown "Cape Fear petrol & marigold" standard, Nov 2026):
+  // warm ivory paper, ink text, petrol headings, Georgia serif, generous
+  // spacing. All other insights keep the site's dark theme.
+  const isNewsletter =
+    meta.issue_number !== undefined ||
+    (Array.isArray(meta.tags) && meta.tags.includes("Carolina PFAS Weekly"));
+
+  if (isNewsletter) {
+    return (
+      <main className="min-h-screen bg-[#FAF6ED] text-[#1E2A26]">
+        <Navbar active="insights" />
+
+        <article className="mx-auto max-w-3xl px-6 py-14">
+          <Link
+            href="/insights"
+            className="mb-10 inline-flex items-center gap-2 text-sm text-[#5A6A62] hover:text-[#064E5A] transition-colors"
+          >
+            <ArrowLeft className="h-4 w-4" /> Back to Insights
+          </Link>
+
+          <header className="mb-12 border-b-2 border-[#E9A319] pb-10">
+            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[#96660A]">
+              Carolina PFAS Weekly{meta.issue_number !== undefined ? ` — Issue #${meta.issue_number}` : ""}
+            </p>
+            {meta.tags && (
+              <div className="mb-5 flex flex-wrap gap-2">
+                {meta.tags.map((tag: string) => (
+                  <Badge
+                    key={tag}
+                    className="border-0 text-[10px]"
+                    style={{ background: "#F3EDDC", color: "#064E5A" }}
+                  >
+                    {tag}
+                  </Badge>
+                ))}
+              </div>
+            )}
+            <h1 className="text-3xl font-bold leading-snug text-[#064E5A] lg:text-4xl [font-family:Georgia,'Times_New_Roman',serif]">
+              {meta.title ?? slug}
+            </h1>
+            <div className="mt-5 flex flex-wrap items-center gap-4 text-xs text-[#5A6A62]">
+              {meta.date && (
+                <span className="flex items-center gap-1">
+                  <Calendar className="h-3 w-3" /> {meta.date}
+                </span>
+              )}
+              {meta.author && (
+                <span className="flex items-center gap-1">
+                  <User className="h-3 w-3" /> {meta.author}
+                </span>
+              )}
+            </div>
+            {meta.summary && (
+              <p className="mt-6 text-lg leading-relaxed text-[#43554C] border-l-2 border-[#E9A319] pl-5 [font-family:Georgia,'Times_New_Roman',serif]">
+                {meta.summary}
+              </p>
+            )}
+          </header>
+
+          <div className="prose prose-lg max-w-none
+            [font-family:Georgia,'Times_New_Roman',serif]
+            prose-headings:[font-family:Georgia,'Times_New_Roman',serif] prose-headings:text-[#064E5A]
+            prose-h2:text-2xl prose-h2:mt-14 prose-h2:mb-5 prose-h2:pb-3 prose-h2:border-b prose-h2:border-[#DCD4C2]
+            prose-h3:text-lg prose-h3:mt-10 prose-h3:mb-3 prose-h3:text-[#0B6472]
+            prose-p:text-[#1E2A26] prose-p:leading-8 prose-p:my-5
+            prose-strong:text-[#1E2A26] prose-strong:font-bold
+            prose-a:text-[#064E5A] prose-a:font-semibold prose-a:no-underline hover:prose-a:underline
+            prose-li:text-[#1E2A26] prose-li:leading-8 prose-li:my-2
+            prose-hr:border-[#DCD4C2] prose-hr:my-12
+            prose-blockquote:border-[#E9A319] prose-blockquote:bg-[#F3EDDC] prose-blockquote:text-[#43554C] prose-blockquote:rounded-r-lg prose-blockquote:py-2 prose-blockquote:px-5 prose-blockquote:not-italic
+            prose-code:text-[#064E5A] prose-code:bg-[#F3EDDC] prose-code:rounded prose-code:px-1 prose-code:before:content-none prose-code:after:content-none
+            prose-table:text-sm prose-table:my-8
+            prose-th:bg-[#064E5A] prose-th:text-white prose-th:px-4 prose-th:py-3 prose-th:text-left
+            prose-td:px-4 prose-td:py-3 prose-td:border-t prose-td:border-[#DCD4C2] prose-td:align-top prose-td:leading-6">
+            <Content />
+          </div>
+        </article>
+      </main>
+    );
+  }
+
   return (
     <main className="min-h-screen bg-[var(--bg-main)] text-white">
       <Navbar active="insights" />

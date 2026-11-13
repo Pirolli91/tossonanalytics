@@ -95,7 +95,38 @@ export default function InsightsPage() {
           <p className="text-white/40 text-sm">No posts yet. Check back tomorrow.</p>
         ) : (
           <div className="space-y-6">
-            {posts.map((post) => (
+            {posts.map((post) => {
+              // Carolina PFAS Weekly issues get the newsletter's editorial-light
+              // paper card, matching their article pages and the Buttondown design.
+              const isNewsletter = post.tags.includes("Carolina PFAS Weekly");
+              if (isNewsletter) {
+                return (
+                  <Link
+                    key={post.slug}
+                    href={`/insights/${post.slug}`}
+                    className="block group rounded-2xl border border-[#DCD4C2] bg-[#FAF6ED] p-7 shadow-sm transition-all hover:shadow-md hover:border-[#E9A319]"
+                  >
+                    <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#96660A]">
+                      Carolina PFAS Weekly
+                    </p>
+                    <h2 className="text-xl font-bold leading-snug text-[#064E5A] [font-family:Georgia,'Times_New_Roman',serif]">
+                      {post.title}
+                    </h2>
+                    <p className="mt-3 text-sm text-[#43554C] leading-relaxed [font-family:Georgia,'Times_New_Roman',serif]">
+                      {post.summary}
+                    </p>
+                    <div className="mt-5 flex items-center justify-between border-t border-[#DCD4C2] pt-4">
+                      <div className="text-xs text-[#5A6A62]">
+                        {post.date} · {post.author}
+                      </div>
+                      <span className="inline-flex items-center gap-1 text-xs font-semibold text-[#064E5A]">
+                        Read the issue <ArrowRight className="h-3 w-3" />
+                      </span>
+                    </div>
+                  </Link>
+                );
+              }
+              return (
               <Link
                 key={post.slug}
                 href={`/insights/${post.slug}`}
@@ -127,7 +158,8 @@ export default function InsightsPage() {
                   </span>
                 </div>
               </Link>
-            ))}
+              );
+            })}
           </div>
         )}
       </div>
