@@ -417,6 +417,16 @@ function buildEmailHtml(seed, groupedItems, auditSummary) {
     .map((w) => `<li style="margin-bottom:8px;font-size:13px;line-height:1.6;color:#e2e8f0;">${escapeHtml(w)}</li>`)
     .join("\n");
 
+  // Heading derived from the seed (count + publish week) — was hardcoded to
+  // Issue #0's "Four Signals … Week of November 16–23, 2026", which went
+  // stale the moment an issue carried a different watch count or week.
+  const WATCH_COUNT_WORDS = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"];
+  const watchCountWord = WATCH_COUNT_WORDS[seed.watch_next_week.length - 1] || String(seed.watch_next_week.length);
+  const watchStart = new Date(`${seed.publish_date}T00:00:00Z`);
+  const watchEnd = new Date(watchStart.getTime() + 7 * 86400000);
+  const watchStartLabel = watchStart.toLocaleDateString("en-US", { month: "long", day: "numeric", timeZone: "UTC" });
+  const watchHeading = `${watchCountWord} Signals on the Radar for Week of ${watchStartLabel}–${watchEnd.getUTCDate()}, ${watchEnd.getUTCFullYear()}`;
+
   return `<!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -633,7 +643,7 @@ function buildEmailHtml(seed, groupedItems, auditSummary) {
                 🔭 WHAT TO WATCH NEXT WEEK
               </div>
               <h2 style="margin:0 0 12px 0;font-size:18px;color:#f8fafc;">
-                Four Signals on the Radar for Week of November 16–23, 2026
+                ${watchHeading}
               </h2>
               <ul style="margin:0;padding-left:20px;">
                 ${watchHtml}
