@@ -89,8 +89,28 @@
       "summary": "North Carolina incorporated EPA's 2024 federal PFAS drinking-water rule by reference, so community and non-transient non-community water systems must complete initial PFOA/PFOS/GenX/PFHxS/PFNA sampling by April 2027. This is the rule driving utility compliance timelines statewide.",
       "title": "NC Drinking-Water PFAS Rule (federal NPDWR incorporated)",
       "url": "https://www.deq.nc.gov/pfas-summary/open"
+    },
+    {
+      "id": "New Hanover County \u2014 Chemours Settlement Water Connection Program",
+      "impact": "High",
+      "last_action": "Board of Commissioners unanimously approved the project ordinance Nov 16, 2026; applications expected early 2027",
+      "last_action_date": "2026-11-16",
+      "status": "Approved \u2014 program being set up",
+      "summary": "New Hanover County will invest its $17M share of the Chemours settlement (paid over 10 years) in a public-water connection program for residents on PFAS-contaminated private wells \u2014 the first county-level allocation plan surfaced for the $590M settlement. The initial 3-year phase ($5M) covers about 508 properties: 47 adjacent to existing lines at up to $25,000 per connection, and 461 more through 15 CFPUA water-main extension projects at $10,000 per connection. Eligibility requires adjacency to an existing or planned CFPUA main plus documented PFAS in the private well; there is no PFAS-threshold or income restriction. Distinct from the separate March 2026 $17M ECSDC grant to CFPUA \u2014 same dollar figure, different funding.",
+      "title": "New Hanover County Settlement Connection Program",
+      "url": "http://news.nhcgov.com/m/newsflash/Home/Detail/1207"
+    },
+    {
+      "id": "TSCA 8(a)(7) PFAS Reporting Exemptions (Federal)",
+      "impact": "High",
+      "last_action": "EPA information-collection notice (FR 2026-23125, Nov 13, 2026) signals EPA intends to finalize the Nov 2025 proposed exemptions as proposed; comments on the notice run through Dec 14, 2026",
+      "last_action_date": "2026-11-13",
+      "status": "Proposed \u2014 signaled for finalization, NOT final",
+      "summary": "EPA has signaled it will finalize exemptions to the one-time TSCA section 8(a)(7) PFAS reporting rule proposed in November 2025 \u2014 including a 0.1% de minimis threshold and carve-outs for imported articles, byproducts, impurities, R&D chemicals, and non-isolated intermediates. EPA's updated burden estimate drops the reporting universe from about 131,411 entities to 255, and expected reports from 67,548 to 1,461. The exemptions are NOT final: the amendments have not yet gone to OMB, and a revised reporting window (3 months, beginning 60 days after a final rule takes effect) would replace the current schedule. If finalized, the exemptions would sharply narrow what EPA ever learns about PFAS in commerce.",
+      "title": "EPA PFAS Reporting-Rule Exemptions \u2014 TSCA 8(a)(7)",
+      "url": "https://www.verdantlaw.com/epa-indicates-it-will-finalize-proposed-pfas-reporting-exemptions/"
     }
   ],
-  "last_updated": "2026-11-06",
+  "last_updated": "2026-11-20",
   "region": "North Carolina"
 }
