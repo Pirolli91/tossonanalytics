@@ -390,7 +390,7 @@ function buildEmailHtml(seed, groupedItems, auditSummary) {
       (p, i) => `
       <div style="background-color:#1e293b;border:1px solid #334155;border-left:4px solid #a855f7;border-radius:6px;padding:14px 16px;margin-bottom:14px;">
         <div style="font-size:11px;font-weight:700;color:#c084fc;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">
-          PAPER ${i + 1} · ${escapeHtml(p.journal)} · ${escapeHtml(p.year)} · PMID: ${escapeHtml(p.pmid)}
+          PAPER ${i + 1} · ${escapeHtml(p.journal)} · ${escapeHtml(p.year)}${p.pmid ? ` · PMID: ${escapeHtml(p.pmid)}` : ""}
         </div>
         <h4 style="margin:0 0 6px 0;font-size:15px;line-height:1.4;color:#f8fafc;">
           <a href="${escapeHtml(p.url)}" style="color:#f8fafc;text-decoration:none;">${escapeHtml(p.title)}</a>
@@ -770,7 +770,7 @@ ${seed.research_radar
 
 - **Authors:** ${p.authors}
 - **Journal & Year:** *${p.journal}*, ${p.year}
-- **Identifiers:** DOI \`${p.doi}\` · PMID \`${p.pmid}\` · Source ID \`${p.source_id}\`
+- **Identifiers:** DOI \`${p.doi}\`${p.pmid ? ` · PMID \`${p.pmid}\`` : ""} · Source ID \`${p.source_id}\`
 - **Full-URL Links:** [${p.url}](${p.url})${p.secondary_url ? ` · [${p.secondary_url}](${p.secondary_url})` : ""}
 
 ${p.summary}
@@ -860,7 +860,7 @@ function buildPlainText(seed, groupedItems, auditSummary) {
   lines.push("========================================================================");
   seed.research_radar.forEach((p, idx) => {
     lines.push(`\n[Paper ${idx + 1}] ${p.title}`);
-    lines.push(`Authors: ${p.authors} | ${p.journal}, ${p.year} | DOI: ${p.doi} | PMID: ${p.pmid}`);
+    lines.push(`Authors: ${p.authors} | ${p.journal}, ${p.year} | DOI: ${p.doi}${p.pmid ? ` | PMID: ${p.pmid}` : ""}`);
     lines.push(p.summary);
     lines.push(`Scope & Claim Boundary: ${p.claim_boundary_note}`);
     lines.push(`URL (${p.source_id}): ${p.url}${p.secondary_url ? ` | ${p.secondary_url}` : ""}`);
